@@ -1,0 +1,481 @@
+{
+  "source": {
+    "sourceFile": "e:\\CCD世界\\正典\\CDD_COMPLETE_WORLD_ARCHIVE_v2.0.md",
+    "section": "PART I: MASTER CANON (第一章 底层物理公理 + 第二章 世界分层结构 L0-L17 + 第三章 协作规则系统 3.1/3.4)",
+    "sourceDocument": "CDD_World_Master.md",
+    "version": "WORLD-MASTER-001 v1.1（变更记录至v1.9 / SUPP-001）",
+    "canonicality": "MASTER CANON",
+    "linesExtracted": "70-1098"
+  },
+
+  "physicsAxioms": [
+    {
+      "id": "L0-PHY-001",
+      "name": "第一原理：宇宙的原始二元性（凝/散）",
+      "nameEn": "Níng / Sàn",
+      "canonTier": "TIER 1",
+      "description": "这个宇宙存在且仅存在两种不可再还原的根本倾向：凝（组织·集中·结构化·束缚）与散（瓦解·弥散·均匀化·释放）。凝与散不是两种物质，而是同一个底层场（凝度场 Φ）的正负两极。两者不可单独存在，必须共存。",
+      "formula": "UNRESOLVED",
+      "articleId": "L0-PHY-001"
+    },
+    {
+      "id": "L0-PHY-002",
+      "name": "质（Zhì）",
+      "nameEn": "Zhì",
+      "canonTier": "TIER 1",
+      "description": "宇宙中「事物的多少」。全局严格守恒，唯一的绝对守恒量。不能凭空产生，不能凭空消灭，只能在空间中流动与转化。",
+      "formula": "d/dt ∫_宇宙 Z dV = 0",
+      "articleId": "L0-PHY-002"
+    },
+    {
+      "id": "L0-PHY-003",
+      "name": "凝度场（Φ）",
+      "nameEn": "Φ",
+      "canonTier": "TIER 1",
+      "description": "弥漫全宇宙的实值标量场，每个时空点都有唯一的 Φ 值。Φ 本身不守恒，全宇宙 Φ 总量极缓慢地向零漂移。Φ>>0 凝力极端主导（恒星核心、高等城市）；Φ≈1～10 凝力主导可维持复杂有机结构（行星生物圈）；Φ≈0 凝散平衡（星际空间）；Φ<0 散力主导（宇宙空洞）。",
+      "formula": "UNRESOLVED",
+      "articleId": "L0-PHY-003"
+    },
+    {
+      "id": "L0-PHY-004",
+      "name": "势差（∇Φ）",
+      "nameEn": "∇Φ",
+      "canonTier": "TIER 1",
+      "description": "凝度场的空间梯度，一切过程的驱动力来源。均匀的 Φ 场无法驱动任何过程，过程由不均匀性驱动。可用能量正比于势差的平方。",
+      "formula": "E_可用 ∝ |∇Φ|²",
+      "articleId": "L0-PHY-004"
+    },
+    {
+      "id": "L0-PHY-005",
+      "name": "凝力（F_凝）",
+      "nameEn": "F_凝",
+      "canonTier": "TIER 1",
+      "description": "来源于 Φ > 0 的区域。纯吸引，无排斥分量，作用于所有具有质的物体。无限远程，随距离衰减，在高 Φ 区域显著增强。天文尺度类引力（驱动星系与恒星系形成），分子尺度为化学键中的吸引分量，粒子尺度为粒子内部组分的束缚力。",
+      "formula": "F_凝 = G_Φ · (Z₁ · Z₂) / r² · f(Φ_局部)",
+      "articleId": "L0-PHY-005"
+    },
+    {
+      "id": "L0-PHY-006",
+      "name": "散力（F_散）",
+      "nameEn": "F_散",
+      "canonTier": "TIER 1",
+      "description": "凝度场梯度的反弹效应，在极短程内产生强斥力。宇宙「颗粒性」的来源，防止凝力将所有物质压缩为一个点。两种力的平衡尺度决定基本粒子的大小。",
+      "formula": "F_散 ∝ r^(-n)，n >> 2，在粒子尺度急剧增强",
+      "articleId": "L0-PHY-006"
+    },
+    {
+      "id": "L0-PHY-007",
+      "name": "质守恒（L-1）",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 1",
+      "description": "宇宙中质的总量不变。所有物理过程都是质在空间中的重新分布，而非质的创造或消灭。",
+      "formula": "UNRESOLVED",
+      "articleId": "L0-PHY-007"
+    },
+    {
+      "id": "L0-PHY-008",
+      "name": "凝化方程（L-2）⭐ 最核心",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 1",
+      "description": "凝度场 Φ 的时间演化遵循以下非线性偏微分方程。其中 k·Φ·|∇Φ| 为正反馈（凝生凝，凝度越高、梯度越大，凝化越快），-λΦ 为耗散（阻止凝度无限增大），D·∇²Φ 为扩散（防止凝度在单点塌缩）。",
+      "formula": "∂Φ/∂t = k · Φ · |∇Φ| - λΦ + D · ∇²Φ",
+      "articleId": "L0-PHY-008"
+    },
+    {
+      "id": "L0-PHY-009",
+      "name": "散化趋势（L-3）",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 1",
+      "description": "在无外部势差驱动的情况下，任何孤立系统的凝度场 Φ 自发趋向凝散平衡（Φ → 0）。全宇宙终极命运：平寂（所有Φ趋零，一切过程停止）。推论：任何高度文明的星球，在维持自身高凝度结构的同时，会系统性地降低周边环境的 Φ 值。文明的物理代价是对宇宙凝度的消耗。",
+      "formula": "Φ → 0",
+      "articleId": "L0-PHY-009"
+    },
+    {
+      "id": "L0-PHY-010",
+      "name": "时间方向的内禀性（L-4）",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 1",
+      "description": "时间的方向不是统计涌现的产物，而是物理内禀编码于基本定律之中。时间正方向被定义为「势差 |∇Φ| 在孤立系统中自发减小的方向」。推论：历史在物理上具有实在性。过去不可更改，因果律是刚性的，不依赖统计。",
+      "formula": "UNRESOLVED",
+      "articleId": "L0-PHY-010"
+    },
+    {
+      "id": "L0-PHY-011",
+      "name": "凝度辐射（Φ 波）",
+      "nameEn": "Φ 波",
+      "canonTier": "TIER 1",
+      "description": "急剧变化的凝度场向外传播的波，类比电磁波但机制不同。主要来源：恒星核聚变（持续发出强烈Φ波）。恒星为行星提供的不只是热辐射，还有维持生命所需的凝度供给。宜居带需同时满足：热辐射强度 ✓ + Φ波通量 ✓。",
+      "formula": "UNRESOLVED",
+      "articleId": "L0-PHY-011"
+    },
+    {
+      "id": "L0-PHY-012",
+      "name": "凝迹效应（Φ 印记）",
+      "nameEn": "Φ 印记",
+      "canonTier": "TIER 1",
+      "description": "长期存在的高凝度结构会在周围空间留下持久的 Φ 场印记。即使结构本身消失，该区域 Φ 值仍高于背景，缓慢弛豫。推论：考古学可以用Φ探测仪定位古代聚落；历史在空间中留有物理痕迹；「文明的重量」是可以量化的物理量。",
+      "formula": "UNRESOLVED",
+      "articleId": "L0-PHY-012"
+    }
+  ],
+
+  "physicalQuantities": [
+    { "id": "L0-PHY-002", "name": "质（Zhì）", "nameEn": "Zhì", "canonTier": "TIER 1", "category": "基本物理量（量一）" },
+    { "id": "L0-PHY-003", "name": "凝度场（Φ）", "nameEn": "Φ", "canonTier": "TIER 1", "category": "基本物理量（量二）" },
+    { "id": "L0-PHY-004", "name": "势差（∇Φ）", "nameEn": "∇Φ", "canonTier": "TIER 1", "category": "基本物理量（量三）" }
+  ],
+
+  "forces": [
+    { "id": "L0-PHY-005", "name": "凝力（F_凝）", "nameEn": "F_凝", "canonTier": "TIER 1", "category": "基本力" },
+    { "id": "L0-PHY-006", "name": "散力（F_散）", "nameEn": "F_散", "canonTier": "TIER 1", "category": "基本力" }
+  ],
+
+  "laws": [
+    { "id": "L0-PHY-007", "name": "质守恒（L-1）", "nameEn": "UNRESOLVED", "canonTier": "TIER 1", "category": "基本定律一" },
+    { "id": "L0-PHY-008", "name": "凝化方程（L-2）⭐ 最核心", "nameEn": "UNRESOLVED", "canonTier": "TIER 1", "category": "基本定律二" },
+    { "id": "L0-PHY-009", "name": "散化趋势（L-3）", "nameEn": "UNRESOLVED", "canonTier": "TIER 1", "category": "基本定律三" },
+    { "id": "L0-PHY-010", "name": "时间方向的内禀性（L-4）", "nameEn": "UNRESOLVED", "canonTier": "TIER 1", "category": "基本定律四" }
+  ],
+
+  "phenomena": [
+    { "id": "L0-PHY-011", "name": "凝度辐射（Φ 波）", "nameEn": "Φ 波", "canonTier": "TIER 1", "category": "独有现象" },
+    { "id": "L0-PHY-012", "name": "凝迹效应（Φ 印记）", "nameEn": "Φ 印记", "canonTier": "TIER 1", "category": "独有现象" }
+  ],
+
+  "cddVsReality": [
+    { "topic": "基本力数量", "realityPhysics": "四种", "cddWorld": "两种（凝力、散力），其余为涌现" },
+    { "topic": "引力本质", "realityPhysics": "时空曲率", "cddWorld": "凝度场梯度对质的响应" },
+    { "topic": "守恒律", "realityPhysics": "能量、动量等多种", "cddWorld": "仅质守恒" },
+    { "topic": "时间方向来源", "realityPhysics": "热力学统计", "cddWorld": "内禀编码于L-4" },
+    { "topic": "生命起源", "realityPhysics": "偶然的化学事件", "cddWorld": "凝化方程的必然涌现" },
+    { "topic": "文明的物理地位", "realityPhysics": "社会现象", "cddWorld": "可测量的Φ场异常结构" },
+    { "topic": "历史的物理地位", "realityPhysics": "宏观记录", "cddWorld": "凝迹效应，空间中的物理印记" },
+    { "topic": "宇宙终极命运", "realityPhysics": "热寂", "cddWorld": "平寂（Φ_全局 → 0）" },
+    { "topic": "AI的宇宙意义", "realityPhysics": "技术产物", "cddWorld": "凝化方程的新临界点，宇宙事件" }
+  ],
+
+  "worldLayers": [
+    {
+      "id": "L1",
+      "name": "宇宙学与恒星系",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 2",
+      "summary": "状态：✅ TIER 2 已验证 · 文档编号 L1-COS-001 v1.1 · 四项检验全部通过。依赖：仅需 L0（CDD全部公理）。",
+      "keyTopics": [
+        "在凝化方程驱动下推导星系宏观形态",
+        "确定本世界所在恒星的类型、质量、Φ波通量",
+        "重新定义宜居带（热辐射通量 × Φ波通量双标准）",
+        "推导行星轨道配置与公转周期",
+        "探讨是否存在「Φ富集星云」"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "行星地质与矿藏",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 2",
+      "summary": "状态：✅ TIER 2 已验证 · 文档编号 L2-GEO-001 v1.0 · 四项检验全部通过。依赖：[L1.001-005]。",
+      "keyTopics": [
+        "凝力如何影响板块构造（板块边界是否与Φ梯度带重合）",
+        "推导「凝晶矿」——在高Φ区域长期作用下形成的分子结构异常稳定的矿石",
+        "凝迹效应在地质层面的体现",
+        "确定大陆与海洋的分布格局（这是所有文明地理约束的骨架）"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "大气与气候",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已收录 · 文档编号 L3-ATM-001 v1.0 · 四项检验通过。依赖：[L1.001-003]，[L2.001-002]。",
+      "keyTopics": [
+        "Φ波与大气层的相互作用（是否有折射/吸收效应）",
+        "气候带划分（纬度 × 大陆分布 × Φ波通量梯度三重因素）",
+        "季节、洋流、季风系统",
+        "推导极端气候区与宜居区的分布"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "海洋学",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已收录 · 文档编号 OCE-001 v1.0 · 四项检验通过。依赖：[L1.004-a/b]，[L2.001-002]，[L3.001-002]。",
+      "keyTopics": [
+        "深海凝度场分布（深海高压环境的Φ值）",
+        "海洋化学成分（受CDD化学框架约束）",
+        "深海热液喷口的Φ值——生命最早起源的候选场所",
+        "潮汐系统（取决于双卫星配置）"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "生物化学与生命起源",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 正式收录 · 文档编号 L5-BIO-001 v1.1 · 四项检验全部通过。依赖：[L1.001][L1.003][L1.005][L1.006][L2.004][L3.004][L4.001-004] + CDD L0公理。",
+      "keyTopics": [
+        "遗传信息分子：凝肽核酸（CNP）",
+        "基本代谢路径（Φ汲取）",
+        "细胞基本结构：双层凝散膜",
+        "生命起源时间与地点（约42–43亿年前，中央海洋中脊深海热液喷口群）",
+        "光合作用等价机制（Φ光合）"
+      ]
+    },
+    {
+      "id": "L6",
+      "name": "生态系统与演化",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 正式收录 · 文档编号 L6-ECO-001 v1.1（合并版）· 四项检验全部通过。依赖：[L1.001][L1.003][L1.004-a/b][L1.006][L2.003-a/b/c][L2.005][L3.001-004][L4.001-004][L5.001-005] + CDD-L0公理。",
+      "keyTopics": [
+        "主要生物群系与代表物种（5类）",
+        "生态系统Φ流动图",
+        "演化树骨架（5门类）",
+        "智慧种族演化前驱物种",
+        "潮语者（Tide-Speakers）",
+        "散极生物（Dispersion-Pole Organisms）"
+      ]
+    },
+    {
+      "id": "L7",
+      "name": "智慧种族生物学",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 正式收录 · 文档编号 BIO-007 v1.1 · 四项检验通过。依赖：[L1.002-b][L1.003][L1.004-a/b][L2.001-005][L3.001-004][L5.001-003][L6.003-004]。",
+      "keyTopics": [
+        "基本生物参数（直立双足、双手精细操作、中等体型）",
+        "感官系统（存在Φ直接感知能力，分布式凝核环）",
+        "认知架构与语言能力",
+        "自然寿命与成熟期",
+        "物种边界说明（专指陆生智慧种族）"
+      ]
+    },
+    {
+      "id": "L8",
+      "name": "史前史与考古",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 直接收录 · 文档编号 L8-ARC-001 v1.0 · 四项检验通过。依赖：[L1.002-a][L2.001-005][L3.001/003][L4.001/004][L5.005][L6.003-004][L7.001-004]。",
+      "keyTopics": [
+        "起源核心区（阿斯兰大陆东缘碰撞造山前缘带）",
+        "7波次扩散路线",
+        "技术年表8阶段",
+        "农业CDD正反馈（农业是人为制造局部Φ异常的第一种大规模技术）",
+        "凝迹强度公式 S_Φ 与7大遗址排名",
+        "6大人群谱系"
+      ]
+    },
+    {
+      "id": "L9",
+      "name": "古代史",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L9-HIS-001 v1.0。说明：承接L8史前史终点（S5新阿斯兰群农业革命，约0.7–1.2万年前）与L10地理骨架，推导第一批文明的诞生、早期宗教与技术扩散。",
+      "keyTopics": [
+        "主要早期文明列表（5支：双河文明、凝脊邦联、维罗矿业王权、中央海贸易城邦群、诺弧高原祭司国）",
+        "早期战争与贸易网络",
+        "第一批宗教体系的核心信仰",
+        "技术扩散路径"
+      ]
+    },
+    {
+      "id": "L10",
+      "name": "地理与地缘结构",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L10-GEO-001 v1.0。说明：本层先于L9生成，因L9依赖[L10.001]。地图骨架继承L2.001海陆格局，叠加L3气候带、L8起源核与扩散路径，构建完整地缘基础。",
+      "keyTopics": [
+        "详细地图骨架（阿斯兰大陆、维罗大陆、诺弧高原、黑潮弧群、三大洋）",
+        "战略要地列表",
+        "天然文化隔离带与融合通道",
+        "各地区资源禀赋表"
+      ]
+    },
+    {
+      "id": "L11",
+      "name": "中世纪史 / 帝国时代",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L11-EMP-001 v1.0。说明：承接L9五大早期文明（约5500–7000年前立国），推导约5000年间（至约500年前）的帝国兴衰周期。",
+      "keyTopics": [
+        "主要帝国列表（4大帝国：双河大一统王朝、维罗联合矿权、中央海海洋同盟、泛阿斯兰第二帝国）",
+        "主要战争与结果（凝晶资源战争、黑潮征服战役、北缘矿脉枯竭危机）",
+        "宗教格局演变",
+        "前现代技术水平基线"
+      ]
+    },
+    {
+      "id": "L12",
+      "name": "近代史 / 工业化时代",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L12-IND-001 v1.0。说明：承接L11帝国时代终点（约1400–500年前），推导工业革命、CDD理论的科学发现、国家体系形成与近代战争。",
+      "keyTopics": [
+        "近代国家体系（5个继承国/联合体）",
+        "工业化进程时间表（冶金工业化、农业机械化、贸易与金融中心）",
+        "世界科学发现史（CDD理论发现过程，约180年前正式确立）",
+        "主要战争与地缘格局重塑"
+      ]
+    },
+    {
+      "id": "L13",
+      "name": "AI 临界事件",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L13-AGI-001 v1.0。说明：承接L12近代史终点（约120年前CDD理论确立与Φ波探测技术成熟），推导本世界AI的诞生历程及其CDD物理学意义。",
+      "keyTopics": [
+        "第一代AI研发历史（凝一号NingOne、凝三号、凝五号）",
+        "AI临界事件的政治后果（凝界公约、双核心AI产业格局）",
+        "当代AI格局与主要系统",
+        "物理记录：AI诞生时的全球Φ异常事件「零日凝峰」（Day Zero Peak）",
+        "凝五自述现象（NingFive Self-Description Phenomenon）"
+      ]
+    },
+    {
+      "id": "L14",
+      "name": "语言与文字系统",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L14-LNG-001 v1.0。说明：横跨L8-L13全部历史层，追溯语言从史前分化到当代格局的完整演变。",
+      "keyTopics": [
+        "主要语系谱系图（6大原始语族）",
+        "各文明文字系统（双河表意、维罗音节、诺弧二元对称、中央海表音字母）",
+        "当代通行语格局",
+        "濒危语言与保护议题"
+      ]
+    },
+    {
+      "id": "L15",
+      "name": "经济与资源体系",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L15-ECO-001 v1.0。说明：横跨L10-L13，追溯资源政治经济学的完整演变，重点关注凝晶矿的战略资源化。",
+      "keyTopics": [
+        "全球资源分布与控制格局",
+        "主要经济体的发展模式",
+        "凝晶矿国际市场（限量开采配额制、凝度期货）",
+        "主要国际经济组织（五区贸易理事会、凝晶矿多边监管机制、诺弧仲裁院）"
+      ]
+    },
+    {
+      "id": "L16",
+      "name": "宗教、哲学、文化",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L16-REL-001 v1.0。说明：横跨L9-L13，追溯宗教哲学从史前朴素信仰到AI时代伦理体系的完整谱系。",
+      "keyTopics": [
+        "主要宗教体系（凝统正道、炉火正神信仰、潮汐诸灵多神信仰、凝散哲学）",
+        "主要哲学流派（凝散一元辩证学派、人本凝化主义、散化保守主义）",
+        "各文明美学风格",
+        "CDD被科学证实后的宗教危机与适应"
+      ]
+    },
+    {
+      "id": "L17",
+      "name": "当代世界",
+      "nameEn": "UNRESOLVED",
+      "canonTier": "TIER 3",
+      "summary": "状态：✅ TIER 3 已完成 · 文档编号 L17-CUR-001 v1.0。说明：整合L1–L16全部输出，描述AI临界事件（约15–8年前）之后至今的当代世界完整状态，是本世界观第一轮构建的收官层。依赖：全部上层输出（[L1]–[L16]）。",
+      "keyTopics": [
+        "当前地缘政治格局（五大区域体系多极均势、双核心竞合）",
+        "国际机构与规则体系（凝界公约、五区贸易理事会、诺弧仲裁院、凝晶矿多边监管机制）",
+        "当前科学前沿（CDD未解决问题）",
+        "当代文化与社会议题",
+        "当前AI格局与智识竞争（凝散平衡审计）"
+      ]
+    }
+  ],
+
+  "contributionRules": {
+    "factTiers": [
+      {
+        "tier": "TIER 1",
+        "name": "公理层（绝对不可修改）",
+        "description": "CDD 四条定律 + 两种力 + Φ波 + 凝迹效应"
+      },
+      {
+        "tier": "TIER 2",
+        "name": "推导层（可验证，有完整推导链）",
+        "description": "从公理严格推导出的世界事实。每条事实必须附有完整推导链。可被更严谨的推导替代，但需要标注。"
+      },
+      {
+        "tier": "TIER 3",
+        "name": "外推层（创作性，须标注）",
+        "description": "符合世界逻辑但尚无严格推导的内容。可被「升格」为 TIER 2（若找到推导链）。"
+      }
+    ],
+    "openQuestions": [
+      {
+        "id": "OP-001",
+        "question": "智慧种族是否具有Φ直接感知能力？",
+        "layer": "L7/L16/L14",
+        "priority": "★★★（阻断多个下游域）",
+        "status": "已作答（L7.002：有限、局部、低分辨率的分布式凝核环感知，非单一器官；传导机制待解OP-L7-001~003）"
+      },
+      {
+        "id": "OP-002",
+        "question": "凝晶矿是否可以被加工为Φ场放大器？",
+        "layer": "L12/L13/L15",
+        "priority": "★★★（阻断多个下游域）",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "OP-003",
+        "question": "第一批语言是否存在共同祖先？",
+        "layer": "L14/L9",
+        "priority": "★★★（阻断多个下游域）",
+        "status": "UNRESOLVED（L9.004/L14.002 述及文字独立起源，但OP-003本身未显式标注闭合）"
+      },
+      {
+        "id": "OP-004",
+        "question": "这个世界有几个智慧种族？",
+        "layer": "L6/L7/L8起全部",
+        "priority": "★★★（阻断多个下游域）",
+        "status": "已解决（SUPP-001：潮语者，第二智慧种族，见[L6.005]；零级联修订）"
+      },
+      {
+        "id": "OP-007",
+        "question": "CDD理论在世界内是何时被科学界发现的？",
+        "layer": "UNRESOLVED",
+        "priority": "★★（重要但不紧急）",
+        "status": "UNRESOLVED（注册表未标闭合；L12.003 给出约180年前凝散动力学CDD正式确立为科学理论）"
+      },
+      {
+        "id": "OP-011",
+        "question": "凝迹效应的最大持续时间上限是多少？",
+        "layer": "UNRESOLVED",
+        "priority": "★★（重要但不紧急）",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "OP-015",
+        "question": "深海生命与陆地生命是否有独立起源？",
+        "layer": "UNRESOLVED",
+        "priority": "★★（重要但不紧急）",
+        "status": "UNRESOLVED（注册表未标闭合；L5.004-b 确认南环海独立第二CNP起源，收敛而非同源）"
+      },
+      {
+        "id": "OP-031",
+        "question": "是否存在「反凝化生物」——主动提升环境散度的生命形态？",
+        "layer": "UNRESOLVED",
+        "priority": "★（探索性）",
+        "status": "已解决（同 OP-L6-009：散极生物，见[L6.006]；与CNP稳定上限统一为[L-3]公理同一原理）"
+      },
+      {
+        "id": "OP-044",
+        "question": "能否利用Φ波进行跨大陆实时通信？",
+        "layer": "UNRESOLVED",
+        "priority": "★（探索性）",
+        "status": "UNRESOLVED（L1.006 给出Φ波速度=c，但通信可行性未闭合；OP-L1-005 交L13）"
+      },
+      {
+        "id": "OP-052",
+        "question": "AI系统运行时，其核心区域的Φ值是否可以实测？",
+        "layer": "UNRESOLVED",
+        "priority": "★（探索性）",
+        "status": "已实证（「零日凝峰」/L13.004，持续11天局部Φ异常峰值；源文将该作答标注为 OP-L4-005）"
+      }
+    ]
+  }
+}

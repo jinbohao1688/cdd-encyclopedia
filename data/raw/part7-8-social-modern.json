@@ -1,0 +1,769 @@
+{
+  "meta": {
+    "sourceFile": "e:\\CCD世界\\正典\\CDD_COMPLETE_WORLD_ARCHIVE_v2.0.md",
+    "sourceLines": "8140-10030",
+    "partVII": "PART VII: Social Life Archive (lines 8140-9164)",
+    "partVIII": "PART VIII: Modern World Systems Archive (lines 9164-10030)",
+    "extractionRule": "Structured data extraction only. UNRESOLVED used for fields not stated. No invented facts.",
+    "canonMarkers": {
+      "DIRECT_CANON": "Master Canon direct statement",
+      "RECONSTRUCTED": "Necessary reconstruction from existing facts",
+      "RECONSTRUCTED_SYSTEM": "System-level reconstruction (not equal to Master Canon)",
+      "NEW_HISTORICAL_CANON": "Newly established canon in v2.0 APPENDIX",
+      "INFERENCE": "Reasonable deduction, not confirmed fact",
+      "UNRESOLVED": "Cannot be determined",
+      "SOCIAL_GAP": "Insufficient social records",
+      "CULTURAL_GAP": "Insufficient cultural records",
+      "FESTIVAL_GAP": "Insufficient festival records",
+      "SOCIAL_CAUSAL_GAP": "Causal chain broken",
+      "INSTITUTIONAL_GAP": "Insufficient institutional records",
+      "PROPOSED_SYSTEM": "Future candidate system, not in canon",
+      "STORY_HOOK": "For fiction only, not canon",
+      "OPEN": "Open question, not adjudicated"
+    }
+  },
+
+  "socialLife": {
+    "sourceDocument": "CDD_Social_Life_Archive_v1.0.md",
+    "canonicality": "RECONSTRUCTED / SOCIAL CANON为主",
+    "corePrinciple": "黑潮资料缺失≠黑潮文明落后 (Black Tide data absence does NOT equal Black Tide civilization backwardness)",
+    "canonPolicyNewCanonGoal": "New Canon = 0 in base v1.0 (APPENDIX sections add NEW HISTORICAL CANON for family/marriage, festivals, currency, governance, healthcare)",
+    "opL13_001Status": "OPEN (AI self-awareness question kept OPEN throughout, not adjudicated)",
+
+    "civilizations": [
+      {
+        "civId": "CIV-001",
+        "socId": "SOC-001",
+        "name": "双河社会",
+        "nameZh": "双河",
+        "correspondingCiv": "CIV-001 双河文明",
+        "period": "AGE-B至AGE-E (main coverage AGE-E contemporary)",
+        "currentState": "双河联邦, contemporary one of five regional systems",
+        "canonStatus": "RECONSTRUCTED (social structure level), underlying facts ESTABLISHED CANON",
+        "sections": {
+          "family": {
+            "base": "SOCIAL GAP — Master Canon未记载 any period's family/marriage/inheritance/eldercare. Not to default to real-world family models. Indirect clue: 凝统正道 '丰凝-枯散' doctrine emphasizes cyclical balance [L16.001]; INFERENCE only.",
+            "appendix": {
+              "title": "双河联邦：农业劳动共同体家庭 (Agricultural Labor Community Family)",
+              "canonStatus": "NEW HISTORICAL CANON",
+              "structure": "多世代同住的扩展家庭为主流形态, RECONSTRUCTED directly from irrigation agriculture's collective labor need — family is first a production unit, second an intimacy unit. Marriage historically often had economic alliance nature (water/land resource integration between two agricultural families).",
+              "contemporaryChange": "农业机械化 [L12.002] reduced absolute dependence on large-family labor, younger generation trending toward small families, creating real unresolved intergenerational tension with traditional extended-family ethics (凝统正道 '丰凝-枯散' intergenerational mutual aid)."
+            }
+          },
+          "medicine": {
+            "base": {
+              "ancientImperial": "SOCIAL GAP",
+              "religiousHealing": "INFERENCE — 凝统正道 may involve religious healing practice, but form not specified",
+              "industrial": "SOCIAL GAP",
+              "modernAI": "SOCIAL GAP (no record of 双河联邦 contemporary medical system or AI medical integration)"
+            },
+            "appendix": {
+              "title": "双河联邦：社区互助医疗 (Community Mutual-Aid Healthcare)",
+              "canonStatus": "NEW HISTORICAL CANON",
+              "historicalLogic": "RECONSTRUCTED, from irrigation administrative districts' historical need to coordinate collective labor — medical mutual-aid funds collectively raised per irrigation district, consistent with 凝统正道 mutual-aid ethics [L16.001].",
+              "features": "High basic clinical coverage but specialist/severe-case medical resources concentrated around 双河交汇平台; real urban-rural gap; rural irrigation-district residents with severe illness often travel long distances to power-center area for treatment (NOT beautified)."
+            }
+          },
+          "education": {
+            "formal": "SOCIAL GAP (no formal education system recorded for any period)",
+            "informal": "INFERENCE — intergenerational transmission of agricultural/irrigation skills plausible in pre-industrial era based on [L9.001] developed irrigation agriculture",
+            "elite": "SOCIAL GAP (royal/noble education not recorded; CHAR-001 'received royal education' is character-level NEW CANON, not promoted to civilization-level)",
+            "modern": "SOCIAL GAP (no record of 双河联邦 contemporary education system)"
+          },
+          "religion": {
+            "name": "凝统正道 [L16.001]",
+            "doctrine": "丰凝-枯散 cyclical balance",
+            "ritualBasis": "仪式围绕农业历法展开 (rituals revolve around agricultural calendar) — DIRECT CANON",
+            "contemporaryStatus": "Mainstream folk belief in 双河联邦",
+            "details": "Specific festival names, wedding/funeral ritual content, dietary taboos, work-ethic details all CULTURAL GAP — must not create specific ritual names.",
+            "distinction": "Religious elite (INFERENCE possible priest/clergy class) vs ordinary believers differ in depth of participation — must not assume universal piety."
+          },
+          "philosophy": "UNRESOLVED (no separate philosophical tradition beyond 凝统正道 doctrine; 凝统正道 '丰凝-枯散' provides cultural framework for AI ethics debates [OP-L16-002] but only INFERENCE)",
+          "economy": {
+            "production": "农业+轻工业模式 [L15.002] DIRECT CANON",
+            "role": "本世界最大的粮食出口区之一 [L15.002] DIRECT CANON",
+            "labor": "INFERENCE based on 农业生产/农产品加工/轻工业"
+          },
+          "currency": {
+            "name": "契粮 (Qì Liáng)",
+            "historicalOrigin": "RECONSTRUCTED CANON, directly inheriting [L14.002] 双河表意文字 'originated from early agricultural irrigation accounting symbols'. These accounting symbols gradually abstracted from 'physical grain vouchers' to independent value symbols, eventually becoming currency.",
+            "nature": "Agricultural surplus guaranteed currency, historically pegged to granary reserves; contemporary transformed into independently-issued credit currency, but '契粮' name retained as living fossil of 双河 'value = output' political philosophy.",
+            "contemporaryStatus": "Primary circulating currency in region; in international trade holds certain hard-currency attribute ('can be exchanged for grain' credit) due to 双河 being world's largest grain exporter [L15.001], but NOT the dominant international settlement currency."
+          },
+          "festivals": {
+            "name": "丰契节",
+            "canonStatus": "NEW HISTORICAL CANON",
+            "anchor": "Directly corresponds to [L16.001] 凝统正道 'rituals revolve around agricultural calendar' and [L11.004] official calendar system (based on P3 orbital period 185.8 days [L1.002-c]).",
+            "nature": "Celebrates the harvest of an agricultural cycle and the settlement node of 契粮 (Wave 1 new currency) — family/community collective harvest ritual with dual nature of economic settlement (old contracts expire, new ones formed) and religious gratitude. The festival itself is the intersection of monetary history and religious history, not an isolated entertainment activity.",
+            "baseGapNote": "Base v1.0 SOC-001 §20 marked FESTIVAL GAP — did not create any specific festival name."
+          },
+          "dailyLife": {
+            "food": "UNRESOLVED — Master Canon only confirms 'developed irrigation agriculture' [L9.001]; must not invent real-world food names like 'rice/bread'",
+            "housing": "SOCIAL GAP — INFERENCE: 双河交汇平台 may have denser/earlier urbanization; irrigation areas may have dispersed agricultural settlement",
+            "clothing": "CULTURAL GAP",
+            "transport": "INFERENCE: 双河平原 river/land transport geographically reasonable [L10.004]; specific vehicle names not recorded",
+            "communication": "双河表意文字, ~5300 years ago independent origin, contemporary daily-life dominant script [L14.002-003]",
+            "entertainment": "CULTURAL GAP — must not invent films/games/sports leagues",
+            "workLife": "SOCIAL GAP; ~480 years ago agricultural mechanization [L12.002] means contemporary agricultural labor is no longer pure human/animal power",
+            "agingDeath": "SOCIAL GAP; INFERENCE 凝统正道 '丰凝-枯散' may provide philosophical framing of death"
+          }
+        }
+      },
+
+      {
+        "civId": "CIV-002",
+        "socId": "SOC-002",
+        "name": "维罗社会",
+        "nameZh": "维罗",
+        "correspondingCiv": "CIV-002 维罗文明",
+        "period": "AGE-B至AGE-E",
+        "currentState": "维罗合众国, contemporary AI hardware industry core",
+        "canonStatus": "RECONSTRUCTED (social structure level), underlying facts ESTABLISHED CANON",
+        "sections": {
+          "family": {
+            "base": "SOCIAL GAP specifically. INFERENCE: mining/craftsman industries likely have family-transmission tendency (based on pre-industrial skill transmission logic and Character Archive repeated '矿业世家/工匠世家' character-level settings), but do NOT promote character-level NEW CANON to civilization-level family institution. Marriage/inheritance/eldercare rules SOCIAL GAP.",
+            "appendix": {
+              "title": "维罗合众国：技艺传承型家庭 (Craft-Skill Inheritance Family)",
+              "canonStatus": "RECONSTRUCTED (promoted from character-level settings to civilization-level institution this round)",
+              "structure": "Family bears craft/industry transmission function; marriage often contracted within same or adjacent industry families (historical tradition of mining-family and metallurgy-family alliance).",
+              "contemporaryChange": "半导体/AI硬件 industry's required educational background (熔观书院) diverges from traditional mining-family skill-transmission path; 'send child to academy or keep in workshop for craft' becomes a real value-split within 维罗 families."
+            }
+          },
+          "medicine": {
+            "base": {
+              "ancientImperial": "SOCIAL GAP",
+              "industrial": "SOCIAL GAP (whether corresponding medical system arose after ~550 year ago industrialization not recorded)",
+              "modernAI": "SOCIAL GAP (as semiconductor/AI hardware core, whether first to apply AI medical technology not recorded, must not speculate)"
+            },
+            "appendix": {
+              "title": "维罗合众国：职业健康保障体系 (Occupational Health Guarantee System)",
+              "canonStatus": "RECONSTRUCTED",
+              "historicalLogic": "Directly from mining/industrial labor occupational-injury risk economic basis ([L11.002] mining exhaustion history + [L15.001] contemporary resource extraction) combined with 炉火正神 occupational-ethics code [L16.001] — employers (mine owners/semiconductor enterprises) bear employee occupational-health guarantee obligations, rooted in mining-guild mutual-aid tradition.",
+              "features": "Industrial worker guarantee level high, but mining vs semiconductor industries' guarantee standards have historical divergence (mining older, more guild-tradition-dependent; semiconductor more modernized, enterprise-scale-dependent); real fairness dispute within 维罗 society."
+            }
+          },
+          "education": {
+            "formal": "SOCIAL GAP",
+            "informal": "INFERENCE — family-workshop apprenticeship plausible in metallurgy/precision-processing tradition based on 炉火正神 'occupational ethics code' [L16.001]",
+            "elite": "SOCIAL GAP",
+            "modern": "SOCIAL GAP (no record of contemporary scientific/engineering education system; INFERENCE: as AI hardware core [L13.002] must have some technical-talent training mechanism, but form not created)"
+          },
+          "religion": {
+            "name": "炉火正神信仰 [L16.001]",
+            "contemporaryStatus": "Evolved into 'cultural tradition of technical practitioners rather than strict religion, ritual weakened to occupational ethics code' — DIRECT CANON",
+            "keyImplication": "炉火正神 is more of an occupational-ethics/craft-rigor culture than public religious practice — must NOT write '维罗 people generally worship 炉火正神' as religious identity; understand as ethics-code residue permeating technical-professional culture.",
+            "details": "Specific festivals, ritual content CULTURAL GAP"
+          },
+          "philosophy": "UNRESOLVED (no separate philosophical tradition; 炉火正神 functions as occupational ethics rather than formal philosophy; 技术乐观主义 [人本凝化主义, L16.002] vs 散化保守主义 [L16.002] tension exists as thought current, both rooted in 维罗's own mining-exhaustion historical lesson [L11.002])",
+          "economy": {
+            "production": "资源型+精密制造业复合模式 [L15.002] DIRECT CANON",
+            "labor": "INFERENCE based on mining/metallurgy/precision manufacturing/semiconductor",
+            "semiconductorIndustry": "凝晶基半导体规模化生产 [L13.001] DIRECT CANON"
+          },
+          "currency": {
+            "name": "炉衡 (Lú Héng)",
+            "historicalOrigin": "RECONSTRUCTED CANON, from 维罗 mining-kingdom-era mineral weight standard (specific-weight refined metal ingot as trading unit), naming echoes 炉火正神 faith [L16.001].",
+            "nature": "Historically metal-standard (pegged to 凝晶矿 smelting output); ~550 years ago metallurgical industrialization [L12.002] standardized production, gradually transformed to independent credit currency, retained '炉衡' name.",
+            "contemporaryStatus": "Important pricing currency for AI hardware industry settlement; strong purchasing power due to semiconductor/凝晶矿 trade international status, but historical 'metal-standard' path-dependence leaves 维罗 society with cultural reservation toward pure credit currency (see Social Tension)."
+          },
+          "festivals": {
+            "name": "淬火祭",
+            "canonStatus": "NEW HISTORICAL CANON (per APPENDIX; base v1.0 marked FESTIVAL GAP)",
+            "anchor": "炉火正神 faith [L9.003][L16.001] ritual-weakening residue — 'ritual weakened to occupational ethics code' does not equal total disappearance; this section formally establishes a once-yearly concentrated ritual expression retained at specific annual node.",
+            "nature": "Mining/craftsman industry annual ceremony, commemorative nature > religious devotion nature (consistent with [L16.001] 'occupational ethics code' rather than strict religious practice); traditionally senior craftsmen 'pass the forge' (传炉) to apprentices; contemporary 熔观书院 graduation ceremony often coincides with 淬火祭 timing, naturally fusing ancient ritual with modern education system."
+          },
+          "dailyLife": {
+            "food": "UNRESOLVED — Master Canon does not record 维罗 own agricultural basis; INFERENCE may partially rely on trade for grain (esp. from 双河联邦), but specific diet not created",
+            "housing": "SOCIAL GAP; INFERENCE: mining areas, industrial cities, southern fishery zones may have different residential forms",
+            "clothing": "CULTURAL GAP",
+            "transport": "INFERENCE: mining/industrial transport geographically reasonable [L10.004]; specific vehicle/system names not recorded",
+            "communication": "维罗表音音节文字, ~5100 years ago origin, contemporary sci-tech literature dominant script [L14.002-003]",
+            "entertainment": "CULTURAL GAP",
+            "workLife": "SOCIAL GAP; ~550 years ago metallurgical industrialization [L12.002], ~80 years ago semiconductor scaling [L13.001] means modern industrial workers/engineers exist"
+          }
+        }
+      },
+
+      {
+        "civId": "CIV-003",
+        "socId": "SOC-003",
+        "name": "中央海社会",
+        "nameZh": "中央海",
+        "correspondingCiv": "CIV-003 中央海文明",
+        "period": "AGE-B至AGE-E",
+        "currentState": "中央海联合体, contemporary AI industry capital/data core",
+        "canonStatus": "RECONSTRUCTED, underlying facts ESTABLISHED CANON",
+        "sections": {
+          "family": {
+            "base": "SOCIAL GAP.",
+            "appendix": {
+              "title": "中央海联合体：契约式与多元家庭 (Contract-based & Pluralistic Family)",
+              "canonStatus": "RECONSTRUCTED",
+              "structure": "Port-trade civilization tradition makes family structure relatively flexible; historically commercial-family alliances had explicit commercial-cooperation nature (echoing [L9.003] commercial contracts often sworn by tidal cycle; marriage itself historically had contract nature).",
+              "contemporaryChange": "With 潮汐诸灵 faith secularization [L16.004] and OP-L16-001 cultural-identity vacuum issue, 中央海 is the most pluralistic in family form among five civilizations — traditional contract-alliance and contemporary individualist romance coexist, no unified mainstream; this pluralism itself is the family-level projection of 中央海 'identity anxiety' social character."
+            }
+          },
+          "medicine": {
+            "base": "SOCIAL GAP all periods.",
+            "appendix": {
+              "title": "中央海联合体：保险市场化体系 (Insurance Market-based System)",
+              "canonStatus": "RECONSTRUCTED",
+              "historicalLogic": "Directly extends from world's first transnational commercial banking system [L12.002] financial infrastructure — medical insurance as financial product market-provided, consistent with 中央海 '金融贸易服务型经济' [L15.002].",
+              "features": "Medical resources directly linked to payment capacity — concrete projection of 中央海 social stratification (data-capital class vs ordinary service workers, SOC-003) in medical field; the most direct medical-inequality manifestation among five civilizations, NOT evaded."
+            }
+          },
+          "education": {
+            "formal": "SOCIAL GAP",
+            "informal": "INFERENCE — commercial-guild trade/accounting skill transmission plausible (CHAR-002/009 'learned within guild system' as character-level, not civilization-level)",
+            "elite": "SOCIAL GAP",
+            "modern": "SOCIAL GAP (no record of contemporary financial/data-analysis talent cultivation system)"
+          },
+          "religion": {
+            "name": "潮汐诸灵多神信仰 [L16.001]",
+            "contemporaryStatus": "Most secularization pressure [L16.004], already 'highly privatized, non-institutionalized' — DIRECT CANON",
+            "opL16_001": "Explicitly records this privatization 'evolved into sustained social debate between secular identity and traditional revival movement in 中央海联合体' [L17.004]",
+            "implication": "Religious belief is a contested cultural-identity issue rather than stable daily practice — some participate in traditional revival, some fully secularized; core Social Tension.",
+            "details": "Specific festivals/rituals CULTURAL GAP"
+          },
+          "philosophy": "UNRESOLVED (no separate philosophical tradition; data/capital economy does not produce formal philosophy; 潮汐诸灵 secularization creates cultural-identity vacuum [OP-L16-001])",
+          "economy": {
+            "production": "金融贸易服务型经济 [L15.002] DIRECT CANON",
+            "role": "AI产业 资本/数据 双核心 [L13.002] DIRECT CANON; controls 资源定价权 forming 'resources at periphery, pricing power at center' pattern [L15.001] DIRECT CANON",
+            "labor": "INFERENCE — finance/trade/data analysis; must also include port/logistics/service non-financial occupations — NOT 'everyone is a merchant'",
+            "financialCenter": "约420年前确立贸易金融中心地位 [L12.002]; 本世界首个跨国商业银行体系 [L12.002] DIRECT CANON"
+          },
+          "currency": {
+            "name": "潮结 (Cháo Jié)",
+            "historicalOrigin": "RECONSTRUCTED CANON, direct product of world's first transnational commercial banking system (~420 years ago, [L12.002]) — banking system needs unified accounting/settlement unit; '潮结' (tidal settlement, echoing [L9.003] commercial contracts sworn by tidal cycle).",
+            "nature": "Credit currency, historically never pegged to any physical resource, purely supported by commercial credit and trade network.",
+            "contemporaryStatus": "DE FACTO international settlement/reserve currency — RECONSTRUCTED CANON core new judgment: 中央海 表音字母文字 international-common-script status [L14.003] + first-mover banking advantage [L12.002] + 凝度期货 market [L15.003] pricing power jointly formed the historical force making 潮结 the de-facto settlement currency. This is the monetary-level extension of [L15.001] 'resources at periphery, pricing power at center'."
+          },
+          "festivals": {
+            "name": "潮讯日",
+            "canonStatus": "NEW HISTORICAL CANON",
+            "anchor": "[L9.003] commercial contracts sworn by tidal cycle + 潮汐诸灵 faith privatization [L16.004] secular-identity vacuum [OP-L16-001]",
+            "nature": "The ONLY one of five festivals with real social撕裂 (tearing) — historically a 潮汐诸灵 sacrifice day, contemporary highly secularized as 'financial settlement cycle node' (echoing 潮结 currency annual audit rhythm); traditional-revival participants attempt to restore religious core, secularized groups treat as pure public holiday — the two hold public unresolved cultural conflict over the same day's meaning; this is the annual eruption point of OP-L16-001 tension."
+          },
+          "dailyLife": {
+            "food": "SOCIAL GAP; INFERENCE coastal geography makes fishery resource use plausible, but must not create specific dish names",
+            "housing": "SOCIAL GAP; INFERENCE ports vs financial centers may have different residential forms",
+            "clothing": "CULTURAL GAP",
+            "transport": "INFERENCE: maritime/port transport geographically reasonable [L9.001][L11.004] (远洋帆船 historical tech); contemporary form SOCIAL GAP",
+            "communication": "中央海表音字母文字, ~5000 years ago origin, contemporary international common script [L14.002-003]",
+            "entertainment": "CULTURAL GAP",
+            "workLife": "SOCIAL GAP; ~420 years ago financial center established [L12.002] implies mature financial work form (office labor nature, INFERENCE)"
+          }
+        }
+      },
+
+      {
+        "civId": "CIV-004",
+        "socId": "SOC-004",
+        "name": "诺弧社会",
+        "nameZh": "诺弧",
+        "correspondingCiv": "CIV-004 诺弧文明",
+        "period": "AGE-B至AGE-E",
+        "currentState": "诺弧高原祭司国, contemporary global AI ethics center",
+        "canonStatus": "RECONSTRUCTED, underlying facts ESTABLISHED CANON",
+        "sections": {
+          "family": {
+            "base": "SOCIAL GAP.",
+            "appendix": {
+              "title": "诺弧高原祭司国：私人家庭 + 师承准家庭 (Private Family + Master-Disciple Quasi-Family)",
+              "canonStatus": "NEW HISTORICAL CANON (most 'counter-intuitive' valuable part this round)",
+              "structure": "诺弧 family relatively private/low-profile politically (political authority from philosophical credentials, not bloodline — see Wave 1); BUT master-disciple relation (贤者与弟子) bears 'quasi-family' social function in 诺弧 society: ethical obligation, daily care, identity-formation strength may equal or exceed blood-family. This is NECESSARILY derived from [L9.001] 政教合一 + [L13.002] philosophical-education-center status — a society where political authority comes from knowledge transmission (not bloodline) naturally tilts 'parakinship' toward master-disciple.",
+              "contemporaryMeaning": "Ordinary 诺弧 residents (non-贤者 class) family life closer to private nuclear-family form; SOCIAL GAP partially relieved but not fully resolved — this distinction itself responds to Wave 1 Ordinary Person Test D '诺弧 not everyone is a philosopher' persistent principle."
+            }
+          },
+          "medicine": {
+            "base": "SOCIAL GAP all periods.",
+            "appendix": {
+              "title": "诺弧高原祭司国：知识经济体最低保障 (Knowledge-Economy Minimum Guarantee)",
+              "canonStatus": "RECONSTRUCTED",
+              "historicalLogic": "As part of knowledge economy [L15.002], 诺弧 uses fixed proportion of AI-ethics-audit and international-arbitration service income to subsidize basic medical guarantee; small coverage but universal (small scale makes 'cover everyone' financially feasible).",
+              "features": "Basic medical guarantee solid, BUT specialist medical resources extremely scarce — [L10.004] 诺弧 plateau 'resource-poor' extends to medical field; severe-case patients typically need referral to 维罗 or 中央海; real material limitation beneath 诺弧 'small nation big influence' [L17.002] halo."
+            }
+          },
+          "education": {
+            "formal": "SOCIAL GAP",
+            "informal": "SOCIAL GAP",
+            "elite": "INFERENCE — as AI ethics/philosophy research center [L13.002], may have elite philosophy/ethics education tradition, but specific institution/form SOCIAL GAP",
+            "modern": "SOCIAL GAP",
+            "specialReminder": "Even if elite philosophical tradition exists, does NOT mean all 诺弧 residents receive equivalent philosophical training — stereotype must be avoided."
+          },
+          "religion": {
+            "name": "凝散哲学 [L16.001]",
+            "keyDistinction": "诺弧's 凝散哲学 tradition 'is itself philosophy, not strict religion' [L16.004] — its daily-life permeation differs in nature from 双河 凝统正道 (explicit agricultural-calendar rituals) or 维罗 炉火正神 (occupational ethics code); closer to continuous public-speculation tradition than institutionalized religious practice.",
+            "ordinaryResidentQuestion": "Must NOT assume everyone is a philosopher — INFERENCE: priest/scholar/AI-ethics-researcher groups likely deeply participate, but ordinary residents' (especially non-core areas) daily participation degree SOCIAL GAP."
+          },
+          "philosophy": {
+            "name": "凝散一元辩证学派 [L16.002]",
+            "role": "Dominant in AI ethics audit [L13.003]",
+            "internalDebate": "[L13.007] conservative 'premature anthropomorphization' vs progressive 'AI moral-status framework necessary first step' — this debate occurs WITHIN 诺弧 AI ethics research community, is real internal thought divergence not a universal-resident consensus."
+          },
+          "economy": {
+            "production": "知识经济体, AI伦理审计与国际仲裁服务 [L15.002] DIRECT CANON — '几乎不依赖实体产业' DIRECT CANON",
+            "role": "全球AI伦理中心 [L13.002] DIRECT CANON",
+            "labor": "INFERENCE — ethics audit / international arbitration / philosophy research / knowledge service; must also include basic-life-service non-philosophical labor"
+          },
+          "currency": {
+            "name": "衡照 (Héng Zhào)",
+            "historicalOrigin": "RECONSTRUCTED CANON, from 诺弧 knowledge economy [L15.002] service-fee vouchers (AI ethics audit fee, international arbitration fee) gradually developed independent accounting unit; naming takes '衡量' (measure) + '照见' (凝散 philosophy '照' character tradition, echoing 诺弧 script's binary-symmetric aesthetics [L14.002]).",
+            "nature": "Small daily circulation in 诺弧 (knowledge economy not dependent on large-scale physical transactions), mainly for inter-institutional settlement and ritual/symbolic occasions; 诺弧 residents widely use 潮结 for daily personal consumption.",
+            "contemporaryStatus": "Extremely high 'credibility endorsement' value — due to 诺弧 AI-ethics-audit and arbitration services' international公信力 [L13.002][L17.002], contracts settled in 衡照 are given extra trust-weight in international arbitration; this is 'symbolic capital' in non-monetary-purchasing-power sense, not daily circulation scale."
+          },
+          "festivals": {
+            "name": "观寂日",
+            "canonStatus": "NEW HISTORICAL CANON",
+            "anchor": "凝散不二论 [L9.003][L16.004] philosophical tradition",
+            "nature": "NOT a celebration, is a SILENCE DAY — in stark contrast to the other four festivals' liveliness; collective silent contemplation across the territory (at least core area), echoing 凝散哲学 '凝聚与消散' dialectical meditation tradition. 观声会 (Wave 3 new) annual hearing-assembly often scheduled around 观寂日, ritually combining philosophical contemplation with consultative-politics ceremony."
+          },
+          "dailyLife": {
+            "food": "SOCIAL GAP — [L10.004] records 诺弧 plateau 'resource-poor', specific subsistence mode not recorded",
+            "housing": "SOCIAL GAP; INFERENCE plateau geography (near-polar [L10.001]) may affect residential form (warmth consideration)",
+            "clothing": "CULTURAL GAP; INFERENCE near-polar plateau climate may require cold-weather clothing, but must not create specific form",
+            "transport": "INFERENCE: 诺弧 plateau portal is a SEASONAL land-bridge [L10.002] — implies seasonal limitation on external transport; specific mode SOCIAL GAP",
+            "communication": "诺弧文字, derived from 凝散 symbol system, contemporary special status in philosophy/ethics academia [L14.002-003]",
+            "entertainment": "CULTURAL GAP",
+            "workLife": "SOCIAL GAP; INFERENCE AI ethics audit work may involve cross-civilization collaboration (INS-017)"
+          }
+        }
+      },
+
+      {
+        "civId": "CIV-005",
+        "socId": "SOC-005",
+        "name": "黑潮社会",
+        "nameZh": "黑潮",
+        "correspondingCiv": "CIV-005 黑潮文明",
+        "period": "Ancient/Imperial era social data severely missing (inherited from GAP-CIV-008); AGE-E contemporary is main coverage",
+        "currentState": "黑潮共同体, contemporary AI compute center, geopolitical weight rising [L17.001]",
+        "canonStatus": "RECONSTRUCTED (contemporary part), ancient part HISTORICAL GAP",
+        "specialReminder": "黑潮 has least data, BUT data absence does NOT equal civilization backwardness or historical non-existence. SOCIAL GAP / HISTORICAL GAP marks are honest records of Master Canon gaps.",
+        "sections": {
+          "family": {
+            "base": "SOCIAL GAP — all historical periods no records.",
+            "appendix": {
+              "title": "黑潮共同体：船队/岛屿宗族网络 (Fleet/Island Clan Network)",
+              "canonStatus": "RECONSTRUCTED",
+              "structure": "Traditional fishery/shipping economic basis [L15.002] (pre-transition) gave rise to extended kinship networks organized by 'fleet' or 'island clan', emphasizing collective operation and risk-sharing (navigation itself high-risk, requires tight mutual-aid network).",
+              "contemporaryChange": "This is 黑潮's most acute family-level tension — emerging compute/geothermal-industry young practitioners leave traditional fleet/clan networks en masse to work/live on compute-center islands; traditional family structure faces real loosening pressure from young-labor outflow, forming complete consistent social-change narrative with Wave 1's 'island-council new-vs-old industry representatives' political tension at family level — technology genuinely changed 黑潮 family structure, not an isolated political-level change."
+            }
+          },
+          "medicine": {
+            "base": "SOCIAL GAP all periods.",
+            "appendix": {
+              "title": "黑潮共同体：算力辅助远程医疗 (Compute-Assisted Remote Healthcare)",
+              "canonStatus": "RECONSTRUCTED",
+              "historicalLogic": "Directly leverages 黑潮's status as large compute-center site [L13.002] — island-chain geography naturally dispersed [L10.001], traditional medical resources cannot cover all islands; AI-assisted remote diagnosis combined with 凝迹诊断 data local compute-processing advantage forms 黑潮's unique medical path.",
+              "features": "Technologically perhaps the most 'futuristic' medical system among five civilizations (compute advantage directly converted to medical-accessibility advantage), BUT traditional island communities have real distrust of 'handing body data to compute center' — this tension echoes Wave 1's 黑潮 new-vs-old industry political conflict (island-council traditional fishery representatives' voice squeezed); medical-trust issue becomes another battlefield of the larger conflict."
+            }
+          },
+          "education": {
+            "formalInformalElite": "SOCIAL GAP all periods",
+            "modern": "SOCIAL GAP (as emerging compute center [L13.002], whether corresponding technical-talent cultivation system exists not recorded, not created)"
+          },
+          "religion": {
+            "status": "CULTURAL GAP — [L9.003] early religious-system list does NOT include 黑潮 (inherited from CIV-005 established conclusion); Master Canon records NO religious/philosophical tradition of any form for 黑潮 civilization. This is DATA ABSENCE, not evidence that '黑潮 has no spiritual life' — this archive explicitly does not make the latter inference."
+          },
+          "philosophy": "UNRESOLVED (no philosophical tradition recorded; death-philosophy in Healthcare APPENDIX remains CULTURAL GAP, not filled)",
+          "economy": {
+            "production": "地热能源+算力租赁经济 [L15.002] DIRECT CANON",
+            "role": "大型算力中心选址地 [L13.002] DIRECT CANON",
+            "labor": "INFERENCE — geothermal energy / shipping / compute-center operations"
+          },
+          "currency": {
+            "name": "汐熔 (Xī Róng)",
+            "historicalOrigin": "RECONSTRUCTED CANON, established at 黑潮共同体 ~500 years ago independence/founding [L12.001]; naming takes '潮汐' (tide) + '熔岩' (lava, geothermal economy) meaning.",
+            "nature": "Historically small circulation (traditional fishery/shipping economy limited); recent decades compute-leasing economy [L15.002] explosive growth made 汐熔 international purchasing power and geopolitical weight rise synchronously and rapidly [L17.001].",
+            "contemporaryStatus": "The most violently changing of the five currencies — directly corresponds to 黑潮 'from traditional peripheral status to key player' identity transformation [OP-L13-005]; currency-status rise itself is becoming a concrete focal point of 黑潮's internal new-vs-old industry tension (see Social Tension)."
+          },
+          "festivals": {
+            "name": "汐熔祭",
+            "canonStatus": "RECONSTRUCTED (newest-established of five festivals, ~contemporary with 黑潮共同体 independence ~500 years ago)",
+            "anchor": "地热能源 [L15.002] + 汐熔 currency (Wave 1 new) + traditional fishery calendar",
+            "nature": "Historically a blessing ritual at fishing-season opening; contemporary 汐熔 currency's economic significance strengthened, gradually overlaying 'new fiscal-year opening' secular meaning — TRADITIONAL fishery communities and EMERGING compute-industry communities have already DIVERGED in celebration mode (former preserves traditional blessing rites, latter closer to modernized industry annual meeting), echoing Wave 3's 黑潮 regional cultural-divergence budding."
+          },
+          "dailyLife": {
+            "food": "SOCIAL GAP; INFERENCE: [L10.004] 'volcanic-ash soil locally excellent agricultural potential' + 'intertidal high productivity' (fishery) — agriculture and fishery both geographically plausible, but specific food content not created",
+            "housing": "SOCIAL GAP; INFERENCE island/volcano geography may affect residential form (geothermal use, disaster prevention)",
+            "clothing": "CULTURAL GAP",
+            "transport": "INFERENCE: island/shipping transport geographically reasonable [L10.001] (踏脚石 connecting 阿斯兰-维罗); specific vehicles SOCIAL GAP",
+            "communication": "黑潮语族语言, [L14.004] contemporary faces inheritance crisis, younger generation shifting to 中央海表音字母文字",
+            "entertainment": "CULTURAL GAP",
+            "workLife": "SOCIAL GAP all periods"
+          }
+        }
+      }
+    ],
+
+    "additionalSocEntries": {
+      "SOC-006": {
+        "name": "泛阿斯兰帝国时代社会",
+        "nature": "NOT an independent modern society; describes cross-regional social structure during 泛阿斯兰第二帝国 ruling period (~2200–900 years ago); corresponds to CIV-006",
+        "currentState": "Dissolved — 不再以独立社会形态存在",
+        "canonStatus": "RECONSTRUCTED",
+        "keyNote": "Internal differentiation between 阿斯兰本土统治核心区 (continuing 双河 culture) and 黑潮弧群被征服区 (preserving own language/culture [L14.004]) — profound internal differences under nominal '泛阿斯兰文明圈' unity",
+        "applicability": {
+          "modernInformationEnvironment": "Not applicable — 前现代帝国",
+          "aiEverydayLife": "Not applicable — 远早于AI临界事件 (far predates AI critical event ~15 years ago)"
+        }
+      }
+    },
+
+    "modernSocialComparisonMatrix": {
+      "note": "Verbatim dimension-vs-civilization matrix",
+      "dimensions": {
+        "Education": {"双河": "SOCIAL GAP", "维罗": "SOCIAL GAP", "中央海": "SOCIAL GAP", "诺弧": "INFERENCE 精英哲学教育可能存在", "黑潮": "SOCIAL GAP"},
+        "Work": {"双河": "农业+轻工业 INFERENCE", "维罗": "矿业/半导体 INFERENCE", "中央海": "金融/数据 INFERENCE", "诺弧": "伦理审计/仲裁 INFERENCE", "黑潮": "地热/算力 INFERENCE"},
+        "Family": {"双河": "SOCIAL GAP", "维罗": "SOCIAL GAP", "中央海": "SOCIAL GAP", "诺弧": "SOCIAL GAP", "黑潮": "SOCIAL GAP"},
+        "Transport": {"双河": "河流/陆路 INFERENCE", "维罗": "矿区运输 INFERENCE", "中央海": "海运/港口 INFERENCE", "诺弧": "季节性陆桥 CANON", "黑潮": "岛屿航运 INFERENCE"},
+        "Information": {"双河": "SOCIAL GAP", "维罗": "SOCIAL GAP", "中央海": "数据核心 INFERENCE", "诺弧": "SOCIAL GAP", "黑潮": "SOCIAL GAP"},
+        "AI": {"双河": "规则制定角色 CANON", "维罗": "硬件双核心 CANON", "中央海": "数据/资本双核心 CANON", "诺弧": "伦理监督核心 CANON", "黑潮": "算力中心选址地 CANON"},
+        "Religion": {"双河": "凝统正道主流 CANON", "维罗": "炉火正神→职业伦理 CANON", "中央海": "潮汐诸灵世俗化 CANON", "诺弧": "凝散哲学 (非全民哲学化) CANON", "黑潮": "CULTURAL GAP (列表未含黑潮)"},
+        "Inequality": {"双河": "SOCIAL GAP 具体结构", "维罗": "矿业资本vs工程师vs工人 INFERENCE", "中央海": "数据资本vs普通服务业 INFERENCE", "诺弧": "知识权威分化 INFERENCE", "黑潮": "新旧产业分化 INFERENCE"},
+        "SocialMobility": {"双河": "SOCIAL GAP", "维罗": "SOCIAL GAP", "中央海": "SOCIAL GAP", "诺弧": "SOCIAL GAP", "黑潮": "SOCIAL GAP"},
+        "Urbanization": {"双河": "交汇平台为核心 CANON", "维罗": "矿区+工业都市 INFERENCE", "中央海": "港口+金融中心 CANON", "诺弧": "高原核心区，内部差异资料最少 CULTURAL GAP", "黑潮": "主岛+算力岛 INFERENCE"},
+        "MainSocialTension": {
+          "双河": "农业正统性 vs 产业边缘化 INFERENCE",
+          "维罗": "技术乐观主义 vs 散化保守主义 CANON (思潮层面)",
+          "中央海": "世俗化 vs 传统复兴 CANON [OP-L16-001]",
+          "诺弧": "保守派 vs 进步派 AI伦理立场 CANON [L13.007]",
+          "黑潮": "传统产业 vs 新兴算力产业 INFERENCE"
+        }
+      }
+    },
+
+    "socialCausalGaps": {
+      "双河": "SOCIAL CAUSAL GAP — 地理→经济→职业 chain成立, but 职业→家庭(SOCIAL GAP)→教育(SOCIAL GAP) broken; 政治→文化 部分成立",
+      "维罗": "闭环基本成立 (most complete of five) — 地理→经济→职业→文化→政治→当代产业 chain; only broken: 职业→家庭(SOCIAL GAP)→教育(SOCIAL GAP, INFERENCE apprenticeship only)",
+      "中央海": "SOCIAL CAUSAL GAP — 地理→经济→职业 chain基本成立, but 宗教环节结构性断裂 (潮汐诸灵 secularization highest); economic success vs religious/cultural continuity shows REVERSE relationship (not positive closed loop)",
+      "诺弧": "闭环成立但性质特殊 — 地理→文化/宗教→政治→当代产业 (closed loop driven directly from culture to economy, not 维罗-style geography→economy→culture); broken: 职业(SOCIAL GAP)→家庭(SOCIAL GAP)",
+      "黑潮": "闭环存在重大断裂 (inherited from GAP-CIV-008) — 地理→当代经济 成立但跳跃式, missing 古代文明→职业→家庭→教育→政治→文化 全部环节 (~2.8万年史前-古代空白); the only civilization whose main loop itself is incomplete; SOCIAL CAUSAL GAP throughout, NOT filled"
+    },
+
+    "socialAudit": {
+      "canonIntegrity": "No — did not modify Master Canon or prior six docs",
+      "socialIntegrity": "No — strict CANON/RECONSTRUCTED/INFERENCE/SOCIAL GAP/CULTURAL GAP/FESTIVAL GAP/SOCIAL CAUSAL GAP distinction throughout",
+      "historicalIntegrity": "No — each SOC entry strictly by AGE-A to AGE-E periodization; no ancient society has超前 technology",
+      "economicIntegrity": "Yes — all Common Occupations directly from established economic patterns [L15.002]",
+      "familyIntegrity": "No — all Family sections honestly marked SOCIAL GAP, no real-world default family models imposed",
+      "educationIntegrity": "Yes — ancient/imperial education limited to SOCIAL GAP or INFERENCE based on skill transmission",
+      "technologyIntegrity": "Yes — medical/transport/communication/info strictly aligned with established tech levels",
+      "aiIntegrity": "No — all five civilizations' AI sections mark OP-L13-001 OPEN, no adjudication",
+      "culturalIntegrity": "No — all festival names/clothing/food/entertainment marked CULTURAL GAP/FESTIVAL GAP, no invented names",
+      "civilizationIntegrity": "Yes — each SOC entry continues established civilization personality",
+      "blackTideIntegrity": "No — SOC-005 explicitly states 'data absence ≠ civilization backwardness ≠ historical non-existence'",
+      "gapIntegrity": "Yes — all SOCIAL GAP/CULTURAL GAP/FESTIVAL GAP/SOCIAL CAUSAL GAP preserved, not self-filled",
+      "inferenceCount": "~150+ INFERENCE marks, concentrated in Occupation/Transportation/Class & Inequality/Social Tensions",
+      "socialGapCount": "~200+ SOCIAL GAP marks, most numerous, concentrated in Family/Childhood/Education/Work Life/Housing/Medicine/Aging & Death/Crime & Social Control/Social Mobility (highest density in SOC-005 黑潮 and SOC-006 帝国时代)",
+      "culturalGapCount": "~40+ CULTURAL GAP/FESTIVAL GAP marks, concentrated in Clothing/Calendar & Festivals/Entertainment/Religion-specific ritual content",
+      "socialCausalGapCount": "5 (双河/中央海/黑潮 major breaks; 维罗/诺弧 closed loop基本成立 but each has 1 broken link)",
+      "socialTensionCount": "15 (five civilizations × 3 each, all marked CANON/INFERENCE/STORY HOOK)",
+      "newCanonCount": "0 in base v1.0 (APPENDIX v2.0 added NEW HISTORICAL CANON for family/marriage + five festivals)"
+    },
+
+    "fictionInterfaceSocial": {
+      "note": "All STORY HOOK, not canon, for future fiction reference",
+      "双河": "Agricultural civilization identity anxiety and industrial-marginalization psychology contemporary fiction; intergenerational or urban-rural communication tension in bilingual (表意文字/international common script) environment",
+      "维罗": "Intergenerational debate between 技术乐观主义 and 散化保守主义 within mining-engineer families; mining-capital compliance vs profit game under quota-system constraints",
+      "中央海": "Contrast between 潮汐诸灵 traditional-revival participants and fully-secularized data-capital practitioners' urban life; personal privacy anxiety under data-sovereignty issues",
+      "诺弧": "AI ethics auditors' daily-work professional anxiety facing OP-L13-001 unknowability;磨合 between incoming AI-ethics scholars and local priest-traditional authority",
+      "黑潮": "Two-generation narrative of compute-industry new-rich vs traditional fishery/shipping families; encounter between last-generation 黑潮语族 mother-tongue speakers and AI-assisted language-preservation technology [L14.004]"
+    }
+  },
+
+  "modernWorldSystems": {
+    "sourceDocument": "CDD_Modern_World_Systems_Archive_v1.0.md",
+    "canonicality": "RECONSTRUCTED SYSTEM为主, with small amount of DIRECT CANON citations",
+    "canonPolicyNote": "RECONSTRUCTED SYSTEM marks in this PART are NOT upgraded to DIRECT CANON in this compilation. Five-division structure (双河粮食+规则制定 / 维罗凝晶矿+半导体+AI硬件 / 中央海资本+数据+金融 / 诺弧AI伦理+凝散审计+仲裁 / 黑潮地热+凝辉矿+算力) and '维罗→中央海→黑潮→诺弧→双河' global AI supply chain retain their original Canon-tier labels. 凝界公约 retains '不是世界政府' positioning.",
+    "opL13_001Status": "OPEN (kept OPEN throughout, not adjudicated)",
+    "unresolvedConflictsInherited": ["Issue 006", "CANON CONFLICT-001 (S3诺弧群时序)", "GAP-CIV-007 (凝脊共和国/东阿斯兰王国 contemporary fate)", "GAP-CIV-008 (黑潮 structural史料缺失)"],
+
+    "politicalSystems": {
+      "note": "五大文明政府治理结构 from PART VIII APPENDIX II. NOTE: 凝脊共和国 and 东阿斯兰王国 are NOT given political structures in the text — their contemporary fate is GAP-CIV-007 UNRESOLVED.",
+      "civilizationsNotCovered": {
+        "凝脊共和国": "UNRESOLVED — text does not describe government structure; GAP-CIV-007 unresolved contemporary fate, not adjudicated in this archive",
+        "东阿斯兰王国": "UNRESOLVED — text does not describe government structure; GAP-CIV-007 unresolved contemporary fate, not adjudicated in this archive"
+      },
+      "SYS-CIV-001_双河联邦": {
+        "polityForm": "双河联邦 (Federation) [L12.001] DIRECT CANON",
+        "headOfState": "联邦执政 (Federal Chief Executor) — NEW HISTORICAL CANON, continuing CHAR-007-A 沃汜 title, formally established as persistent official title of 双河联邦",
+        "powerGeneration": "NEW HISTORICAL CANON — 执政 indirectly elected by representatives of irrigation administrative districts; term corresponds to 凝统正道 '丰凝-枯散' cycle cosmological rhythm, one 'generation' (~25 Earth years, directly using [L8.002] 'one generation' time unit) per transfer — fusion of 双河 religious cosmology and secular political system; the system's time-rhythm comes from religion, not arbitrary election-cycle decision",
+        "legislature": "灌溉议事会 — NEW HISTORICAL CANON, rooted in cross-regional water-coordination need (multiple districts share river systems, must have consultation mechanism); contemporary function expanded to general legislation but retained '灌溉' historical name",
+        "judiciary": "UNRESOLVED (not expanded this round, non-blocking)"
+      },
+      "SYS-CIV-002_维罗合众国": {
+        "polityForm": "维罗合众国 (Confederation/邦联) [L12.001] DIRECT CANON",
+        "headOfState": "共议执政 — NEW HISTORICAL CANON, rotating among representatives of major mining regions (historical successor states); directly inherits ~900 years ago 'multiple successor states 邦联重组' [L12.001] — 维罗 never truly completed centralization, contemporary governance structure still carries mining-exhaustion-crisis-legacy fragmentation",
+        "legislature": "炉席共议会 — NEW HISTORICAL CANON, historically representation by mining-region division, contemporary added semiconductor/AI-hardware industry representative seats — direct institutionalization of 'technology produces social consequences' principle",
+        "judiciary": "RECONSTRUCTED SYSTEM — 凝晶矿配额制 [L15.001] disputes first instance in domestic judiciary, cross-border disputes to 诺弧仲裁院 [L15.004]; layered judicial structure"
+      },
+      "SYS-CIV-003_中央海联合体": {
+        "polityForm": "中央海联合体 (Union) [L12.001] DIRECT CANON",
+        "headOfState": "无单一元首 — NEW HISTORICAL CANON, most deliberate 'counter-intuitive setting'; 中央海 '无统一王权' tradition [L9.001][L11.001] formally established as贯穿至今、从未中断 institutional feature. Contemporary highest coordination function held by 港域议会轮值主席, very short term (RECONSTRUCTED SYSTEM, specific years not quantified), symbolic > real power, real decision-making dispersed among port/financial-institution representatives",
+        "legislature": "港域议会 — composed of multi-port city-state representatives, continuing [L9.001] ancient pattern",
+        "judiciary": "RECONSTRUCTED SYSTEM — mature commercial-law system derived from world's first transnational commercial banking system [L12.002], producing relatively independent, highly professionalized commercial-court system"
+      },
+      "SYS-CIV-004_诺弧高原祭司国": {
+        "polityForm": "政教合一 [L9.001] DIRECT CANON",
+        "headOfState": "首席贤者 — NEW HISTORICAL CANON, elected by current 贤者议会 via internal consensus based on philosophical/ethics-academic credentials and 凝散 philosophy attainment; NOT elected, NOT hereditary, term life-long or until voluntary resignation. 'Counter-intuitive setting' key case: 诺弧 does NOT fit and should NOT be written as modern democracy — 政教合一 political authority must come directly from philosophical/religious authority itself, not ballots; necessarily derived from [L9.001] 政教合一 Master Canon statement",
+        "legislature": "贤者议会 — dual function of religious authority and contemporary AI ethics audit [L13.003]; the only political system where 'legislature' and 'research/ethics-audit institution' highly overlap",
+        "judiciary": "诺弧仲裁院 [L15.004] itself bears considerable part of 诺弧 domestic judiciary function (DIRECT CANON established international function; this archive RECONSTRUCTED supplements reasonable extension of domestic judiciary role)"
+      },
+      "SYS-CIV-005_黑潮共同体": {
+        "polityForm": "黑潮共同体 (Commonwealth) [L12.001] DIRECT CANON",
+        "headOfState": "共议执事 — NEW HISTORICAL CANON, rotating/negotiated among representatives of 黑潮弧群 major islands/atolls, reflecting island-chain geography's natural dispersion",
+        "legislature": "岛屿议事联盟 — NEW HISTORICAL CANON, historically dominated by traditional fishery/shipping community representatives; in recent decades compute/geothermal industry rise, emerging-industry representative seats rapidly expanded, squeezing traditional fishery community political voice — 黑潮 contemporary politics' most real dramatic tension (echoes Section I 汐熔 currency appreciation economic divergence); NOT beautified: traditional fishery representatives feel real dissatisfaction and abandonment toward emerging-industry representatives' political squeeze, not a 'harmoniously resolved' issue, is 黑潮 contemporary politics' continuous debate theme",
+        "judiciary": "UNRESOLVED (not expanded this round)"
+      },
+      "authorDecisionRequired": "None — all judgments based on existing Canon necessary deduction (政教合一→non-democratic selection; no-unified-kingship tradition→no single head; mining fragmentation history→rotating confederation)"
+    },
+
+    "globalSystems": {
+      "凝界公约体系_CondensationBoundaryConvention": {
+        "whatItRegulates": {
+          "aiTechGovernance": "DIRECT CANON [L13.002] — world's first global tech-governance framework",
+          "militaryAINationalSecurity": "DIRECT CANON [L13.003] — military/national-security AI application strictly restricted",
+          "aiResourceSustainability": "DIRECT CANON [L17.005] — AI system resource-consumption sustainability (executed via 诺弧 凝散平衡审计)"
+        },
+        "memberRegions": "All five regional systems: 双河联邦, 维罗合众国, 中央海联合体, 诺弧高原祭司国, 黑潮共同体 [L13.002] DIRECT CANON",
+        "aiGovernance": {
+          "双核心": "维罗+中央海 [L13.002] DIRECT CANON",
+          "规则制定与伦理监督": "双河+诺弧 [L13.002] DIRECT CANON",
+          "算力中心选址地": "黑潮 [L13.002] DIRECT CANON",
+          "年度凝散平衡审计": "诺弧 [L13.003] DIRECT CANON"
+        },
+        "phiSafety": "凝散平衡审计 core metric directly from [-3] 散化趋势公理 [L17.005] DIRECT CANON",
+        "computationalResources": "UNRESOLVED — OP-L13-002 'compute allocation' framework details not expanded, OPEN",
+        "technologySharing": "UNRESOLVED — whether convention mandates compulsory tech-sharing not recorded",
+        "dataSovereignty": "UNRESOLVED — OP-L13-002 'data sovereignty' framework details not expanded, OPEN",
+        "internationalComplianceEnforcement": "INSTITUTIONAL GAP — whether convention has own permanent executive body, Master Canon does not record (inherited from INS-016 §5 UNRESOLVED); this archive does NOT擅自 create '凝界公约秘书处'",
+        "arbitration": "诺弧仲裁院 handles international economic/tech disputes [L15.004][L17.002] DIRECT CANON — but 诺弧仲裁院 itself ≠ convention's exclusive arbitration body; their relationship is RECONSTRUCTED SYSTEM (诺弧 naturally assumes part of convention-related dispute arbitration due to permanent-neutrality tradition and AI-ethics authority, but Master Canon does not clarify subordination vs parallel relationship)",
+        "violations": "UNRESOLVED — specific consequences/sanctions for violation not recorded",
+        "coreReminder": "凝界公约 NOT a world government. It is a multilateral protocol framework focused on AI tech governance; five regional systems maintain multipolar balance [L17.001] under this framework, each retaining independent political/legal/economic sovereignty. This archive does NOT upgrade it to centralist institution."
+      },
+      "五区贸易理事会_FiveRegionTradeCouncil": "[L12.004][L15.004] established after tariff war, coordinates trade policy of five regional systems DIRECT CANON. [L17.004] is the annual standing-agenda venue for '人本凝化主义 vs 散化保守主义' public-policy debate DIRECT CANON",
+      "凝晶矿多边监管机制": "Under 凝界公约 framework, supervises 维罗 quota-system transparency and fair allocation [L15.004] DIRECT CANON",
+      "诺弧仲裁院_NuoArcArbitrationCourt": "[L11.003][L12.004][L17.002] modern judicialization continuation of permanent-neutrality tradition, handles international economic and tech disputes DIRECT CANON"
+    },
+
+    "trade": {
+      "globalTradeFlow": {
+        "canonStatus": "RECONSTRUCTED SYSTEM",
+        "flows": [
+          {"from": "双河", "to": "全球", "content": "粮食出口, [L15.001] world's largest grain exporter"},
+          {"from": "维罗", "to": "全球", "content": "凝晶矿+半导体硬件出口, [L15.001][L13.001]"},
+          {"from": "中央海", "to": "全球", "content": "金融/定价服务, [L15.001] resources at periphery, pricing power at center"},
+          {"from": "诺弧", "to": "全球", "content": "伦理审计/仲裁服务, [L15.002] knowledge economy"},
+          {"from": "黑潮", "to": "全球", "content": "凝辉矿+算力租赁, [L15.001][L15.002]"}
+        ]
+      },
+      "globalFinancialFlow": {
+        "canonStatus": "RECONSTRUCTED SYSTEM",
+        "hub": "中央海 as capital hub, provides capital support to 维罗 (semiconductor R&D/production financing) and 黑潮 (compute-infrastructure construction financing); specific flow mechanism, investment/financing tools UNRESOLVED"
+      },
+      "globalComputeFlow": {
+        "canonStatus": "RECONSTRUCTED SYSTEM",
+        "chain": "维罗 (hardware output) → 黑潮 (compute deployment/leasing) → 全球五方 (compute usage); 诺弧 audits entire flow for Φ sustainability [L13.003]"
+      },
+      "globalResourcePhiFlow": {
+        "canonStatus": "RECONSTRUCTED SYSTEM整合 on DIRECT CANON basis",
+        "keyResources": {
+          "凝晶矿_main": "维罗 controls main mining belt [L15.001] DIRECT CANON",
+          "凝辉矿_secondary": "黑潮 controls [L15.001] DIRECT CANON — AI hardware industry secondary key material"
+        },
+        "governanceTwoPillars": {
+          "extractionEnd": "维罗配额制 + 凝晶矿多边监管机制 [L15.004] — extraction-end supervision",
+          "consumptionEnd": "诺弧 凝散平衡审计 [L13.003] — consumption-end supervision (AI system operation)",
+          "integration": "RECONSTRUCTED SYSTEM integrated statement — the two constitute the world's Φ-resource governance's two pillars"
+        }
+      },
+      "monetarySystem_appendixV2": {
+        "note": "From PART VIII APPENDIX I; v2.0 newly establishes five currencies (base v1.0 Monetary Structure was UNRESOLVED — identified as highest-leverage structural gap in Blueprint §2)",
+        "currencies": [
+          {"civ": "双河联邦", "name": "契粮 (Qì Liáng)", "nature": "Agricultural surplus guaranteed currency → contemporary independent credit currency"},
+          {"civ": "维罗合众国", "name": "炉衡 (Lú Héng)", "nature": "Historical metal-standard → contemporary independent credit currency (kept name)"},
+          {"civ": "中央海联合体", "name": "潮结 (Cháo Jié)", "nature": "Credit currency, de-facto international settlement/reserve currency"},
+          {"civ": "诺弧高原祭司国", "name": "衡照 (Héng Zhào)", "nature": "Mainly inter-institutional settlement + symbolic capital, low daily circulation"},
+          {"civ": "黑潮共同体", "name": "汐熔 (Xī Róng)", "nature": "Historically small circulation, recently rapidly rising due to compute-leasing economy; most violently changing"}
+        ],
+        "crossBorderSettlement": "RECONSTRUCTED SYSTEM — under 五区贸易理事会 [L15.004] framework, actual settlement convention uses 潮结 as anchor currency, other four currencies have floating exchange rates with 潮结. NOT formal legal mandatory clause (Master Canon does not record 凝界公约 or 贸易理事会 having mandatory currency-unification power); historically formed market convention, marked RECONSTRUCTED SYSTEM not DIRECT CANON",
+        "socialTensions": {
+          "维罗": "Technical-bureaucrat class embraces credit-currency international liquidity; traditional mining conservatives nostalgic for '炉衡 once pegged to real mineral wealth', think pure credit currency 'detached from 凝晶矿 real value' — concrete monetary projection of 维罗 技术乐观主义 vs 散化保守主义 tension",
+          "黑潮": "汐熔 appreciation's purchasing-power boost benefits emerging compute-industry practitioners, but traditional fishery/shipping practitioners' income not synchronously growing — one of most direct wealth-gap clues in contemporary 黑潮 society",
+          "中央海": "潮结 international dominance is source of pride for 中央海 secular identity ('our currency used worldwide'), but also criticized by OP-L16-001 cultural-identity-vacuum movement ('we turned ourselves into pure settlement tools') — two-sided real social contradiction, not one-dimensional glory narrative"
+        }
+      }
+    },
+
+    "data": {
+      "globalDataFlow": {
+        "canonStatus": "RECONSTRUCTED SYSTEM",
+        "flow": "中央海 (data-capital core) ↔ 黑潮 (data physical hosting, due to compute-center site selection); OP-L13-002 data-sovereignty framework undefined, specific flow rules OPEN"
+      },
+      "centralSea_dataCore": {
+        "canonStatus": "RECONSTRUCTED SYSTEM (information infrastructure)",
+        "note": "As data 双核心之一 [L13.002] and 凝度期货 market origin [L15.003], 中央海 contemporary information/data infrastructure theoretically highly developed, is one of world's most concentrated data-processing-capability regions; BUT specific system architecture, market share, user scale all UNRESOLVED, not created. Data-sovereignty issue (OP-L13-002) directly related to 中央海 data-core status, is OPEN issue"
+      },
+      "digitalIdentity": "UNRESOLVED — all five civilizations, whether unified citizen-data-management system exists completely undefined; archive does NOT擅自 establish global or domestic identity system"
+    },
+
+    "aiSupplyChain": {
+      "canonStatus": "RECONSTRUCTED SYSTEM (each step verified against Canon as below)",
+      "chain": [
+        {"step": 1, "civ": "维罗", "role": "硬件生产 (hardware production)", "canon": "凝晶基半导体规模化生产 [L13.001] DIRECT CANON"},
+        {"step": 2, "civ": "中央海", "role": "资本/数据 (capital/data)", "canon": "数据/资本双核心 [L13.002] DIRECT CANON"},
+        {"step": 3, "civ": "黑潮", "role": "算力托管 (compute hosting)", "canon": "大型算力中心选址地 [L13.002] DIRECT CANON"},
+        {"step": 4, "civ": "诺弧", "role": "伦理审计 (ethics audit)", "canon": "年度凝散平衡审计 [L13.003] DIRECT CANON"},
+        {"step": 5, "civ": "双河", "role": "规则制定参与 (rule-making participation)", "canon": "凝界公约规则制定角色 [L13.002] DIRECT CANON"}
+      ],
+      "importantCaveat": "Each step's Canon basis is direct citation, BUT the 'chain' itself's order arrangement and upstream-downstream dependency (e.g., '维罗-produced hardware must be transported to 黑潮 for deployment' specific logistics path) is this archive's systemic reconstruction, RECONSTRUCTED SYSTEM, NOT Master Canon verbatim-specified supply-chain flowchart"
+    },
+
+    "internationalOrganizations": [
+      {"name": "凝界公约 (Condensation Boundary Convention)", "type": "Multilateral protocol framework for AI tech governance", "members": "Five regional systems", "note": "NOT a world government"},
+      {"name": "五区贸易理事会 (Five-Region Trade Council)", "type": "Trade policy coordination body", "origin": "Established after tariff war [L12.004][L15.004]", "additionalFunction": "Annual standing-agenda venue for 人本凝化主义 vs 散化保守主义 public-policy debate [L17.004]"},
+      {"name": "凝晶矿多边监管机制 (Crystal-Mine Multilateral Supervision Mechanism)", "type": "Resource governance body under 凝界公约 framework", "function": "Supervises 维罗 quota-system transparency and fair allocation [L15.004]"},
+      {"name": "诺弧仲裁院 (Nuo Arc Arbitration Court)", "type": "International judicial body", "function": "Handles international economic and tech disputes [L11.003][L12.004][L17.002]", "note": "Not 凝界公约 exclusive arbitration body; relationship RECONSTRUCTED SYSTEM"}
+    ],
+
+    "openSystemQuestions": [
+      {"id": "OSQ-001", "question": "凝界公约是否拥有常设执行机构？", "status": "INSTITUTIONAL GAP", "note": "不擅自创造 (does not arbitrarily create)"},
+      {"id": "OSQ-002", "question": "五大文明是否存在统一或各自独立的货币体系？", "status": "UNRESOLVED"},
+      {"id": "OSQ-003", "question": "数据主权框架（OP-L13-002延伸）具体如何在中央海（数据核心）与黑潮（物理托管地）之间分配？", "status": "OPEN"},
+      {"id": "OSQ-004", "question": "黑潮的凝辉矿资源管理是否采用类似维罗配额制的机制，还是完全不同的制度？", "status": "UNRESOLVED"},
+      {"id": "OSQ-005", "question": "维罗配额制与诺弧凝散平衡审计的技术标准是否统一衔接？", "status": "OPEN"},
+      {"id": "OSQ-006", "question": "五大文明是否存在统一的社会保障最低标准，还是完全各自独立？", "status": "UNRESOLVED"},
+      {"id": "OSQ-007", "question": "若全球AI供应链某一节点（如黑潮算力中心）出现重大故障，将如何影响其余四个文明？", "status": "RECONSTRUCTED SYSTEM / STORY HOOK", "specialNote": "MIXED NATURE — RECONSTRUCTED SYSTEM-level systemic logic deduction: 维罗 hardware production would lose deployment site, 中央海 capital market may face AI-asset-valuation shock, 诺弧 audit-object scale shrinks, 双河 rule-making role may face emergency-coordination pressure; BUT this is ONLY systemic logic deduction, does NOT constitute confirmed crisis-response institution; marked RECONSTRUCTED SYSTEM / STORY HOOK"},
+      {"id": "OSQ-008", "question": "双河联邦国内是否存在与凝统正道分离的世俗法律体系，还是二者高度融合？", "status": "UNRESOLVED"},
+      {"id": "OSQ-009", "question": "诺弧的'知识经济'具体收费/结算机制是什么？", "status": "UNRESOLVED"},
+      {"id": "OSQ-010", "question": "五大文明的教育体系是否存在跨文明学历互认机制？", "status": "UNRESOLVED"}
+    ],
+
+    "modernAudit": {
+      "canonIntegrity": "No — did not modify Master Canon or prior eight docs",
+      "systemIntegrity": "基本自洽 (basically self-consistent) — Modern System Conflicts chapter systematically checked 8 categories (political/legal/economic/AI/data/resource/Φ/institutional); only [L13.007] AI-ethics dispute is Master-Canon-confirmed real institutional divergence, others marked OPEN SYSTEM QUESTION or UNRESOLVED rather than forced CANON CONFLICT; no two systems found mutually incompatible",
+      "politicalIntegrity": "No — all five civilizations' Head of State/Executive/Legislature honestly marked UNRESOLVED, no real-world presidential/monarchical/parliamentary frameworks imposed",
+      "economicIntegrity": "No — no currency names, tax rates, wage numbers created; Monetary Structure explicitly UNRESOLVED, taxation discussed as RECONSTRUCTED SYSTEM reasonable-source types, no concrete numbers",
+      "technologyIntegrity": "Yes — AI supply chain, compute system, Φ governance strictly aligned with [L13][L15] established tech/industry division (维罗 hardware, 中央海 capital-data, 黑潮 compute, 诺弧 ethics), no tech misplacement",
+      "aiIntegrity": "No — all five civilizations' AI sections and Modern System Conflicts AI Conflict part, OP-L13-001 explicitly marked OPEN; [L13.007] conservative/progressive dispute honestly presented as existing thought divergence not this archive's adjudicated conclusion",
+      "phiIntegrity": "No — 维罗 quota system, 诺弧 凝散平衡审计 'existence' parts marked DIRECT CANON (explicit textual support), but specific quantitative standards, execution details marked RECONSTRUCTED SYSTEM / UNRESOLVED / OPEN (OP-L15-001 etc.), deduction content not disguised as confirmed policy",
+      "institutionalIntegrity": "No — no specific institution names created (did not invent '凝界公约秘书处'); 凝界公约 'whether has permanent executive body' explicitly marked INSTITUTIONAL GAP; university/bank/company sections all discuss 'institutional-type existence reasonableness', not concrete institution names",
+      "civilizationIntegrity": "Yes — Modern Systems Comparison Matrix shows five civilizations maintain distinct differences in Legal (资源法/商法/AI伦理法 three strengths correspond to 维罗/中央海/诺弧), Energy (黑潮 CANON-level geothermal vs others UNRESOLVED), Compute (黑潮 CANON-level compute-center vs others INFERENCE/UNRESOLVED); no institutional homogenization",
+      "globalIntegrity": "No CANON CONFLICT-level global system conflicts found; Global AI Supply Chain each link verified against Canon; chain order itself marked RECONSTRUCTED SYSTEM not confirmed fact; 凝界公约 throughout not upgraded to world government",
+      "inferenceCount": "~90+ INFERENCE marks, concentrated in Vocational Education/Transportation/Labor transition logic/AI as Tool",
+      "reconstructedSystemCount": "~130+ RECONSTRUCTED SYSTEM marks (most numerous, consistent with this stage's 'allow more active RECONSTRUCTED SYSTEM' positioning), concentrated in Legal (each civ's strength areas)/Labor transition chains/Global Flow series/Institutional Life Course",
+      "unresolvedCount": "~180+ UNRESOLVED marks, concentrated in Political (all five civs' Head of State)/Healthcare (all civs all subitems)/Welfare (all civs)/Housing (inherited from Social Life Archive)/Digital Identity (all civs)",
+      "proposedSystemCount": "2 explicit PROPOSED SYSTEM (social-security minimum mechanism, mining occupational-injury guarantee), clearly marked 'future candidate, not in canon'",
+      "newHardCanonCount": "0 in base v1.0 (APPENDIX v2.0 added NEW HISTORICAL CANON for currency system + political governance + healthcare system)"
+    },
+
+    "storyReadySystemInterfaces": {
+      "note": "SYSTEM INTERFACE, not fiction characters",
+      "categories": {
+        "Student": {
+          "needs": [
+            "教育制度 (RECONSTRUCTED SYSTEM exists, details UNRESOLVED)",
+            "身份登记 (UNRESOLVED)",
+            "交通 (各文明 INFERENCE)",
+            "AI课堂应用 (UNRESOLVED)"
+          ]
+        },
+        "Worker": {
+          "needs": [
+            "劳动合同/工资制度 (UNRESOLVED)",
+            "税收 (RECONSTRUCTED SYSTEM exists, tax types UNRESOLVED)",
+            "住房 (SOCIAL GAP)",
+            "医保 (UNRESOLVED)",
+            "AI对岗位的影响 (各文明 RECONSTRUCTED SYSTEM transition logic, specific degree UNRESOLVED)"
+          ]
+        },
+        "Researcher": {
+          "needs": [
+            "大学/科研机构 (RECONSTRUCTED SYSTEM existence necessity, specific institution names不予创造)",
+            "数据 (中央海 CANON core resource)",
+            "AI (各文明分工 CANON)",
+            "跨国合作 (凝界公约框架 CANON exists, specific project-level cooperation mechanism UNRESOLVED)"
+          ]
+        },
+        "Entrepreneur": {
+          "needs": [
+            "银行/投资体系 (中央海 CANON historical status, specific financial tools UNRESOLVED)",
+            "公司制度 (UNRESOLVED — Master Canon does not define any company-law/enterprise-organization form)",
+            "税 (RECONSTRUCTED SYSTEM exists, details unclear)",
+            "国际贸易 (五区贸易理事会 CANON framework exists)"
+          ]
+        },
+        "AIEngineer": {
+          "needs": [
+            "计算资源 (维罗硬件 CANON + 黑潮托管 CANON)",
+            "数据 (中央海 CANON)",
+            "AI治理 (凝界公约 CANON framework, 诺弧审计 CANON)",
+            "职业伦理 (呼应 [L13.007] conservative/progressive dispute, CANON that dispute exists within 诺弧 AI-ethics community, engineer group's own ethics-stance distribution UNRESOLVED)"
+          ]
+        },
+        "OrdinaryElder": {
+          "needs": [
+            "退休制度 (UNRESOLVED)",
+            "医疗 (UNRESOLVED)",
+            "社会保障 (UNRESOLVED / PROPOSED SYSTEM)",
+            "家庭 (SOCIAL GAP, inherited from Social Life Archive)"
+          ]
+        }
+      }
+    },
+
+    "modernSystemsComparisonMatrix": {
+      "note": "Verbatim system-vs-civilization matrix",
+      "systems": {
+        "Political": {"双河": "UNRESOLVED (联邦形式 CANON)", "维罗": "UNRESOLVED (邦联形式 CANON)", "中央海": "UNRESOLVED (联合体形式 CANON)", "诺弧": "UNRESOLVED (政教合一 CANON)", "黑潮": "UNRESOLVED (共同体形式 CANON)"},
+        "Legal": {"双河": "UNRESOLVED", "维罗": "RECONSTRUCTED (资源法最强)", "中央海": "RECONSTRUCTED (商法最强)", "诺弧": "RECONSTRUCTED (AI伦理法最强)", "黑潮": "UNRESOLVED"},
+        "Education": {"双河": "UNRESOLVED", "维罗": "RECONSTRUCTED", "中央海": "RECONSTRUCTED", "诺弧": "RECONSTRUCTED", "黑潮": "UNRESOLVED"},
+        "Healthcare": {"双河": "UNRESOLVED", "维罗": "UNRESOLVED", "中央海": "UNRESOLVED", "诺弧": "UNRESOLVED", "黑潮": "UNRESOLVED"},
+        "Banking": {"双河": "UNRESOLVED", "维罗": "INFERENCE", "中央海": "CANON (银行体系起源)", "诺弧": "UNRESOLVED", "黑潮": "UNRESOLVED"},
+        "Taxation": {"双河": "UNRESOLVED", "维罗": "RECONSTRUCTED (资源税)", "中央海": "RECONSTRUCTED (交易税)", "诺弧": "RECONSTRUCTED (服务费)", "黑潮": "RECONSTRUCTED (资源/租赁费)"},
+        "Labor": {"双河": "RECONSTRUCTED (农业自动化)", "维罗": "RECONSTRUCTED (工业-半导体转型)", "中央海": "RECONSTRUCTED (金融-数据转型)", "诺弧": "RECONSTRUCTED (知识劳动特殊性)", "黑潮": "RECONSTRUCTED (渔业-算力转型)"},
+        "Welfare": {"双河": "UNRESOLVED", "维罗": "UNRESOLVED", "中央海": "UNRESOLVED", "诺弧": "UNRESOLVED", "黑潮": "UNRESOLVED"},
+        "Housing": {"双河": "SOCIAL GAP", "维罗": "SOCIAL GAP", "中央海": "SOCIAL GAP", "诺弧": "SOCIAL GAP", "黑潮": "SOCIAL GAP"},
+        "Transport": {"双河": "INFERENCE", "维罗": "INFERENCE", "中央海": "INFERENCE", "诺弧": "CANON (季节性陆桥限制)", "黑潮": "INFERENCE"},
+        "Internet": {"双河": "UNRESOLVED", "维罗": "UNRESOLVED", "中央海": "RECONSTRUCTED (数据核心)", "诺弧": "UNRESOLVED", "黑潮": "UNRESOLVED"},
+        "DigitalIdentity": {"双河": "UNRESOLVED", "维罗": "UNRESOLVED", "中央海": "UNRESOLVED", "诺弧": "UNRESOLVED", "黑潮": "UNRESOLVED"},
+        "AIGovernance": {"双河": "CANON (规则制定角色)", "维罗": "CANON (硬件双核心)", "中央海": "CANON (数据/资本双核心)", "诺弧": "CANON (伦理监督核心)", "黑潮": "CANON (算力中心角色)"},
+        "PhiGovernance": {"双河": "UNRESOLVED", "维罗": "CANON (配额制)", "中央海": "RECONSTRUCTED (金融化介入)", "诺弧": "CANON (凝散平衡审计)", "黑潮": "UNRESOLVED (无明确配额制记载)"},
+        "Energy": {"双河": "UNRESOLVED", "维罗": "UNRESOLVED (凝晶矿≠能源, 需区分)", "中央海": "Not applicable (数据/资本≠能源)", "诺弧": "UNRESOLVED", "黑潮": "CANON (地热)"},
+        "Compute": {"双河": "UNRESOLVED", "维罗": "INFERENCE (硬件产地非托管地)", "中央海": "INFERENCE (资本非物理算力)", "诺弧": "UNRESOLVED (非托管地)", "黑潮": "CANON (算力中心选址地)"},
+        "Trade": {"双河": "CANON (粮食出口)", "维罗": "CANON (凝晶矿+硬件出口)", "中央海": "CANON (定价权中心)", "诺弧": "RECONSTRUCTED (知识服务出口)", "黑潮": "CANON (凝辉矿+算力租赁)"}
+      }
+    },
+
+    "healthcareSystem_appendixV2": {
+      "note": "From PART VIII APPENDIX I (Healthcare System); NEW HISTORICAL CANON common tech base",
+      "commonTechBase": {
+        "name": "凝迹诊断技术 (Condensation-Trace Diagnostics)",
+        "canonStatus": "NEW HISTORICAL CANON",
+        "origin": "RECONSTRUCTED, directly from [L12.003] Φ-wave detection technology maturity (~120 years ago, HIS-EVT-057); ~100 years ago began being applied to human-body non-invasive scan diagnosis (after archaeology/geology/physics paradigm revolution) — extending established Φ-wave detection capability downstream per 'technology should produce social consequences' principle",
+        "capability": "Detects abnormal local Φ-response patterns in biological tissue (corresponding to inflammation, abnormal proliferation, etc.) — common technical base of world medical diagnosis",
+        "worldCausalCheck": "This tech extension does NOT alter [L12.003] original statement, only adds application scenarios; Physics→Technology→Daily Life chain self-consistent"
+      },
+      "perCivSystems": [
+        {"civ": "双河联邦", "name": "社区互助医疗 (Community Mutual-Aid Healthcare)", "canonStatus": "NEW HISTORICAL CANON", "features": "High basic coverage but specialist/severe-case resources concentrated at 双河交汇平台; real urban-rural gap (NOT beautified)"},
+        {"civ": "维罗合众国", "name": "职业健康保障体系 (Occupational Health Guarantee System)", "canonStatus": "RECONSTRUCTED", "features": "Industrial-worker guarantee level high, but mining vs semiconductor industries' guarantee standards have historical divergence; real fairness dispute within 维罗 society"},
+        {"civ": "中央海联合体", "name": "保险市场化体系 (Insurance Market-based System)", "canonStatus": "RECONSTRUCTED", "features": "Medical resources directly linked to payment capacity; most direct medical-inequality manifestation among five civilizations (NOT evaded)"},
+        {"civ": "诺弧高原祭司国", "name": "知识经济体最低保障 (Knowledge-Economy Minimum Guarantee)", "canonStatus": "RECONSTRUCTED", "features": "Basic guarantee solid, BUT specialist medical resources extremely scarce; severe-case patients need referral to 维罗 or 中央海; real material limitation beneath 'small nation big influence' halo"},
+        {"civ": "黑潮共同体", "name": "算力辅助远程医疗 (Compute-Assisted Remote Healthcare)", "canonStatus": "RECONSTRUCTED", "features": "Technologically perhaps most 'futuristic' medical system (compute advantage → medical-accessibility advantage), BUT traditional island communities have real distrust of 'handing body data to compute center' — tension echoes Wave 1 黑潮 new-vs-old industry political conflict"}
+      ],
+      "sharedPhilosophicalBase_death": {
+        "canonStatus": "NEW HISTORICAL CANON (philosophical level, not medical-institution level)",
+        "core": "[-3] 散化趋势公理 '全宇宙终极命运：平寂' confirmed as shared metaphysical background for five civilizations understanding death; but each civilization's specific interpretation path differs, NOT forcibly unified",
+        "perCiv": {
+          "双河": "凝统正道 '丰凝-枯散' cycle doctrine views death as part of natural rhythm [L16.001]",
+          "维罗": "炉火正神 occupational-ethics tradition, death often combined with 'completing a work/a life's craft' metaphor (INFERENCE)",
+          "中央海": "Due to religious secularization [L16.004], death interpretation highly privatized, no unified narrative framework",
+          "诺弧": "凝散不二论 views death as concrete case of 凝散平衡, the interpretation path closest to [-3] axiom original statement",
+          "黑潮": "CULTURAL GAP continues (this round still does not add 黑潮 independent death-religion interpretation, because 黑潮 religious/philosophical tradition itself remains the blank of [L9.003] list not covering; this archive does NOT arbitrarily fill this deeper Gap)"
+        }
+      }
+    }
+  }
+}

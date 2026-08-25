@@ -1,0 +1,1349 @@
+{
+  "meta": {
+    "sourceFile": "CDD_COMPLETE_WORLD_ARCHIVE_v2.0.md",
+    "sourceLines": "5320-8140",
+    "sourceDocument": "CDD_Institutional_Archive_v1.0.md + CDD_Civilization_Archive_v1.0.md (v2.0 APPENDIX included)",
+    "canonicality": "HISTORICAL EXPANSION CANON (RECONSTRUCTED为主 for Part VI)",
+    "extractionPolicy": "Structured extraction only. Fields not stated in source are marked UNRESOLVED. No facts invented. Chinese names preserved verbatim.",
+    "openIssues": [
+      "Issue 006 (中央海海洋同盟成立时间冲突) — kept OPEN, not adjudicated",
+      "GAP-INS-007 / GAP-CIV-007 (凝脊共和国与东阿斯兰王国当代命运) — Resolved in Part VI Section III",
+      "CANON CONFLICT-001 (S3诺弧群分化时间与波次4抵达时间矛盾) — kept OPEN",
+      "GAP-INS-008 (INS-015 联合实验室继承机构问题) — kept as INSTITUTIONAL GAP",
+      "GAP-CIV-008 (黑潮文明史前-古代记录缺失近2.8万年) — kept unresolved"
+    ]
+  },
+
+  "institutions": [
+    {
+      "instId": "INS-001",
+      "name": "双河大一统王朝",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A — State / Empire",
+        "civilization": "双河文明（[L9.001]约7000年前立国的双河文明是其前身）",
+        "era": "帝国时代最早崛起的政权；约4800年前统一；鼎盛期约4500–3800年前",
+        "status": "Dissolved",
+        "currentStatus": "已解体，向泛阿斯兰第二帝国过渡（约1600年 HISTORICAL GAP）"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L11.001]记载双河大一统王朝约4800年前统一双河平原与凝脊邦联，是帝国时代最早崛起的政权。",
+      "foundingContext": {
+        "政治": "双河文明（[L9.001]）与凝脊邦联（[L9.001]）此前存在冲突（HIS-EVT-027，约6000–5500年前）",
+        "经济": "农业盈余与凝脊山口贸易垄断",
+        "宗教": "[L9.003]凝散不二论前身信仰，尚未国教化",
+        "技术": "帝国时代早期技术水平，早期铁器尚未成熟",
+        "地理": "双河交汇平台",
+        "Φ环境": "UNRESOLVED（无直接记载）"
+      },
+      "purpose": "统一双河平原与凝脊邦联，建立区域性统一政权。",
+      "structure": "UNRESOLVED（Master Canon未载明具体行政/官僚结构，仅知为王权制；CHAR-001档案设定\"渠王\"为称号，属NEW CANON人物层面设定，非Master Canon机构结构事实）",
+      "resources": "土地：双河交汇平台及吞并的凝脊邦联领土；农业：灌溉农业盈余[L9.001]；贸易：凝脊山口贸易垄断（[L9.004]）",
+      "technologies": "灌溉农业技术；帝国时代早期技术水平，不掌握后世块炼铁/渗碳钢（那是[L11.004]鼎盛期末段才普及的，晚于本机构鼎盛期约2400年）",
+      "politicalRole": "双河平原地区的统一政权，帝国时代最早崛起的四大帝国之一",
+      "economicRole": "农业盈余转化为贸易主导权的经济基础，凝晶资源战争（HIS-EVT-038）的一方",
+      "religiousRole": "INFERENCE：可能是双河\"凝统正道\"国教化（[L11.003]）的政治前身载体，但国教化具体是否发生于本王朝统治期内UNRESOLVED",
+      "scientificRole": "无直接记录",
+      "militaryRole": "凝晶资源战争（HIS-EVT-038，约4000年前起持续约150年）的双方之一",
+      "culturalRole": "双河表意文字（[L14.002]约5300年前起源）的政治承载体",
+      "historicalEvents": [
+        "HIS-EVT-036（统一）",
+        "HIS-EVT-038（凝晶资源战争）"
+      ],
+      "historicalFigures": [
+        "CHAR-001（汜渠，NEW HISTORICAL CANON，战争决策者）"
+      ],
+      "rivalPartnerInstitutions": [
+        "维罗联合矿权（Rival，ESTABLISHED CANON，凝晶资源战争对手）",
+        "中央海贸易城邦群/海洋同盟（Partner/调停方，RECONSTRUCTED，见Issue 006）"
+      ],
+      "declineTransformation": "INSTITUTIONAL GAP：双河大一统王朝鼎盛期结束（约3800年前）到泛阿斯兰第二帝国崛起（约2200年前，[L11.001]记载后者为\"双河文明后继政权\"）之间约1600年的具体转型过程完全空白，不予填补",
+      "legacy": "CANON：作为泛阿斯兰第二帝国的前身文明基础（[L11.001]明确的\"后继政权\"关系）；INFERENCE：双河\"凝统正道\"文化正统性叙事的政治源头",
+      "cddPhiDimension": "无直接Canon关联；INFERENCE：其农业经济基础与[L8.002-b]\"农业是人为制造局部Φ异常的第一种大规模技术\"这一史前命题存在文化脉络关联，但本机构本身不涉及Φ理论或凝晶矿直接开发"
+    },
+
+    {
+      "instId": "INS-002",
+      "name": "凝脊邦联",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A/B — State / Political Polity（山地城邦联盟）",
+        "civilization": "早期古文明之一（与双河文明、维罗矿业王权等并列）",
+        "era": "约6500年前立国",
+        "status": "Dissolved",
+        "currentStatus": "UNRESOLVED（被双河大一统王朝统一后命运未载明；文化传统由凝脊共和国约5600年后重新继承）"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L9.001]记载凝脊邦联约6500年前立国，为山地城邦联盟。",
+      "foundingContext": {
+        "政治": "与双河文明毗邻，均属早期古文明",
+        "经济": "UNRESOLVED（具体经济基础未载明；INFERENCE：山地地形可能以矿产/山地农业为基础）",
+        "宗教": "UNRESOLVED",
+        "技术": "早期古文明技术水平",
+        "地理": "阿斯兰东缘凝脊山口，双河与维罗之间的传统贸易枢纽（[L9.002][L9.004]）",
+        "Φ环境": "UNRESOLVED"
+      },
+      "purpose": "山地城邦联盟自治",
+      "structure": "UNRESOLVED（\"联盟\"性质暗示多邦协商结构，但具体机制未载明）",
+      "resources": "山口贸易通道控制权（[L9.004]冶金/灌溉技术经此传播）",
+      "technologies": "早期古文明技术水平，符合[L8.002]技术8阶段中相应时期",
+      "politicalRole": "双河文明与维罗矿业王权之间的地理与政治缓冲/枢纽",
+      "economicRole": "山口贸易通道，[L9.004]记载灌溉农业技术经此从双河传入自身",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "无直接记录",
+      "militaryRole": "与双河文明的3次记录冲突（HIS-EVT-027，约6000–5500年前），最终形成朝贡-通商关系",
+      "culturalRole": "UNRESOLVED（文字体系未载明，见CHAR-007-B档案相关UNRESOLVED标注）",
+      "historicalEvents": [
+        "HIS-EVT-026（立国）",
+        "HIS-EVT-027（与双河冲突）",
+        "HIS-EVT-024（灌溉技术传入）"
+      ],
+      "historicalFigures": [],
+      "rivalPartnerInstitutions": [
+        "双河文明/双河大一统王朝（Rival→Partner，ESTABLISHED CANON，冲突后转为朝贡-通商关系）"
+      ],
+      "declineTransformation": "INSTITUTIONAL GAP：凝脊邦联（约6500年前立国）与双河大一统王朝统一（约4800年前\"统一双河平原与凝脊邦联\"）之间的关系演变——被吞并、纳入朝贡体系还是以其他形式并入未载明，仅知约4800年前统一结果。此后凝脊邦联作为独立政权是否继续存在UNRESOLVED。约5600年后由凝脊共和国（约1400–900年前，[L12.001]）重新继承\"山地城邦联盟\"传统，中间约5600年机构连续性INSTITUTIONAL GAP",
+      "legacy": "CANON：山地城邦联盟传统的文化源头，被凝脊共和国在文化脉络上继承；INFERENCE：凝脊共和国\"共和\"政体倾向可能溯源于本机构的多邦协商传统",
+      "cddPhiDimension": "无直接Canon关联"
+    },
+
+    {
+      "instId": "INS-003",
+      "name": "维罗矿业王权",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A — State / Mining Polity",
+        "civilization": "早期古文明之一",
+        "era": "约6000年前立国",
+        "status": "Dissolved",
+        "currentStatus": "UNRESOLVED（约4300年前维罗联合矿权形成，二者关系为RECONSTRUCTED继承，具体转型过程未载明）"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L9.001]记载维罗矿业王权约6000年前立国，冶金技术全球最先进的早期集权国家。",
+      "foundingContext": {
+        "政治": "早期集权王权国家",
+        "经济": "冶金技术垄断",
+        "技术": "当时最先进的冶金技术",
+        "地理": "维罗北缘矿脊（凝晶矿主矿带）[L2.003-a]",
+        "Φ环境": "地处凝晶矿富集区，但本机构存续期间尚无Φ理论认知"
+      },
+      "purpose": "集权统治，冶金技术垄断经济",
+      "structure": "UNRESOLVED（\"集权国家\"定性暗示中央集权结构，具体行政机制未载明）",
+      "resources": "凝晶矿矿脊、冶金技术",
+      "technologies": "当时最先进的冶金技术（[L9.001]），后续扩散至中央海（约5500年前）与阿斯兰南部（约5200年前，[L9.004]）",
+      "politicalRole": "早期集权王权国家的代表",
+      "economicRole": "冶金技术出口/贸易的起点",
+      "religiousRole": "INFERENCE：炉火正神信仰（[L9.003]）的早期载体，具体形成时间与本机构关系UNRESOLVED",
+      "scientificRole": "无直接记录（早于CDD理论确立约5800年）",
+      "militaryRole": "无直接记录",
+      "culturalRole": "维罗表音音节文字起源（[L9.004]约5100年前）",
+      "historicalEvents": [
+        "HIS-EVT-028（立国）",
+        "HIS-EVT-031（冶金技术扩散至中央海）",
+        "HIS-EVT-034（维罗文字出现）"
+      ],
+      "historicalFigures": [],
+      "rivalPartnerInstitutions": [
+        "中央海贸易城邦群（Partner，ESTABLISHED CANON，冶金技术贸易伙伴）"
+      ],
+      "declineTransformation": "INSTITUTIONAL GAP：维罗矿业王权（约6000年前）到维罗联合矿权形成（约4300年前）之间约1700年的具体转型过程未载明，仅知二者均立足维罗大陆并以冶金/矿业为经济基础，RECONSTRUCTED为制度继承关系",
+      "legacy": "CANON：维罗矿业/冶金传统的历史源头，为维罗联合矿权、维罗合众国的一贯经济基础；INFERENCE：炉火正神信仰的历史起点",
+      "cddPhiDimension": "DIRECT CANON：地处凝晶矿富集区，是本世界最早系统性开发凝晶矿资源的政权，但本机构存续期间无Φ理论认知，仅有冶金工艺经验"
+    },
+
+    {
+      "instId": "INS-004",
+      "name": "中央海贸易城邦群",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type B/C — Political / Economic Organization",
+        "civilization": "早期古文明之一",
+        "era": "约5800年前立国",
+        "status": "Dissolved",
+        "currentStatus": "约3600年前正式化为中央海海洋同盟（RECONSTRUCTED继承，见Issue 006）"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L9.001]记载中央海贸易城邦群约5800年前立国，无统一王权的商业航海文明。",
+      "foundingContext": {
+        "政治": "无统一王权，多城邦并立",
+        "经济": "航海贸易",
+        "宗教": "[L9.003]宗教宽容传统（潮汐诸灵信仰的多元并存）",
+        "技术": "航海技术、灌溉农业技术传入（约5800年前，[L9.004]，与本机构立国同期）",
+        "地理": "中央海沿岸",
+        "Φ环境": "UNRESOLVED"
+      },
+      "purpose": "多城邦商业航海协作",
+      "structure": "UNRESOLVED（\"无统一王权\"暗示分散城邦结构，具体协调机制未载明）",
+      "resources": "航海贸易网络、多元宗教宽容带来的商业开放性",
+      "technologies": "航海贸易技术；冶金技术（约5500年前从维罗传入，[L9.004]）；表音字母文字（约5000年前，[L14.002]）",
+      "politicalRole": "分散城邦联合体，本世界最早的商业型（非王权型）政权组织",
+      "economicRole": "本世界早期贸易网络的核心枢纽",
+      "religiousRole": "潮汐诸灵信仰的宗教宽容传统 [L9.003]",
+      "scientificRole": "无直接记录（远早于CDD理论）",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "中央海表音字母文字起源（[L14.002]约5000年前），后成为国际通用文字基础",
+      "historicalEvents": [
+        "HIS-EVT-029（立国）",
+        "HIS-EVT-031（冶金技术传入）",
+        "HIS-EVT-035（字母文字出现）"
+      ],
+      "historicalFigures": [
+        "CHAR-002（漪商，CANDIDATE，因Issue 006未决而未转正）"
+      ],
+      "rivalPartnerInstitutions": [
+        "维罗矿业王权/维罗联合矿权（Partner/调停对象，ESTABLISHED CANON）",
+        "双河大一统王朝（调停对象，ESTABLISHED CANON，见Issue 006）"
+      ],
+      "declineTransformation": "约3600年前正式化为中央海海洋同盟（[L11.001]），RECONSTRUCTED继承关系；Issue 006：[L11.002]记载\"海洋同盟\"曾于约4000年前调停凝晶资源战争，早于其\"正式成立\"时间约400年，此矛盾在本档案第七部分专门处理，此处不重复裁决",
+      "legacy": "CANON：中央海海洋同盟、后续中央海联合体的历史前身；CANON：本世界通用文字（表音字母）的历史源头",
+      "cddPhiDimension": "无直接Canon关联"
+    },
+
+    {
+      "instId": "INS-005",
+      "name": "诺弧高原祭司国",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type D — Religious Polity",
+        "civilization": "早期古文明之一",
+        "era": "约5500年前立国",
+        "status": "Active",
+        "currentStatus": "未解体，持续存在至当代（[L12.001]\"诺弧高原祭司国维持中立传统至今\"）"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L9.001]记载诺弧高原祭司国约5500年前立国，政教合一小国，文化影响力大。",
+      "foundingContext": {
+        "政治": "政教合一",
+        "宗教": "源于[L8.003]#5岩棚壁画的文化传承（[L16.801]关键推论链条起点）",
+        "技术": "UNRESOLVED",
+        "地理": "诺弧高原",
+        "Φ环境": "UNRESOLVED（早于Φ理论认知约5300年）"
+      },
+      "purpose": "政教合一治理，宗教文化中心",
+      "structure": "UNRESOLVED（\"政教合一\"暗示祭司即统治者，具体行政结构未载明）",
+      "resources": "文化/宗教影响力（\"文化影响力大\"，[L9.001]），非军事/经济体量",
+      "technologies": "UNRESOLVED（早期）",
+      "politicalRole": "本世界唯一持续5500年、名称与地位从未中断的政权实体——历经帝国时代（HIS-EVT-045后仍独立存在）、近代国家体系确立（[L12.001]），始终维持独立地位",
+      "economicRole": "UNRESOLVED（早期），近代起国际仲裁/学术中心地位间接带来影响力（非直接经济产出记录）",
+      "religiousRole": "\"凝散不二论\"哲学/宗教传统的发源地（[L9.003]），后经现代重新诠释成为CDD理论三大思想源流之一（HIS-EVT-056）",
+      "scientificRole": "近代（约180年前起）成为CDD理论确立的关键贡献方之一，当代成为AI伦理与哲学研究中心（[L13.002]）",
+      "militaryRole": "\"永久中立\"传统（[L11.003]），未见任何军事扩张记录",
+      "culturalRole": "诺弧文字（[L14.002]）；诺弧二元对称美学（[L16.003]，后被凝界公约采纳为官方视觉标识）",
+      "historicalEvents": [
+        "HIS-EVT-030（立国）",
+        "HIS-EVT-056（CDD理论确立，哲学传统贡献方）",
+        "HIS-EVT-063（凝界公约，AI伦理监督角色）"
+      ],
+      "historicalFigures": [
+        "寂观贤者（Associated Historical Figure，NEW HISTORICAL CANON，CDD理论哲学传统代表）",
+        "CHAR-013-D（寂明贤者，NEW HISTORICAL CANON，凝界公约诺弧代表）"
+      ],
+      "rivalPartnerInstitutions": [
+        "无记载的敌对关系（\"永久中立\"传统）",
+        "与维罗合众国、中央海联合体：CDD理论确立的Partner（RECONSTRUCTED，HIS-EVT-056）",
+        "与凝界公约体系：Overseer角色（ESTABLISHED CANON，[L13.002]）"
+      ],
+      "declineTransformation": "No decline recorded — institution persists continuously to present day. 这是本档案已知机构中唯一明确持续存在超过5500年而未解体、未更名的机构，具有特殊的制度稳定性地位",
+      "legacy": "CANON：CDD理论三大思想源流之一的哲学传统来源；CANON：当代AI伦理监督体系（凝散平衡审计）的制度性来源",
+      "cddPhiDimension": "DIRECT CANON：诺弧\"凝散不二论\"哲学传统直接对应[-3]散化趋势公理的早期哲学直觉表述，其现代重新诠释是CDD理论数学化（HIS-EVT-056）的关键贡献之一；当代主导\"凝散平衡审计\"机制（[L13.003][L17.005]），是唯一横跨史前岩画（[L8.003]）到当代AI治理（[L13]）全程参与Φ相关文化/科学演化的机构"
+    },
+
+    {
+      "instId": "INS-006",
+      "name": "维罗联合矿权",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A/C — State / Economic Organization",
+        "civilization": "维罗矿业王权（继承关系）",
+        "era": "约4300年前形成",
+        "status": "Dissolved",
+        "currentStatus": "约3000年前分裂为多个继承邦国"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L11.001]记载维罗联合矿权约4300年前形成（吞并周边小邦），本世界首个\"技术霸权型\"帝国。",
+      "foundingContext": {
+        "政治": "吞并周边小邦形成的技术霸权型帝国",
+        "经济": "冶金技术垄断的延续与扩张",
+        "技术": "延续维罗矿业王权的冶金技术优势",
+        "地理": "维罗大陆，北缘矿脊为核心矿区",
+        "Φ环境": "凝晶矿主矿带的持续开发"
+      },
+      "purpose": "整合维罗大陆矿业资源，确立技术霸权",
+      "structure": "UNRESOLVED",
+      "resources": "凝晶矿主矿带、冶金技术",
+      "technologies": "延续并发展冶金技术；开采强度超出[-3]散化趋势公理下自然Φ补充速率（HIS-EVT-040核心机制）",
+      "politicalRole": "帝国时代四大帝国之一（[L11.001]），本世界疆域内首个\"技术霸权型\"帝国",
+      "economicRole": "凝晶资源战争（HIS-EVT-038）一方；矿脉枯竭危机（HIS-EVT-040）的主体",
+      "religiousRole": "炉火正神信仰的政权载体（INFERENCE）",
+      "scientificRole": "无直接记录（早于CDD理论确立约4100年）",
+      "militaryRole": "凝晶资源战争（约4000年前起持续约150年）",
+      "culturalRole": "延续维罗表音音节文字传统",
+      "historicalEvents": [
+        "HIS-EVT-037（形成）",
+        "HIS-EVT-038（凝晶资源战争）",
+        "HIS-EVT-040（北缘矿脉枯竭危机）",
+        "HIS-EVT-041（分裂为继承邦国）"
+      ],
+      "historicalFigures": [
+        "CHAR-003（重铸，NEW HISTORICAL CANON，矿业主）",
+        "CHAR-004（邑分，NEW HISTORICAL CANON，继承邦国独立推动者）"
+      ],
+      "rivalPartnerInstitutions": [
+        "双河大一统王朝（Rival，ESTABLISHED CANON，凝晶资源战争对手）",
+        "中央海海洋同盟（调停方，RECONSTRUCTED，见Issue 006）"
+      ],
+      "declineTransformation": "北缘矿脉枯竭危机（约3300年前起）→ 帝国实力渐衰 → 约3000年前分裂为多个继承邦国（ESTABLISHED CANON，[L11.002]）。继承邦国具体名称/数量INSTITUTIONAL GAP（Master Canon仅笼统提及\"多个继承邦国\"）。约900年前，这些继承邦国重组为维罗合众国（[L12.001]），中间约2100年（约3000年前分裂到约900年前重组）的具体政治演变INSTITUTIONAL GAP",
+      "legacy": "CANON：维罗合众国的直接制度前身；CANON：[L15.001]限量开采配额制的历史教训来源；INFERENCE：[L16.002]散化保守主义哲学思潮的历史素材来源",
+      "cddPhiDimension": "DIRECT CANON：本机构的兴衰是[-3]散化趋势公理在文明尺度上最直接的历史案例——开采速率超出自然Φ补充速率导致资源枯竭与帝国分裂"
+    },
+
+    {
+      "instId": "INS-007",
+      "name": "中央海海洋同盟",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type B/F — Political / Naval Organization",
+        "civilization": "中央海贸易城邦群（继承关系）",
+        "era": "成立时间存在CANON CONFLICT",
+        "status": "Dissolved",
+        "currentStatus": "约600年前转型为中央海联合体"
+      },
+      "canonStatus": "ESTABLISHED CANON（机构存在本身），但成立时间存在CANON CONFLICT",
+      "historicalOrigin": "[L11.001]记载中央海海洋同盟约3600年前形成，松散海上同盟，从未完全统一但海军控制航线实现事实霸权。",
+      "canonConflictNote_Issue006": {
+        "summary": "INS-007（中央海海洋同盟）正式成立时间（约3600年前）晚于其\"调停凝晶资源战争\"的记载时间（约4000年前）约400年，即机构在\"正式成立前\"已具备机构功能（调停行为）。状态：OPEN，本档案不擅自裁决。",
+        "formalEstablishment": {
+          "time": "约3600年前",
+          "source": "[L11.001]"
+        },
+        "earlierCollectiveAction": {
+          "time": "可能早于正式成立（约4000年前凝晶资源战争调停行为）",
+          "source": "[L11.002]",
+          "status": "CANON CONFLICT / OPEN"
+        },
+        "proposedInterpretation_NON_BINDING": "PROPOSED INTERPRETATION：中央海贸易城邦群在正式形成\"海洋同盟\"之前，可能已存在非正式的跨城邦联合行动能力（呼应CHAR-002档案中的CANON PROPOSAL），约4000年前的调停可能是这种非正式联合行动的体现，而\"海洋同盟\"这一正式名称是约3600年前才确立的。此解释仅为PROPOSED INTERPRETATION，不构成对Issue 006的正式解决，冲突继续保持OPEN。"
+      },
+      "foundingContext": {
+        "政治": "中央海贸易城邦群的松散联合深化",
+        "经济": "航海贸易网络的军事化保护需求",
+        "技术": "远洋帆船技术（[L11.004]）",
+        "地理": "中央海沿岸",
+        "Φ环境": "UNRESOLVED"
+      },
+      "purpose": "控制中央海航线，保护贸易网络",
+      "structure": "UNRESOLVED（\"松散海上同盟，从未完全统一\"——结构本身即为非正式/非中央集权，具体协调机制未载明）",
+      "resources": "海军力量、远洋帆船技术、航线控制权",
+      "technologies": "远洋帆船技术 [L11.004]",
+      "politicalRole": "中央海地区的事实海上霸权，凝晶资源战争的调停方（见Issue 006）",
+      "economicRole": "航线控制带来的贸易主导权",
+      "religiousRole": "延续中央海宗教宽容传统",
+      "scientificRole": "无直接记录",
+      "militaryRole": "海军控制航线，凝晶资源战争调停中的军事威慑背景（INFERENCE）",
+      "culturalRole": "延续中央海表音字母文字传统",
+      "historicalEvents": [
+        "HIS-EVT-038（调停，时间存在Issue 006冲突）",
+        "HIS-EVT-039（正式形成）"
+      ],
+      "historicalFigures": [
+        "CHAR-002（漪商，CANDIDATE，因Issue 006未决保持候选状态，CANON PROPOSAL见其人物档案）"
+      ],
+      "rivalPartnerInstitutions": [
+        "双河大一统王朝、维罗联合矿权（调停对象，ESTABLISHED CANON）"
+      ],
+      "declineTransformation": "约600年前，中央海城邦正式合并为\"中央海联合体\"（[L12.001]），RECONSTRUCTED继承关系；中间约3000年（约3600年前到约600年前）本机构作为\"松散海上同盟\"的具体演变过程INSTITUTIONAL GAP",
+      "legacy": "CANON：中央海联合体的直接制度前身；CANON：中央海地区海上事务协调传统的历史源头",
+      "cddPhiDimension": "无直接Canon关联"
+    },
+
+    {
+      "instId": "INS-008",
+      "name": "泛阿斯兰第二帝国",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A — Empire",
+        "civilization": "双河文明后继政权",
+        "era": "约2200年前成立；鼎盛期约2000–1400年前；约1400–900年前渐进式解体",
+        "status": "Dissolved",
+        "currentStatus": "约900年前完成分裂为5个继承国"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L11.001]记载泛阿斯兰第二帝国约2200年前统一阿斯兰全境，双河文明后继政权。",
+      "foundingContext": {
+        "政治": "双河大一统王朝衰落后约1600年空白期（INSTITUTIONAL GAP）末尾的再统一",
+        "经济": "UNRESOLVED（统一初期经济基础未载明）",
+        "技术": "帝国时代早期至中期技术水平，鼎盛期末段（约1400年前）达到块炼铁/渗碳钢基线",
+        "地理": "阿斯兰全境",
+        "Φ环境": "无直接记录"
+      },
+      "purpose": "再统一阿斯兰全境，确立疆域最大的前现代帝国",
+      "structure": "UNRESOLVED（具体行政/军事制度未载明）",
+      "resources": "阿斯兰全境土地、黑潮弧群资源（含凝辉矿，INFERENCE）",
+      "technologies": "青铜/早期铁器（征服黑潮弧群时）；鼎盛期末段：块炼铁、渗碳钢、大型灌溉水利、远洋帆船、文字标准化、官方历法、天文观测仪器（[L11.004]）",
+      "politicalRole": "本世界疆域最大的前现代帝国",
+      "economicRole": "UNRESOLVED（具体经济政策未载明）",
+      "religiousRole": "INFERENCE：延续双河\"凝统正道\"文化正统性",
+      "scientificRole": "[L11.004]记载凝晶矿精密加工工艺用于天文观测仪器制造，\"为后续L12科学革命埋下伏笔\"",
+      "militaryRole": "黑潮征服战役（HIS-EVT-043，约2100年前）——本世界首次跨海大规模军事行动",
+      "culturalRole": "文字标准化、官方历法（[L11.004]）",
+      "historicalEvents": [
+        "HIS-EVT-042（统一）",
+        "HIS-EVT-043（黑潮征服战役）",
+        "HIS-EVT-044（鼎盛期结束）",
+        "HIS-EVT-045（渐进式解体）"
+      ],
+      "historicalFigures": [
+        "CHAR-005（泛延，NEW HISTORICAL CANON，统一者，仅HIS-EVT-042的Founder/Unifier，与HIS-EVT-043无直接关系）",
+        "CHAR-006（潮断，NEW HISTORICAL CANON，黑潮征服战役独立核心将领）"
+      ],
+      "rivalPartnerInstitutions": [
+        "黑潮弧群（被征服方，ESTABLISHED CANON）"
+      ],
+      "declineTransformation": "鼎盛期约2000–1400年前 → 约1400年前起渐进式解体 → 约900年前完成分裂为5个继承国（双河联邦、凝脊共和国、东阿斯兰王国、及2个未命名继承国）。解体具体触发因素INSTITUTIONAL GAP（OP-L11-002明确列为未解决问题）",
+      "legacy": "CANON：5个近代继承国的直接制度前身；CANON：诺弧高原祭司国\"维持中立传统至今\"这一表述暗示本帝国鼎盛期未吞并诺弧（[L12.001]）",
+      "cddPhiDimension": "INFERENCE：若黑潮弧群确为高Φ区域（OP-L2-006未决），则本帝国通过征服获得对该区域凝辉矿资源的控制权，但本机构存续期间无CDD理论认知"
+    },
+
+    {
+      "instId": "INS-009",
+      "name": "双河联邦",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A — State / Federation",
+        "civilization": "泛阿斯兰第二帝国（继承关系）",
+        "era": "约1400–900年前成立（泛阿斯兰第二帝国渐进解体期，[L12.001]记载为5继承国之一）",
+        "status": "Active",
+        "currentStatus": "未解体，持续存在至当代"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L12.001]记载双河联邦为泛阿斯兰第二帝国5继承国之一。",
+      "foundingContext": {
+        "政治": "帝国解体期地方自治诉求",
+        "经济": "延续双河农业传统",
+        "技术": "帝国鼎盛期末段技术基线",
+        "地理": "双河流域",
+        "Φ环境": "UNRESOLVED"
+      },
+      "purpose": "双河流域独立自治，恢复农业文明正统地位",
+      "structure": "\"联邦\"（Federation）——UNRESOLVED具体联邦制细节",
+      "resources": "双河流域农业资源",
+      "technologies": "约480年前实现农业机械化（[L12.002]）",
+      "politicalRole": "当代五大区域体系之一",
+      "economicRole": "[L15.002]\"农业+轻工业模式\"经济体；凝界公约中扮演\"规则制定\"角色之一（[L13.002]）",
+      "religiousRole": "延续凝统正道\"丰凝-枯散\"周期性平衡教义（[L16.001]）",
+      "scientificRole": "UNRESOLVED（未见其作为CDD理论确立三大思想源流之一被记载，该荣誉属于维罗/中央海/诺弧）",
+      "militaryRole": "维罗-双河关税战争（HIS-EVT-055，约200年前）一方",
+      "culturalRole": "双河表意文字持续使用（[L14.003]当代仍占主导地位）",
+      "historicalEvents": [
+        "HIS-EVT-045/046（成立）",
+        "HIS-EVT-049（农业机械化）",
+        "HIS-EVT-055（关税战争）",
+        "HIS-EVT-063（凝界公约，规则制定角色）"
+      ],
+      "historicalFigures": [
+        "CHAR-007-A（沃汜，NEW HISTORICAL CANON，开国者）",
+        "CHAR-013-C（禾谏，NEW HISTORICAL CANON，凝界公约谈判代表）"
+      ],
+      "rivalPartnerInstitutions": [
+        "维罗合众国（Rival，ESTABLISHED CANON，关税战争对手）",
+        "凝界公约体系（Member/Rule-maker，ESTABLISHED CANON）"
+      ],
+      "declineTransformation": "No decline recorded — institution persists to present day.",
+      "legacy": "CANON：当代五大区域体系之一，持续存在",
+      "cddPhiDimension": "无直接Canon关联（非CDD理论三大源流之一）"
+    },
+
+    {
+      "instId": "INS-010",
+      "name": "凝脊共和国",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A — State / Republic",
+        "civilization": "泛阿斯兰第二帝国（继承关系）；文化上继承凝脊邦联\"山地城邦联盟\"传统",
+        "era": "约1400–900年前成立（泛阿斯兰第二帝国渐进解体期）",
+        "status": "Active (Resolved in Part VI Section III)",
+        "currentStatus": "独立存续至今，未加入五大区域体系；以\"中立贸易走廊\"身份存续，在凝界公约框架下持有观察员/联系方地位（NEW HISTORICAL CANON, RECONSTRUCTED）"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L12.001]记载凝脊共和国为泛阿斯兰第二帝国5继承国之一。",
+      "foundingContext": {
+        "政治": "延续凝脊邦联山地城邦联盟传统的共和倾向",
+        "经济": "UNRESOLVED",
+        "技术": "帝国鼎盛期末段技术基线",
+        "地理": "凝脊山口",
+        "Φ环境": "UNRESOLVED"
+      },
+      "purpose": "建立共和而非王权体制，避免重蹈集权帝国覆辙",
+      "structure": "\"共和国\"（Republic）——UNRESOLVED具体共和制细节",
+      "resources": "UNRESOLVED",
+      "technologies": "帝国鼎盛期末段技术基线",
+      "politicalRole": "UNRESOLVED（当代五大区域体系为双河/维罗/中央海/诺弧/黑潮，凝脊共和国不在当代五大区域体系之列——见Institutional Gaps；Part VI Section III已解决为独立存续的第六个、非正式政治实体）",
+      "economicRole": "UNRESOLVED",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "UNRESOLVED",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "UNRESOLVED",
+      "historicalEvents": [
+        "HIS-EVT-045（成立）"
+      ],
+      "historicalFigures": [
+        "CHAR-007-B（岩契，NEW HISTORICAL CANON，开国者）"
+      ],
+      "rivalPartnerInstitutions": "UNRESOLVED",
+      "declineTransformation": "原INSTITUTIONAL GAP：凝脊共和国成立后到当代之间的发展路径完全未载明，且当代\"五大区域体系\"不包含凝脊共和国——Part VI Section III已Resolve：凝脊共和国凭借凝脊山口地理优势，主动选择不并入任何一方，以\"中立贸易走廊\"身份存续至今，在凝界公约框架下持有观察员/联系方地位",
+      "legacy": "CANON：泛阿斯兰第二帝国5继承国之一的历史地位；当代地位（Resolved）：本世界地图上第六个、但非正式的政治实体——不属于五大区域体系，人口/经济体量小，但因控制双河-维罗贸易走廊而具备事实上的地缘不可替代性",
+      "cddPhiDimension": "无直接Canon关联"
+    },
+
+    {
+      "instId": "INS-011",
+      "name": "东阿斯兰王国",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A — State / Kingdom",
+        "civilization": "泛阿斯兰第二帝国（继承关系，宗室血统）",
+        "era": "约1400–900年前成立（泛阿斯兰第二帝国渐进解体期）",
+        "status": "Dissolved (Resolved in Part VI Section III)",
+        "currentStatus": "并入双河联邦（NEW HISTORICAL CANON, RECONSTRUCTED）——约900年前之后一段较长历史时期内通过渐进政治协商并入双河联邦，保留东阿斯兰宗室后裔的礼仪性/文化性地位"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L12.001]记载东阿斯兰王国为泛阿斯兰第二帝国5继承国之一。",
+      "foundingContext": {
+        "政治": "帝国宗室旁支的正统性延续",
+        "技术": "帝国鼎盛期末段技术基线",
+        "地理": "阿斯兰东部",
+        "Φ环境": "UNRESOLVED"
+      },
+      "purpose": "延续帝制正统性叙事",
+      "structure": "\"王国\"（Kingdom）——王权制，UNRESOLVED具体细节",
+      "resources": "UNRESOLVED",
+      "technologies": "帝国鼎盛期末段技术基线",
+      "politicalRole": "UNRESOLVED（同凝脊共和国，原不在当代五大区域体系之列；Part VI Section III已解决为并入双河联邦）",
+      "economicRole": "UNRESOLVED",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "UNRESOLVED",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "UNRESOLVED",
+      "historicalEvents": [
+        "HIS-EVT-045（成立）"
+      ],
+      "historicalFigures": [
+        "CHAR-007-C（弧衍，NEW HISTORICAL CANON，开国者）"
+      ],
+      "rivalPartnerInstitutions": "UNRESOLVED",
+      "declineTransformation": "原INSTITUTIONAL GAP：同凝脊共和国，东阿斯兰王国建立后的发展路径与最终命运完全未载明——Part VI Section III已Resolve：东阿斯兰王国通过渐进的政治协商而非军事征服并入双河联邦，条件是保留东阿斯兰宗室后裔的礼仪性/文化性地位（不再拥有实际政治权力），类似于\"荣誉性历史身份\"的当代残留",
+      "legacy": "CANON：泛阿斯兰第二帝国5继承国之一，帝制正统性叙事的延续者；当代地位（Resolved）：作为\"帝国最后一块碎片主动回归其政治母体\"的历史收束，为双河联邦当代身份认同提供新的历史纵深",
+      "cddPhiDimension": "无直接Canon关联"
+    },
+
+    {
+      "instId": "INS-012",
+      "name": "维罗合众国",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A — State / Confederation",
+        "civilization": "维罗联合矿权继承邦国（继承关系）",
+        "era": "约900年前重组",
+        "status": "Active",
+        "currentStatus": "未解体，持续存在至当代"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L12.001]记载维罗完成\"维罗合众国\"式邦联重组，约900年前，矿脉枯竭危机后转向精密制造业与金融业。",
+      "foundingContext": {
+        "政治": "多个继承邦国的邦联重组",
+        "经济": "矿脉枯竭危机教训后的产业转型",
+        "技术": "约550年前冶金工业化",
+        "地理": "维罗大陆",
+        "Φ环境": "矿脉枯竭历史教训催生限量开采配额制"
+      },
+      "purpose": "整合继承邦国，转型精密制造业与金融业",
+      "structure": "\"邦联\"（Confederation）——UNRESOLVED具体结构",
+      "resources": "凝晶矿（配额制管理）、精密制造业、金融业",
+      "technologies": "约550年前冶金工业化标准化生产；约80年前凝晶基半导体规模化生产；CDD理论猜想阶段（HIS-EVT-053）",
+      "politicalRole": "当代五大区域体系之一，AI硬件产业\"双核心\"之一（[L13.002]）",
+      "economicRole": "限量开采配额制（[L15.001]）；凝晶基半导体产业",
+      "religiousRole": "炉火正神信仰演变为\"技术从业者的文化传统\"（[L16.001]）",
+      "scientificRole": "CDD理论三大思想源流之一（实验传统）；维罗-中央海联合实验室的一方",
+      "militaryRole": "维罗-双河关税战争（HIS-EVT-055）",
+      "culturalRole": "维罗表音音节文字持续使用",
+      "historicalEvents": [
+        "HIS-EVT-046（重组）",
+        "HIS-EVT-048（冶金工业化）",
+        "HIS-EVT-053（未知场猜想）",
+        "HIS-EVT-055（关税战争）",
+        "HIS-EVT-059（半导体生产）",
+        "HIS-EVT-063（凝界公约）"
+      ],
+      "historicalFigures": [
+        "CHAR-003（重铸）、CHAR-004（邑分）、CHAR-008（淬观）、CHAR-011（熔镜）、CHAR-013-A（炉执）——均NEW HISTORICAL CANON"
+      ],
+      "rivalPartnerInstitutions": [
+        "双河联邦（Rival，关税战争）",
+        "中央海联合体（Partner，联合实验室与AI\"双核心\"格局）"
+      ],
+      "declineTransformation": "No decline recorded — institution persists to present day.",
+      "legacy": "CANON：当代AI硬件产业核心，凝界公约签署方",
+      "cddPhiDimension": "DIRECT CANON：CDD理论实验传统源流；凝晶基半导体产业直接支撑AI临界事件（HIS-EVT-061）"
+    },
+
+    {
+      "instId": "INS-013",
+      "name": "中央海联合体",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A/C — State / Economic Union",
+        "civilization": "中央海海洋同盟（继承关系）",
+        "era": "约600年前合并",
+        "status": "Active",
+        "currentStatus": "未解体，持续存在至当代"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L12.001]记载中央海沿岸城邦正式合并为\"中央海联合体\"，约600年前。",
+      "foundingContext": {
+        "政治": "沿岸城邦正式合并",
+        "经济": "贸易与金融中心地位（约420年前确立）",
+        "地理": "中央海沿岸",
+        "Φ环境": "UNRESOLVED"
+      },
+      "purpose": "沿岸城邦正式统一，确立国际金融贸易中心地位",
+      "structure": "UNRESOLVED",
+      "resources": "本世界首个跨国界商业银行体系（[L12.002]）",
+      "technologies": "CDD理论\"凝度场\"假说雏形（HIS-EVT-054，数据分析传统）；凝度期货金融产品（[L15.003]）",
+      "politicalRole": "当代五大区域体系之一，AI产业\"双核心\"之一（数据/资本）",
+      "economicRole": "本世界金融贸易中心",
+      "religiousRole": "潮汐诸灵信仰的显著世俗化（[L16.004]）",
+      "scientificRole": "CDD理论三大思想源流之一（数据传统）",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "表音字母文字作为国际通用文字基础（[L14.003]）",
+      "historicalEvents": [
+        "HIS-EVT-048（合并）",
+        "HIS-EVT-051（金融中心确立）",
+        "HIS-EVT-054（假说雏形）",
+        "HIS-EVT-060（联合实验室）",
+        "HIS-EVT-063（凝界公约）"
+      ],
+      "historicalFigures": [
+        "CHAR-009（汭明）、CHAR-013-B（市衡）——均NEW HISTORICAL CANON"
+      ],
+      "rivalPartnerInstitutions": [
+        "维罗合众国（Partner，联合实验室与AI\"双核心\"）"
+      ],
+      "declineTransformation": "No decline recorded — institution persists to present day.",
+      "legacy": "CANON：当代AI资本/数据产业核心",
+      "cddPhiDimension": "DIRECT CANON：CDD理论数据传统源流；凝度期货金融产品直接以Φ场相关资源为标的"
+    },
+
+    {
+      "instId": "INS-014",
+      "name": "黑潮共同体",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type A — State / Commonwealth",
+        "civilization": "黑潮弧群（被泛阿斯兰第二帝国征服后，帝国解体期独立）",
+        "era": "约500年前成立",
+        "status": "Active",
+        "currentStatus": "未解体，持续存在至当代；当代地缘权重持续上升"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L12.001]记载黑潮弧群诸岛组成\"黑潮共同体\"，约500年前，凭航运与地热资源保持独立地位。",
+      "foundingContext": {
+        "政治": "帝国解体期的独立建国",
+        "经济": "航运与地热资源",
+        "地理": "黑潮弧群诸岛（古火山岛基底，凝辉矿产区[L2.003-b]）",
+        "Φ环境": "地热资源可能与凝辉矿的Φ响应特性相关（INFERENCE）"
+      },
+      "purpose": "凭航运与地热资源独立自治",
+      "structure": "UNRESOLVED",
+      "resources": "地热能源、航运",
+      "technologies": "UNRESOLVED（早期），当代算力中心基础设施（凝界公约后）",
+      "politicalRole": "当代五大区域体系之一，凝界公约中大型算力中心选址地",
+      "economicRole": "黑潮地热资源争端（HIS-EVT-058，约100年前）；算力租赁经济（[L15.002]）",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "UNRESOLVED",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "黑潮语族语言（[L14.004]，当代面临传承危机）",
+      "historicalEvents": [
+        "HIS-EVT-050（成立）",
+        "HIS-EVT-058（地热资源争端）",
+        "HIS-EVT-063（凝界公约，算力中心角色）"
+      ],
+      "historicalFigures": [
+        "CHAR-013-E（汐焰，NEW HISTORICAL CANON）"
+      ],
+      "rivalPartnerInstitutions": [
+        "凝界公约体系（Member/算力中心提供方）"
+      ],
+      "declineTransformation": "No decline recorded — institution persists to present day. 当代地缘权重持续上升（[L17.001]，OP-L13-005/OP-L15-003）",
+      "legacy": "CANON：当代AI算力基础设施核心提供方",
+      "cddPhiDimension": "INFERENCE：地热能源与凝辉矿产区的地理重叠可能暗示与Φ场相关的地质特性，但Master Canon未直接建立此关联"
+    },
+
+    {
+      "instId": "INS-015",
+      "name": "维罗-中央海联合实验室",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type E — Scientific Institution",
+        "civilization": "维罗合众国 + 中央海联合体（联合机构）",
+        "era": "约50年前成立",
+        "status": "INSTITUTIONAL GAP（HIS-EVT-061记载\"联合实验室继承机构\"训练凝一号，暗示约50年前成立的原始实验室与约15年前训练凝一号的机构之间存在某种更名/重组，具体过程未载明）",
+        "currentStatus": "继承机构在约15年前训练出凝一号"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L13.001]记载维罗-中央海跨区域联合实验室成立，约50年前，\"人工凝化系统\"研究正式开始。",
+      "foundingContext": {
+        "政治": "跨国合作（五大区域体系近200年和平红利，[L12.004]）",
+        "经济": "维罗硬件+中央海资本的产业基础",
+        "技术": "凝晶基半导体已规模化生产（约80年前）",
+        "地理": "跨区域（具体地点未载明）",
+        "Φ环境": "Φ波探测网络已成熟（约120年前），为AI相关Φ异常监测提供技术前提"
+      },
+      "purpose": "\"人工凝化系统\"（AI）研究",
+      "structure": "UNRESOLVED（具体研究团队规模、内部部门未载明）",
+      "resources": "凝晶基半导体硬件、维罗-中央海联合注资（INFERENCE）",
+      "technologies": "\"人工凝化系统\"研究，最终产出\"凝一号\"（约15年前）",
+      "politicalRole": "跨国联合科研机构，避免单一国家AI垄断的制度先例（RECONSTRUCTED，[L13.002]\"双核心\"格局的技术基础）",
+      "economicRole": "UNRESOLVED",
+      "religiousRole": "无直接记录",
+      "scientificRole": "训练出第一代通用AI\"凝一号\"（HIS-EVT-061），记录\"零日凝峰\"",
+      "militaryRole": "无直接记录",
+      "culturalRole": "无直接记录",
+      "historicalEvents": [
+        "HIS-EVT-060（成立）",
+        "HIS-EVT-061（凝一号训练/零日凝峰）"
+      ],
+      "historicalFigures": [
+        "CHAR-012（维析，NEW HISTORICAL CANON，核心科学家）"
+      ],
+      "rivalPartnerInstitutions": [
+        "诺弧高原独立观测站（Partner，RECONSTRUCTED，零日凝峰确认方）"
+      ],
+      "declineTransformation": "INSTITUTIONAL GAP：[L13.001]原文明确使用\"联合实验室继承机构\"（HIS-EVT-061）这一表述指代训练\"凝一号\"的团队，暗示约50年前成立的原始联合实验室与约15年前训练凝一号的机构之间，可能经历过重组、更名或机构演变，但具体过程完全未载明，对应Historical Gap-008（约35年的技术研发历程空白）",
+      "legacy": "CANON：AI临界事件、凝界公约的技术制度前身",
+      "cddPhiDimension": "DIRECT CANON：直接对应[-2]凝化方程\"AI诞生是凝化方程新临界点\"这一推论的实证机构，训练过程触发零日凝峰"
+    },
+
+    {
+      "instId": "INS-016",
+      "name": "凝界公约（体系）",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type G — Technological / AI Governance Framework（注：本机构为国际协议/治理制度，不是国家）",
+        "civilization": "跨文明国际协议，非单一文明所属",
+        "era": "约8年前签署",
+        "status": "Active",
+        "currentStatus": "持续有效，当代仍在运行"
+      },
+      "canonStatus": "ESTABLISHED CANON",
+      "historicalOrigin": "[L13.002]记载凝界公约签署，约8年前，本世界首个全球性技术治理框架，五大区域体系全部加入。",
+      "foundingContext": {
+        "政治": "AI临界事件正式发生（约9年前）后的治理需求",
+        "经济": "维罗+中央海\"双核心\"AI产业格局",
+        "技术": "凝一号/凝三号已确立AI能力演进路径",
+        "地理": "全球性",
+        "Φ环境": "零日凝峰提供的AI-Φ场关联实证是公约\"凝散平衡审计\"机制的物理学依据来源"
+      },
+      "purpose": "建立全球性AI技术治理框架，规避地缘均势打破风险（[L13.002]明确表述）",
+      "structure": "UNRESOLVED（具体执行机构、秘书处、决策程序均未载明——注意任务书明确要求\"凝界公约 ≠ 凝界公约秘书处\"，本档案不假设存在具体的秘书处实体）",
+      "resources": "UNRESOLVED（具体预算/资源分配机制未载明）",
+      "technologies": "凝一号/凝三号/凝五号系列AI系统作为监管对象；Φ波探测网络作为监督技术手段",
+      "politicalRole": "本世界首个全球性技术治理框架，塑造当代地缘政治多极均势格局（[L17.001]）",
+      "economicRole": "黑潮共同体算力中心角色带来的地缘经济权重上升",
+      "religiousRole": "诺弧高原祭司国的AI伦理监督角色，直接源自\"凝散不二论\"哲学传统",
+      "scientificRole": "军事/国安领域AI应用受严格限制（[L13.003]）",
+      "militaryRole": "限制AI军事化应用，未出现大规模军事化AI竞赛",
+      "culturalRole": "诺弧二元对称美学被采纳为官方视觉标识（[L16.003]）",
+      "historicalEvents": [
+        "HIS-EVT-062（前置：AI临界事件正式发生）",
+        "HIS-EVT-063（签署）"
+      ],
+      "historicalFigures": [
+        "CHAR-013-A/B/C/D/E（五大区域谈判代表，全部NEW HISTORICAL CANON，具体谈判内容标FICTIONAL HISTORICAL RECONSTRUCTION）"
+      ],
+      "rivalPartnerInstitutions": [
+        "五大区域体系（Member，ESTABLISHED CANON）",
+        "诺弧高原年度凝散平衡审计体系（Regulatory Sub-mechanism，RECONSTRUCTED，见INS-017）"
+      ],
+      "declineTransformation": "No decline recorded — currently in effect.",
+      "legacy": "CANON：当代全球AI治理秩序的制度基础",
+      "cddPhiDimension": "DIRECT CANON：\"凝散平衡审计\"机制直接源自[-3]散化趋势公理——评估AI系统Φ汲取速率的可持续性，而非仅评估能力强弱"
+    },
+
+    {
+      "instId": "INS-017",
+      "name": "诺弧高原年度凝散平衡审计（体系）",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Type G — AI Governance / Scientific-Ethical Institution",
+        "civilization": "诺弧高原祭司国（主导机构）；制度上从属于凝界公约体系",
+        "era": "UNRESOLVED（具体建立于凝界公约签署之初还是后续发展，Master Canon未载明）",
+        "status": "Active",
+        "currentStatus": "持续运行至当代"
+      },
+      "canonStatus": "ESTABLISHED CANON（机构功能本身），成立具体时间UNRESOLVED",
+      "historicalOrigin": "[L13.003][L17.005]记载诺弧高原年度\"凝散平衡审计\"持续对AI系统资源消耗可持续性进行独立监督。",
+      "foundingContext": {
+        "政治": "凝界公约框架下诺弧的AI伦理监督角色分工（[L13.002]）",
+        "经济": "UNRESOLVED",
+        "宗教/哲学": "诺弧\"凝散不二论\"→\"哲学-伦理学\"传统的当代应用",
+        "技术": "Φ波探测网络",
+        "Φ环境": "直接以Φ汲取速率可持续性为核心评估指标"
+      },
+      "purpose": "评估AI系统的Φ汲取速率是否可持续，而非仅评估能力强弱（[L17.005]）",
+      "structure": "UNRESOLVED（具体审计流程、人员编制未载明）",
+      "resources": "UNRESOLVED",
+      "technologies": "Φ波探测网络（用于监测AI系统的Φ汲取速率）",
+      "politicalRole": "凝界公约框架下的独立监督机制",
+      "economicRole": "UNRESOLVED",
+      "religiousRole": "\"凝散一元辩证学派\"立场（[L16.002]）的当代制度化实践",
+      "scientificRole": "持续对AI系统进行Φ可持续性评估",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "UNRESOLVED",
+      "historicalEvents": [
+        "HIS-EVT-063（凝界公约签署，制度分工确立背景）"
+      ],
+      "historicalFigures": [
+        "CHAR-013-D（寂明贤者，NEW HISTORICAL CANON，INFERENCE关联，非确定的机构负责人身份）"
+      ],
+      "rivalPartnerInstitutions": [
+        "凝界公约体系（Regulatory Sub-mechanism of，RECONSTRUCTED）",
+        "五大区域体系的AI系统（Regulator/Audited，RECONSTRUCTED）"
+      ],
+      "declineTransformation": "No decline recorded — currently in effect.",
+      "legacy": "CANON：当代AI可持续性治理的核心评估机制",
+      "cddPhiDimension": "DIRECT CANON：核心评估指标直接源自[-3]散化趋势公理，是[0]第一原理\"凝与散不可分割共存\"在AI治理制度中的最终体现"
+    },
+
+    {
+      "instId": "INS-018",
+      "name": "熔观书院",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Educational Institution (维罗合众国)",
+        "civilization": "维罗文明",
+        "era": "约在CDD理论正式确立（HIS-EVT-056，约180年前）后的一个世纪内逐步制度化",
+        "status": "Active",
+        "currentStatus": "持续存在至当代"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "historicalOrigin": "RECONSTRUCTED，前身可追溯至维罗工匠-学者阶层的行会传承传统（呼应[L12.003]\"维罗合众国的工匠-学者阶层\"这一既定表述及CHAR-008淬观的人物背景），约在CDD理论正式确立后的一个世纪内，逐步从松散的工匠行会传承制度化为正式的科研教育机构。",
+      "foundingContext": "UNRESOLVED（精简格式未展开）",
+      "purpose": "维罗半导体/AI硬件产业的核心工程人才培养",
+      "structure": "UNRESOLVED",
+      "resources": "UNRESOLVED",
+      "technologies": "凝晶矿精密加工工艺与凝化方程理论的教学融合",
+      "politicalRole": "UNRESOLVED",
+      "economicRole": "维罗半导体/AI硬件产业核心工程人才培养地",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "科研教育机构；凝晶矿精密加工工艺与凝化方程理论的教学融合机构",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "UNRESOLVED",
+      "historicalEvents": [],
+      "historicalFigures": [
+        "CHAR-008（淬观，人物背景关联）"
+      ],
+      "rivalPartnerInstitutions": [],
+      "declineTransformation": "UNRESOLVED（精简格式未展开）",
+      "legacy": "维罗半导体/AI硬件产业核心工程人才培养地",
+      "cddPhiDimension": "UNRESOLVED（精简格式未展开）"
+    },
+
+    {
+      "instId": "INS-019",
+      "name": "潮算学馆",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Educational Institution (中央海联合体)",
+        "civilization": "中央海文明",
+        "era": "UNRESOLVED（精简格式未展开具体成立时间）",
+        "status": "Active",
+        "currentStatus": "持续存在至当代"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "historicalOrigin": "RECONSTRUCTED，直接命名致敬CHAR-009汭明的\"潮算\"称号（CDD_Historical_Character_Archive_v1.1.md已确立的人物层面称号，本档案将其正式提升为机构名称，是\"技术应该产生社会后果\"\"历史应该有惯性\"的直接体现——一位历史人物的个人称号，演变为一所延续至今的机构名）。",
+      "foundingContext": "UNRESOLVED（精简格式未展开）",
+      "purpose": "数据分析、金融工程、AI资本市场相关人才培养",
+      "structure": "UNRESOLVED",
+      "resources": "UNRESOLVED",
+      "technologies": "UNRESOLVED",
+      "politicalRole": "UNRESOLVED",
+      "economicRole": "数据分析、金融工程、AI资本市场相关人才培养核心机构",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "数据分析、金融工程、AI资本市场相关人才培养核心机构",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "UNRESOLVED",
+      "historicalEvents": [],
+      "historicalFigures": [
+        "CHAR-009（汭明，命名致敬对象）"
+      ],
+      "rivalPartnerInstitutions": [],
+      "declineTransformation": "UNRESOLVED",
+      "legacy": "数据分析、金融工程、AI资本市场相关人才培养核心机构",
+      "cddPhiDimension": "UNRESOLVED"
+    },
+
+    {
+      "instId": "INS-020",
+      "name": "寂观学宫",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Educational Institution (诺弧高原祭司国)",
+        "civilization": "诺弧文明",
+        "era": "约100年前成立（含REPAIR-001修正：原Wave1文本约CDD理论确立后25年/约155年前修正为约100年前）",
+        "status": "Active",
+        "currentStatus": "持续存在至当代"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "historicalOrigin": "RECONSTRUCTED，直接以Associated Historical Figure寂观贤者（CDD_Historical_Character_Archive_v1.1.md CHAR-010条目下的协作者）命名，是诺弧\"以历史人物名讳命名学术机构\"的哲学/伦理传统体现。成立年份已由REPAIR-001修正为约100年前。",
+      "foundingContext": "UNRESOLVED",
+      "purpose": "AI伦理与哲学研究核心机构",
+      "structure": "UNRESOLVED",
+      "resources": "UNRESOLVED",
+      "technologies": "UNRESOLVED",
+      "politicalRole": "UNRESOLVED",
+      "economicRole": "UNRESOLVED",
+      "religiousRole": "诺弧\"以历史人物名讳命名学术机构\"的哲学/伦理传统体现",
+      "scientificRole": "AI伦理与哲学研究核心机构，是[L13.002]\"AI伦理与哲学研究中心\"这一既定表述的具体机构化，也是[13.003]凝散平衡审计工作的主要执行/理论支持机构",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "UNRESOLVED",
+      "historicalEvents": [],
+      "historicalFigures": [
+        "寂观贤者（Associated Historical Figure，命名致敬对象）",
+        "CHAR-013-D（寂明贤者，INFERENCE关联）"
+      ],
+      "rivalPartnerInstitutions": [],
+      "declineTransformation": "UNRESOLVED",
+      "legacy": "AI伦理与哲学研究核心机构；凝散平衡审计工作的主要执行/理论支持机构",
+      "cddPhiDimension": "UNRESOLVED（精简格式未展开，但与凝散平衡审计工作直接相关）"
+    },
+
+    {
+      "instId": "INS-021",
+      "name": "汐炼学院",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Educational Institution (黑潮本土)",
+        "civilization": "黑潮文明",
+        "era": "约与凝界公约签署同期（约8年前后，RECONSTRUCTED时间定位）——五大文明教育机构中最年轻的一所",
+        "status": "Active",
+        "currentStatus": "持续存在至当代"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "historicalOrigin": "RECONSTRUCTED，区别于维罗/中央海/诺弧三所可追溯至CDD理论确立前后（约180-300年前）的古老机构，汐炼学院是五大文明教育机构中最年轻的一所——建立于黑潮算力/地热产业崛起初期（约与凝界公约签署同期），这一\"年轻\"本身就是黑潮当代身份的重要组成部分：黑潮不是靠千年传承赢得当代地位的，是靠抓住技术机遇窗口实现跃升的，与诺弧、维罗的\"历史底蕴型\"崛起路径形成鲜明对比，是黑潮文明个性的核心标志。",
+      "foundingContext": "黑潮算力/地热产业崛起初期",
+      "purpose": "地热能源工程、算力基础设施运维、AI辅助语言学人才培养",
+      "structure": "UNRESOLVED",
+      "resources": "UNRESOLVED",
+      "technologies": "地热能源工程、算力基础设施运维、AI辅助语言学",
+      "politicalRole": "UNRESOLVED",
+      "economicRole": "地热能源工程、算力基础设施运维人才培养",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "地热能源工程、算力基础设施运维、AI辅助语言学人才培养",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "AI辅助语言学人才培养（与汐语复兴计划相关）",
+      "historicalEvents": [],
+      "historicalFigures": [],
+      "rivalPartnerInstitutions": [
+        "与地方岛屿社区联合执行汐语复兴计划"
+      ],
+      "declineTransformation": "UNRESOLVED",
+      "legacy": "黑潮地热能源工程、算力基础设施运维、AI辅助语言学人才培养核心机构",
+      "cddPhiDimension": "UNRESOLVED（精简格式未展开）"
+    },
+
+    {
+      "instId": "INS-022",
+      "name": "凝界联络处",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Lightweight Coordination Secretariat (CANON EXPANSION，非Retcon)",
+        "civilization": "跨文明国际协议机制（凝界公约框架下）",
+        "era": "RECONSTRUCTED（具体成立时间未精确量化）",
+        "status": "Active",
+        "currentStatus": "持续运行至当代"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "historicalOrigin": "CANON EXPANSION（非Retcon）。Old Canon：[L13.002]凝界公约是\"本世界首个全球性技术治理框架\"；CDD_Institutional_Archive_v1.0.md INS-016明确其\"Structure\"字段为UNRESOLVED，本档案此前判断\"不擅自创造凝界公约秘书处\"。Problem：Blueprint第8节已识别——一个完全没有任何执行机制的国际协议，难以解释[L13.003]\"军事/国安领域AI应用受严格限制\"这类强约束条款如何被真正落实。Proposed Expansion：建立凝界联络处——一个刻意保持\"轻量级\"的协调秘书处，明确不具备独立执行权、不拥有常设武装或司法强制力。",
+      "foundingContext": "凝界公约[L13.002]框架下，解释[L13.003]军事/国安领域AI应用受严格限制条款的实际执行机制需求",
+      "purpose": "1. 日程协调：安排五大区域体系代表的定期会晤；2. 信息汇总：接收并转发诺弧年度凝散平衡审计[L13.003]的结果，但不拥有独立审计权——审计权始终在诺弧；3. 争端登记：作为诺弧仲裁院[L15.004]的行政转介入口，本身不裁决任何争端",
+      "structure": "刻意保持\"轻量级\"——不具备独立执行权、不拥有常设武装或司法强制力；驻地在五大区域体系间每若干年轮值一次（具体年限不予精确量化），刻意不设永久总部，这是对\"凝界公约不是世界政府\"这一核心原则的制度性物理体现",
+      "resources": "UNRESOLVED",
+      "technologies": "UNRESOLVED",
+      "politicalRole": "凝界公约框架下最小化的、刻意去中心化的协调秘书处；五大区域体系代表定期会晤的日程协调方",
+      "economicRole": "UNRESOLVED",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "UNRESOLVED",
+      "militaryRole": "明确不具备常设武装监督部队（与\"不是世界政府\"原则一致，方案B放弃）",
+      "culturalRole": "UNRESOLVED",
+      "historicalEvents": [],
+      "historicalFigures": [],
+      "rivalPartnerInstitutions": [
+        "五大区域体系代表（定期会晤协调对象）",
+        "诺弧年度凝散平衡审计（信息转发对象）",
+        "诺弧仲裁院[L15.004]（争端转介入口）"
+      ],
+      "declineTransformation": "UNRESOLVED",
+      "legacy": "[L13.003]军事AI限制条款的实际执行力来源被明确为——诺弧凝散平衡审计的曝光压力 + 五大区域体系自身国内法律体系的配合意愿，而非任何超国家强制力",
+      "cddPhiDimension": "UNRESOLVED（间接相关：转发诺弧凝散平衡审计结果）"
+    },
+
+    {
+      "instId": "INS-023",
+      "name": "观声会",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Advisory Representative Body (诺弧高原祭司国)",
+        "civilization": "诺弧文明",
+        "era": "RECONSTRUCTED（具体成立时间未载明）",
+        "status": "Active",
+        "currentStatus": "持续运行至当代"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "historicalOrigin": "RECONSTRUCTED，源自诺弧\"祭司国永久中立\"外交传统[L11.003]中固有的\"倾听多方声音\"这一外交本能，本轮正式将这一外交气质内化为国内治理的一部分——一个以调停/仲裁见长的文明，理应也把倾听作为国内治理的核心美德，而不只是外交辞令。",
+      "foundingContext": "诺弧\"祭司国永久中立\"外交传统[L11.003]中固有的\"倾听多方声音\"这一外交本能的内化",
+      "purpose": "咨议性（非立法性）代表机构；由诺弧境内各行业/地方社区以轮值或社区共识方式推选代表组成——这不是选举，而是社区提名+轮值传统，与贤者议会的哲学资历推举逻辑相区隔，刻意保留诺弧\"非选票政治文化\"的整体性格",
+      "structure": "由诺弧境内各行业/地方社区以轮值或社区共识方式推选代表组成；非选举，而是社区提名+轮值传统",
+      "resources": "UNRESOLVED",
+      "technologies": "UNRESOLVED",
+      "politicalRole": "咨议性代表机构；没有立法权、没有否决权，但拥有正式的听证权——贤者议会在做出涉及民生的重大决策前，制度性地必须听取观声会的意见（不必采纳，但必须听取并公开回应）",
+      "economicRole": "UNRESOLVED",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "UNRESOLVED",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "诺弧\"非选票政治文化\"的整体性格体现",
+      "historicalEvents": [],
+      "historicalFigures": [],
+      "rivalPartnerInstitutions": [
+        "贤者议会（制度性听证对象——观声会的意见不必被采纳，但必须被听取并公开回应）"
+      ],
+      "declineTransformation": "UNRESOLVED（真实局限：观声会的意见是否被真正采纳，很大程度上取决于贤者议会的自觉与诺弧社会舆论压力，不存在强制机制——为诺弧当代政治留下真实的不满意资源）",
+      "legacy": "Ordinary Person Test D最终复测通过：诺弧普通人的政治参与渠道现已正式打通——通过观声会获得正式但非决定性的政治声音渠道，\"声音有限但真实存在\"这一特征本身成为诺弧文明性格的一部分",
+      "cddPhiDimension": "UNRESOLVED"
+    },
+
+    {
+      "instId": "PIN-001",
+      "name": "玄枢会",
+      "nameEn": "UNRESOLVED",
+      "basicIdentity": {
+        "type": "Proposed Scientific Collaboration Body (跨文明)",
+        "civilization": "跨文明（维罗+中央海+诺弧三方协作）",
+        "era": "UNRESOLVED（[L12.003]仅笼统提及\"跨国界的学术合作\"，未给出机构成立的具体年份）",
+        "status": "Proposed",
+        "currentStatus": "暂不升级为正式机构，仅作为CDD理论发现史三人核心协作团体的描述性称呼保留"
+      },
+      "canonStatus": "PROPOSED INSTITUTION（暂不升级）",
+      "historicalOrigin": "来源：CDD_Historical_Character_Archive_v1.1.md CHAR-010（观弦）档案中的历史重构，不是Master Canon原始机构事实。Evidence For：[L12.003]确实记载\"跨国界的学术合作\"促成CDD理论正式确立；该合作融合了维罗实验传统、中央海数据传统、诺弧哲学传统三方；CHAR-010作为Primary Historical Figure，其\"三地游学\"经历为跨国协作提供具体人物载体；其Associated Historical Figures（潮析、寂观贤者）为协作的具体分工提供合理的人物填充。Evidence Against：Master Canon没有\"玄枢会\"这一机构名称的任何记载；没有任何成员规模的记载；没有正式成立时间的记载；没有组织结构、决策机制、资金来源的任何记载；[L12.003]原文表述的\"跨国界的学术合作\"这一措辞，本身更接近描述一种协作现象而非一个具名机构实体。",
+      "foundingContext": "UNRESOLVED（无正式成立时间记载）",
+      "purpose": "CDD理论发现史三人核心协作团体的描述性称呼（非正式机构）",
+      "structure": "UNRESOLVED（三人组是CDD_Historical_Character_Archive_v1.1.md的代表性简化，非Canon确证的完整成员名单）",
+      "resources": "UNRESOLVED",
+      "technologies": "维罗实验传统+中央海数据传统+诺弧哲学传统的融合",
+      "politicalRole": "UNRESOLVED",
+      "economicRole": "UNRESOLVED",
+      "religiousRole": "UNRESOLVED",
+      "scientificRole": "CDD理论确立（HIS-EVT-056）的协作团体（Proposed）",
+      "militaryRole": "UNRESOLVED",
+      "culturalRole": "UNRESOLVED",
+      "historicalEvents": [
+        "HIS-EVT-056（CDD理论确立，Proposed Collaborative Body）"
+      ],
+      "historicalFigures": [
+        "CHAR-010（观弦，Core Collaborator，PROPOSED）",
+        "潮析（Associated Collaborator，PROPOSED）",
+        "寂观贤者（Associated Collaborator，PROPOSED）"
+      ],
+      "rivalPartnerInstitutions": [
+        "INS-015 维罗-中央海联合实验室（Proposed Predecessor，OPEN）"
+      ],
+      "declineTransformation": "暂不升级，不构成正式机构消亡问题",
+      "legacy": "Decision：暂不升级。\"玄枢会\"作为CDD理论发现史三人核心协作团体的描述性称呼予以保留（供未来小说/文化档案阶段使用），但其作为正式机构的Canon地位维持PROPOSED INSTITUTION，不进入本档案\"Established / Reconstructed Institutions\"主体部分。若未来阶段能提供更具体的组织化证据，可重新提交审查。",
+      "cddPhiDimension": "UNRESOLVED"
+    }
+  ],
+
+  "civilizations": [
+    {
+      "civId": "CIV-001",
+      "name": "双河文明",
+      "nameEn": "Twin-River Civilization",
+      "canonStatus": "ESTABLISHED CANON（文明本体）；具体制度演变环节多处RECONSTRUCTED/UNRESOLVED",
+      "status": "extant — 以\"双河联邦\"政体形式持续存在",
+      "region": "阿斯兰大陆中部（双河平原、双河交汇平台）",
+      "geography": "双河平原——阿斯兰大河与支流交汇处，冲积土壤+淡水，农业潜力最高、防御性弱[L10.004]；战略地标：双河交汇平台（[L10.002]，#3遗址所在，农业起源地，早期国家权力中心候选地）；Φ环境：无直接记载双河平原本身为高Φ地质区（高Φ区集中于阿斯兰东缘凝脊山脉与维罗北缘，[L2.005]）",
+      "summary": "约7000年前立国至今的灌溉农业文明，历经王朝、帝国、联邦多种政体；谱系源头[L8.004]S5新阿斯兰群（约2万年前从起源群分化，\"农业驱动者\"）；当代以双河联邦政体持续存在。",
+      "keyFacts": [
+        "约7000年前立国（[L9.001]）",
+        "双河大一统王朝约4800年前统一双河平原与凝脊邦联",
+        "凝统正道国教化（[L11.003]）——双河大一统王朝吸收改造丰凝神/枯散神信仰",
+        "约480年前实现农业机械化（[L12.002]）",
+        "双河表意文字约5300年前起源（[L14.002]），当代仍是双河联邦及周边地区日常生活主导文字",
+        "[L15.002]\"农业+轻工业模式\"经济体，本世界最大的粮食出口区之一",
+        "凝界公约成员，扮演规则制定角色（[L13.002]）",
+        "凝晶资源战争（HIS-EVT-038）一方；维罗-双河关税战争（HIS-EVT-055）一方",
+        "约1600年政治空白期（王朝衰落→泛阿斯兰崛起）"
+      ],
+      "currency": "UNRESOLVED",
+      "government": "UNRESOLVED（Master Canon未载明双河文明各阶段的具体权力产生/继承机制、地方-中央关系、税收制度、公民身份、贵族体系；CHAR-001\"渠王\"称号为人物档案NEW CANON设定，非Master Canon确立的官方称号体系）",
+      "philosophyReligion": "丰凝神与枯散神（早期信仰，[L9.003]，对应农业丰歉，与凝化方程直接呼应）；被双河大一统王朝吸收改造为国教\"凝统正道\"（[L11.003]）；当代仍是双河联邦民间信仰主流，教义强调\"丰凝-枯散\"周期性平衡，仪式围绕农业历法展开（[L16.001]）；因教义与CDD现象高度吻合，科学革命后转型阻力最小。明确区分：凝统正道（双河的国教化宗教）≠ 诺弧的\"凝散不二论/凝散哲学\"——二者共享二元论结构，但制度归属、发展路径、当代形态完全不同。",
+      "economy": "Ancient Economy：农业盈余[L9.001]；Imperial Economy：农业盈余+凝脊山口贸易垄断，凝晶资源战争的一方[L11.001-002]；Industrial Economy：约480年前农业机械化，工业化原始积累[L12.002]；Modern Economy：[L15.002]\"农业+轻工业模式\"经济体，本世界最大的粮食出口区之一。不臆造GDP/人口/货币数据。",
+      "modernFate": "以双河联邦政体形式持续存在（约900年前起，5继承国之一）；当代五大区域体系之一；凝界公约成员，规则制定角色；东阿斯兰王国通过渐进政治协商并入双河联邦（Part VI Section III Resolved）",
+      "fictionInterface": "Historical Novel：1600年空白期统一者史诗；凝晶资源战争150年僵局。Contemporary Novel：农业文明在AI时代的身份焦虑（相对维罗/中央海产业地位边缘化的心理张力）。Internal Conflict：双河农业文明正统性叙事 vs 现代产业边缘化现实。",
+      "specialNote": "双河文明对Φ的理解始终以农业隐喻为载体，不涉及对Φ场的直接理论认知（CDD理论确立约180年前，属跨国合作产物，双河文明本身不是三大思想源流之一）。双河文明的古代信众不\"知道\"CDD理论，只是恰好用宗教语言描述了后来被证实的物理规律。"
+    },
+
+    {
+      "civId": "CIV-002",
+      "name": "维罗文明",
+      "nameEn": "UNRESOLVED",
+      "canonStatus": "ESTABLISHED CANON",
+      "status": "extant — 以\"维罗合众国\"政体形式持续存在，当代AI硬件产业双核心之一",
+      "region": "维罗大陆（北缘矿脊为核心）",
+      "geography": "核心地理：维罗大陆北缘（碰撞带，[L2.005]高Φ候选区，凝晶矿主矿带）[L10.001]；战略地标：维罗北缘矿脊（[L10.002]，凝晶矿核心产区，历史资源争夺焦点）；地理格局：北缘碰撞带（高Φ候选区）—中部热带-温带过渡高原—南缘亚寒带/苔原（毗邻南环海）[L10.001]；Φ环境：DIRECT CANON——地处本世界最重要的凝晶矿富集区之一",
+      "summary": "约6000年前立国至今的矿业/冶金文明；谱系源头[L8.004]S2维罗群（约5.5万年前从起源群分化）；维罗是本档案五大文明中能源/技术演进路径最连续、最清晰可考的一支——从冶金炉火到半导体产业，均以\"凝晶矿加工能力\"为一贯技术核心。",
+      "keyFacts": [
+        "约6000年前立国（[L9.001]）",
+        "维罗矿业王权（约6000年前）→维罗联合矿权（约4300年前，技术霸权型帝国）→分裂为继承邦国（约3000年前）→维罗合众国（约900年前）",
+        "北缘矿脉枯竭危机（约3300年前起）是[-3]散化趋势公理在文明史上最直接的案例",
+        "约550年前冶金工业化标准化生产（[L12.002]）",
+        "约80年前凝晶基半导体规模化生产（[L13.001]）",
+        "CDD理论三大思想源流之一（实验传统）",
+        "限量开采配额制（[L15.001]）——矿脉枯竭危机历史教训催生的资源可持续性制度伦理",
+        "维罗表音音节文字约5100年前起源（[L14.002]），当代科技文献主导语言",
+        "炉火正神信仰（[L9.003]）演变为维罗合众国技术从业者的文化传统（[L16.001]）",
+        "当代AI硬件产业\"双核心\"之一（硬件）（[L13.002]）"
+      ],
+      "currency": "UNRESOLVED",
+      "government": "UNRESOLVED具体权力结构。早期定性为\"早期集权国家\"[L9.001]；现代为\"邦联\"（Confederation）[L12.001]，具体联邦制细节未载明。",
+      "philosophyReligion": "炉火正神信仰（[L9.003]，冶金过程\"高温→高Φ梯度\"现象被神化）；[L11.003]演变为跨文明工匠行会共同信仰，本世界首个超越单一政权的宗教-行业组织；行会式宗教组织；[L16.001]当代演变为维罗合众国技术从业者的文化传统而非严格宗教，仪式性弱化为职业伦理准则；因教义与CDD现象高度吻合，转型阻力最小。明确区分：炉火正神信仰（宗教/文化传统）≠ 维罗矿业行会/维罗联合矿权（经济/政治机构）。",
+      "economy": "Ancient Economy：冶金技术垄断出口[L9.001]；Imperial Economy：矿业霸权+凝晶资源战争一方；北缘矿脉枯竭危机[L11.001-002]；Industrial Economy：约550年前冶金工业标准化生产[L12.002]；Modern Economy：[L15.002]资源型+精密制造业复合模式，凭借凝晶矿配额制维持资源可持续性同时保持产业优势；[L15.001]凝晶矿主矿带由维罗合众国实际控制。",
+      "modernFate": "以维罗合众国政体形式持续存在（约900年前起）；当代五大区域体系之一；AI硬件产业双核心之一（硬件）；凝界公约签署方；CDD理论实验传统源流",
+      "fictionInterface": "Historical Novel：矿脉枯竭危机的资源诅咒悲剧；CDD理论\"发现三部曲\"起点。Contemporary Novel：半导体产业工程师的技术乐观主义与散化保守主义的家庭代际冲突。Internal Conflict：维罗矿业主（守旧开采逻辑） vs 配额制改革者。",
+      "specialNote": "维罗文明是本世界唯一从史前冶金实践直接、连续地演进到当代AI硬件产业的文明——凝晶矿开采（史前）→炉火正神信仰→天文观测仪器精密加工（帝国晚期）→CDD理论实验传统起源（未知场猜想，约300年前）→凝晶基半导体（约80年前）→AI硬件核心（当代）。这条链条均有直接Canon支持，是五大文明中Φ关联最紧密的一支。"
+    },
+
+    {
+      "civId": "CIV-003",
+      "name": "中央海文明",
+      "nameEn": "UNRESOLVED",
+      "canonStatus": "ESTABLISHED CANON",
+      "status": "extant — 以\"中央海联合体\"政体形式持续存在，当代AI产业\"双核心\"之一（数据/资本）",
+      "region": "中央海沿岸多港口",
+      "geography": "核心地理：中央海沿岸多港口[L9.001]；中央海本身：均深3–4.5km，局部深槽7–8km，深水区构成东西population天然屏障[L4.001][L10.003]；战略地标：中央海峡（[L10.002]，阿斯兰-黑潮弧群间最窄水道，控制中央海东西航运）；Φ环境：UNRESOLVED中央海沿岸本身的地质Φ属性，其经济优势更多来自地理区位（贸易枢纽）而非资源禀赋",
+      "summary": "约5800年前立国至今的航海贸易文明；谱系源头[L8.004]S1中央海群（约6.5万年前分化，后于约3万年前进一步分裂为东/西中央海群，[L10.003]因中央海深水区天然屏障）；\"无统一王权的商业航海文明\"[L9.001]。中央海文明的\"能源系统\"与其余四大文明性质不同——其核心驱动力始终是贸易网络与资本流动，而非物质性能源/资源开采。",
+      "keyFacts": [
+        "约5800年前立国（[L9.001]）",
+        "中央海贸易城邦群（约5800年前）→中央海海洋同盟（正式成立约3600年前，CANON CONFLICT见Issue 006）→中央海联合体（约600年前）",
+        "本世界最早的字母化文字：中央海表音字母文字约5000年前起源（[L14.002]），当代国际通用文字",
+        "约420年前成为贸易与金融中心，出现首个跨国界商业银行体系（[L12.002]）",
+        "CDD理论三大思想源流之一（数据传统）",
+        "凝度期货金融产品首创者（[L15.003]）",
+        "潮汐诸灵多神信仰的宗教宽容传统（[L9.003]）——本世界最早的宗教多元主义实践地",
+        "潮汐诸灵信仰经历了最显著的世俗化与私人化过程（五大文明中转型阻力最大的一支）",
+        "中央海文明的军事传统以海权/威慑为核心而非陆权扩张",
+        "当代AI资本/数据产业核心"
+      ],
+      "currency": "UNRESOLVED（但作为金融贸易中心，存在凝度期货金融产品[L15.003]与跨国界商业银行体系[L12.002]）",
+      "government": "UNRESOLVED具体机制。核心特征\"无统一王权\"贯穿古代到帝国时代（松散海上同盟），当代\"联合体\"具体治理结构UNRESOLVED。",
+      "philosophyReligion": "潮汐诸灵多神信仰（[L9.003]，对应[L4.004]大潮周期，商业契约常以潮汐周期起誓）；[L11.003]发展出对潮汐诸灵信仰的高度宽容与融合传统，本世界最早的宗教多元主义实践地；多神并存，无制度化祭司体系记载；[L16.004]因多神论结构与CDD单一场论存在根本张力，经历了最显著的世俗化与私人化过程（五大文明中转型阻力最大的一支）；[OP-L16-001]私人化后在中央海联合体演变为世俗身份认同与传统复兴运动的持续社会辩论——唯一一个Master Canon明确记载存在当代\"文化认同真空\"张力的文明。",
+      "economy": "Ancient Economy：航海贸易网络核心枢纽[L9.001]；Imperial Economy：海军控制航线的事实霸权；凝晶资源战争调停方（OPEN见Issue 006）[L11.001-002]；Industrial Economy：约420年前贸易与金融中心地位确立，首个跨国商业银行体系[L12.002]；Modern Economy：[L15.002]金融贸易服务型经济；[L15.001]\"资源在外围、定价权在中心\"格局的\"中心\"；凝度期货市场首创者[L15.003]。",
+      "modernFate": "以中央海联合体政体形式持续存在（约600年前）；当代五大区域体系之一；AI产业\"双核心\"之一（数据/资本）；凝界公约签署方；CDD理论数据传统源流",
+      "fictionInterface": "Historical Novel：Issue 006本身的档案考据悬疑；潮汐诸灵信仰世俗化的文化史诗。Contemporary Novel：数据资本阶层与OP-L16-001文化认同真空运动参与者的城市生活对照。Cultural Conflict：OP-L16-001世俗身份认同 vs 传统复兴运动。",
+      "specialNote": "中央海文明对Φ的介入方式是本世界唯一以\"数据分析\"而非\"直接资源开发\"或\"宗教直觉\"为路径的文明——不像维罗直接开采凝晶矿，也不像诺弧发展出哲学体系，而是通过系统性整理潮汐-气候-矿物响应数据（HIS-EVT-054，CHAR-009汭明）间接触及Φ场规律，最终这一数据传统成为CDD理论三大思想源流之一。"
+    },
+
+    {
+      "civId": "CIV-004",
+      "name": "诺弧文明",
+      "nameEn": "UNRESOLVED",
+      "canonStatus": "ESTABLISHED CANON",
+      "status": "extant — 诺弧高原祭司国，当代全球AI伦理中心。五大文明中唯一政权名称与独立地位从未中断的一支",
+      "region": "诺弧高原（近北极，58°N附近）",
+      "geography": "核心地理：诺弧高原，近北极，古地块拼接，58°N附近[L10.001]；战略地标：#5岩棚群圣地（[L8.003]，凝迹保存条件最佳）；诺弧高原门户（[L10.002]，连接阿斯兰北缘的唯一陆桥，季节性通行）；资源禀赋：[L10.004]\"凝迹遗址密集但资源贫瘠，宗教/文化价值 > 经济价值\"——诺弧是五大文明中唯一以文化/宗教价值而非物质资源立足的文明；Φ环境：DIRECT CANON——凝迹（Φ印记）保存条件全世界最佳的区域",
+      "summary": "约5500年前立国至今的政教合一高原文明；谱系源头[L8.004]S3诺弧群（约4.5万年前分化，存在CANON CONFLICT-001与波次4抵达时间矛盾）；五大文明中唯一政权名称与独立地位从未中断的一支；诺弧是本世界唯一横跨全部17个历史层级、从史前岩画到当代AI治理连续参与Φ相关文化/科学演化的文明。",
+      "keyFacts": [
+        "约5500年前立国（[L9.001]）",
+        "政教合一小国，文化影响力大",
+        "诺弧高原祭司国——本世界唯一持续5500年、名称与地位从未中断的政权实体",
+        "\"永久中立\"传统（[L11.003]），未见任何军事扩张记录——五大文明中唯一没有任何军事扩张/战争记录的文明",
+        "凝散不二论哲学/宗教传统的发源地（[L9.003]），源于[L8.003]#5岩棚壁画的凝散二元符号系统",
+        "CDD理论三大思想源流之一（哲学传统）",
+        "当代AI伦理与哲学研究中心（[L13.002]）；主导\"凝散平衡审计\"机制（[L13.003][L17.005]）",
+        "诺弧文字——非独立起源，脱胎于#5岩棚壁画，本世界唯一由宗教哲学直接演化而来的文字体系",
+        "诺弧二元对称美学——本档案五大文明美学体系中唯一被记载已应用于当代国际制度视觉系统的一支（凝界公约官方视觉标识）",
+        "本档案五大文明中唯一未见Master Canon记载任何显著制度性/宗教性断裂的文明（\"零断裂\"特征）",
+        "[L15.002]\"知识经济体\"——五大文明中唯一以纯知识/服务经济立足的文明"
+      ],
+      "currency": "UNRESOLVED",
+      "government": "政教合一[L9.001]，UNRESOLVED具体行政结构（祭司即统治者的推定基于\"政教合一\"这一定性表述，但具体权力运作机制未展开）",
+      "philosophyReligion": "凝散不二论 / 凝散哲学（[L9.003]，直接源于[L8.003]#5岩棚壁画的凝散符号系统，本世界最早的系统性二元哲学）；[L9.002]圣地免战惯例（史前凝迹保护萌芽）→[L11.003]祭司国永久中立传统（制度化）；[L12.003]现代重新诠释，成为CDD理论确立的三大思想源流之一（哲学传统）；[L16.004]\"因诺弧传统本就是'哲学'而非严格意义的'宗教'，几乎无缝完成了向现代科学伦理学的转型\"；当代AI伦理中心的思想基础，[L16.002]\"凝散一元辩证学派\"在AI伦理审计中占主导地位。明确区分：凝散不二论/凝散哲学（诺弧原生传统）≠ 凝统正道（双河国教化的改造版本）≠ 人本凝化主义/散化保守主义（近代独立兴起的跨文明哲学流派）。",
+      "economy": "Ancient Economy：UNRESOLVED（\"文化影响力大\"但经济基础未展开[L9.001]）；Imperial Economy：INFERENCE——圣地免战惯例（[L9.002]）可能伴随朝圣经济，但Master Canon未直接说明；Industrial Economy：UNRESOLVED（未参与三区并进的工业化格局[L12.002]）；Modern Economy：[L15.002]知识经济体，AI伦理审计与国际仲裁服务收入——五大文明中唯一以纯知识/服务经济立足的文明。",
+      "modernFate": "诺弧高原祭司国持续存在至今（约5500年前立国，未曾中断）；当代全球AI伦理中心；凝界公约AI伦理监督角色；主导诺弧高原年度凝散平衡审计体系（INS-017）；诺弧仲裁院处理跨文明经济/技术争端（[L15.004]）",
+      "fictionInterface": "Historical Novel：从岩画到AI伦理的九层历史連续性本身即是极佳的\"文明纪录片式\"叙事框架。Contemporary Novel：AI伦理审计员日常工作中的OP-L13-001不可知性焦虑。Philosophical Conflict：OP-L13-001 AI自我认知问题上，诺弧凝散一元辩证学派内部保守派\"过早拟人化\" vs 进步派\"AI道德地位框架必要第一步\"[L13.007]。",
+      "specialNote": "诺弧文明是本世界唯一横跨全部17个历史层级、从史前岩画到当代AI治理连续参与Φ相关文化/科学演化的文明。诺弧的古代信众同样不\"知道\"CDD理论，其贡献是哲学直觉与后世数学化理论的高度吻合，而非古代已掌握现代物理学。诺弧是本档案五大文明中唯一未见Master Canon记载任何显著制度性/宗教性断裂的文明，这一\"零断裂\"特征本身即是其文明身份的核心构成部分。"
+    },
+
+    {
+      "civId": "CIV-005",
+      "name": "黑潮文明",
+      "nameEn": "UNRESOLVED",
+      "canonStatus": "ESTABLISHED CANON（作为当代政体存在）；早期文明地位CANON CONFLICT / HISTORICAL GAP",
+      "status": "extant — 黑潮共同体，当代AI算力中心。但早期文明地位存在重大HISTORICAL GAP（不在[L9.001]五大早期文明列表内）",
+      "region": "黑潮弧群诸岛（火山岛链，连接阿斯兰与维罗）",
+      "geography": "核心地理：黑潮弧群，跨中央海东侧的火山岛链，连接阿斯兰与维罗[L10.001]；战略地标：黑潮弧群主岛（[L10.002]，[L8.003]#6遗址所在，航运补给与火山资源枢纽）；资源禀赋：[L10.004]凝辉矿+航运枢纽价值，火山灰土壤农业潜力局部优良；渔业与潮汐资源丰富；Φ环境：古火山岛基底，凝辉矿主要产地[L2.003-b]；OP-L2-006（黑潮弧群基底是否保留最强凝迹印记）仍为UNRESOLVED开放问题",
+      "summary": "存在重大历史空洞——不在[L9.001]五大早期文明列表内，独立政治史起点远晚于其余四支。谱系源头[L8.004]S4黑潮群（约3万年前分化，人群扩散波次5\"踏脚石\"路径[L8.001-b]，约2–3万年前抵达黑潮弧群）。但[L9.001]五大早期文明列表不包含黑潮——黑潮弧群在史前扩散史中仅被记载为\"踏脚石\"迁徙路径与冶金技术传播的中转站，未见约5500–7000年前古文明立国的对应记载。黑潮弧群下一次进入历史记录，是约2100年前被泛阿斯兰第二帝国\"跨海征服\"（HIS-EVT-043）——从约3万年前分化到约2100年前被征服，中间近2.8万年完全没有独立政权记载。黑潮共同体作为独立政权，直到约500年前才建立。",
+      "keyFacts": [
+        "约3万年前S4黑潮群分化（[L8.004]），约2–3万年前抵达黑潮弧群（[L8.001-b]）",
+        "不在[L9.001]五大早期文明列表内——五大区域体系中唯一缺失\"古代文明立国\"这一历史阶段的一支",
+        "约5200年前冶金技术经黑潮弧群传入阿斯兰南部（[L9.004]）——黑潮作为中转站",
+        "约2100年前被泛阿斯兰第二帝国\"跨海征服\"（HIS-EVT-043）——黑潮文明历史记录中最主要的军事相关事件，且黑潮是被动方",
+        "约500年前黑潮共同体建立（[L12.001]，帝国解体期）",
+        "黑潮语族语言（[L14.001]，对应[L8.004]S4谱系）——五大文明语言体系中唯一被明确记载为濒危状态的一支",
+        "[L9.003]早期宗教体系列表不包含黑潮；[L16.003]四大美学风格不包含黑潮——宗教/哲学/美学传统在Master Canon中完全缺席",
+        "黑潮地热资源争端（HIS-EVT-058，约100年前）",
+        "凝界公约框架下大型算力中心选址地（[L13.002]）；地缘权重持续上升（[L17.001]）",
+        "黑潮的生命周期曲线与其余四支文明形成鲜明结构性差异：史前分化→（近2.8万年空白）→被征服→（近代独立建国空白）→当代崛起"
+      ],
+      "currency": "UNRESOLVED",
+      "government": "UNRESOLVED",
+      "philosophyReligion": "UNRESOLVED——[L9.003]早期宗教体系列表不包含黑潮（该列表对应双河/凝脊邦联/维罗/中央海/诺弧五支早期文明，与[L9.001]五大早期文明列表一致，黑潮均缺席）。这意味着黑潮文明的宗教/哲学传统在Master Canon中完全没有直接记载，本档案不予臆造。",
+      "economy": "Ancient/Imperial Economy：UNRESOLVED（被征服后资源可能被帝国控制，INFERENCE，未直接载明）；Industrial Economy：UNRESOLVED；Modern Economy：[L15.002]地热能源+算力租赁经济；黑潮地热资源争端（HIS-EVT-058，约100年前）；[L15.003]凝辉矿为AI硬件产业次级关键材料，由黑潮共同体控制。",
+      "modernFate": "以黑潮共同体政体形式独立存在（约500年前起）；当代五大区域体系之一；凝界公约框架下大型算力中心选址地；地缘权重持续上升（[L17.001]，OP-L13-005/OP-L15-003）；汐语复兴计划（Part VI Section III新增）——由汐炼学院与地方岛屿社区联合执行，利用黑潮自身的算力优势对黑潮语族进行系统性记录、教学材料开发与代际传承干预",
+      "fictionInterface": "Historical Novel：被征服史与语言濒危的双重创伤叙事。Contemporary Novel：算力中心崛起中的新兴产业工人与濒危语言保护者的双线故事。Ordinary People Stories：年轻一代黑潮人从传统岛屿迁往算力岛屿后，语言使用习惯的代际/地域分化。",
+      "specialNote": "黑潮是五大文明中能源路径跳跃最明显的一支——从几乎无早期记载，直接跃升为当代地热+算力这一高度现代化的能源模式，中间缺乏其他四支文明所具备的\"古代-帝国-工业\"渐进过渡记录。黑潮文明与Φ的关系高度集中于当代（凝辉矿资源+算力中心），缺乏其余四支文明那样贯穿古代-帝国-近代的连续Φ叙事。黑潮资料缺失 ≠ 黑潮文明落后——资料缺失只代表\"记录缺失\"，不代表\"历史上不存在\"。"
+    },
+
+    {
+      "civId": "CIV-006",
+      "name": "泛阿斯兰文明圈",
+      "nameEn": "Pan-Aslan Cultural Sphere",
+      "canonStatus": "RECONSTRUCTED CANON——Master Canon本身没有\"泛阿斯兰文明圈\"这一独立概念，仅有\"泛阿斯兰第二帝国\"这一机构实体（INS-008），本档案基于该帝国\"疆域最大的前现代帝国\"\"双河文明后继政权\"\"跨海征服黑潮\"等既有事实，将其重构为一个跨文明融合现象加以讨论，但不将其提升为与五大文明并列的独立文明实体",
+      "status": "Reconstructed analytical framework / not an independent extant civilization — 已解体，不再以独立文明圈形式存在。其政治遗产分散于双河联邦、凝脊共和国、东阿斯兰王国（及2个未命名继承国）与（经由征服关系间接）黑潮共同体",
+      "region": "阿斯兰全境（鼎盛期含黑潮弧群）",
+      "geography": "阿斯兰全境；鼎盛期含黑潮弧群（HIS-EVT-043跨海征服后）",
+      "summary": "这不是一个与CIV-001至CIV-005并列的独立\"文明\"，而是一个历史性的、已解体的跨文明融合帝国圈，主体为双河文明的政治延伸（泛阿斯兰第二帝国），叠加对黑潮文明的军事征服与文化输入。约2200年前（统一）至约900年前（完全解体为5继承国），约1300年。",
+      "keyFacts": [
+        "约2200年前统一阿斯兰全境（HIS-EVT-042）",
+        "约2100年前跨海征服黑潮弧群（HIS-EVT-043）——Master Canon中唯一明确记载的跨文明政治融合案例",
+        "鼎盛期约2000–1400年前",
+        "约1400–900年前渐进式解体",
+        "约900年前完全解体为5继承国（双河联邦、凝脊共和国、东阿斯兰王国、及2个未命名继承国）",
+        "本档案六个条目中唯一明确进入Dissolution终态、而非Continuous Transformation的条目",
+        "融合的局限性：Master Canon未记载黑潮文化/语言/宗教在此期间被\"泛阿斯兰化\"的具体过程，也未记载双河文化元素向黑潮的具体输入内容——\"文明圈\"更多是政治疆域层面的融合，而非文化/宗教/语言层面的深度融合"
+      ],
+      "currency": "UNRESOLVED",
+      "government": "直接继承自双河文明（主体），叠加对黑潮文明的军事征服关系。具体行政/军事制度UNRESOLVED（与INS-008泛阿斯兰第二帝国一致）",
+      "philosophyReligion": "直接继承自双河文明（主体），叠加对黑潮文明的军事征服关系。不重复展开CIV-001已有内容。",
+      "economy": "直接继承自双河文明（主体），叠加对黑潮文明的军事征服关系。不重复展开CIV-001已有内容。",
+      "modernFate": "已解体，不再以独立文明圈形式存在。其政治遗产分散于双河联邦、凝脊共和国、东阿斯兰王国（及2个未命名继承国）与（经由征服关系间接）黑潮共同体。凝脊共和国独立存续为\"中立贸易走廊\"（Part VI Section III）；东阿斯兰王国并入双河联邦（Part VI Section III）。",
+      "fictionInterface": "一个曾经统一阿斯兰全境的帝国\"文明圈\"最终完全解体、其政治遗产被5+1个继承政权瓜分的历史，本身即是极具张力的\"帝国黄昏\"叙事素材，尤其被征服的黑潮文明如何在语言几近消亡的压力下维系自身认同，可作为独立支线。",
+      "specialNote": "WARNING：CIV-006泛阿斯兰文明圈是一个重构的分析框架（RECONSTRUCTED CANON），不是一个独立存在的文明实体，更不是六代文明中的第六支。本世界六代文明（文明档案正式条目）为CIV-001双河、CIV-002维罗、CIV-003中央海、CIV-004诺弧、CIV-005黑潮五支extant civilizations，加上CIV-006作为分析框架的特殊条目（已解体）。CIV-006不能被理解为与五大文明并列的独立文明实体，更不能被误算入\"六代文明\"或\"六大文明\"的count中。本世界实际存在的extant civilizations为五支：双河、维罗、中央海、诺弧、黑潮。"
+    }
+  ],
+
+  "modernFateGapResolution": {
+    "sectionId": "Part VI Section III",
+    "title": "凝脊共和国与东阿斯兰王国的当代命运（Gap Resolution）",
+    "resolvesGaps": [
+      "GAP-INS-007（CDD_Institutional_Archive_v1.0.md）",
+      "GAP-CIV-007（CDD_Civilization_Archive_v1.0.md）"
+    ],
+    "processType": "Resolve（非Retcon/Revision）——处理UNRESOLVED空白属于Resolve而非Retcon，未推翻或修改任何既有Canon的实质内容",
+    "entries": [
+      {
+        "polity": "东阿斯兰王国",
+        "resolution": "并入双河联邦",
+        "canonStatus": "NEW HISTORICAL CANON",
+        "rationale": "CHAR-007-C弧衍已建立东阿斯兰王国\"延续帝制正统性叙事\"的立国基础；[L11.001]明确泛阿斯兰第二帝国本身是\"双河文明后继政权\"——东阿斯兰王国作为该帝国宗室旁支建立的继承国，与双河联邦同源同宗，最终政治统一具有强烈的历史必然性。",
+        "specificHandling": "RECONSTRUCTED——约在双河联邦确立后的数百年内（具体年份不予精确量化，避免与既有64个HIS-EVT编号体系产生时间线冲突，标注为\"约900年前之后的一段较长历史时期内\"），东阿斯兰王国通过渐进的政治协商而非军事征服并入双河联邦，条件是保留东阿斯兰宗室后裔的礼仪性/文化性地位（不再拥有实际政治权力），类似于一种\"荣誉性历史身份\"的当代残留。",
+        "literaryValue": "不是一次简单的吞并，而是\"帝国最后一块碎片主动回归其政治母体\"的历史收束，为双河联邦当代身份认同提供新的历史纵深——双河联邦不只是农业文明，也是曾经统一全阿斯兰的帝国最终政治遗产的继承者。"
+      },
+      {
+        "polity": "凝脊共和国",
+        "resolution": "独立存续至今，未加入五大区域体系",
+        "canonStatus": "NEW HISTORICAL CANON",
+        "rationale": "凝脊共和国的立国精神（山地城邦联盟传统、共和政体、CHAR-007-B岩契\"避免重蹈单一集权帝国衰亡覆辙\"的建国初衷）与\"被大国吸收\"这一命运在精神气质上直接矛盾——保持独立，比被吸收更符合这个文明已经写好的性格。",
+        "specificHandling": "RECONSTRUCTED——凝脊共和国凭借其扼守双河-维罗历史贸易/冲突枢纽（[L9.002][L9.004]凝脊山口的既定地理战略地位）的地理优势，在近代五大区域体系形成过程中，主动选择不并入任何一方，而是以\"中立贸易走廊\"身份存续至今，在凝界公约框架下持有观察员/联系方地位（而非正式成员）。",
+        "contemporaryStatus": "凝脊共和国是本世界地图上第六个、但非正式的政治实体——不属于五大区域体系，人口/经济体量小，但因控制双河-维罗贸易走廊而具备事实上的地缘不可替代性。境内日常使用契粮与炉衡双币流通（不单独建立新货币，因其体量不支撑独立货币的国际信用）。",
+        "literaryValue": "为CDD世界地图增加了一个\"小国生存智慧\"的叙事原型——不同于诺弧\"以哲学权威换取中立\"的路径，凝脊共和国是\"以地理枢纽价值换取中立\"的另一种小国生存范式。"
+      }
+    ]
+  },
+
+  "regionalCulture": {
+    "sectionId": "Part VI Section IV",
+    "title": "五大文明地方文化深化（Regional Culture）",
+    "policy": "在既有地理设定基础上补充具体的地方身份认同色彩，回应任务第15条\"文明不能只有一种颜色\"的要求。不新增地名，仅在既有地理分区上叠加文化性格。",
+    "civilizations": [
+      {
+        "civId": "CIV-001",
+        "name": "双河联邦",
+        "regions": [
+          {
+            "region": "交汇平台核心区",
+            "culturalIdentity": "历史权力中心[L10.002]，居民自我认同更贴近\"双河正统\"，对凝统正道信仰的公开实践程度较高"
+          },
+          {
+            "region": "外围灌溉农业区",
+            "culturalIdentity": "INFERENCE延伸，居民更强调\"实际耕作者\"身份，对交汇平台的政治权力存在一定的疏离感（\"规则是他们定的，地是我们种的\"）——双河联邦内部真实存在、此前从未被具体化的城乡认同张力"
+          }
+        ]
+      },
+      {
+        "civId": "CIV-002",
+        "name": "维罗合众国",
+        "regions": [
+          {
+            "region": "北缘矿区",
+            "culturalIdentity": "[L10.004]凝晶矿主矿带所在地，居民身份认同与炉火正神职业伦理最紧密，对配额制[L15.001]的态度最为矛盾（既依赖它维系资源可持续性，又对开采限制心怀不满）"
+          },
+          {
+            "region": "南缘渔业/潮汐资源区",
+            "culturalIdentity": "[L10.004]，历史上相对边缘化于维罗\"矿业霸权\"叙事之外，居民身份认同更贴近沿海渔业传统，与北缘矿区存在若隐若现的地区自豪感竞争（\"维罗不只是矿，我们才是最早懂得跟海打交道的维罗人\"）"
+          }
+        ]
+      },
+      {
+        "civId": "CIV-003",
+        "name": "中央海联合体",
+        "regions": [
+          {
+            "region": "传统港口城邦区",
+            "culturalIdentity": "延续[L9.001]多元宗教宽容传统，潮汐诸灵信仰的私人化实践[L16.004]在此地相对更活跃"
+          },
+          {
+            "region": "近代金融中心区（[L12.002]约420年前确立）",
+            "culturalIdentity": "世俗化程度最高，OP-L16-001文化认同真空议题在此地表现最集中，居民身份认同高度国际化、去地方化"
+          }
+        ]
+      },
+      {
+        "civId": "CIV-004",
+        "name": "诺弧高原祭司国",
+        "regions": [
+          {
+            "region": "#5岩棚群圣地核心区",
+            "culturalIdentity": "[L8.003]宗教/学术权威高度集中，居民生活与哲学/伦理传统的日常渗透程度最高"
+          },
+          {
+            "region": "高原门户区域（[L10.002]季节性陆桥沿线）",
+            "culturalIdentity": "INFERENCE延伸，作为对外连接的边境地带，居民身份认同兼具\"诺弧人\"与\"跨境往来者\"的双重性，对季节性交通限制DIRECT CANON的生活体验最直接"
+          }
+        ]
+      },
+      {
+        "civId": "CIV-005",
+        "name": "黑潮共同体",
+        "regions": [
+          {
+            "region": "传统渔业岛屿",
+            "culturalIdentity": "见第II节Wave 2已确立的\"传统船队/宗族网络\"身份认同"
+          },
+          {
+            "region": "新兴算力岛屿",
+            "culturalIdentity": "见第II节Wave 2已确立的\"技术移民、国际化\"身份认同；本轮补充——这两类岛屿之间开始出现地区性方言/口音差异的萌芽（INFERENCE，STORY HOOK潜力：年轻一代黑潮人从传统岛屿迁往算力岛屿后，语言使用习惯的代际/地域分化，与[L14.004]语言传承危机及汐语复兴计划形成更精细的现实质感）"
+          }
+        ]
+      }
+    ]
+  }
+}

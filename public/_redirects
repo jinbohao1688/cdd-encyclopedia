@@ -1,0 +1,14 @@
+# Cloudflare Pages — redirects / clean-url fallback
+# Reference: https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Next.js static export produces flat *.html files. Cloudflare Pages clean-URL
+# auto-resolves /foo → /foo.html by default. These explicit entries are an
+# additional safety net for any edge case and guarantee correct 404 behavior.
+
+# --- Permanent (301) slash normalization for static export ---
+/:splat/  /:splat  301
+
+# --- 404 fallback — Cloudflare Pages serves /404.html automatically on miss.
+# This line acts as a no-op placeholder so Pages definitely treats 404's
+# through this file instead of returning the Pages default 404 page.
+/*  /404.html  404

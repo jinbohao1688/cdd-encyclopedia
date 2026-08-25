@@ -1,0 +1,590 @@
+{
+  "science": [
+    {
+      "id": "L0-PHY-001",
+      "slug": "l0-phy-001",
+      "title": "第一原理：宇宙的原始二元性（凝/散）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-002",
+      "slug": "l0-phy-002",
+      "title": "质（Zhì）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-003",
+      "slug": "l0-phy-003",
+      "title": "凝度场（Φ）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-004",
+      "slug": "l0-phy-004",
+      "title": "势差（∇Φ）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-005",
+      "slug": "l0-phy-005",
+      "title": "凝力（F_凝）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-006",
+      "slug": "l0-phy-006",
+      "title": "散力（F_散）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-007",
+      "slug": "l0-phy-007",
+      "title": "质守恒（L-1）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-008",
+      "slug": "l0-phy-008",
+      "title": "凝化方程（L-2）⭐ 最核心",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-009",
+      "slug": "l0-phy-009",
+      "title": "散化趋势（L-3）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-010",
+      "slug": "l0-phy-010",
+      "title": "时间方向的内禀性（L-4）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-011",
+      "slug": "l0-phy-011",
+      "title": "凝度辐射（Φ 波）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-012",
+      "slug": "l0-phy-012",
+      "title": "凝迹效应（Φ 印记）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "L0-PHY-CMP",
+      "slug": "l0-phy-cmp",
+      "title": "CDD 与现实物理对照",
+      "canonTier": "TIER 0"
+    }
+  ],
+  "world": [
+    {
+      "id": "L1",
+      "slug": "l1",
+      "title": "宇宙学与恒星系",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2",
+      "slug": "l2",
+      "title": "行星地质与矿藏",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L3",
+      "slug": "l3",
+      "title": "大气与气候",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L4",
+      "slug": "l4",
+      "title": "海洋学",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L5",
+      "slug": "l5",
+      "title": "生物化学与生命起源",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L6",
+      "slug": "l6",
+      "title": "生态系统与演化",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L7",
+      "slug": "l7",
+      "title": "智慧种族生物学",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L8",
+      "slug": "l8",
+      "title": "史前史与考古",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L9",
+      "slug": "l9",
+      "title": "古代史",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L10",
+      "slug": "l10",
+      "title": "地理与地缘结构",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L11",
+      "slug": "l11",
+      "title": "中世纪史 / 帝国时代",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L12",
+      "slug": "l12",
+      "title": "近代史 / 工业化时代",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L13",
+      "slug": "l13",
+      "title": "AI 临界事件",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L14",
+      "slug": "l14",
+      "title": "语言与文字系统",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L15",
+      "slug": "l15",
+      "title": "经济与资源体系",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L16",
+      "slug": "l16",
+      "title": "宗教、哲学、文化",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L17",
+      "slug": "l17",
+      "title": "当代世界",
+      "canonTier": "TIER 3"
+    }
+  ],
+  "history": [
+    {
+      "id": "HIS-EVT-038",
+      "slug": "his-evt-038",
+      "title": "凝晶资源战争（Crystal-Condensation Resource War）",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-040",
+      "slug": "his-evt-040",
+      "title": "北缘矿脉枯竭危机（North Rim Vein Depletion Crisis）",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-042",
+      "slug": "his-evt-042",
+      "title": "泛阿斯兰第二帝国统一",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-043",
+      "slug": "his-evt-043",
+      "title": "黑潮征服战役（Black Tide Conquest Campaign）",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-045",
+      "slug": "his-evt-045",
+      "title": "泛阿斯兰第二帝国渐进式解体",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-053",
+      "slug": "his-evt-053",
+      "title": "维罗工匠-学者首次提出'存在某种未知场'的猜想",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-056",
+      "slug": "his-evt-056",
+      "title": "凝散动力学（CDD）正式确立为科学理论",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-057",
+      "slug": "his-evt-057",
+      "title": "Φ波探测技术成熟，凝迹效应首次被仪器直接验证",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-061",
+      "slug": "his-evt-061",
+      "title": "第一代通用AI系统'凝一号'（NingOne）训练完成，及其训练期间发生的'零日凝峰'（Day Zero Peak）Φ异常事件",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "HIS-EVT-063",
+      "slug": "his-evt-063",
+      "title": "凝界公约（Condensation Boundary Convention）签署",
+      "canonTier": "TIER 3"
+    }
+  ],
+  "people": [
+    {
+      "id": "CHAR-001",
+      "slug": "char-001",
+      "title": "汜渠",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-002",
+      "slug": "char-002",
+      "title": "漪商",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "CHAR-003",
+      "slug": "char-003",
+      "title": "重铸",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-004",
+      "slug": "char-004",
+      "title": "邑分",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-005",
+      "slug": "char-005",
+      "title": "泛延",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-006",
+      "slug": "char-006",
+      "title": "焰弓·潮断",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-007-A",
+      "slug": "char-007-a",
+      "title": "沃汜",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-007-B",
+      "slug": "char-007-b",
+      "title": "岩契",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-007-C",
+      "slug": "char-007-c",
+      "title": "弧衍",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-007-D",
+      "slug": "char-007-d",
+      "title": "渚衡",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "CHAR-007-E",
+      "slug": "char-007-e",
+      "title": "汭珂",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "CHAR-008",
+      "slug": "char-008",
+      "title": "淬观",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-009",
+      "slug": "char-009",
+      "title": "潮算·汭明",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-010",
+      "slug": "char-010",
+      "title": "观弦",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-011",
+      "slug": "char-011",
+      "title": "波辨·熔镜",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-012",
+      "slug": "char-012",
+      "title": "凝觉·维析",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-013-A",
+      "slug": "char-013-a",
+      "title": "炉执",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-013-B",
+      "slug": "char-013-b",
+      "title": "市衡",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-013-C",
+      "slug": "char-013-c",
+      "title": "禾谏",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-013-D",
+      "slug": "char-013-d",
+      "title": "寂明贤者",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CHAR-013-E",
+      "slug": "char-013-e",
+      "title": "汐焰",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "FF-熔炼",
+      "slug": "ff",
+      "title": "熔炼",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "FF-潮明",
+      "slug": "ff",
+      "title": "潮明",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "FF-观宁",
+      "slug": "ff",
+      "title": "观宁",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "FF-汭诊",
+      "slug": "ff",
+      "title": "汭诊",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "FF-汐炼",
+      "slug": "ff",
+      "title": "汐炼",
+      "canonTier": "TIER 1"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "INS-001",
+      "slug": "ins-001",
+      "title": "双河大一统王朝",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-002",
+      "slug": "ins-002",
+      "title": "凝脊邦联",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-003",
+      "slug": "ins-003",
+      "title": "维罗矿业王权",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-004",
+      "slug": "ins-004",
+      "title": "中央海贸易城邦群",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-005",
+      "slug": "ins-005",
+      "title": "诺弧高原祭司国",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-006",
+      "slug": "ins-006",
+      "title": "维罗联合矿权",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-007",
+      "slug": "ins-007",
+      "title": "中央海海洋同盟",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-008",
+      "slug": "ins-008",
+      "title": "泛阿斯兰第二帝国",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-009",
+      "slug": "ins-009",
+      "title": "双河联邦",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-010",
+      "slug": "ins-010",
+      "title": "凝脊共和国",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-011",
+      "slug": "ins-011",
+      "title": "东阿斯兰王国",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-012",
+      "slug": "ins-012",
+      "title": "维罗合众国",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-013",
+      "slug": "ins-013",
+      "title": "中央海联合体",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-014",
+      "slug": "ins-014",
+      "title": "黑潮共同体",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-015",
+      "slug": "ins-015",
+      "title": "维罗-中央海联合实验室",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-016",
+      "slug": "ins-016",
+      "title": "凝界公约（体系）",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-017",
+      "slug": "ins-017",
+      "title": "诺弧高原年度凝散平衡审计（体系）",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-018",
+      "slug": "ins-018",
+      "title": "熔观书院",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-019",
+      "slug": "ins-019",
+      "title": "潮算学馆",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-020",
+      "slug": "ins-020",
+      "title": "寂观学宫",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-021",
+      "slug": "ins-021",
+      "title": "汐炼学院",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-022",
+      "slug": "ins-022",
+      "title": "凝界联络处",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "INS-023",
+      "slug": "ins-023",
+      "title": "观声会",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "PIN-001",
+      "slug": "pin-001",
+      "title": "玄枢会",
+      "canonTier": "TIER 6"
+    }
+  ],
+  "civilizations": [
+    {
+      "id": "CIV-001",
+      "slug": "civ-001",
+      "title": "双河文明",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CIV-002",
+      "slug": "civ-002",
+      "title": "维罗文明",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CIV-003",
+      "slug": "civ-003",
+      "title": "中央海文明",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CIV-004",
+      "slug": "civ-004",
+      "title": "诺弧文明",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CIV-005",
+      "slug": "civ-005",
+      "title": "黑潮文明",
+      "canonTier": "TIER 1"
+    },
+    {
+      "id": "CIV-006",
+      "slug": "civ-006",
+      "title": "泛阿斯兰文明圈",
+      "canonTier": "TIER 3"
+    }
+  ]
+}

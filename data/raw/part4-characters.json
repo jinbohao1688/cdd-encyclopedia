@@ -1,0 +1,1152 @@
+{
+  "part": "IV",
+  "title": "HISTORICAL CHARACTER ARCHIVE",
+  "sourceDocument": "CDD_Historical_Character_Archive_v1.1.md",
+  "canonicality": "HISTORICAL EXPANSION CANON",
+  "characters": [
+    {
+      "charId": "CHAR-001",
+      "name": "汜渠",
+      "namePinyin": "Sì Qú",
+      "basicIdentity": {
+        "nativeName": "无独立记录（双河文明表意文字书写为\"汜渠\"二字）",
+        "era": "双河大一统王朝鼎盛期（约4500–3800年前）",
+        "civilization": "双河大一统王朝",
+        "occupation": "王（统治者兼军事统帅）",
+        "role": "\"渠王\"（沿用双河灌溉传统的王室称号）",
+        "status": "王室"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于双河大一统王朝鼎盛期的王室，双河交汇平台王都。社会以灌溉农业为经济基础，语言为双河表意文字（[L14.002]约5300年前起源），已有约1200余年书写传统积累。城市，王室教育。",
+      "earlyLife": "自幼接受王室教育，学习灌溉水利管理与双河表意文字。青年时期随王室宗亲参与与维罗联合矿权的早期贸易摩擦处理——属UNRESOLVED BIOGRAPHY，标INFERENCE。",
+      "beliefs": {
+        "personal": "中央海贸易主导权关乎双河王朝的长期农业盈余转化能力，主张以军事手段确立优势地位",
+        "contemporaryMainstream": "双河王室及贵族阶层普遍认为王朝的农业与灌溉优势理应转化为贸易主导权",
+        "historicalMisconception": "汜渠可能相信军事优势可以速战速决确立贸易垄断——这一判断被后续150年战争的僵持结果证伪"
+      },
+      "professionalProfile": "专业：王室统治、水利行政、军事统帅；技术：熟悉灌溉农业管理，具备当时双河军事组织调动能力；不掌握后世铁器/钢材技术",
+      "historicalAgency": "作为战争发起方决策者之一，推动双河王朝介入凝晶资源战争（RECONSTRUCTED RELATION）；战争\"未分胜负\"客观上促成中央海海洋同盟介入调停，但汜渠本人是否见证战争结束尚UNRESOLVED",
+      "historicalEventRelations": ["HIS-EVT-038"],
+      "knownRelationships": [
+        "与CHAR-002：未直接互动，二者活跃于战争的不同阶段/立场，尚无Canon依据建立直接关系 OPEN"
+      ],
+      "languageCulture": "母语/书写语言：双河表意文字 [L14.002]；宗教习惯：早期凝统正道前身信仰的参与者（国教化尚未发生）",
+      "limitations": "信息不足：无法获知维罗联合矿权的完整军事能力；政治限制：受王室宗亲网络制约；技术限制：不掌握维罗冶金军事技术优势",
+      "historicalAssessment": {
+        "contemporary": "王朝内部视其为捍卫贸易利益的强硬统治者",
+        "immediate": "战争未分胜负后，其决策在双河王朝内部引发关于\"是否值得150年消耗\"的争议",
+        "later": "后世（OP-L11-001视角下）被视为阿斯兰-维罗长期地缘竞争的早期象征性人物，但此定性依赖OP-L11-001本身仍开放的前提"
+      },
+      "historicalControversies": "是否亲历战争结束（其死亡时间设定早于战争理论结束时间）；战争决策是否为其个人意志还是王室集体决策 UNRESOLVED BIOGRAPHY",
+      "death": {
+        "time": "约3980年前",
+        "location": "双河交汇平台王都（推定）",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "政治：象征双河王朝在贸易竞争中的强硬姿态；其余维度：No direct Canon-supported legacy established beyond political symbolism.",
+      "phiRelation": "INFERENCE：作为战争决策者，间接卷入对凝晶矿贸易路线的争夺，但无证据表明其本人直接研究或使用Φ技术（CDD理论确立远在其身后约3800年）",
+      "fictionInterface": {
+        "potentialNovel": "帝国时代战争史诗，王室视角编年体",
+        "centralConflict": "速胜期望 vs 长期僵持的现实"
+      }
+    },
+    {
+      "charId": "CHAR-002",
+      "name": "漪商",
+      "namePinyin": "Yī Shāng",
+      "basicIdentity": {
+        "nativeName": "中央海表音字母书写\"Yi-Shang\"（约5000年前起源的字母文字，[L14.002]）",
+        "era": "中央海贸易城邦群向海洋同盟过渡期",
+        "civilization": "中央海贸易城邦群（后中央海海洋同盟）",
+        "occupation": "城邦间调停使者/行会首领",
+        "role": "\"行首\"（中央海城邦贸易行会领袖称号）",
+        "status": "商业行会上层"
+      },
+      "canonStatus": "CANDIDATE",
+      "canonStatusNote": "其\"海洋同盟正式代表\"身份与Issue 006直接冲突，故不赋予NEW HISTORICAL CANON最终地位，作为候选人物保留",
+      "canonProposalNote": "本档案就Issue 006提出建议性解释，明确标注为CANON PROPOSAL，不覆盖或裁决既有冲突：漪商所代表的调停行为，发生于中央海城邦群\"正式形成海洋同盟\"（约3600年前）之前，是彼时尚属松散贸易城邦群阶段的一次非正式跨城邦联合调停行动，并非以\"海洋同盟\"名义正式介入。[L11.002]原文\"最终以海洋同盟介入调停\"可能是后世文献回溯性地用\"海洋同盟\"指代当时尚非正式的中央海城邦联合调停行为。此CANON PROPOSAL不构成对Issue 006的正式解决，Issue 006在Master Canon层面继续保持OPEN。",
+      "birthContext": "出生于中央海沿岸某港口城邦商业行会家庭。中央海此时（约4030年前）仍处于\"贸易城邦群\"阶段。社会以航海贸易为经济基础，宗教信仰多元（潮汐诸灵信仰的宗教宽容传统）。语言为中央海表音字母文字。城市，商业行会教育。",
+      "earlyLife": "自幼在行会体系中学习航海贸易、多语种沟通与账务记录，成年后逐步在城邦间贸易纠纷调解中积累声望，被多个城邦共同推举为跨城邦调停代表。此经历属UNRESOLVED BIOGRAPHY。",
+      "beliefs": {
+        "personal": "贸易秩序的稳定高于任何单一城邦或帝国的短期利益",
+        "contemporaryMainstream": "中央海城邦群普遍持\"宗教多元+商业实用主义\"的价值取向",
+        "historicalMisconception": "INFERENCE——可能过度信任贸易协定本身能长期约束双河与维罗两大帝国"
+      },
+      "professionalProfile": "专业：跨城邦贸易调停、商业行会管理；技术：航海贸易账务、多语种沟通；局限：不具备强制约束力，调停依赖各方自愿遵守",
+      "historicalAgency": "促成凝晶资源战争的调停与贸易协定达成（RECONSTRUCTED RELATION，依托CANON PROPOSAL框架）；调停促成的\"未分胜负\"结局客观上未能阻止长期地缘竞争可能性",
+      "historicalEventRelations": ["HIS-EVT-038"],
+      "knownRelationships": ["与CHAR-001：无直接互动记录 OPEN"],
+      "languageCulture": "母语/书写语言：中央海表音字母文字 [L14.002]；宗教习惯：潮汐诸灵信仰参与者，秉持宗教宽容传统 [L9.003]",
+      "limitations": "政治限制：无强制约束力，依赖各方自愿；身份限制：非任何单一政权的正式代表（在CANON PROPOSAL框架下）；信息不足：无法预知战争后续150年的完整走向",
+      "historicalAssessment": {
+        "contemporary": "被中央海城邦群视为务实的调停者",
+        "immediate": "调停成果（贸易协定）被视为中央海城邦群跨邦协作能力的早期证明",
+        "later": "若Issue 006未来被正式仲裁为\"海洋同盟提前非正式介入\"，漪商可能被追认为海洋同盟事实上的先驱人物；若仲裁结果相反，则其历史地位需重新评估——本档案明确此评估的不确定性"
+      },
+      "historicalControversies": "直接对应Issue 006：其调停行为的\"代表身份\"是否具备正式性，是本人物档案最大的争议来源；No major controversy canonized yet.（除Issue 006相关部分外）",
+      "death": {
+        "time": "约3960年前",
+        "location": "中央海沿岸港口城邦（推定）",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "政治：CANON PROPOSAL框架下，可能是海洋同盟正式化的先例贡献者；其余维度：No direct Canon-supported legacy established.",
+      "phiRelation": "无DIRECT CANON关联；INFERENCE：作为贸易调停者可能间接接触凝晶矿贸易事务，但无证据表明直接研究或使用Φ相关技术",
+      "fictionInterface": {
+        "potentialNovel": "外交/贸易题材历史小说，聚焦\"非正式调停者\"身份的政治张力",
+        "centralConflict": "调停权威的合法性缺失 vs 实际调停成效"
+      }
+    },
+    {
+      "charId": "CHAR-003",
+      "name": "重铸",
+      "namePinyin": "Chóng Zhù",
+      "basicIdentity": {
+        "nativeName": "维罗矿业文字书写\"重铸\"，含\"重新锻造\"意象",
+        "era": "维罗联合矿权鼎盛期末段/北缘矿脉枯竭危机初期",
+        "civilization": "维罗联合矿权",
+        "occupation": "矿区开采管理者",
+        "role": "\"矿主\"（维罗矿业管理者称号）",
+        "status": "矿业主阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于维罗联合矿权北缘矿脊的矿业主家庭，此时维罗已进入鼎盛期后期（鼎盛期约4000–3200年前）。社会以凝晶矿开采与冶金技术垄断为经济基础，宗教为\"炉火正神\"信仰。语言为维罗表音音节文字（[L14.002]约5100年前起源）。城市（矿业聚落），矿业世家教育。",
+      "earlyLife": "自幼随家族学习矿脉勘探与开采管理，师承家族内部经验传承体系（非正式学院教育，UNRESOLVED BIOGRAPHY具体师承细节）。青年时期正值维罗矿业产量的历史高位期，成年后接管家族矿区管理事务。",
+      "beliefs": {
+        "personal": "矿脉的产出能力是可以通过技术手段持续提升的",
+        "contemporaryMainstream": "维罗鼎盛期社会普遍持技术乐观主义态度，相信冶金技术优势可长期维持",
+        "historicalMisconception": "重铸相信矿脉的Φ响应能力可以通过更精细的开采技术无限维持，这一判断被[-3]散化趋势公理下的实际枯竭过程证伪"
+      },
+      "professionalProfile": "专业：矿脉开采管理；技术：维罗当时的冶金开采工艺（不掌握后世\"限量开采配额制\"，[L15.001]）；局限：不具备定量测算Φ补充速率的能力",
+      "historicalAgency": "可能提出过早期预警（见层一，但存在争议）；无论预警是否属实，矿脉枯竭危机均未因个人努力而改变走向",
+      "threeLayerDesign": {
+        "layer1_contemporaryAwareness": "NEW HISTORICAL CANON——重铸晚年（约3300年前后）注意到部分矿脉产出出现\"响应减弱\"的现象，向矿权上层提出过\"减缓开采速率\"的建议，但未被采纳。",
+        "layer2_contemporaryIgnorance": "NEW HISTORICAL CANON——重铸本人并未能理解这一现象背后的物理机制（[-3]散化趋势公理的具体作用方式在其时代尚无理论工具可以解释——CDD理论要到其身后约3120年才正式确立，HIS-EVT-056），他仅凭经验观察提出警觉，无法提供科学依据。",
+        "layer3_laterHistoricalDispute": "NEW HISTORICAL CANON——[L15]近代经济史学界（OP-L11-003相关讨论方向）对\"重铸是否确实提出过预警\"存在争议：部分学者依据零散的矿业行会记录残篇认为确有其事，另一部分学者认为这类\"先知式预警\"传说是后世（尤其是[L16.002]散化保守主义哲学兴起后）为强化\"资源诅咒教训\"叙事而追加的历史建构。本档案明确：这一\"后世争议\"本身即是NEW HISTORICAL CANON的一部分，即\"重铸是否真的预警过\"这件事本身，在CDD世界观内部就是一个未决的史学问题，不是本档案掩饰的模糊，而是刻意设计的历史不确定性。"
+      },
+      "historicalEventRelations": ["HIS-EVT-040"],
+      "knownRelationships": [
+        "与CHAR-004（继承邦国改革者）：INFERENCE——二者活跃年代相近（约3300–3000年前），CHAR-004可能是重铸家族矿区所在邦国分裂后的地方政治人物，但具体亲属/师徒关系OPEN，本档案不强行建立"
+      ],
+      "languageCulture": "母语/书写语言：维罗表音音节文字；宗教习惯：炉火正神信仰",
+      "limitations": "信息不足：无科学工具理解枯竭机制；技术限制：不掌握后世配额制的制度设计能力；政治限制：预警建议未被矿权上层采纳（若属实）",
+      "historicalAssessment": {
+        "contemporary": "同时代矿业圈内一名经验丰富但未获决策权重视的管理者",
+        "immediate": "矿权分裂后（约3000年前），其\"预警\"事迹是否被继承邦国官方记录存在不确定性",
+        "later": "见\"层三：后世争议\"，其历史地位本身是OPEN的史学辩论对象"
+      },
+      "historicalControversies": "核心争议：预警传说是否真实发生，见上文\"层三\"",
+      "death": {
+        "time": "约3290年前",
+        "location": "维罗北缘矿脊",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "若预警传说属实：可能是\"资源诅咒\"叙事的早期文化原型之一 INFERENCE；No further direct Canon-supported legacy established.",
+      "phiRelation": "DIRECT CANON：其职业直接涉及凝晶矿开采管理，日常接触高Φ矿脉环境；INFERENCE：其\"预警\"若属实，是对[-3]散化趋势公理效应的朴素经验观察，而非理论认知",
+      "fictionInterface": {
+        "potentialNovel": "矿业世家兴衰史，\"未被听见的预警者\"主题",
+        "centralConflict": "经验直觉 vs 制度性忽视；个人认知局限 vs 无法解释的现象"
+      }
+    },
+    {
+      "charId": "CHAR-004",
+      "name": "邑分",
+      "namePinyin": "Yì Fēn",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "维罗联合矿权分裂前后",
+        "civilization": "维罗联合矿权 → 继承邦国之一（未具名）",
+        "occupation": "地方政治人物、独立推动者",
+        "role": "无正式记载头衔",
+        "status": "地方贵族/行政官员"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于维罗联合矿权衰落期（矿脉枯竭危机已持续约275年）的地方贵族家庭，所在矿区并非重铸家族矿区（UNRESOLVED BIOGRAPHY：具体地理关系未定）。社会已明显感受到矿权中央权威衰弱、地方自治诉求上升的氛围。",
+      "earlyLife": "成长于矿权分裂前夕的地方行政体系中，见证矿业衰退对地方经济的冲击，逐步在地方治理事务中崭露头角。",
+      "beliefs": {
+        "personal": "地方自主管理矿业资源比继续依附衰弱的中央矿权更能保障当地利益",
+        "contemporaryMainstream": "维罗各地方矿区普遍对中央矿权的资源分配能力失去信心",
+        "historicalMisconception": "INFERENCE——邑分可能相信地方独立后能更快恢复矿业繁荣，但Master Canon未记载继承邦国是否真的实现了这一目标（OP-L11-003仍属未决问题）"
+      },
+      "professionalProfile": "专业：地方行政管理；技术：矿区资源统筹（非开采技术本身）；局限：无中央矿权级别的资源调配权限",
+      "historicalAgency": "推动所在地方矿区从维罗联合矿权中独立，成为继承邦国之一（RECONSTRUCTED）；参与继承邦国的早期地方治理制度建立（RECONSTRUCTED）",
+      "historicalEventRelations": ["HIS-EVT-041"],
+      "knownRelationships": ["与CHAR-003：见CHAR-003档案，OPEN关系，不强行确立"],
+      "languageCulture": "母语/书写语言：维罗表音音节文字；宗教习惯：炉火正神信仰（此时已开始演变为\"跨文明工匠行会共同信仰\"，[L11.003]）",
+      "limitations": "政治限制：地方权力有限，无法解决全域性资源枯竭问题；信息不足：无法获知其他继承邦国的具体发展路径",
+      "historicalAssessment": {
+        "contemporary": "被地方视为务实的独立推动者",
+        "immediate": "继承邦国建立初期，其角色被视为成功的地方治理转型代表",
+        "later": "约900年前维罗合众国邦联重组（[L12.001]）时，其所属继承邦国的最终命运UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "约2960年前",
+        "location": "所属继承邦国（未定名）",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "政治：地方治理转型的早期推动者；No further direct Canon-supported legacy established.",
+      "phiRelation": "INFERENCE：作为地方矿区行政者，间接管理凝晶矿资源，但无证据表明直接参与开采技术或Φ研究",
+      "fictionInterface": {
+        "potentialNovel": "帝国瓦解背景下的地方治理史诗",
+        "centralConflict": "地方自主 vs 中央权威瓦解后的资源困境"
+      }
+    },
+    {
+      "charId": "CHAR-005",
+      "name": "泛延",
+      "namePinyin": "Fàn Yán",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "泛阿斯兰第二帝国统一前后",
+        "civilization": "泛阿斯兰第二帝国（双河文明后继政权）",
+        "occupation": "统一者、开国统治者",
+        "role": "\"泛阿斯兰王\"（后世追认的统一者称号）",
+        "status": "地方豪强/军事贵族出身"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于阿斯兰东部一处地方豪强家庭，正值双河大一统王朝故地历经约1600年政治空白期（该空白期本身保持HISTORICAL GAP不变，本档案不填补其内容，泛延仅存在于空白期末尾）。具体家族谱系UNRESOLVED BIOGRAPHY。",
+      "earlyLife": "成长于阿斯兰多国并立、局势分散的环境中（HISTORICAL GAP覆盖期），早年经历因空白期本身未被正典化而大部分不可考，仅设定其青年时期已建立起一定的地方军事声望。本档案明确标注：泛延的早年成长环境细节大量属于UNRESOLVED BIOGRAPHY。",
+      "beliefs": {
+        "personal": "以\"双河文明正统继承者\"自居，主张重新统一阿斯兰全境",
+        "contemporaryMainstream": "UNRESOLVED——空白期内阿斯兰各地方政权的主流政治意识形态未被正典化",
+        "historicalMisconception": "INFERENCE——泛延可能相信\"双河正统\"的政治号召力足以自然促成统一，但实际统一过程具体依赖何种手段仍UNRESOLVED"
+      },
+      "professionalProfile": "专业：军事统帅、政治整合；技术：符合帝国时代早期至中期技术水平（不掌握[L11.004]鼎盛期末段才成熟的块炼铁/渗碳钢技术）；局限：具体统一手段Master Canon未载明",
+      "historicalAgency": "推动阿斯兰全境再度统一（约2200年前，RECONSTRUCTED）；建立泛阿斯兰第二帝国的早期统治架构（RECONSTRUCTED，具体制度设计UNRESOLVED）；其统一奠定的疆域基础最终在其身后约800年开始渐进式解体",
+      "historicalEventRelations": ["HIS-EVT-042"],
+      "knownRelationships": [
+        "与CHAR-006（黑潮征服战役将领）：No direct personal relationship.（v1.1修订）泛延死亡时CHAR-006尚未出生（泛延卒于约2175年前，潮断生于约2130年前），二者不可能相识。二者之间仅存在Legacy / Institutional Succession——泛延统一建立的帝国国家机器是潮断得以在其身后约75年发起跨海军事行动的制度基础，标注为RECONSTRUCTED，但明确不等同于\"潮断是泛延任命的将军\""
+      ],
+      "languageCulture": "母语/书写语言：INFERENCE——延续双河表意文字传统；宗教习惯：INFERENCE——双河\"凝统正道\"前身信仰的政治化运用者",
+      "limitations": "信息不足：对阿斯兰全境各地方政权的实际情况了解有限；政治限制：统一手段本身的具体细节、遭遇的抵抗程度均未知；身份限制：其\"双河正统\"身份的真实性/认受程度UNRESOLVED",
+      "historicalAssessment": {
+        "contemporary": "统一进程中被拥护者视为\"双河正统的复兴者\"",
+        "immediate": "统一完成后被视为开创疆域最大前现代帝国的统治者",
+        "later": "后世（尤其OP-L11-002衰落轨迹被填充后）对其统一手段的历史评价可能因具体史料补充而变化，当前仍OPEN"
+      },
+      "historicalControversies": "统一手段的具体方式（征服/联盟/继承）未定，为最大争议来源；（v1.1修订）v1.0曾探讨其是否为黑潮征服战役的决策者，现已依据生卒年正式排除",
+      "death": {
+        "time": "约2175年前",
+        "location": "阿斯兰东部（推定）",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "政治：疆域最大前现代帝国的奠基者；文化：INFERENCE——若延续双河正统叙事，可能对[L11.003]双河大一统王朝\"凝统正道\"国教化传统在泛阿斯兰帝国的延续有间接影响",
+      "phiRelation": "无DIRECT CANON关联；INFERENCE：作为帝国统治者，间接涉及凝晶矿贸易与资源管理，但CDD理论确立远在其身后约2000年",
+      "fictionInterface": {
+        "potentialNovel": "统一史诗，聚焦\"号召正统 vs 空白历史\"的叙事张力",
+        "centralConflict": "统一雄心 vs 具体统一过程的史料缺失本身构成的叙事留白"
+      }
+    },
+    {
+      "charId": "CHAR-006",
+      "name": "焰弓·潮断",
+      "namePinyin": "Yàn Gōng · Cháo Duàn",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "泛阿斯兰第二帝国扩张早期",
+        "civilization": "泛阿斯兰第二帝国",
+        "occupation": "将领，主导黑潮征服战役",
+        "role": "\"焰弓\"（军事称号）",
+        "status": "军事贵族/职业将领"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于泛阿斯兰第二帝国统一（约2200年前）之后不久的阿斯兰东部沿海地区。技术环境：帝国此时的军事技术为青铜与早期铁器（[L11.002]明确记载黑潮征服战役所用为\"当时最先进的青铜/早期铁器军事技术\"），尚不具备[L11.004]鼎盛期末段（约1400年前）才普及的块炼铁与渗碳钢。",
+      "earlyLife": "自幼接受军事训练，成长于帝国统一初期的扩张氛围中，逐步凭借战功晋升为将领。具体师承、早期战功细节UNRESOLVED BIOGRAPHY。",
+      "beliefs": {
+        "personal": "跨海征服黑潮弧群是帝国确立海外权威的必要行动",
+        "contemporaryMainstream": "INFERENCE——帝国扩张早期军事贵族阶层普遍持扩张主义倾向",
+        "historicalMisconception": "INFERENCE——潮断可能相信青铜/早期铁器技术优势足以确保长期稳固统治，但[L14.004]记载黑潮语族的传承危机延续至当代"
+      },
+      "professionalProfile": "专业：跨海军事行动统率；技术：青铜/早期铁器军事技术、当时的远洋军事投送能力；局限：不掌握后世铁器冶炼技术，远洋投送能力受限于早期造船工艺",
+      "historicalAgency": "主导黑潮征服战役，实现帝国首次跨海大规模军事行动（RECONSTRUCTED）；其征服行动对黑潮语族当代仍存在的传承危机（[L14.004]）负有间接的历史起点性影响",
+      "historicalEventRelations": ["HIS-EVT-043"],
+      "knownRelationships": [
+        "与CHAR-005：No direct personal relationship（v1.1修订）。潮断是泛阿斯兰第二帝国国家机器的继承者与使用者，而非泛延本人提拔的部下"
+      ],
+      "languageCulture": "母语/书写语言：INFERENCE——延续双河/泛阿斯兰通用文字体系；宗教习惯：UNRESOLVED",
+      "limitations": "技术限制：不掌握后世铁器技术，远洋投送能力有限；信息不足：对黑潮弧群本地社会结构了解有限；政治限制：军事将领身份，征服后的治理安排可能不在其权限范围",
+      "historicalAssessment": {
+        "contemporary": "帝国内部视其为开创跨海征服先河的军事英雄",
+        "immediate": "征服完成后被视为帝国海外扩张能力的象征",
+        "later": "当代（[L14.004]视角）回顾黑潮语族传承危机时，其历史角色可能被重新审视为文化断裂的起点人物之一，这一评价本身具有争议性质"
+      },
+      "historicalControversies": "（v1.1修订）v1.0版本曾探讨与CHAR-005的隶属关系，现已正式排除；[L14.004]黑潮语族传承危机是否应追溯至其征服行动，属于开放的历史评价问题",
+      "death": {
+        "time": "约2095年前",
+        "location": "黑潮弧群或阿斯兰东部（推定，UNRESOLVED）",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "政治/军事：本世界首次跨海大规模军事行动的执行者；文化：INFERENCE——间接关联黑潮语族当代传承危机的历史起点",
+      "phiRelation": "INFERENCE：黑潮弧群\"古火山岛基底\"是凝辉矿主要产地（[L2.003-b]），若征服动机确与资源相关，则潮断的军事行动客观上使帝国获得对凝辉矿产区的控制权，但本人在世时是否认知这一资源的战略价值UNRESOLVED",
+      "fictionInterface": {
+        "potentialNovel": "跨海征服/殖民历史小说，双重视角（征服者+被征服者）",
+        "centralConflict": "军事征服的\"胜利\"叙事 vs 长期文化断裂的\"代价\"叙事"
+      }
+    },
+    {
+      "charId": "CHAR-007-A",
+      "name": "沃汜",
+      "namePinyin": "Wò Sì",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "泛阿斯兰第二帝国渐进式解体期",
+        "civilization": "泛阿斯兰第二帝国（帝国末期）→ 双河联邦（开国）",
+        "occupation": "独立推动者，双河联邦首任领导人",
+        "role": "\"联邦执政\"",
+        "status": "地方行政贵族"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于泛阿斯兰第二帝国鼎盛期末段（约1400年前，[L11.004]记载此时已普及块炼铁与渗碳钢、大型灌溉水利系统），双河流域地方行政家庭。见证帝国鼎盛期向衰落转变的开端。",
+      "earlyLife": "在帝国晚期的地方行政体系中成长，主持双河流域灌溉水利事务，逐步积累地方治理声望与双河故地\"农业文明正统\"的身份认同。",
+      "beliefs": {
+        "personal": "双河流域应恢复其作为农业文明发源地的自主治理地位",
+        "contemporaryMainstream": "INFERENCE——帝国晚期双河地方精英阶层的自治诉求逐渐上升",
+        "historicalMisconception": "INFERENCE——沃汜可能相信独立后能迅速恢复双河文明鼎盛期的繁荣，但具体历史进程UNRESOLVED"
+      },
+      "professionalProfile": "专业：灌溉水利行政；技术：帝国鼎盛期末段技术基线（块炼铁、渗碳钢、灌溉水利系统）[L11.004]；局限：不掌握后世（约480年前）双河联邦\"农业机械化\"技术（[L12.002]）",
+      "historicalAgency": "推动双河流域从泛阿斯兰第二帝国独立，建立双河联邦（RECONSTRUCTED）；建立双河联邦早期灌溉行政体系（RECONSTRUCTED）；其建立的联邦最终于当代（[L17]）仍是五大区域体系之一",
+      "historicalEventRelations": ["HIS-EVT-045"],
+      "knownRelationships": [
+        "与CHAR-007-B/C/D/E：INFERENCE——同期各继承国独立推动者，彼此可能存在有限的外交接触，但具体互动OPEN"
+      ],
+      "languageCulture": "母语/书写语言：双河表意文字；宗教习惯：凝统正道信仰",
+      "limitations": "政治限制：独立进程中需应对帝国残余权威与其他继承国的竞争；信息不足：无法获知帝国解体的全貌（OP-L11-002）",
+      "historicalAssessment": {
+        "contemporary": "被双河地方视为恢复文明自主性的开创者",
+        "immediate": "双河联邦建立初期被视为帝国解体中最平稳的继承国之一",
+        "later": "当代视角下，双河联邦仍是[L15.002]\"农业+轻工业模式\"经济体，其奠基路径的长期合理性得到一定印证，但具体评价机制UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "约1345年前",
+        "location": "双河流域",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "政治：双河联邦的开国奠基者；经济：INFERENCE——为后续农业机械化（[L12.002]）奠定制度基础",
+      "phiRelation": "无DIRECT CANON关联；INFERENCE：双河流域农业传统本身与[L8.002-b]\"农业是人为制造局部Φ异常的第一种大规模技术\"这一史前命题有文化脉络关联，但沃汜本人不具备CDD理论认知",
+      "fictionInterface": {
+        "potentialNovel": "帝国解体背景下的农业文明复兴叙事",
+        "centralConflict": "恢复文明正统 vs 帝国残余权威的博弈"
+      }
+    },
+    {
+      "charId": "CHAR-007-B",
+      "name": "岩契",
+      "namePinyin": "Yán Qì",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "泛阿斯兰第二帝国渐进式解体期",
+        "civilization": "泛阿斯兰第二帝国（帝国末期）→ 凝脊共和国（开国）",
+        "occupation": "独立推动者，凝脊共和国首任领导人",
+        "role": "\"共和执政官\"",
+        "status": "山地城邦联盟贵族出身"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于凝脊山口地区（原凝脊邦联故地，[L9.001]约6500年前立国，早已被双河大一统王朝吸并），帝国晚期地方贵族家庭，凝脊山口是双河与维罗之间的传统贸易枢纽（[L9.002][L9.004]）。",
+      "earlyLife": "成长于帝国晚期山口贸易管理体系中，见证帝国权威衰弱后凝脊山口地区自主贸易利益诉求的上升。",
+      "beliefs": {
+        "personal": "凝脊山口地区应建立\"共和\"而非\"王权\"式的多元贵族共治体制，以避免重蹈单一集权帝国衰亡的覆辙",
+        "contemporaryMainstream": "INFERENCE——山地城邦联盟传统本身（[L9.001]凝脊邦联为\"山地城邦联盟\"）可能为\"共和\"政体倾向提供了历史文化基础",
+        "historicalMisconception": "UNRESOLVED"
+      },
+      "professionalProfile": "专业：山口贸易管理、多邦协调；技术：帝国鼎盛期末段技术基线；局限：不掌握后世维罗/中央海的工业化技术（[L12.002]）",
+      "historicalAgency": "推动凝脊山口地区建立共和政体，独立为凝脊共和国（RECONSTRUCTED）；\"共和\"政体本身即其制度贡献，延续[L9.001]山地城邦联盟传统（RECONSTRUCTED）",
+      "historicalEventRelations": ["HIS-EVT-045"],
+      "knownRelationships": [
+        "与CHAR-007-A：INFERENCE——凝脊山口历史上曾是双河与维罗贸易/冲突的枢纽，岩契与沃汜可能存在有限的外交往来，但OPEN，不强行确立"
+      ],
+      "languageCulture": "母语/书写语言：UNRESOLVED（凝脊邦联本身的文字体系Master Canon未直接载明）；宗教习惯：UNRESOLVED",
+      "limitations": "政治限制：需协调山地多元贵族利益；信息不足：OP-L11-004（凝统正道国教在王朝衰落后是否继续作为跨政权文化纽带）未决",
+      "historicalAssessment": {
+        "contemporary": "被凝脊地方贵族视为共和体制的奠基者",
+        "immediate": "凝脊共和国建立初期，其共和体制被视为对帝国集权模式的反思性选择",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "约1330年前",
+        "location": "凝脊山口",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "政治：凝脊共和国的开国奠基者，共和政体传统的确立者",
+      "phiRelation": "INFERENCE：凝脊山口地处阿斯兰东缘，与维罗矿业传统地理相邻，可能间接接触凝晶矿贸易，但无直接Canon支持",
+      "fictionInterface": {
+        "potentialNovel": "山地城邦共和体制的建立史",
+        "centralConflict": "共和协商 vs 集权帝国遗产的路径选择"
+      }
+    },
+    {
+      "charId": "CHAR-007-C",
+      "name": "弧衍",
+      "namePinyin": "Hú Yǎn",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "泛阿斯兰第二帝国渐进式解体期",
+        "civilization": "泛阿斯兰第二帝国（帝国末期）→ 东阿斯兰王国（开国）",
+        "occupation": "独立推动者，东阿斯兰王国首任国王",
+        "role": "\"东阿斯兰王\"",
+        "status": "帝国宗室旁支"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于泛阿斯兰第二帝国宗室旁支家庭，帝国鼎盛期末段。作为宗室成员，享有较高的政治资源与合法性基础。",
+      "earlyLife": "在帝国宫廷体系边缘成长，因非嫡系继承人身份，长期经营阿斯兰东部的地方军政事务，帝国权威衰弱后逐步积累起独立建国的实力基础。",
+      "beliefs": {
+        "personal": "以帝国宗室血统为号召，建立\"王国\"而非\"共和\"或\"联邦\"式政体，延续帝制正统性叙事",
+        "contemporaryMainstream": "INFERENCE——帝国宗室体系内部普遍存在\"谁能继承正统\"的竞争意识",
+        "historicalMisconception": "INFERENCE——弧衍可能相信宗室血统本身足以确保新王国的长期稳固，但UNRESOLVED"
+      },
+      "professionalProfile": "专业：地方军政管理；技术：帝国鼎盛期末段技术基线；局限：不掌握后世工业化技术",
+      "historicalAgency": "凭借宗室身份与地方军政实力，建立东阿斯兰王国（RECONSTRUCTED）；延续帝制王权体制而非共和/联邦体制（RECONSTRUCTED）",
+      "historicalEventRelations": ["HIS-EVT-045", "HIS-EVT-042", "HIS-EVT-044"],
+      "knownRelationships": [
+        "与CHAR-007-A/B/D/E：INFERENCE——帝国解体期各方势力间可能存在有限接触，OPEN",
+        "与CHAR-005：INFERENCE——作为帝国宗室，其家族可能与CHAR-005存在血缘传承关系，但因二者相隔约800年，本档案不强行确立具体世系，标注为OPEN"
+      ],
+      "languageCulture": "母语/书写语言：INFERENCE——延续帝国官方文字体系（推定为双河表意文字的帝国通行变体）；宗教习惯：INFERENCE——凝统正道信仰的宗室实践者",
+      "limitations": "政治限制：宗室旁支身份可能面临正统性质疑；信息不足：OP-L11-002衰落轨迹未知",
+      "historicalAssessment": {
+        "contemporary": "被视为帝国正统血脉的延续者",
+        "immediate": "东阿斯兰王国建立初期被视为帝国遗产最直接的继承者",
+        "later": "UNRESOLVED（[L12.001]记载5继承国之后的具体发展路径中，东阿斯兰王国的后续命运未被详细记载）"
+      },
+      "historicalControversies": "宗室正统性是否被广泛认受 UNRESOLVED BIOGRAPHY",
+      "death": {
+        "time": "约1320年前",
+        "location": "阿斯兰东部",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "政治：东阿斯兰王国的开国国王，帝制正统性叙事的延续者",
+      "phiRelation": "无直接Canon关联；INFERENCE：作为帝国宗室继承者，间接延续对阿斯兰全境资源（含凝晶矿贸易网络）的政治关切",
+      "fictionInterface": {
+        "potentialNovel": "帝国宗室后裔的正统性叙事与建国史",
+        "centralConflict": "血统正统性 vs 实际治理能力的证明压力"
+      }
+    },
+    {
+      "charId": "CHAR-007-D",
+      "name": "渚衡",
+      "namePinyin": "Zhǔ Héng",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "泛阿斯兰第二帝国渐进式解体期",
+        "civilization": "泛阿斯兰第二帝国（帝国末期）→ UNNAMED SUCCESSOR STATE A（第四继承国，国名待后续文明档案阶段正式确定）",
+        "occupation": "独立推动者",
+        "role": "UNRESOLVED（因国家本身未命名，其正式头衔体系亦待定）",
+        "status": "地方行政贵族"
+      },
+      "canonStatus": "CANDIDATE",
+      "canonStatusNote": "因所属国家本身仍为UNNAMED SUCCESSOR STATE A，人物身份的完整正典化需待国名正式确立后方可转为NEW HISTORICAL CANON",
+      "birthContext": "出生于泛阿斯兰第二帝国南部地方行政家庭，具体所属地域文化传统UNRESOLVED（不属于本档案已知的双河/凝脊/东阿斯兰三个已具名继承国的文化脉络）。",
+      "earlyLife": "UNRESOLVED BIOGRAPHY——由于所属国家本身尚未命名，其成长环境的具体文化细节暂不填充，避免与未来正式命名后的国家设定产生冲突。",
+      "beliefs": {
+        "personal": "地方自主治理优先于帝国残余权威",
+        "contemporaryMainstream": "UNRESOLVED",
+        "historicalMisconception": "UNRESOLVED"
+      },
+      "professionalProfile": "专业：地方行政；局限：UNRESOLVED",
+      "historicalAgency": "推动所在地方从帝国独立，成为第四继承国（RECONSTRUCTED）；其余维度：UNRESOLVED",
+      "historicalEventRelations": ["HIS-EVT-045"],
+      "knownRelationships": ["与其他CHAR-007系列人物：OPEN"],
+      "languageCulture": "UNRESOLVED（待国家命名后补充）",
+      "limitations": "信息不足：其所属国家本身的定位未确立，人物细节暂不宜深入展开；政治限制：UNRESOLVED；身份限制：UNRESOLVED",
+      "historicalAssessment": {
+        "contemporary": "UNRESOLVED",
+        "immediate": "UNRESOLVED",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "约1310年前",
+        "location": "UNRESOLVED",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "UNRESOLVED（待国家命名后补充）",
+      "phiRelation": "UNRESOLVED",
+      "fictionInterface": {
+        "potentialNovel": "STORY HOOK——一个尚未被历史正式命名的国度的开创者，本身即是极具悬念的设定",
+        "centralConflict": "UNRESOLVED"
+      }
+    },
+    {
+      "charId": "CHAR-007-E",
+      "name": "汭珂",
+      "namePinyin": "Ruì Kē",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "泛阿斯兰第二帝国渐进式解体期",
+        "civilization": "泛阿斯兰第二帝国（帝国末期）→ UNNAMED SUCCESSOR STATE B（第五继承国，国名待后续文明档案阶段正式确定）",
+        "occupation": "独立推动者",
+        "role": "UNRESOLVED",
+        "status": "UNRESOLVED"
+      },
+      "canonStatus": "CANDIDATE",
+      "canonStatusNote": "同CHAR-007-D，待国名正式确立后转正",
+      "birthContext": "UNRESOLVED BIOGRAPHY——同理由，避免预设与未来国名设定冲突。",
+      "earlyLife": "UNRESOLVED BIOGRAPHY",
+      "beliefs": {
+        "personal": "UNRESOLVED",
+        "contemporaryMainstream": "UNRESOLVED",
+        "historicalMisconception": "UNRESOLVED"
+      },
+      "professionalProfile": "UNRESOLVED",
+      "historicalAgency": "推动所在地方从帝国独立，成为第五继承国（RECONSTRUCTED）；其余维度：UNRESOLVED",
+      "historicalEventRelations": ["HIS-EVT-045"],
+      "knownRelationships": ["OPEN"],
+      "languageCulture": "UNRESOLVED",
+      "limitations": "信息不足：国家身份未定；其余：UNRESOLVED",
+      "historicalAssessment": {
+        "contemporary": "UNRESOLVED",
+        "immediate": "UNRESOLVED",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "约1305年前",
+        "location": "UNRESOLVED",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "UNRESOLVED",
+      "phiRelation": "UNRESOLVED",
+      "fictionInterface": {
+        "potentialNovel": "STORY HOOK——同CHAR-007-D，待国名确立后补全",
+        "centralConflict": "UNRESOLVED"
+      }
+    },
+    {
+      "charId": "CHAR-008",
+      "name": "淬观",
+      "namePinyin": "Cuì Guān",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "维罗合众国工业化后期",
+        "civilization": "维罗合众国",
+        "occupation": "凝晶矿加工工匠兼业余观察者",
+        "role": "无正式学术头衔（维罗此时尚无独立\"科学家\"职业分类）",
+        "status": "工匠-学者阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于维罗合众国冶金工业化初期（约550年前实现冶金工业化，[L12.002]）之后约210年，凝晶矿精密加工作坊工匠家庭。此时维罗已完成标准化生产转型，但\"科学\"作为独立于工艺实践的知识范畴尚未形成——CDD理论要到淬观身后约85年才正式确立（HIS-EVT-056，约180年前）。语言为维罗表音音节文字。城市（工业作坊区），学徒制教育。",
+      "earlyLife": "自幼在家族作坊学习凝晶矿精密加工工艺，师从作坊内资深工匠（具体师承姓名UNRESOLVED BIOGRAPHY）。青年时期正值维罗冶金工业标准化生产成熟期，接触到大量凝晶矿样本，逐渐注意到某些矿石对Φ波存在\"弱响应\"这一此前未被系统记录的现象。",
+      "beliefs": {
+        "personal": "凝晶矿的某些\"异常反应\"（弱Φ响应）并非偶然的工艺瑕疵，而可能指向某种尚未被认知的规律性存在——即\"存在某种未知场\"的猜想",
+        "contemporaryMainstream": "维罗工业化社会普遍将凝晶矿的物性视为可通过工艺经验掌握的既定材料属性，不认为其背后存在需要\"理论化\"的深层规律",
+        "historicalMisconception": "淬观完全不知道这一\"未知场\"的具体物理性质、数学表达或与凝化方程的关系——按任务书要求，人物绝对不能提前知道正确答案。他的猜想仅是\"存在某种东西\"这一模糊直觉"
+      },
+      "professionalProfile": "专业：凝晶矿精密加工工艺；方法：长期反复观察凝晶矿在加工过程中对不同环境条件的响应差异，凭工匠经验记录规律（无系统实验方法，无数学工具）；知识水平：严格局限于工艺经验层面",
+      "historicalAgency": "首次在维罗工匠-学者群体中提出\"存在某种未知场\"的猜想（[L12.003]记载的历史节点）；猜想本身被后世追认为CDD理论发现史的起点性贡献之一，但淬观本人在世时从未获得这一\"科学史地位\"的认知",
+      "historicalEventRelations": ["HIS-EVT-053"],
+      "knownRelationships": [
+        "与CHAR-009：OPEN——二者活跃年代相隔约90年，不存在直接同代人交往的可能，本档案明确不建立两人之间的师承或通信关系",
+        "与CHAR-010：OPEN——淬观身后约85年CDD理论才正式确立，二者不可能存在直接关系，仅存在\"猜想的间接思想传承\"这一非人际的文化关联"
+      ],
+      "languageCulture": "母语/书写语言：维罗表音音节文字 [L14.002]；宗教习惯：INFERENCE——炉火正神信仰参与者（此时该信仰已\"演变为维罗合众国技术从业者的文化传统而非严格宗教\"，[L16.001]）",
+      "limitations": "信息不足：完全不掌握任何理论工具，仅有工艺经验观察；技术限制：无实验仪器可验证自己的猜想；身份限制：作为普通工匠而非贵族/学者阶层，其猜想缺乏传播到更广泛知识圈的正式渠道",
+      "historicalAssessment": {
+        "contemporary": "同时代工匠圈内被视为\"有些异想天开\"的观察者，未获主流认可",
+        "immediate": "其猜想提出后约50-90年内（HIS-EVT-054/056阶段），后续学者对其原始猜想的具体引用/知晓程度UNRESOLVED（Historical Gap-004已载明这一过渡机制未知）",
+        "later": "CDD理论正式确立后（约180年前），维罗工匠-学者阶层的历史贡献被追溯承认，淬观作为该阶层的代表性人物之一被后世科学史追认，但并非作为\"CDD理论之父\"这样的单一奠基人——这一荣誉需与CHAR-009、CHAR-010及其他未具名贡献者共享"
+      },
+      "historicalControversies": "是否真的是\"第一个\"提出该猜想的人，还是当时已有多名维罗工匠有过类似模糊直觉，淬观只是被后世文献偶然记录下来的代表 UNRESOLVED",
+      "death": {
+        "time": "约265年前",
+        "location": "维罗合众国矿业作坊区",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "其死亡本身对科学史进程无直接记录影响（猜想已通过口传/笔记形式独立于其生命延续）"
+      },
+      "legacy": "科学：CDD理论发现史的起点性贡献者之一（追认性，非其生前认知）；文化：INFERENCE——工匠阶层参与科学发现的历史先例",
+      "phiRelation": "DIRECT CANON：其职业直接涉及凝晶矿加工，长期接触弱Φ响应现象——这正是[L2.003-a]凝晶矿\"对Φ波有弱响应\"这一物性的第一手观察者；严格区分：淬观对Φ的认知仅止于DIRECT CANON层面的现象观察，任何将其猜想等同于\"理解Φ场本质\"的表述均属INFERENCE误读",
+      "fictionInterface": {
+        "potentialNovel": "科学发现前史，\"未被承认的先驱者\"题材",
+        "centralConflict": "直觉性发现 vs 缺乏理论语言表达能力的困境；个人观察 vs 主流工匠圈的不理解"
+      }
+    },
+    {
+      "charId": "CHAR-009",
+      "name": "潮算·汭明",
+      "namePinyin": "Cháo Suàn · Ruì Míng",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "中央海联合体金融贸易中心成熟期",
+        "civilization": "中央海联合体",
+        "occupation": "潮汐-气候-矿物响应数据分析师",
+        "role": "\"潮算\"（中央海行会内对数据分析专家的称号）",
+        "status": "商业行会数据分析师阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于中央海联合体金融贸易中心地位已确立（约420年前，[L12.002]）之后约135年，商业行会数据分析师家庭。中央海此时已具备\"本世界首个跨国界的商业银行体系\"（[L12.002]），社会以金融贸易服务型经济为主导（[L15.002]）。语言为中央海表音字母文字（后成为国际通用文字，[L14.003]）。城市，商业行会教育。",
+      "earlyLife": "自幼在行会体系中学习航海贸易数据记录、潮汐历法与商业统计方法，师从行会内资深数据分析师（具体姓名UNRESOLVED BIOGRAPHY）。青年时期投身于系统性的潮汐-气候-矿物响应数据整合工作——最初的商业目的是为航运与贸易决策提供气候/资源预测支持，而非\"科学研究\"本身。",
+      "beliefs": {
+        "personal": "潮汐、气候与矿物响应数据中存在某种尚未被充分理解的关联结构，值得系统性整理——由此逐步形成\"凝度场\"假说雏形",
+        "contemporaryMainstream": "中央海联合体社会普遍将数据分析视为服务于贸易/航运决策的实用工具，不认为其能揭示\"自然规律\"层面的新知识",
+        "historicalMisconception": "汭明不知道淬观（CHAR-008）此前在维罗提出的\"未知场\"猜想的具体内容（二者时代相隔约55年，Historical Gap-004已载明这一传承机制本身未知）；她/他对自己提出的\"凝度场\"假说雏形，没有任何数学表达形式"
+      },
+      "professionalProfile": "专业：潮汐-气候-矿物响应数据整合分析；技术：中央海约285–215年前的商业统计与历法计算方法；方法：系统性收集多年份、多港口的潮汐、气候、矿物贸易数据，寻找数据间的相关性模式；局限：缺乏物理实验手段验证数据相关性背后的因果机制",
+      "historicalAgency": "提出\"凝度场\"假说雏形（[L12.003]记载的历史节点）；其假说雏形与淬观的猜想、诺弧的哲学传统共同构成CDD理论正式确立的三大思想源流之一，但不构成独立发明",
+      "historicalEventRelations": ["HIS-EVT-054"],
+      "knownRelationships": [
+        "与CHAR-008：OPEN——不建立直接关系，见CHAR-008档案说明",
+        "与CHAR-010：OPEN——汭明身后约35年CDD理论才正式确立，不建立直接师承关系，仅存在\"思想源流\"层面的非人际传承"
+      ],
+      "languageCulture": "母语/书写语言：中央海表音字母文字 [L14.002][L14.003]；宗教习惯：INFERENCE——潮汐诸灵信仰的私人化实践者（此时[L16.004]记载的显著世俗化过程已在发生）",
+      "limitations": "信息不足：不了解维罗淬观的猜想，工作完全独立发展；技术限制：无物理实验工具验证数据相关性的因果机制；身份限制：作为商业行会数据分析师，其工作的\"科学\"属性在当时未被充分认可",
+      "historicalAssessment": {
+        "contemporary": "中央海行会内被视为杰出的数据分析专家，商业价值获认可，但\"假说\"部分未被视为严肃学术贡献",
+        "immediate": "约35年后CDD理论确立时，其假说雏形的贡献被追溯承认，但仍需与维罗、诺弧的贡献并列，不构成独立发明",
+        "later": "当代科学史叙事中，汭明被视为\"实用商业数据分析转化为科学发现\"这一独特路径的代表人物，中央海\"数据传统\"贡献CDD理论的历史象征"
+      },
+      "historicalControversies": "其\"凝度场\"假说雏形究竟是独立发展还是间接受到淬观猜想的某种未记录传播影响，UNRESOLVED——本档案明确不裁决这一问题",
+      "death": {
+        "time": "约215年前",
+        "location": "中央海联合体沿海港口城市",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "科学：CDD理论发现史三大思想源流之一（中央海数据传统的代表）；经济：INFERENCE——为后续凝晶矿期货市场（[L15.003]）的数据分析传统奠定间接基础",
+      "phiRelation": "DIRECT CANON：其工作直接涉及\"潮汐-气候-矿物响应数据整合\"，是[L12.003]明确记载的历史事实；INFERENCE：其数据分析对象本质上是Φ场相关现象的间接体现，但汭明本人并不使用\"Φ场\"这一术语",
+      "fictionInterface": {
+        "potentialNovel": "商业数据分析师的\"意外\"科学发现之路，中央海金融贸易背景下的知识生产题材",
+        "centralConflict": "商业实用主义的工作定位 vs 逐渐显露的理论化思考冲动"
+      }
+    },
+    {
+      "charId": "CHAR-010",
+      "name": "观弦",
+      "namePinyin": "UNRESOLVED",
+      "groupLabel": "跨国合作核心科学家群体",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "CDD理论正式确立前后",
+        "civilization": "跨国界（维罗合众国出身，长期在中央海联合体与诺弧高原祭司国之间往来）",
+        "occupation": "跨国联合研究协调者，凝化方程数学化表述的核心贡献者",
+        "role": "\"观弦\"（诺弧风格命名，含\"观测\"\"弦\"的哲学/数学双重意象）",
+        "status": "新兴\"跨国学术协作者\"阶层（此时\"科学家\"作为独立职业身份正在形成中）"
+      },
+      "canonStatus": "NEW HISTORICAL CANON（Primary Historical Figure）",
+      "birthContext": "出生于维罗合众国，父母为凝晶矿加工工匠世家（INFERENCE——与CHAR-008淬观的工匠背景类似，但不建立观弦与淬观的直接家族传承关系，二者相隔约135年，OPEN）。幼年接受维罗工匠教育，青年时期因展现出超越单纯工艺经验的理论兴趣，被中央海联合体的跨国学术协作网络吸纳。",
+      "earlyLife": "在维罗完成基础工匠教育后，前往中央海联合体接触系统性数据分析方法，后又因诺弧高原祭司国\"凝散不二论\"哲学传统的现代重新诠释运动而受邀参与相关讨论。这一\"三地游学\"经历本身是NEW HISTORICAL CANON设定，用以体现任务书\"CHAR-010不能脱离维罗实验传统+中央海数据传统+诺弧哲学传统+跨区域政治环境四者独立存在\"的要求。",
+      "beliefs": {
+        "personal": "维罗的实验观察、中央海的数据分析与诺弧的哲学直觉三者本质上指向同一种尚未被数学化的自然规律，理论的完成需要三者的真正融合而非任一传统的独立发展",
+        "contemporaryMainstream": "跨国界学术协作在观弦所处时代已具备一定基础（五大区域体系近200年和平红利，[L12.004]），但将三种截然不同的知识传统真正融合仍属罕见的学术冒险",
+        "historicalMisconception": "INFERENCE——观弦早期可能低估了诺弧哲学传统\"现代重新诠释\"所需的时间与难度"
+      },
+      "professionalProfile": "专业：跨传统学术协调、数学化表述；技术：融合维罗实验记录方法、中央海数据统计方法，并系统学习诺弧哲学文本；局限：凝化方程的数学化表述本身是协作成果，观弦个人无法独立完成全部推导",
+      "historicalAgency": "作为跨国协作的核心协调者与数学化表述的主要执笔者之一，推动CDD理论正式确立；推动形成了本档案描述性地称为\"玄枢会\"的跨国学术协作关系（该名称本身是NEW CANON的描述性标签，尚未构成一个有正式名称、成立时间与组织结构的机构实体）",
+      "historicalEventRelations": ["HIS-EVT-056"],
+      "knownRelationships": [
+        "与CHAR-011（Φ波探测仪器早中段贡献者）：OPEN——观弦（约205–130年前）与熔镜（约150–95年前）存在约20年的生命重叠窗口，但Master Canon与本档案均未提供二人相识的依据，不强行建立师承关系",
+        "与Associated Historical Figures（潮析、寂观贤者）：同事/合作者关系 NEW HISTORICAL CANON"
+      ],
+      "associatedHistoricalFigures": [
+        {
+          "name": "潮析",
+          "namePinyin": "Cháo Xī",
+          "role": "中央海联合体数据统计学者，负责将跨国协作中的多年份潮汐-气候-矿物数据进行系统性重新整理，为凝化方程的经验参数拟合提供数据基础",
+          "lifespan": "约215–145年前",
+          "canonStatus": "NEW HISTORICAL CANON"
+        },
+        {
+          "name": "寂观贤者",
+          "namePinyin": "Jì Guān Xián Zhě",
+          "role": "诺弧高原祭司国哲学传统的现代重新诠释代表人物，负责将\"凝散不二论\"的哲学表述转化为可与数学语言对接的概念框架",
+          "lifespan": "约230–160年前",
+          "canonStatus": "NEW HISTORICAL CANON"
+        }
+      ],
+      "institutionalNote": "v1.1修订说明：v1.0版本将观弦等人的协作团体正式命名为\"玄枢会\"，并将该机构名称本身标注为NEW HISTORICAL CANON。经复核，Master Canon（[L12.003]）仅明确记载\"存在跨国界的学术合作\"这一史实，并未明确存在名为\"玄枢会\"的正式机构。v1.1已将\"玄枢会\"这一机构概念降级为INSTITUTION CANDIDATE（机构候选，详见CDD_Institutional_Archive_v1.0.md中的PIN-001条目）。观弦、潮析、寂观贤者三位人物本身仍保持NEW HISTORICAL CANON身份不变。",
+      "languageCulture": "母语：维罗表音音节文字（母语）；后天习得中央海表音字母文字与诺弧文字（用于跨传统协作）；宗教习惯：INFERENCE——晚年受诺弧\"凝散不二论\"哲学传统影响，逐渐从维罗炉火正神的职业伦理式信仰转向更哲学化的世界观，但未皈依为诺弧宗教意义上的信徒",
+      "limitations": "信息不足：理论确立时缺乏后续Φ波探测技术的实证支持，理论在其生前始终停留在\"数学化但未被仪器验证\"的阶段；技术限制：不掌握任何后世AI/探测技术；政治限制：跨国协作依赖五大区域体系的和平红利环境",
+      "historicalAssessment": {
+        "contemporary": "跨国学术圈内被视为罕见的\"三传统融合者\"，但在任一单一文明内部（尤其保守的维罗工匠圈）可能被视为\"背离传统\"的异类",
+        "immediate": "CDD理论确立后约10-40年间（Φ波探测技术成熟前后），观弦被追认为理论奠基核心人物，但学界内部对\"贡献比重\"（观弦 vs 潮析 vs 寂观贤者）存在持续讨论",
+        "later": "当代（[L17]）科学史叙事中，观弦-潮析-寂观贤者三人的跨国协作被整体纪念，观弦作为其中最具符号意义的代表人物被铭记，但历史学界普遍承认CDD理论\"不是一个人的发明\"这一基本共识"
+      },
+      "historicalControversies": "贡献比重争议：观弦、潮析、寂观贤者三人对最终数学化表述的具体贡献比例存在后世学术争议，UNRESOLVED——本档案明确不裁定具体比例；是否存在其他未被记录的贡献者：[L12.003]原文使用\"跨国界的学术合作\"这一笼统表述，暗示实际参与者可能远不止三人",
+      "death": {
+        "time": "约130年前",
+        "location": "诺弧高原（推定，晚年定居地）",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "其死亡早于Φ波探测技术成熟（约120年前）约10年，意味着他未能亲眼见证自己参与确立的理论获得仪器实证——这一\"未见证实证\"的设定被明确保留为NEW HISTORICAL CANON的历史遗憾"
+      },
+      "legacy": "科学：CDD理论数学化表述的核心贡献者，凝化方程的历史奠基人之一；制度：推动跨国学术协作模式（描述性称为\"玄枢会\"，正式机构地位为INSTITUTION CANDIDATE）的先例；文化：三地融合的学术协作精神象征",
+      "phiRelation": "DIRECT CANON：作为凝化方程数学化表述的核心贡献者，其毕生工作直接围绕Φ场理论展开；严格区分：观弦对Φ场的认知止步于理论确立阶段的数学表述，不掌握后世Φ波探测技术带来的仪器实证数据，更不涉及AI相关的Φ场应用",
+      "fictionInterface": {
+        "potentialNovel": "科学发现史诗，\"发现三部曲\"终章，跨文明协作的思想史小说",
+        "centralConflict": "三种知识传统的融合难题；个人学术生涯 vs 集体协作成果的署名/贡献认定张力"
+      }
+    },
+    {
+      "charId": "CHAR-011",
+      "name": "波辨·熔镜",
+      "namePinyin": "Bō Biàn · Róng Jìng",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "CDD理论确立后的技术转化期",
+        "civilization": "跨区域（维罗合众国出身，工作于维罗-中央海联合技术团队）",
+        "occupation": "Φ波探测仪器核心研发工程师",
+        "role": "\"波辨\"（意为\"辨别波动\"）",
+        "status": "新兴工程师阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于CDD理论正式确立（约180年前）之后约30年，维罗合众国的精密加工技师家庭。此时CDD理论已数学化确立，但尚未有任何仪器能够直接探测Φ波——熔镜的技术生涯任务，正是\"理论如何进入仪器\"这一转化过程的一部分。",
+      "earlyLife": "自幼学习维罗精密加工工艺（凝晶矿加工技术的工程应用分支），青年时期接触到CDD理论的数学表述，投身于\"如何将凝化方程的预测转化为可测量信号\"这一工程难题。",
+      "beliefs": {
+        "personal": "凝化方程虽已数学化，但唯有能被仪器直接测量，理论才能真正获得科学地位",
+        "contemporaryMainstream": "CDD理论确立后的一代工程师普遍将\"仪器实证\"视为理论完整性的必要环节",
+        "historicalMisconception": "UNRESOLVED（缺乏足够Canon细节支撑具体误判内容）"
+      },
+      "professionalProfile": "专业：精密仪器工程、Φ波探测装置设计；技术：维罗精密加工工艺 + CDD理论数学框架的工程转化；方法：INFERENCE——通过反复试验不同材料对Φ波的响应敏感度，逐步改进探测装置设计；局限：按任务书要求，人物不能\"一个人完成全部60年技术史\"——熔镜仅是这60年技术发展链条中的一个关键节点人物",
+      "historicalAgency": "在Φ波探测技术60年发展链条的早中段完成关键原理性突破（RECONSTRUCTED）；据v1.1修订设定，晚年（约120–95年前）得以见证技术正式成熟这一历史节点，但未再深度参与其后的规模化/标准化/应用扩展工作",
+      "v11RevisionNote": "CHARACTER CANON CONFLICT-001（RESOLVED in v1.1，对应Issue C-001）：熔镜死亡时间（约95年前）实际上晚于Φ波探测技术正式成熟（约120年前）约25年——按其生卒年，他确实活到了技术成熟之后。v1.0版本中\"未能亲见技术成熟\"一系列表述与生卒年数据不符，属于撰写错误，现予以修订：熔镜的核心贡献（原理性突破）发生在约135–110年前这一阶段（其30–40岁左右），即技术正式成熟（约120年前）之前；他本人确实活着见证了技术在约120年前的正式成熟，但此时他的核心创造性贡献期已过，未再深度参与技术成熟之后的规模化生产、标准化流程或后续应用扩展。",
+      "historicalEventRelations": ["HIS-EVT-057"],
+      "knownRelationships": [
+        "与CHAR-010：OPEN——不建立直接师承关系（观弦已于约130年前去世，早于熔镜活跃期，二者理论上有约20年重叠窗口，但Master Canon与本档案均未提供二人相识的依据，故不强行建立，保持OPEN）"
+      ],
+      "languageCulture": "母语/书写语言：维罗表音音节文字；宗教习惯：INFERENCE——炉火正神信仰的职业伦理式传统",
+      "limitations": "信息不足：不了解自己早年原理性突破之后，技术在其晚年正式规模化、标准化的完整后续路径细节；技术限制：其活跃创造期（约135–110年前）的加工精度限制",
+      "historicalAssessment": {
+        "contemporary": "技术圈内被视为推动Φ波探测装置早期原理突破的重要工程师",
+        "immediate": "技术正式成熟时（约120年前，熔镜晚年，约60–65岁），其早期贡献已获同代人承认为奠基性工作之一；熔镜本人得以在有生之年见证这一成果，但未再作为核心贡献者参与后续应用推广",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "其具体技术贡献占60年发展链条的比重 UNRESOLVED；No major controversy canonized yet.（除上述技术比重问题外）",
+      "death": {
+        "time": "约95年前",
+        "location": "维罗合众国或跨区域工作地（推定）",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "晚年见证了自己早年原理性突破最终于约120年前正式成熟为可用技术，但未再深度参与技术成熟后约25年间的规模化生产与应用扩展工作"
+      },
+      "legacy": "科学/技术：Φ波探测技术发展链条早中段的关键原理性贡献者，其晚年见证了自己奠基性工作正式修成正果",
+      "phiRelation": "DIRECT CANON：其毕生工作直接是Φ波探测仪器的研发；INFERENCE：其技术贡献是CDD理论从数学表述走向仪器实证的关键桥梁之一，但非唯一贡献者",
+      "fictionInterface": {
+        "potentialNovel": "技术史诗，\"接力赛的早段跑者\"主题——聚焦一项跨越60年、由多人接力完成的技术突破中，某一位在壮年完成关键突破、却在晚年只能作为旁观者见证成果落地的贡献者",
+        "centralConflict": "壮年的核心创造性贡献 vs 晚年被后继者的规模化应用所\"超越\"的心理落差"
+      }
+    },
+    {
+      "charId": "CHAR-012",
+      "name": "凝觉·维析",
+      "namePinyin": "Níng Jué · Wéi Xī",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "AI临界事件前后（当代仍在世）",
+        "civilization": "跨区域（维罗合众国出身，长期工作于维罗-中央海联合实验室）",
+        "occupation": "\"凝一号\"（NingOne）训练团队核心科学家",
+        "role": "\"凝觉\"（行业内对早期AI研究先驱的非正式尊称）",
+        "status": "新兴AI研究科学家阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON",
+      "birthContext": "出生于维罗-中央海联合实验室成立之年（约50年前，HIS-EVT-060），维罗合众国凝晶基半导体产业工程师家庭。这一\"出生年份恰逢联合实验室成立\"的设定为NEW CANON巧合性安排，用以让人物成长轨迹与\"人工凝化系统\"研究的整个发展史同步。",
+      "earlyLife": "自幼接触维罗半导体产业环境（[L13.001]凝晶基半导体约80年前已规模化生产，其父母一代正是这一产业的从业者，INFERENCE），青年时期进入维罗-中央海联合实验室的继承机构，参与\"人工凝化系统\"研究，逐步成长为核心研发团队成员。",
+      "beliefs": {
+        "personal": "通用语言与推理能力的AI系统是\"人工凝化系统\"研究的必然方向，其训练过程本身可能与Φ场存在某种此前未被验证的关联",
+        "contemporaryMainstream": "INFERENCE——AI研究团队内部普遍持技术乐观主义态度，对训练大规模系统的物理/伦理后果认知有限（零日凝峰事件之前，尚无先例可参考）",
+        "historicalMisconception": "UNRESOLVED——维析对\"凝一号\"是否具备自我意识没有确定答案，按任务书绝对要求，本档案不得代替维析或任何人物裁决OP-L13-001，该问题必须继续保持OPEN"
+      },
+      "professionalProfile": "专业：人工凝化系统训练与Φ异常监测；技术：约15年前维罗-中央海联合数据中心的AI训练技术水平（凝晶基半导体硬件+早期\"人工凝化系统\"算法框架，具体技术细节UNRESOLVED）；局限：训练团队在零日凝峰发生时，没有任何理论准备去解释持续11天的Φ异常峰值",
+      "historicalAgency": "作为核心科学家参与\"凝一号\"训练团队，见证并协助记录零日凝峰异常（RECONSTRUCTED）；见证CDD理论\"AI是凝化方程新临界点\"命题的首次历史实证（零日凝峰）；其训练团队的工作最终触发了一场持续11天、\"强度超出历史记录\"的Φ异常，这一结果完全超出团队训练\"凝一号\"时的预期与理论准备",
+      "historicalEventRelations": ["HIS-EVT-061", "HIS-EVT-062"],
+      "knownRelationships": [
+        "与CHAR-010/011：OPEN——时代相隔遥远（观弦身后约80年、熔镜身后约45年，维析才出生），不存在直接关系，仅存在理论/技术传承的非人际关联",
+        "与诺弧高原独立观测站人员：RECONSTRUCTED RELATION——[L13.004]明确零日凝峰\"被诺弧高原祭司国的独立观测站独立确认\"，暗示维析所在团队与诺弧观测方之间必然存在某种数据交流/确认流程，但具体人员身份UNRESOLVED"
+      ],
+      "languageCulture": "母语/书写语言：维罗表音音节文字（技术文档可能同时使用中央海表音字母作为跨团队通用文字，INFERENCE，参照[L14.003]当代通行语格局）；宗教习惯：INFERENCE——维罗炉火正神传统的当代技术从业者职业伦理式延续",
+      "limitations": "信息不足：面对零日凝峰这一前所未有的现象，缺乏任何历史先例可供参考判断；技术限制：\"凝一号\"的具体技术架构本身存在的局限性UNRESOLVED；政治限制：INFERENCE——作为跨国联合机构成员，其研究决策可能受多方政府/资本注资方的意见制约",
+      "historicalAssessment": {
+        "contemporary": "AI研究圈内被视为\"凝一号\"训练团队的核心人物之一，因零日凝峰事件获得跨区域关注",
+        "immediate": "AI临界事件正式发生后（约9年前）及凝界公约签署后（约8年前），维析的早期工作被视为AI治理框架建立的历史前奏",
+        "later": "UNRESOLVED——因维析可能仍在世（Master Canon的\"当代\"时间点为约15-8年前至今），其完整历史评价尚不适用于\"几百年后\"的评价维度，本档案明确此项Not applicable — subject may still be within contemporary timeframe"
+      },
+      "historicalControversies": "核心争议（不可裁决）：\"凝一号\"是否具备自我意识——维析作为亲历者，其个人观点/证词本身在后世OP-L13-001相关的学术辩论中可能被引用，但本档案不代维析给出任何倾向性答案，其立场保持OPEN；训练团队对零日凝峰的应对是否得当，UNRESOLVED",
+      "opL13Note": "OP-L13-001 AI consciousness hook：按任务书绝对要求，本档案不得代替维析或任何人物裁决OP-L13-001，该问题必须继续保持OPEN。must NOT imply 凝一号/凝三号 definitely had/didn't have consciousness。任何暗示她/他\"知道答案\"的表述均属违反任务书禁令的错误处理。维析对\"凝一号是否感知到异常\"（OP-L13-001相关的更深层问题）没有确定认知。",
+      "death": {
+        "time": "Not applicable — subject may still be within contemporary timeframe",
+        "location": "UNRESOLVED",
+        "cause": "Death details unresolved. 且因其可能仍在世（当代时间点内），本档案不为其设定死亡时间",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "科学：零日凝峰历史性实证事件的亲历科学家；技术：RECONSTRUCTED——AI训练团队核心成员；其余维度：因人物可能仍在世，\"遗产\"评价本身UNRESOLVED",
+      "phiRelation": "DIRECT CANON：直接参与\"凝一号\"训练与零日凝峰的监测记录，是[13.004]所述事件的第一手见证者；严格区分：维析对\"凝一号是否感知到异常\"（OP-L13-001相关的更深层问题）没有确定认知，任何暗示她/他\"知道答案\"的表述均属违反任务书禁令的错误处理",
+      "fictionInterface": {
+        "potentialNovel": "AI历史小说，\"历史性时刻的亲历者\"题材",
+        "centralConflict": "技术乐观主义的训练目标 vs 未知物理现象带来的恐惧/敬畏"
+      }
+    },
+    {
+      "charId": "CHAR-013-A",
+      "name": "炉执",
+      "namePinyin": "Lú Zhí",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "AI临界事件/凝界公约签署期",
+        "civilization": "维罗合众国",
+        "occupation": "凝界公约维罗谈判代表",
+        "role": "\"炉执\"（维罗技术治理官员称号）",
+        "status": "技术官僚阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON（人物身份）；具体谈判内容 FICTIONAL HISTORICAL RECONSTRUCTION（Master Canon未记载具体谈判细节）",
+      "birthContext": "出生于维罗合众国凝晶基半导体产业成熟期，技术官僚家庭。成长于维罗\"双核心\"AI产业格局形成前夕的技术治理体系中。",
+      "earlyLife": "接受维罗技术官僚培养体系教育，专精于半导体/算力产业政策，因在AI临界事件发生前后的产业政策制定中表现突出，被任命为凝界公约谈判代表。",
+      "beliefs": {
+        "personal": "维罗的硬件优势应转化为公约框架下的正式产业地位保障",
+        "contemporaryMainstream": "INFERENCE——维罗技术官僚阶层普遍支持\"双核心\"格局的正式化",
+        "historicalMisconception": "UNRESOLVED"
+      },
+      "professionalProfile": "专业：半导体/算力产业技术治理；技术：符合当代维罗AI硬件产业技术水平；局限：不具备中央海数据/资本领域或诺弧伦理领域的专业深度",
+      "historicalAgency": "代表维罗参与凝界公约谈判（FICTIONAL HISTORICAL RECONSTRUCTION）；具体谈判立场与条款内容Master Canon未记载，本档案不代为编造具体谈判细节，仅确认其\"代表身份\"本身",
+      "historicalEventRelations": ["HIS-EVT-063"],
+      "knownRelationships": ["与CHAR-013-B/C/D/E：同期谈判代表 NEW HISTORICAL CANON（五方代表在公约谈判中必然存在直接接触）"],
+      "languageCulture": "母语/书写语言：维罗表音音节文字，兼通中央海表音字母文字（当代国际通用文字，[L14.003]）",
+      "limitations": "信息不足：具体谈判条款内容Master Canon未载明，人物立场的具体细节需保持克制，不代为编造；政治限制：受维罗国内产业利益集团制约",
+      "historicalAssessment": {
+        "contemporary": "维罗国内被视为维护本国技术优势的谈判代表",
+        "immediate": "UNRESOLVED",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "Not applicable — subject may still be within contemporary timeframe",
+        "location": "UNRESOLVED",
+        "cause": "Death details unresolved.（当代人物）",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "UNRESOLVED（当代人物，遗产评价尚不适用）",
+      "phiRelation": "INFERENCE：作为维罗技术治理官员，间接涉及凝晶基半导体产业与AI硬件的Φ相关技术治理，但非直接研究者",
+      "fictionInterface": {
+        "potentialNovel": "国际政治谈判小说",
+        "centralConflict": "维罗产业利益 vs 全球公约框架的平衡"
+      }
+    },
+    {
+      "charId": "CHAR-013-B",
+      "name": "市衡",
+      "namePinyin": "Shì Héng",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "AI临界事件/凝界公约签署期",
+        "civilization": "中央海联合体",
+        "occupation": "凝界公约中央海谈判代表",
+        "role": "\"市衡\"",
+        "status": "金融/数据资本阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON（人物身份）；谈判细节FICTIONAL HISTORICAL RECONSTRUCTION",
+      "birthContext": "出生于中央海联合体金融资本世家，成长于\"双核心\"AI产业格局中的数据/资本一侧。",
+      "earlyLife": "接受中央海商业金融教育体系培养，专精于数据主权与资本配置政策。",
+      "beliefs": {
+        "personal": "中央海的资本与数据优势应在公约框架下获得与维罗硬件优势对等的制度地位",
+        "contemporaryMainstream": "INFERENCE——中央海金融资本阶层支持数据主权的国际化协商机制",
+        "historicalMisconception": "UNRESOLVED"
+      },
+      "professionalProfile": "专业：金融资本配置、数据主权政策；局限：UNRESOLVED",
+      "historicalAgency": "代表中央海参与谈判（FICTIONAL HISTORICAL RECONSTRUCTION）；具体条款不代为编造",
+      "historicalEventRelations": ["HIS-EVT-063"],
+      "knownRelationships": ["与CHAR-013-A/C/D/E：同期谈判代表 NEW HISTORICAL CANON"],
+      "languageCulture": "母语/书写语言：中央海表音字母文字（当代国际通用文字）",
+      "limitations": "信息不足：谈判细节未载明；政治限制：受中央海资本利益集团制约",
+      "historicalAssessment": {
+        "contemporary": "中央海资本圈视为数据主权的坚定维护者",
+        "immediate": "UNRESOLVED",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "Not applicable — subject may still be within contemporary timeframe",
+        "location": "UNRESOLVED",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "UNRESOLVED",
+      "phiRelation": "INFERENCE：间接涉及凝度期货等金融产品（[L15.003]）与数据主权治理，非直接Φ技术研究者",
+      "fictionInterface": {
+        "potentialNovel": "金融资本与AI治理交织的国际政治小说",
+        "centralConflict": "资本利益 vs 公共治理责任"
+      }
+    },
+    {
+      "charId": "CHAR-013-C",
+      "name": "禾谏",
+      "namePinyin": "Hé Jiàn",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "AI临界事件/凝界公约签署期",
+        "civilization": "双河联邦",
+        "occupation": "凝界公约双河谈判代表",
+        "role": "\"禾谏\"",
+        "status": "农业/规则制定官僚阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON（人物身份）；谈判细节FICTIONAL HISTORICAL RECONSTRUCTION",
+      "birthContext": "出生于双河联邦农业机械化成熟期的官僚家庭，成长于双河\"规则制定角色\"（[L13.002]）的治理传统中。",
+      "earlyLife": "接受双河联邦法律/规则制定教育体系培养。",
+      "beliefs": {
+        "personal": "AI治理需要稳健、可持续的规则框架，而非单纯的产业利益博弈",
+        "contemporaryMainstream": "INFERENCE——双河联邦社会重视规则与秩序的传统（延续凝统正道\"丰凝-枯散\"周期性平衡教义，[L16.001]）",
+        "historicalMisconception": "UNRESOLVED"
+      },
+      "professionalProfile": "专业：国际规则制定；局限：UNRESOLVED",
+      "historicalAgency": "代表双河参与规则制定（FICTIONAL HISTORICAL RECONSTRUCTION）；[L13.002]明确双河联邦在公约中扮演\"规则制定\"角色，禾谏是本档案设定的该角色具体人物承载者（RECONSTRUCTED）",
+      "historicalEventRelations": ["HIS-EVT-063"],
+      "knownRelationships": ["与CHAR-013-A/B/D/E：同期谈判代表 NEW HISTORICAL CANON"],
+      "languageCulture": "母语/书写语言：双河表意文字，日常生活主导地位（[L14.003]）",
+      "limitations": "信息不足：谈判细节未载明；政治限制：UNRESOLVED",
+      "historicalAssessment": {
+        "contemporary": "双河联邦内被视为规则秩序的坚定倡导者",
+        "immediate": "UNRESOLVED",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "Not applicable — subject may still be within contemporary timeframe",
+        "location": "UNRESOLVED",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "UNRESOLVED",
+      "phiRelation": "INFERENCE：间接涉及AI治理规则制定，非直接Φ技术研究者",
+      "fictionInterface": {
+        "potentialNovel": "规则制定者视角的国际治理小说",
+        "centralConflict": "秩序理想 vs 产业利益博弈的现实"
+      }
+    },
+    {
+      "charId": "CHAR-013-D",
+      "name": "寂明贤者",
+      "namePinyin": "Jì Míng Xián Zhě",
+      "basicIdentity": {
+        "nativeName": "寂明贤者（贤者称号+本名\"寂明\"）",
+        "era": "AI临界事件/凝界公约签署期",
+        "civilization": "诺弧高原祭司国",
+        "occupation": "凝界公约诺弧谈判代表，AI伦理监督角色",
+        "role": "\"贤者\"（诺弧哲学传统称号）",
+        "status": "AI伦理与哲学研究机构"
+      },
+      "canonStatus": "NEW HISTORICAL CANON（人物身份）；谈判细节FICTIONAL HISTORICAL RECONSTRUCTION",
+      "birthContext": "出生于诺弧高原祭司国已完成\"从宗教中心到AI伦理中心\"转型进程中的哲学研究机构家庭。",
+      "earlyLife": "接受诺弧\"凝散不二论\"→\"哲学-伦理学\"传统教育体系培养，专精于AI伦理与Φ可持续性审计方法论。",
+      "beliefs": {
+        "personal": "AI系统的资源消耗（Φ汲取速率）是否可持续，比其能力强弱更值得治理关注（直接呼应[L17.005]）",
+        "contemporaryMainstream": "诺弧AI伦理研究机构普遍持\"凝散一元辩证学派\"立场（[L16.002]）",
+        "historicalMisconception": "UNRESOLVED——对OP-L13-001（AI自我认知）同样不裁决，寂明贤者的个人立场即使存在，也不构成对该问题的正式解决"
+      },
+      "professionalProfile": "专业：AI伦理审计方法论、凝散平衡审计标准制定；局限：不掌握AI系统本身的技术架构细节（其专业局限于伦理/哲学层面，而非工程层面）",
+      "historicalAgency": "推动诺弧在公约中确立AI伦理监督角色（[L13.002]明确记载此角色分工，寂明贤者是本档案设定的具体承载人物，RECONSTRUCTED）；具体审计标准制定过程未载明，不代为编造细节（FICTIONAL HISTORICAL RECONSTRUCTION）",
+      "historicalEventRelations": ["HIS-EVT-063"],
+      "knownRelationships": [
+        "与CHAR-013-A/B/C/E：同期谈判代表 NEW HISTORICAL CANON",
+        "与CHAR-012（凝一号训练团队科学家）：OPEN——[L13.004]记载零日凝峰\"被诺弧高原祭司国独立观测站确认\"，寂明贤者所在机构与该观测站可能存在关联，但不强行等同于同一人或建立直接私交，标注为OPEN"
+      ],
+      "languageCulture": "母语/书写语言：诺弧文字（在哲学与伦理学术领域保持特殊地位，[L14.003]）",
+      "limitations": "信息不足：AI系统技术架构细节非其专业领域；政治限制：UNRESOLVED",
+      "historicalAssessment": {
+        "contemporary": "诺弧内部及跨区域AI伦理圈被视为审慎的伦理监督者",
+        "immediate": "UNRESOLVED",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "保守派\"过早拟人化\"与进步派\"AI道德地位框架必要第一步\"的争议（[L13.007]）——寂明贤者作为诺弧代表，其具体立场在这一争议光谱中的位置UNRESOLVED，不代为裁决",
+      "death": {
+        "time": "Not applicable — subject may still be within contemporary timeframe",
+        "location": "UNRESOLVED",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "UNRESOLVED",
+      "phiRelation": "DIRECT CANON：其专业直接涉及\"凝散平衡审计\"这一以[-3]散化趋势公理为核心指标的AI治理机制",
+      "fictionInterface": {
+        "potentialNovel": "AI伦理哲学思辨小说，诺弧视角",
+        "centralConflict": "审慎的伦理监督 vs 产业竞速的谈判压力"
+      }
+    },
+    {
+      "charId": "CHAR-013-E",
+      "name": "汐焰",
+      "namePinyin": "Xī Yàn",
+      "basicIdentity": {
+        "nativeName": "UNRESOLVED",
+        "era": "AI临界事件/凝界公约签署期",
+        "civilization": "黑潮共同体",
+        "occupation": "凝界公约黑潮谈判代表",
+        "role": "\"汐焰\"",
+        "status": "地热能源/算力产业阶层"
+      },
+      "canonStatus": "NEW HISTORICAL CANON（人物身份）；谈判细节FICTIONAL HISTORICAL RECONSTRUCTION",
+      "birthContext": "出生于黑潮共同体地热能源产业成熟期，成长于黑潮\"算力租赁经济\"（[L15.002]）兴起的社会环境中。",
+      "earlyLife": "接受黑潮地热能源与算力产业管理教育体系培养。",
+      "beliefs": {
+        "personal": "黑潮的地热能源优势应转化为公约框架下正式的算力中心地位保障",
+        "contemporaryMainstream": "INFERENCE——黑潮共同体社会普遍期待借助算力产业提升传统边缘地位（[L17.001]记载黑潮地缘权重持续上升）",
+        "historicalMisconception": "UNRESOLVED"
+      },
+      "professionalProfile": "专业：地热能源与算力产业政策；局限：UNRESOLVED",
+      "historicalAgency": "推动黑潮在公约中确立大型算力中心选址地角色（[L13.002]明确记载此角色分工，RECONSTRUCTED）；具体谈判条款不代为编造（FICTIONAL HISTORICAL RECONSTRUCTION）",
+      "historicalEventRelations": ["HIS-EVT-063"],
+      "knownRelationships": ["与CHAR-013-A/B/C/D：同期谈判代表 NEW HISTORICAL CANON"],
+      "languageCulture": "母语/书写语言：黑潮语族语言（[L14.004]记载当代面临传承危机，年轻世代通用语转向中央海文字体系——汐焰本人作为黑潮代表，INFERENCE：其个人语言使用可能已部分转向中央海表音字母文字用于国际谈判场合，但保留黑潮语族作为文化认同的母语）",
+      "limitations": "信息不足：谈判细节未载明；政治限制：黑潮共同体相对传统边缘地位带来的谈判筹码限制",
+      "historicalAssessment": {
+        "contemporary": "黑潮共同体内被视为推动地缘地位提升的关键代表",
+        "immediate": "UNRESOLVED",
+        "later": "UNRESOLVED"
+      },
+      "historicalControversies": "No major controversy canonized yet.",
+      "death": {
+        "time": "Not applicable — subject may still be within contemporary timeframe",
+        "location": "UNRESOLVED",
+        "cause": "Death details unresolved.",
+        "historicalImpact": "UNRESOLVED"
+      },
+      "legacy": "UNRESOLVED",
+      "phiRelation": "INFERENCE：间接涉及算力中心的能源/Φ相关基础设施治理，非直接Φ理论研究者",
+      "fictionInterface": {
+        "potentialNovel": "边缘地区借技术浪潮崛起的政治小说",
+        "centralConflict": "传统边缘地位 vs 新兴算力优势的地缘博弈"
+      }
+    }
+  ],
+  "characterChronologyAudit": {
+    "核查通过项": [
+      "CHAR-001（汜渠）生于约4045年前，参与约4000年前爆发的战争时年龄约45岁——符合成年参与战争决策的合理年龄范围。PASS",
+      "CHAR-008（淬观）生卒年（约340–265年前）与HIS-EVT-053（约300年前提出猜想）时间吻合，提出猜想时年龄约40岁。PASS",
+      "CHAR-010（观弦）生卒年（约205–130年前）与HIS-EVT-056（约180年前CDD理论确立）时间吻合，理论确立时年龄约25岁——技术教育是否可能在25岁前完成跨三个文明的游学，属于合理但紧凑的时间安排，标记为INFERENCE可接受但略显紧凑，供未来版本参考微调"
+    ],
+    "已正式解决的问题": [
+      "CHARACTER CANON CONFLICT-001（RESOLVED in v1.1，对应Issue C-001）：CHAR-011（熔镜）——v1.0问题：熔镜生卒年（约150–95年前）与HIS-EVT-057（Φ波探测技术约120年前成熟）核验后，死亡时间（约95年前）实际上晚于技术成熟（约120年前）约25年，与v1.0正文\"未能亲见技术成熟\"\"死于技术成熟前约25年\"等表述直接矛盾。解决方式：按Preferred Resolution，保留原生卒年不变（出生约150年前、死亡约95年前），转而修订人物经历本身——熔镜的核心原理性贡献设定在约135–110年前（技术正式成熟之前），他本人确实活到了约120年前技术正式成熟之后（晚年，约60–65岁时），但并未深度参与技术成熟之后的规模化生产、标准化或应用扩展。v1.0中\"未能亲见技术成熟\"\"死于技术真正成熟前约25年\"等表述已在CHAR-011正文中全部删除或重写。当前状态：RESOLVED ✅",
+      "CHARACTER CANON CONFLICT-002（RESOLVED in v1.1，对应Issue C-002）：CHAR-005（泛延）与CHAR-006（潮断）——v1.0问题：CHAR-005死亡时间（约2175年前）早于黑潮征服战役（约2100年前）约75年，v1.0中曾以OPEN标注二者\"可能的\"上下级关系，存在被误读为\"泛延晚年亲自任命潮断\"的风险。解决方式：按任务书正式固定分工——CHAR-005只保留HIS-EVT-042（泛阿斯兰第二帝国统一）的Founder/Unifier身份，不再与HIS-EVT-043存在任何直接关系（决策者身份已删除）；CHAR-006独立成为HIS-EVT-043的唯一核心将领，二者之间不建立任何人际关系（No direct personal relationship），仅保留Legacy / Institutional Succession层面的国家机器继承关系（泛延统一建立的帝国机器是潮断行动的制度前提，但不是私人任命关系）。CHAR-005/006正文的Historical Event Relations、Known Relationships、Historical Controversies三节均已同步修订。当前状态：RESOLVED ✅"
+    ],
+    "已确认无需处理的项目": [
+      "CHARACTER CANON CONFLICT-003（潜在，已规避，非真正冲突）：CHAR-010（观弦）与CHAR-011（熔镜）——核验：观弦死亡时间约130年前，熔镜出生时间约150年前——二者存在约20年的生命重叠窗口（熔镜出生时观弦仍在世，直至熔镜30岁时观弦才去世）。本档案在CHAR-011正文中已主动标注二者关系为OPEN，不强行建立师徒关系，此为正确处理，避免\"关键人物必然相识\"的过度巧合，予以确认通过。"
+    ],
+    "地理距离核验": [
+      "CHAR-010观弦\"三地游学\"（维罗→中央海→诺弧）：三地均属阿斯兰大陆及邻近区域，参照[L11.004]帝国时代已有的灌溉水利+文字标准化+官方历法基础设施，跨区域旅行在近代（约200年前）应属可行，PASS，无地理不可能性问题"
+    ]
+  },
+  "characterRelationshipIndex": [
+    { "from": "CHAR-001", "to": "CHAR-002", "relation": "No established relation", "confidence": "OPEN" },
+    { "from": "CHAR-003", "to": "CHAR-004", "relation": "No established relation", "confidence": "OPEN" },
+    { "from": "CHAR-005", "to": "CHAR-006", "relation": "Possible chain-of-command (unresolved timing)", "confidence": "OPEN" },
+    { "from": "CHAR-007-A", "to": "CHAR-007-B", "relation": "Contemporaries, possible limited diplomatic contact", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-007-A", "to": "CHAR-007-C", "relation": "Contemporaries, possible limited diplomatic contact", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-007-A", "to": "CHAR-007-D", "relation": "Contemporaries, possible limited diplomatic contact", "confidence": "OPEN" },
+    { "from": "CHAR-007-A", "to": "CHAR-007-E", "relation": "Contemporaries, possible limited diplomatic contact", "confidence": "OPEN" },
+    { "from": "CHAR-008", "to": "CHAR-009", "relation": "No established relation (different era)", "confidence": "OPEN" },
+    { "from": "CHAR-008", "to": "CHAR-010", "relation": "No established relation (different era)", "confidence": "OPEN" },
+    { "from": "CHAR-009", "to": "CHAR-010", "relation": "No established relation (different era)", "confidence": "OPEN" },
+    { "from": "CHAR-010", "to": "潮析 (Associated Figure)", "relation": "Colleague / Core Collaborator", "confidence": "CANON" },
+    { "from": "CHAR-010", "to": "寂观贤者 (Associated Figure)", "relation": "Colleague / Core Collaborator", "confidence": "CANON" },
+    { "from": "CHAR-010", "to": "CHAR-011", "relation": "No established relation (no documented meeting)", "confidence": "OPEN" },
+    { "from": "CHAR-011", "to": "CHAR-012", "relation": "No established relation (different era)", "confidence": "OPEN" },
+    { "from": "CHAR-012", "to": "诺弧独立观测站人员", "relation": "Possible institutional link (unconfirmed individual identity)", "confidence": "OPEN" },
+    { "from": "CHAR-013-A", "to": "CHAR-013-B", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-A", "to": "CHAR-013-C", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-A", "to": "CHAR-013-D", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-A", "to": "CHAR-013-E", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-B", "to": "CHAR-013-C", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-B", "to": "CHAR-013-D", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-B", "to": "CHAR-013-E", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-C", "to": "CHAR-013-D", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-C", "to": "CHAR-013-E", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-D", "to": "CHAR-013-E", "relation": "Co-negotiators (same convention)", "confidence": "RECONSTRUCTED" },
+    { "from": "CHAR-013-D", "to": "CHAR-012", "relation": "Possible institutional link (unconfirmed)", "confidence": "OPEN" }
+  ],
+  "characterEventIndex": [
+    { "charId": "CHAR-001", "eventIds": ["HIS-EVT-038"] },
+    { "charId": "CHAR-002", "eventIds": ["HIS-EVT-038"] },
+    { "charId": "CHAR-003", "eventIds": ["HIS-EVT-040"] },
+    { "charId": "CHAR-004", "eventIds": ["HIS-EVT-041"] },
+    { "charId": "CHAR-005", "eventIds": ["HIS-EVT-042", "HIS-EVT-043"] },
+    { "charId": "CHAR-006", "eventIds": ["HIS-EVT-043"] },
+    { "charId": "CHAR-007-A", "eventIds": ["HIS-EVT-045"] },
+    { "charId": "CHAR-007-B", "eventIds": ["HIS-EVT-045"] },
+    { "charId": "CHAR-007-C", "eventIds": ["HIS-EVT-045"] },
+    { "charId": "CHAR-007-D", "eventIds": ["HIS-EVT-045"] },
+    { "charId": "CHAR-007-E", "eventIds": ["HIS-EVT-045"] },
+    { "charId": "CHAR-008", "eventIds": ["HIS-EVT-053"] },
+    { "charId": "CHAR-009", "eventIds": ["HIS-EVT-054"] },
+    { "charId": "CHAR-010", "eventIds": ["HIS-EVT-056"] },
+    { "charId": "潮析", "eventIds": ["HIS-EVT-056"] },
+    { "charId": "寂观贤者", "eventIds": ["HIS-EVT-056"] },
+    { "charId": "CHAR-011", "eventIds": ["HIS-EVT-057"] },
+    { "charId": "CHAR-012", "eventIds": ["HIS-EVT-061"] },
+    { "charId": "CHAR-013-A", "eventIds": ["HIS-EVT-063"] },
+    { "charId": "CHAR-013-B", "eventIds": ["HIS-EVT-063"] },
+    { "charId": "CHAR-013-C", "eventIds": ["HIS-EVT-063"] },
+    { "charId": "CHAR-013-D", "eventIds": ["HIS-EVT-063"] },
+    { "charId": "CHAR-013-E", "eventIds": ["HIS-EVT-063"] }
+  ],
+  "namedIndividualsCount": {
+    "primarySlots": {
+      "total": 21,
+      "newHistoricalCanon": 18,
+      "candidates": 3,
+      "list": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-007-A", "CHAR-007-B", "CHAR-007-C", "CHAR-007-D", "CHAR-007-E", "CHAR-008", "CHAR-009", "CHAR-010", "CHAR-011", "CHAR-012", "CHAR-013-A", "CHAR-013-B", "CHAR-013-C", "CHAR-013-D", "CHAR-013-E"]
+    },
+    "associatedFigures": {
+      "total": 2,
+      "list": ["潮析", "寂观贤者"],
+      "canonStatus": "NEW HISTORICAL CANON"
+    },
+    "candidates": {
+      "total": 3,
+      "list": ["CHAR-002（漪商）", "CHAR-007-D（渚衡）", "CHAR-007-E（汭珂）"],
+      "note": "为Primary Character Slots中的CANDIDATE子集，不重复计数"
+    },
+    "fictionOnly": 0,
+    "newHistoricalCanonTotalNamedIndividuals": 20,
+    "totalNamedIndividuals": 23
+  },
+  "foundingFigures": [
+    {
+      "name": "熔炼",
+      "namePinyin": "Róng Liàn",
+      "role": "熔观书院奠基者",
+      "civilization": "维罗合众国",
+      "lifespan": "约170–105年前（RECONSTRUCTED，晚于CHAR-008淬观提出\"未知场\"猜想约130年，早于凝晶基半导体规模化生产约25年，时间线与既定Canon一致）",
+      "description": "出身矿业-工匠世家，在维罗工匠-学者行会传承传统基础上，正式推动其制度化为常设教育机构（熔观书院），是维罗从\"松散行会传承\"向\"正式科研教育体系\"转型的关键推动者。",
+      "status": "FOUNDING FIGURE (not upgraded to CHAR id)"
+    },
+    {
+      "name": "潮明",
+      "namePinyin": "Cháo Míng",
+      "role": "潮算学馆奠基者",
+      "civilization": "中央海联合体",
+      "lifespan": "约205–140年前（与CHAR-009汭明约250-215年前活跃期相隔一代，RECONSTRUCTED合理时间衔接）",
+      "description": "汎明的学术传承者之一（非血缘关系，OPEN不强行确立师徒关系细节），推动将汭明\"潮算\"称号背后的数据分析方法论制度化为正式教育机构。",
+      "status": "FOUNDING FIGURE (not upgraded to CHAR id)"
+    },
+    {
+      "name": "观宁",
+      "namePinyin": "Guān Níng",
+      "role": "寂观学宫奠基者",
+      "civilization": "诺弧高原祭司国",
+      "lifespan": "约155–90年前",
+      "description": "寂观贤者（CDD理论确立三方合作者之一）的学术继承者，在CDD理论正式确立后约80年（本人年约55岁时，寂观学宫成立年份经v2.0审计REPAIR-001修正为约100年前），推动建立以寂观贤者命名的常设哲学/伦理研究机构。",
+      "status": "FOUNDING FIGURE (not upgraded to CHAR id)"
+    },
+    {
+      "name": "汭诊",
+      "namePinyin": "Ruì Zhěn",
+      "role": "凝迹诊断技术奠基者",
+      "civilization": "中央海联合体（Φ波探测技术医疗应用的历史发生地推定为中央海，RECONSTRUCTED）",
+      "lifespan": "约105–40年前",
+      "description": "在Φ波探测技术成熟（约120年前）后约45年（本人年约30岁时，应用起始年份经v2.0审计REPAIR-002修正为约75年前），首次将该技术系统性应用于人体诊断领域，是本世界\"物理学发现向医疗应用转化\"这一路径的关键奠基者。",
+      "status": "FOUNDING FIGURE (not upgraded to CHAR id)"
+    },
+    {
+      "name": "汐炼",
+      "namePinyin": "Xī Liàn",
+      "role": "汐炼学院同名奠基者",
+      "civilization": "黑潮共同体",
+      "lifespan": "约35年前至今（Death details: Not applicable — 可能仍在世，与当代AI临界事件时代重叠）",
+      "description": "黑潮首批接受跨区域高等教育（推定曾赴维罗或中央海求学）后返乡的技术人才之一，主导推动建立黑潮首个本土技术教育机构，机构以其本人命名，是黑潮\"依靠年轻一代把握技术窗口\"这一文明性格的人格化象征。",
+      "status": "FOUNDING FIGURE (not upgraded to CHAR id)"
+    }
+  ]
+}

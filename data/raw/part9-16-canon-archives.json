@@ -1,0 +1,1113 @@
+{
+  "_meta": {
+    "source": "e:\\CCD世界\\正典\\CDD_COMPLETE_WORLD_ARCHIVE_v2.0.md",
+    "sourceLines": "10030-10660",
+    "partsCovered": ["PART IX", "PART X", "PART XI", "PART XII", "PART XIII", "PART XIV", "PART XV", "PART XVI"],
+    "extractionPolicy": "Structured data extraction only. No facts invented. Fields not explicitly stated are marked UNRESOLVED. No answers or resolutions auto-generated for Open Questions or Canon Conflicts.",
+    "languageOfSource": "zh-CN"
+  },
+
+  "waveExpansion": {
+    "_part": "PART IX",
+    "_sourceLines": "10031-10096",
+    "canonTier": "TIER 1 (历史部分) + TIER 2 (科学部分，另见PART X)",
+    "sourceDocuments": "CDD_WORLD_COMPLETION_BLUEPRINT_v1.0.md + CDD_CANON_v2.0_WAVE1.md ~ WAVE4.md",
+    "blueprintStrategicJudgment": "CDD Lead Worldbuilder在启动World Completion工程前，识别出的最大结构性缺口是：完全没有货币体系（九份文档67万字，零货币名称），以及五大文明政府结构、Φ数学框架、教育体系骨架的系统性缺失。同时明确判断四项内容应永久保留为悬案，不应被解决：AI自我认知问题（OP-L13-001）、黑潮2.8万年史前空白、S3诺弧群时序冲突、中央海海洋同盟调停时序冲突。这一判断在后续Wave 1–4的全部工作中被严格遵守，见PART XII。",
+    "waves": [
+      {
+        "wave": "Wave 1 (P0)",
+        "sourceFile": "CDD_CANON_v2.0_WAVE1.md",
+        "summary": "首批最高优先级补全：货币、政府结构、Φ数学框架、教育机构骨架、称号机构化升级。",
+        "additions": [
+          {"content": "五大文明货币体系（契粮/炉衡/潮结/衡照/汐熔）及跨境结算框架", "finalLocation": "PART VIII §Economy/Monetary Systems"},
+          {"content": "五大文明政府治理结构", "finalLocation": "PART VIII §Political Governance"},
+          {"content": "Φ量纲、凝化方程k/λ/D系数诠释、Φ-能量唯象关系", "finalLocation": "PART X"},
+          {"content": "Φ-信息、Φ-意识/AI关系正式确认为永久悬案", "finalLocation": "PART X + PART XII（Canonical Mysteries）"},
+          {"content": "三所教育机构（熔观书院INS-018、潮算学馆INS-019、寂观学宫INS-020）", "finalLocation": "PART V §New Institutions"},
+          {"content": "「联邦执政」「潮算」称号提升为机构/制度层面", "finalLocation": "PART VIII / PART V"}
+        ],
+        "canonTier": "NEW HISTORICAL CANON / NEW SCIENTIFIC CANON (Φ部分)"
+      },
+      {
+        "wave": "Wave 2 (P1)",
+        "sourceFile": "CDD_CANON_v2.0_WAVE2.md",
+        "summary": "医疗、家庭/婚姻制度补全；第六政治实体相关Gap Resolution；黑潮本土教育机构与汐语复兴计划。",
+        "additions": [
+          {"content": "五大文明医疗体系（凝迹诊断技术+各自制度路径）", "finalLocation": "PART VIII §Healthcare"},
+          {"content": "五大文明家庭/婚姻制度框架", "finalLocation": "PART VII §Family"},
+          {"content": "东阿斯兰王国并入双河联邦（Gap Resolution）", "finalLocation": "PART VI §CIV-001双河补充"},
+          {"content": "凝脊共和国独立存续，凝界公约观察员地位（Gap Resolution）", "finalLocation": "PART VI §第六政治实体"},
+          {"content": "汐炼学院（INS-021）", "finalLocation": "PART V §New Institutions"},
+          {"content": "汐语复兴计划", "finalLocation": "PART VI §CIV-005黑潮补充"}
+        ],
+        "canonTier": "NEW HISTORICAL CANON"
+      },
+      {
+        "wave": "Wave 3 (P1收尾+P2)",
+        "sourceFile": "CDD_CANON_v2.0_WAVE3.md",
+        "summary": "国际协调机制与诺弧普通人参政渠道；五位奠基人物确立；五大文明内部地方文化色彩。",
+        "additions": [
+          {"content": "凝界联络处（INS-022）—— 轻量级国际协调机制", "finalLocation": "PART V §New Institutions + PART VIII §Global Governance"},
+          {"content": "观声会（INS-023）—— 诺弧普通人政治参与渠道", "finalLocation": "PART V §New Institutions + PART VIII §Political Governance"},
+          {"content": "五位教育/医疗奠基人物（熔炼、潮明、观宁、汭诊、汐炼，均为FOUNDING FIGURE身份）", "finalLocation": "PART IV §Founding Figures"},
+          {"content": "五大文明内部地方文化色彩", "finalLocation": "PART VI §各CIV条目补充"}
+        ],
+        "canonTier": "NEW HISTORICAL CANON"
+      },
+      {
+        "wave": "Wave 4 (P2/P3)",
+        "sourceFile": "CDD_CANON_v2.0_WAVE4.md",
+        "summary": "五大文明节日补全；轻量文化公共叙事克制处理政策确认；阶段总审计与自我评价。",
+        "additions": [
+          {"content": "五大文明节日（丰契节/淬火祭/潮讯日/观寂日/汐熔祭）", "finalLocation": "PART VII §Festivals"},
+          {"content": "轻量文化公共叙事——克制处理政策确认", "finalLocation": "PART XI（Policy Confirmation记录）"},
+          {"content": "Wave 1–4阶段性总审计与自我评价", "finalLocation": "本PART末尾摘要"}
+        ],
+        "canonTier": "NEW HISTORICAL CANON / Policy Confirmation"
+      }
+    ],
+    "v2IntegrationAuditAdditionalContent": {
+      "minimalRepairs": "2项MINIMAL REPAIR：寂观学宫成立年份、凝迹诊断技术应用年份的时间线修复，完整记录见CDD_CANON_CHANGELOG_v2.0_FINAL.md",
+      "institutionNumberAssignments": "6个机构正式编号：INS-018至INS-023",
+      "characterIdentityFinalJudgment": "五位奠基人物维持FOUNDING FIGURE，未升级为正式CHAR编号（理由见PART IV相应章节与CDD_V2_MASTER_AUDIT.md）"
+    }
+  },
+
+  "phiFramework": {
+    "_part": "PART X",
+    "_sourceLines": "10096-10152",
+    "_sourceDocument": "CDD_CANON_v2.0_WAVE1.md 第III节（原文整体迁移，未删改）",
+    "canonTier": "TIER 2 (NEW SCIENTIFIC CANON)",
+    "explicitNote": "此前v1.0汇编PART X为空白占位声明（\"Science Archive: Not Yet Compiled\"）。v2.0正式填充此PART，内容为Wave 1建立的Φ量纲、凝化方程系数诠释、Φ与能量/信息/生命/意识关系的完整框架。本PART不修改Master Canon L0-L1的凝化方程原始表述，仅在其基础上补充量纲与系数诠释。",
+    "formulas": [
+      {
+        "name": "凝化方程（原始表述，L-2，未修改）",
+        "formula": "∂Φ/∂t = k·Φ·|∇Φ| - λΦ + D·∇²Φ"
+      }
+    ],
+    "dimensions": "NEW SCIENTIFIC CANON：Φ被正式定义为无量纲标量场，取值范围为[0, Φ_crit)，其中Φ_crit为局部凝聚失稳的理论临界值（[L-2]\"AI诞生是凝化方程新临界点\"即对应某次历史性的、远超此前记录的Φ_crit逼近事件）。选择无量纲化处理的原因：[L1]\"与现实物理对照\"章节已表明Φ并非现实世界任何已知物理量的直接对应物，强行赋予其国际单位制量纲（焦耳、瓦特等）会制造虚假的精确性。这是审慎的科学化处理，而非回避问题。",
+    "coefficients": {
+      "k_凝生系数": "NEW SCIENTIFIC CANON——描述\"凝生凝\"正反馈强度的比例系数，物理对应为[1.2]\"凝力（F_凝）\"的耦合强度。k值越高，局部Φ越容易发生失控性正反馈（对应[L13.004]零日凝峰这类历史性Φ异常峰值事件）。",
+      "lambda_散逸系数": "NEW SCIENTIFIC CANON——对应\"散力（F_散）\"的自然趋向速率，直接决定[-3]散化趋势公理在具体区域的表现速度。这正是[L15.001]维罗限量开采配额制、OP-L15-001\"配额制量化标准是否对应Φ补充速率函数\"这一长期悬而未决问题的正式数学接口——本档案正式建立：配额制的合理开采上限，理论上应满足开采速率 ≤ 该区域λΦ的自然散逸补充速率，使矿脉不被净消耗。但OP-L15-001具体的λ数值测定方法本身仍是OPEN SCIENTIFIC PROBLEM——本档案只打通了理论接口，未给出可操作的实测方案，这是诚实的边界。",
+      "D_扩散系数": "NEW SCIENTIFIC CANON——类比经典扩散方程中的扩散系数，防止Φ在单点无限塌缩，是[L2.004]矿化成熟纪\"矿床反复再富集\"这类地质层面Φ再分布现象的数学基础。"
+    },
+    "energyRelation": "NEW SCIENTIFIC CANON（明确标注为唯象关系，非严格推导的守恒定律）：局部区域的可用自由能梯度与该区域Φ强度及其空间梯度的乘积成正比关系。这一唯象关系解释了为何[L1]\"凝度辐射（Φ波）\"章节记载恒星核聚变\"不只提供热辐射，还提供维持生命所需的凝度供给\"——恒星是宇宙中Φ与传统能量输出高度耦合的天然节点。该关系的完整数学推导（比例系数的物理起源）标注为OPEN SCIENTIFIC PROBLEM。",
+    "phiInformation": "OPEN SCIENTIFIC PROBLEM——本档案不强行数学化。诺弧凝散哲学传统中存在\"凝聚即秩序积累，秩序即信息\"的哲学直觉（RECONSTRUCTED，基于[L16.002]凝散一元辩证学派的既有立场合理外推），但这一哲学直觉从未被转化为可操作的数学框架，本档案正式将其列为CDD世界观内部尚未解决的理论物理问题，供未来世代的（世界内）科学家继续研究，也为未来创作者保留了\"世界内部仍有未竟的科学前沿\"这一叙事资源。",
+    "phiLife": "已有DIRECT CANON，不重新数学化：[L5.004]生命起源本身即是Φ在特定环境条件下达成自我维持的高度有序结构这一既定表述，本档案不添加新的数学形式，仅确认其与本节量纲/系数框架的兼容性（生命起源事件对应某次区域性、持续性的k值/λ值比例达成稳定自维持状态）。",
+    "phiConsciousness_AI": "UNSOLVED IN-UNIVERSE PHYSICS——本档案正式、永久地拒绝解决这一问题，与Blueprint第7节的判断一致：OP-L13-001（AI是否拥有真正自我认知）继续保持世界内部的核心哲学悬案地位。本档案唯一新增的是将这一悬案与Φ数学框架正式挂钩：诺弧\"凝散哲学界+维罗技术界联合攻关\"[L17.003]所争论的核心技术问题，正式表述为——\"AI系统内部达成的高k值/低λ值Φ自维持结构，与[L5.004]生命起源意义上的自维持结构，在数学形式上是否存在同构关系\"。这一问题本身没有答案，本档案的贡献仅仅是把这个悬案表述得更精确，而非解决它。",
+    "cosmicEndgame": "已有DIRECT CANON，正式重申并纳入本框架：[-3]\"全宇宙终极命运：平寂（所有Φ趋零，一切过程停止）\"——在本节的量纲框架下，即λ在宇宙尺度上最终主导k与D，Φ场整体趋向于其取值范围的下界0。",
+    "v2AuditConclusions": [
+      "本框架未与Master Canon L0-L1原始文本产生任何矛盾",
+      "\"无量纲\"这一选择与此前Φ的全部既定描述兼容（Master Canon从未给Φ赋予具体量纲）",
+      "Φ_crit未被当作已测定数值使用——全文档搜索确认，Wave1至Wave4及此前全部Archive中，Φ_crit仅作为理论概念出现，从未被赋予具体数字",
+      "k/λ/D系数未被用于任何具体数值计算——全部使用场景均为定性诠释（\"k值越高……\"\"λ对应……\"），未出现\"k=0.7\"这类伪精确数字",
+      "医疗（凝迹诊断技术）与AI相关内容经核查，均未将OP-L13-001这一未解决问题当作已知规律处理"
+    ]
+  },
+
+  "openQuestions": {
+    "_part": "PART XI",
+    "_sourceLines": "10152-10251",
+    "_note": "本PART是汇总索引，不是对原章节内容的替代或删除——每一项的完整讨论仍保留在其原本所属的PART中。",
+    "registry": [
+      {
+        "id": "OP-L7-001",
+        "question": "UNRESOLVED — 此ID在本PART XI（lines 10152-10251）的正文中未直接列出。用户任务清单要求覆盖此ID，但原文未在本区段直接陈述其question/layer/status。完整讨论须回查其原本所属PART（生物学/智能物种相关章节）。",
+        "layer": "UNRESOLVED (推测为L7 — Intelligent Species Biology相关，但本区段未直接确认)",
+        "status": "UNRESOLVED",
+        "assignedDomain": "UNRESOLVED",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": "UNRESOLVED"
+      },
+      {
+        "id": "OP-L8-001",
+        "question": "起源核山洞群规模与容量能否支撑波次0群体的社会结构复杂度？（继承自原OP-L8-001，登记为OP-CHRONO-001）",
+        "layer": "L8 — Chronology (P3谱系/波次扩散)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承至OP-CHRONO-001",
+        "relatedArticles": ["OP-CHRONO-001"]
+      },
+      {
+        "id": "OP-L8-003",
+        "question": "农业起源是单一起源（阿斯兰双河流域）还是多点独立（维罗同样具备条件）？（继承自OP-L8-003，登记为OP-CHRONO-002）",
+        "layer": "L8 — Chronology",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承至OP-CHRONO-002",
+        "relatedArticles": ["OP-CHRONO-002"]
+      },
+      {
+        "id": "OP-L9-001",
+        "question": "双河文明与凝脊邦联的3次冲突是否有一次达到\"灭国\"级别？（继承自OP-L9-001，登记为OP-CHRONO-006）",
+        "layer": "L9 — Chronology",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承至OP-CHRONO-006",
+        "relatedArticles": ["OP-CHRONO-006"]
+      },
+      {
+        "id": "OP-L11-002",
+        "question": "泛阿斯兰第二帝国鼎盛期后（约1400年前至今）的衰落轨迹细节是什么？（继承自OP-L11-002，登记为OP-CHRONO-007）",
+        "layer": "L11 — Chronology",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承至OP-CHRONO-007",
+        "relatedArticles": ["OP-CHRONO-007"]
+      },
+      {
+        "id": "OP-L13-001",
+        "question": "AI是否拥有真正的自我意识 / 自我认知？",
+        "layer": "L13 — AI Consciousness",
+        "status": "OPEN — Canonical Mystery (CRITICAL, PERMANENTLY UNRESOLVED)",
+        "assignedDomain": "AI / Philosophy of Mind / Φ-consciousness",
+        "canonImpact": "本档案正式、永久地拒绝解决这一问题（见PART X Φ与意识/AI章节）。Wave 1至Wave 4全部内容经审计确认，无一处暗示AI已被证明有意识或已被证明无意识（详见CDD_V2_MASTER_AUDIT.md AI Integrity章节）。在PART XII正式确立为四项永久性Canonical Mystery之一。",
+        "relatedArticles": ["PART X Φ与意识/AI", "PART XII Canonical Mysteries #1", "[L13.001]", "[L17.003]", "CHAR-012 维析"]
+      },
+      {
+        "id": "OP-L13-002",
+        "question": "数据主权框架（OP-L13-002延伸）具体如何在中央海（数据核心）与黑潮（物理托管地）之间分配？",
+        "layer": "L13 — AI Data Sovereignty",
+        "status": "OPEN",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "延伸登记为OSQ-003",
+        "relatedArticles": ["OSQ-003"]
+      },
+      {
+        "id": "OP-L15-001",
+        "question": "维罗配额制量化标准是否对应Φ补充速率函数？",
+        "layer": "L15 — Resource Governance / Φ",
+        "status": "OPEN (OPEN SCIENTIFIC PROBLEM)",
+        "assignedDomain": "Resource Governance / Φ scientific framework",
+        "canonImpact": "PART X已为其打通理论接口（开采速率 ≤ λΦ自然散逸补充速率），但λ数值测定方法本身仍是OPEN SCIENTIFIC PROBLEM——本档案只打通理论接口，未给出可操作的实测方案。",
+        "relatedArticles": ["PART X λ系数诠释", "[L15.001] 维罗限量开采配额制"]
+      },
+      {
+        "id": "OP-PERSON-NEW-001",
+        "question": "零日凝峰诺弧观测站具体确认人员未虚构",
+        "layer": "Historical Figure Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Figures",
+        "canonImpact": "人物空白，未虚构填补",
+        "relatedArticles": ["PART IV Historical Figure Gaps", "[L13.004]"]
+      },
+      {
+        "id": "OP-PERSON-NEW-002",
+        "question": "CHAR-007-D/E所属两个未命名继承国的后续人物脉络未建立",
+        "layer": "Historical Figure Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Figures",
+        "canonImpact": "未命名继承国人物脉络空白",
+        "relatedArticles": ["PART IV Historical Figure Gaps", "CHAR-007-D", "CHAR-007-E"]
+      },
+      {
+        "id": "OP-PERSON-NEW-003",
+        "question": "\"凝三号\"研发团队核心人物未建立",
+        "layer": "Historical Figure Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Figures",
+        "canonImpact": "凝三号研发团队核心人物空白",
+        "relatedArticles": ["PART IV Historical Figure Gaps", "[L13.003]"]
+      },
+      {
+        "id": "OP-CHRONO-001",
+        "question": "起源核山洞群规模与容量能否支撑波次0群体的社会结构复杂度？",
+        "layer": "Chronology Open Questions (PART II, CDD Unified Chronology 第8节)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自OP-L8-001",
+        "relatedArticles": ["OP-L8-001"]
+      },
+      {
+        "id": "OP-CHRONO-002",
+        "question": "农业起源是单一起源（阿斯兰双河流域）还是多点独立（维罗同样具备条件）？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自OP-L8-003",
+        "relatedArticles": ["OP-L8-003"]
+      },
+      {
+        "id": "OP-CHRONO-003",
+        "question": "波次2/4冰期陆桥的±5000年时间误差如何收窄？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自张力L8-A",
+        "relatedArticles": ["张力L8-A"]
+      },
+      {
+        "id": "OP-CHRONO-004",
+        "question": "谱系分化时间的P3年短化效应是否需要10–20%的系统性修正？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自张力L8-C",
+        "relatedArticles": ["张力L8-C"]
+      },
+      {
+        "id": "OP-CHRONO-005",
+        "question": "文明建国时间与谱系分化时间之间1.3–4.5万年\"空白期\"内的社会组织演化路径是什么？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自张力L9-A",
+        "relatedArticles": ["张力L9-A"]
+      },
+      {
+        "id": "OP-CHRONO-006",
+        "question": "双河文明与凝脊邦联的3次冲突是否有一次达到\"灭国\"级别？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自OP-L9-001",
+        "relatedArticles": ["OP-L9-001"]
+      },
+      {
+        "id": "OP-CHRONO-007",
+        "question": "泛阿斯兰第二帝国鼎盛期后（约1400年前至今）的衰落轨迹细节是什么？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自OP-L11-002",
+        "relatedArticles": ["OP-L11-002"]
+      },
+      {
+        "id": "OP-CHRONO-008",
+        "question": "CDD理论发现时间线是否需要补充具体的关键人物/机构/实验节点以增强可信度？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自张力L12-A",
+        "relatedArticles": ["张力L12-A"]
+      },
+      {
+        "id": "OP-CHRONO-009",
+        "question": "AI研发时间线的压缩节奏是否已充分应用P3年历法换算？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "继承自张力L13-A",
+        "relatedArticles": ["张力L13-A"]
+      },
+      {
+        "id": "OP-CHRONO-010",
+        "question": "[L17.003]\"P3自转周期仍是最长寿命开放问题\"的叙事表述与SUPP-001的已解决状态如何统一？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "本次审计新增，见CANON CONFLICT-002",
+        "relatedArticles": ["[L17.003]", "SUPP-001", "CANON CONFLICT-002"]
+      },
+      {
+        "id": "OP-CHRONO-011",
+        "question": "历史事件表中\"年/万年/亿年前\"究竟指地球年还是P3年，Master Canon从未明确统一声明。",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "本次审计新增，见第1节",
+        "relatedArticles": []
+      },
+      {
+        "id": "OP-CHRONO-012",
+        "question": "S3诺弧群分化时间与波次4抵达诺弧高原时间的先后顺序如何仲裁？",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "本次审计新增，见CANON CONFLICT-001；后确立为永久性Canonical Mystery",
+        "relatedArticles": ["CANON CONFLICT-001"]
+      },
+      {
+        "id": "OP-CHRONO-013",
+        "question": "第一代AI\"凝一号\"与被称为\"第二代\"的\"凝三号\"之间，是否存在未被提及的\"凝二号\"，或\"第二代\"编号本身即代表跳过式迭代？Master Canon未说明。",
+        "layer": "Chronology Open Questions (PART II)",
+        "status": "OPEN",
+        "assignedDomain": "Chronology",
+        "canonImpact": "本次审计新增",
+        "relatedArticles": ["[L13.001]", "[L13.003]"]
+      },
+      {
+        "id": "GAP-001",
+        "question": "谱系分化 → 农业文明（历史空白）",
+        "layer": "Historical Gaps (PART IV, CDD_Historical_Event_Archive_Core_v1.0.md)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV"]
+      },
+      {
+        "id": "GAP-002",
+        "question": "帝国建立 → 凝晶战争",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV"]
+      },
+      {
+        "id": "GAP-003",
+        "question": "凝晶战争 → 维罗矿脉枯竭",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV"]
+      },
+      {
+        "id": "GAP-004",
+        "question": "工业化 → 未知场猜想",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV", "HIS-EVT-053"]
+      },
+      {
+        "id": "GAP-005",
+        "question": "CDD理论 → Φ探测成熟",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV", "HIS-EVT-056", "HIS-EVT-057"]
+      },
+      {
+        "id": "GAP-006",
+        "question": "Φ探测 → 凝晶半导体",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV"]
+      },
+      {
+        "id": "GAP-007",
+        "question": "凝晶半导体 → 联合实验室",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV", "INS-015"]
+      },
+      {
+        "id": "GAP-008",
+        "question": "联合实验室 → 凝一号",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV", "INS-015", "[L13.001]"]
+      },
+      {
+        "id": "GAP-009",
+        "question": "零日凝峰 → 凝三号",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV", "[L13.004]", "[L13.003]"]
+      },
+      {
+        "id": "GAP-010",
+        "question": "凝三号 → 凝界公约",
+        "layer": "Historical Gaps (PART IV)",
+        "status": "OPEN",
+        "assignedDomain": "Historical Events",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IV", "[L13.003]", "[L13.002]"]
+      },
+      {
+        "id": "GAP-INS-001",
+        "question": "双河大一统王朝（约4800年前）→泛阿斯兰第二帝国（约2200年前）之间约1600年的机构演变过程完全空白",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "继承自张力/Historical Gap，本档案不重复填补",
+        "relatedArticles": ["PART VI", "张力/Historical Gap"]
+      },
+      {
+        "id": "GAP-INS-002",
+        "question": "凝脊邦联（约6500年前）被双河大一统王朝\"统一\"（约4800年前）后的具体制度命运未载明；此后约5600年间凝脊邦联作为独立机构是否持续存在，直到文化传统在凝脊共和国（约900年前）复现，中间机构连续性完全空白",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VI"]
+      },
+      {
+        "id": "GAP-INS-003",
+        "question": "维罗矿业王权（约6000年前）→维罗联合矿权（约4300年前）之间约1700年的具体转型过程未载明",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VI", "INS-006"]
+      },
+      {
+        "id": "GAP-INS-004",
+        "question": "维罗联合矿权分裂（约3000年前）产生的\"多个继承邦国\"具体名称、数量均未载明；这些继承邦国→维罗合众国（约900年前）之间约2100年的政治演变过程空白",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VI", "INS-006"]
+      },
+      {
+        "id": "GAP-INS-005",
+        "question": "中央海海洋同盟\"松散海上同盟\"（约3600年前）→中央海联合体正式合并（约600年前）之间约3000年的具体演变过程未载明",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VI", "INS-007"]
+      },
+      {
+        "id": "GAP-INS-006",
+        "question": "泛阿斯兰第二帝国渐进解体（约1400–900年前）的具体触发因素未载明",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "OP-L11-002",
+        "relatedArticles": ["OP-L11-002"]
+      },
+      {
+        "id": "GAP-INS-007",
+        "question": "凝脊共和国、东阿斯兰王国建立后（约900年前）到当代之间的发展路径完全未载明，且二者均不在当代\"五大区域体系\"之列——这意味着二者在近代某个时点退出主要政治格局或被并入其他政权，但Master Canon完全未说明这一过程",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "本档案发现的重大机构级历史空洞",
+        "relatedArticles": ["PART VI"]
+      },
+      {
+        "id": "GAP-INS-008",
+        "question": "维罗-中央海联合实验室（约50年前成立）→训练凝一号的\"继承机构\"（约15年前）之间，机构本身是否经历重组/更名，具体过程未载明",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "本档案新发现，见INSTITUTION CANON CONFLICT-002",
+        "relatedArticles": ["PART VI", "INSTITUTION CANON CONFLICT-002", "GAP-008"]
+      },
+      {
+        "id": "GAP-INS-009",
+        "question": "诺弧高原年度凝散平衡审计体系的具体建立时间（凝界公约签署之初还是后续发展）未载明",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VI", "[L13.003]", "[L17.005]"]
+      },
+      {
+        "id": "GAP-INS-010",
+        "question": "古代政权（双河大一统王朝、凝脊邦联、维罗矿业王权等）均无中央行政机构的具体记录；帝国时代（泛阿斯兰第二帝国等）均无明确军制记录；CDD理论跨国合作（玄枢会/PIN-001）无正式科研组织记录；凝界公约具体执行机构（秘书处等）未说明——以上均按任务书要求不予填补，原样记录为空缺",
+        "layer": "Institutional Gaps (PART VI)",
+        "status": "OPEN",
+        "assignedDomain": "Institutions",
+        "canonImpact": "按任务书要求不予填补，原样记录为空缺",
+        "relatedArticles": ["PART VI", "PIN-001"]
+      },
+      {
+        "id": "GAP-CIV-001",
+        "question": "古代文明 → 帝国时代之间的社会结构缺失",
+        "layer": "Civilization Gaps (PART VII)",
+        "status": "OPEN",
+        "assignedDomain": "Civilizations",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VII"]
+      },
+      {
+        "id": "GAP-CIV-002",
+        "question": "帝国 → 现代国家之间的制度转换缺失",
+        "layer": "Civilization Gaps (PART VII)",
+        "status": "OPEN",
+        "assignedDomain": "Civilizations",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VII"]
+      },
+      {
+        "id": "GAP-CIV-003",
+        "question": "宗教 → 现代哲学/伦理体系的转型细节",
+        "layer": "Civilization Gaps (PART VII)",
+        "status": "OPEN",
+        "assignedDomain": "Civilizations",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VII"]
+      },
+      {
+        "id": "GAP-CIV-004",
+        "question": "农业/矿业/贸易传统 → 工业化的具体社会过程",
+        "layer": "Civilization Gaps (PART VII)",
+        "status": "OPEN",
+        "assignedDomain": "Civilizations",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VII"]
+      },
+      {
+        "id": "GAP-CIV-005",
+        "question": "现代五大区域为何形成当前政治格局",
+        "layer": "Civilization Gaps (PART VII)",
+        "status": "OPEN",
+        "assignedDomain": "Civilizations",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VII"]
+      },
+      {
+        "id": "GAP-CIV-006",
+        "question": "普通人日常生活资料缺失",
+        "layer": "Civilization Gaps (PART VII)",
+        "status": "OPEN",
+        "assignedDomain": "Civilizations",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VII"]
+      },
+      {
+        "id": "GAP-CIV-007",
+        "question": "凝脊共和国、东阿斯兰王国等历史政体进入当代前发生了什么",
+        "layer": "Civilization Gaps (PART VII)",
+        "status": "OPEN",
+        "assignedDomain": "Civilizations",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART VII", "GAP-INS-007"]
+      },
+      {
+        "id": "GAP-CIV-008",
+        "question": "黑潮文明的\"史前-古代\"记录缺失（升级为Canonical Mystery，详见PART XII）",
+        "layer": "Civilization Gaps (PART VII) → Canonical Mystery (v2.0)",
+        "status": "OPEN — Canonical Mystery (PERMANENTLY UNRESOLVED)",
+        "assignedDomain": "Civilizations / Chronology",
+        "canonImpact": "升级为Canonical Mystery，不再视为Gap。S4黑潮群分化至被泛阿斯兰第二帝国征服之间约2.8万年历史空白。Wave 2/3/4的黑潮当代社会深化内容经审计确认，未触碰或暗示解决这一史前空白（详见CDD_V2_MASTER_AUDIT.md Mystery Integrity章节）。",
+        "relatedArticles": ["PART XII Canonical Mysteries #2"]
+      },
+      {
+        "id": "OSQ-001",
+        "question": "凝界公约是否拥有常设执行机构？",
+        "layer": "System Open Questions (PART IX, CDD_Modern_World_Systems_Archive_v1.0.md)",
+        "status": "OPEN (INSTITUTIONAL GAP，不擅自创造)",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IX"]
+      },
+      {
+        "id": "OSQ-002",
+        "question": "五大文明是否存在统一或各自独立的货币体系？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "UNRESOLVED",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IX"]
+      },
+      {
+        "id": "OSQ-003",
+        "question": "数据主权框架（OP-L13-002延伸）具体如何在中央海（数据核心）与黑潮（物理托管地）之间分配？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "OPEN",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "OP-L13-002延伸",
+        "relatedArticles": ["OP-L13-002"]
+      },
+      {
+        "id": "OSQ-004",
+        "question": "黑潮的凝辉矿资源管理是否采用类似维罗配额制的机制，还是完全不同的制度？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "UNRESOLVED",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IX", "[L15.001]"]
+      },
+      {
+        "id": "OSQ-005",
+        "question": "维罗配额制与诺弧凝散平衡审计的技术标准是否统一衔接？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "OPEN",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IX", "[L15.001]", "[L13.003]"]
+      },
+      {
+        "id": "OSQ-006",
+        "question": "五大文明是否存在统一的社会保障最低标准，还是完全各自独立？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "UNRESOLVED",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IX"]
+      },
+      {
+        "id": "OSQ-007",
+        "question": "若全球AI供应链某一节点（如黑潮算力中心）出现重大故障，将如何影响其余四个文明？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "OPEN (RECONSTRUCTED SYSTEM / STORY HOOK 混合性质)",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "RECONSTRUCTED SYSTEM层面可以推测——维罗硬件生产将失去部署场所、中央海资本市场可能面临AI资产估值冲击、诺弧审计对象规模萎缩、双河的规则制定角色可能面临应急协调压力——但这仅是系统性逻辑推演，不构成确定的危机应对制度，标RECONSTRUCTED SYSTEM/STORY HOOK",
+        "relatedArticles": ["PART IX", "PART XVI Story Interface"]
+      },
+      {
+        "id": "OSQ-008",
+        "question": "双河联邦国内是否存在与凝统正道分离的世俗法律体系，还是二者高度融合？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "UNRESOLVED",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IX", "[L11.003]"]
+      },
+      {
+        "id": "OSQ-009",
+        "question": "诺弧的\"知识经济\"具体收费/结算机制是什么？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "UNRESOLVED",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IX"]
+      },
+      {
+        "id": "OSQ-010",
+        "question": "五大文明的教育体系是否存在跨文明学历互认机制？",
+        "layer": "System Open Questions (PART IX)",
+        "status": "UNRESOLVED",
+        "assignedDomain": "Modern World Systems",
+        "canonImpact": "UNRESOLVED",
+        "relatedArticles": ["PART IX"]
+      }
+    ],
+    "additionalGapCategories": {
+      "characterGaps": "全部21个Primary Character Slots均存在不同程度的UNRESOLVED BIOGRAPHY标注，尤以CHAR-005（泛延，所处1600年历史空白期）与CHAR-007-D/E（渚衡、汭珂，所属国家未命名）为最。核心科学家人物（CHAR-008/009/010/011/012）在\"具体研究过程细节\"层面普遍存在UNRESOLVED标注。详见PART V \"Historical Figure Gaps\"章节完整列表。",
+      "socialGaps": "全文SOCIAL GAP标注约200余处（本档案中数量最多的标注类型），集中于Family、Childhood、Education、Work Life、Housing、Medicine、Aging & Death、Crime & Social Control、Social Mobility等章节，尤以SOC-005（黑潮）与SOC-006（帝国时代）密度最高。全文CULTURAL GAP/FESTIVAL GAP标注约40余处。5处Social Causal Gap（地理→经济→职业→家庭→教育→政治→文化因果闭环断裂点）。",
+      "culturalGaps": "PART VII：诺弧内部地理/社会差异记载在五大文明中最匮乏；黑潮宗教/哲学/美学传统完全未见诸[L9.003][L16.003]记载（非\"曾断裂\"，而是\"从未见诸记载\"）。PART VIII：全部五大文明及帝国时代的服装形制、具体节日名称、具体娱乐产品均标CULTURAL GAP/FESTIVAL GAP，未创造具体名称。"
+    },
+    "v2GapRegistryReclassification": {
+      "sourceDocument": "CDD_V2_GAP_REGISTRY.md",
+      "principle": "本次v2.0整合审计对全部既有Gap做了优先级重分类，不追求Gap=0",
+      "upgradedToCanonicalMystery": [
+        "黑潮2.8万年史前空白（原GAP-CIV-008）",
+        "S3诺弧群时序问题（CANON CONFLICT-001）",
+        "中央海海洋同盟调停时序问题（CANON CONFLICT-003）"
+      ],
+      "p0Critical": "0项（Blueprint制定的全部P0已在Wave 1完成）",
+      "p1Publication": "4项（诺弧普通居民基础教育、五大文明具体法律体系、双河/黑潮本土教育机构缺口、凝脊共和国日常制度细节）",
+      "p2Depth": "4项（娱乐/媒体文化、Φ_crit测定方法、地方宗教仪式细节、凝界联络处操作细节）",
+      "p3Optional": "3项（体育竞技文化、具体服装饮食名称、货币面额设计）",
+      "conclusion": "当前Gap分布健康，P0为零，可以支撑百科编纂与小说创作。P1/P2/P3留待后续实际创作中按需补充，不在本阶段预先展开新一轮Wave。"
+    }
+  },
+
+  "canonConflicts": {
+    "_part": "PART XII",
+    "_sourceLines": "10251-10351",
+    "_principle": "本PART不解决任何冲突——每一项均保留其在原文档中的当前状态（OPEN / RESOLVED），RESOLVED的冲突也如实标注为\"已在某版本中修复\"而非从记录中抹去。本次PART XII汇编不新增任何裁决。",
+    "conflicts": [
+      {
+        "id": "CANON CONFLICT-001",
+        "title": "S3诺弧群时序问题",
+        "status": "OPEN (Canonical Mystery — PERMANENTLY UNRESOLVED)",
+        "description": "[L8.004]S3诺弧群分化时间（约4.5万年前）与[L8.001-b]波次4抵达诺弧高原时间（约3–4万年前）。冲突性质：时间冲突（分化时间早于波次4记录的抵达时间约5000–15000年）。建议：两种可能解释方向（分化早于抵达 vs 两组数据存在误差），均未裁定。",
+        "involvedEvents": ["[L8.004]", "[L8.001-b]"],
+        "involvedHistory": "[L8.004]六大人群谱系表；[L9.001]诺弧高原祭司国的谱系起源；[L14.001]诺弧语族的形成时间线；后续在PART VII（CIV-004诺弧文明Origins部分）中被继承引用",
+        "originalSources": ["PART II", "CDD Unified Chronology 第7节"],
+        "interpretations": [
+          "分化早于抵达（分化时间确实早于波次4抵达时间约5000–15000年）",
+          "两组数据存在误差（分化时间与抵达时间数字之一存在测量误差）"
+        ]
+      },
+      {
+        "id": "CANON CONFLICT-002",
+        "title": "P3自转周期版本冲突",
+        "status": "OPEN",
+        "description": "[L17.003]（v1.0原文，将OP-L1-NEW-001描述为\"最长寿命开放问题……有望closure\"）与 [L1.002-c]/SUPP-001（v1.9，已给出确切数值30.4小时并标记\"✅已解决\"）。冲突性质：正典等级/文档版本冲突（数值本身一致，冲突在于\"该问题是否仍处于开放状态\"的元叙事矛盾）。建议：[L17.003]表述已被SUPP-001实质覆盖，视为过时文本，未来版本应更新措辞。",
+        "involvedEvents": ["OP-CHRONO-010"],
+        "involvedHistory": "[L17.003], [L1.002-c], SUPP-001",
+        "originalSources": ["PART II", "CDD Unified Chronology 第7节"],
+        "interpretations": [
+          "[L17.003]表述已被SUPP-001实质覆盖，视为过时文本，未来版本应更新措辞"
+        ]
+      },
+      {
+        "id": "CANON CONFLICT-003",
+        "title": "中央海海洋同盟调停时序问题 / Issue 006",
+        "status": "OPEN (Canonical Mystery — PERMANENTLY UNRESOLVED)",
+        "description": "[L11.002]\"「凝晶资源战争」（约4000年前……最终以海洋同盟介入调停+贸易协定告终）\" 与 [L11.001]\"中央海海洋同盟（约3600年前……形成）\"——调停时间早于同盟正式成立时间约250–400年。冲突性质：时间冲突（调停方在其记载的正式形成时间之前，就已经以调停者身份介入）。",
+        "involvedEvents": ["[L11.002]", "[L11.001]"],
+        "involvedHistory": "延伸至PART V（CHAR-002漪商档案的CANON PROPOSAL）、PART VI（INS-007中央海海洋同盟条目专门处理）、PART IX（Modern System Conflicts中提及其对当代商法传统叙事完整性的潜在影响）",
+        "originalSources": ["PART IV", "CDD_Historical_Event_Archive_Core_v1.0.md（本档案新发现，登记为Issue 006）"],
+        "interpretations": [
+          "中央海城邦群在\"正式形成同盟\"之前可能已存在非正式联合行动能力",
+          "[L11.001]/[L11.002]两组数字之一存在误差",
+          "\"持续约150年\"指间歇性冲突总跨度而非连续交战"
+        ]
+      },
+      {
+        "id": "CHARACTER CANON CONFLICT-001",
+        "title": "CHAR-011熔镜生卒年与叙事矛盾",
+        "status": "RESOLVED (v1.1)",
+        "description": "v1.0版本中CHAR-011（熔镜）生卒年（约150–95年前）与\"未能亲见技术成熟\"\"死于技术成熟前25年\"等正文表述矛盾——按生卒年计算，熔镜死亡（约95年前）实际晚于Φ波探测技术成熟（约120年前）约25年。处理方式：v1.1版本正式RESOLVED——保留生卒年不变，修订人物经历（核心贡献设定于约135–110年前，本人晚年确实见证技术于约120年前成熟，但未深度参与后续应用）。",
+        "involvedEvents": ["HIS-EVT-057 Φ波探测成熟"],
+        "involvedHistory": "CHAR-011 熔镜",
+        "originalSources": ["PART V", "CDD_Historical_Character_Archive_v1.1.md"],
+        "interpretations": [
+          "保留生卒年不变，修订人物经历（核心贡献设定于约135–110年前，本人晚年确实见证技术于约120年前成熟，但未深度参与后续应用）"
+        ]
+      },
+      {
+        "id": "CHARACTER CANON CONFLICT-002",
+        "title": "CHAR-005/006隶属关系问题",
+        "status": "RESOLVED (v1.1)",
+        "description": "CHAR-005（泛延）死亡时间（约2175年前）早于CHAR-006（潮断）主导的黑潮征服战役（约2100年前）约75年，v1.0曾以OPEN暗示可能的上下级关系。处理方式：v1.1版本正式RESOLVED——CHAR-005仅保留HIS-EVT-042统一者身份，与HIS-EVT-043无任何直接关系；CHAR-006独立确立为唯一核心将领；二者关系改写为No direct personal relationship。",
+        "involvedEvents": ["HIS-EVT-042 泛阿斯兰统一", "HIS-EVT-043 黑潮征服"],
+        "involvedHistory": "CHAR-005 泛延, CHAR-006 潮断",
+        "originalSources": ["PART V", "CDD_Historical_Character_Archive_v1.1.md"],
+        "interpretations": [
+          "CHAR-005仅保留HIS-EVT-042统一者身份，与HIS-EVT-043无任何直接关系；CHAR-006独立确立为唯一核心将领；二者关系改写为No direct personal relationship"
+        ]
+      },
+      {
+        "id": "CHARACTER CANON CONFLICT-003",
+        "title": "观弦/熔镜生命重叠窗口，潜在冲突已规避",
+        "status": "确认通过 (非真正冲突，本身即是正确处理方式的范例，非待裁决事项)",
+        "description": "CHAR-010（观弦，卒于约130年前）与CHAR-011（熔镜，生于约150年前）存在约20年生命重叠窗口，档案在撰写时已主动标注二者关系为OPEN、不强行建立师徒关系。",
+        "involvedEvents": [],
+        "involvedHistory": "CHAR-010 观弦, CHAR-011 熔镜",
+        "originalSources": ["PART V", "CDD_Historical_Character_Archive_v1.1.md Character Chronology Audit"],
+        "interpretations": [
+          "档案在撰写时已主动标注二者关系为OPEN、不强行建立师徒关系"
+        ]
+      },
+      {
+        "id": "INSTITUTION CANON CONFLICT-001",
+        "title": "= CANON CONFLICT-003 / Issue 006，机构层面表述",
+        "status": "OPEN",
+        "description": "见CANON CONFLICT-003，本条目是其在机构档案层面的对应记录。",
+        "involvedEvents": ["[L11.002]", "[L11.001]"],
+        "involvedHistory": "INS-007 中央海海洋同盟",
+        "originalSources": ["PART VI", "CDD_Institutional_Archive_v1.0.md Institutional Chronology"],
+        "interpretations": [
+          "见CANON CONFLICT-003的interpretations，本条目未独立裁决"
+        ]
+      },
+      {
+        "id": "INSTITUTION CANON CONFLICT-002",
+        "title": "维罗-中央海联合实验室继承机构问题",
+        "status": "OPEN (作为Gap保留，非强冲突)",
+        "description": "[L13.001]原文对训练\"凝一号\"的机构使用\"联合实验室继承机构\"表述，暗示约50年前成立的原始机构（INS-015）与约15年前训练凝一号的机构之间存在某种未载明的重组/更名过程。处理方式：登记为INSTITUTIONAL GAP（GAP-INS-008），不裁决为需要拆分的两个独立机构条目。",
+        "involvedEvents": ["[L13.001] 凝一号"],
+        "involvedHistory": "INS-015 维罗-中央海联合实验室；GAP-INS-008；GAP-008",
+        "originalSources": ["PART VI", "CDD_Institutional_Archive_v1.0.md Institutional Chronology", "PART IV Historical Gap-008"],
+        "interpretations": [
+          "登记为INSTITUTIONAL GAP（GAP-INS-008），不裁决为需要拆分的两个独立机构条目"
+        ]
+      },
+      {
+        "id": "CIVILIZATION CANON CONFLICT",
+        "title": "Civilization–Character/Institution/Event Index核验",
+        "status": "No conflict found (核验通过，非遗留冲突)",
+        "description": "本次核验（人物-文明归属、机构-文明归属、事件-文明技术/资源要求匹配度）未发现新的CIVILIZATION CANON CONFLICT。",
+        "involvedEvents": [],
+        "involvedHistory": "UNRESOLVED",
+        "originalSources": ["PART VII", "CDD_Civilization_Archive_v1.0.md Civilization–Character/Institution/Event Index核验部分"],
+        "interpretations": []
+      },
+      {
+        "id": "MODERN SYSTEM CONFLICT",
+        "title": "AI伦理立场分歧（观点分歧，非事实冲突）",
+        "status": "OPEN (CANON CONFLICT级别，但性质特殊——是观点分歧而非事实冲突，不适用\"裁决\"逻辑)",
+        "description": "Master Canon直接确认的真实分歧：[L13.007]AI伦理保守派\"过早拟人化\" vs 进步派\"AI道德地位框架必要第一步\"。其余7类潜在冲突（Political / Legal / Economic / Data / Resource / Φ / Institutional Conflict）经逐项检查，均未发现两个系统无法同时成立的情况，标注为OPEN SYSTEM QUESTION或UNRESOLVED而非强行裁定为CANON CONFLICT。",
+        "involvedEvents": ["[L13.007]"],
+        "involvedHistory": "AI伦理保守派 / 进步派",
+        "originalSources": ["PART IX", "CDD_Modern_World_Systems_Archive_v1.0.md Modern System Conflicts章节"],
+        "interpretations": [
+          "保守派立场：过早拟人化",
+          "进步派立场：AI道德地位框架必要第一步"
+        ]
+      }
+    ],
+    "summaryTotals": {
+      "openConflicts": [
+        "CANON CONFLICT-001",
+        "CANON CONFLICT-002",
+        "CANON CONFLICT-003 (= INSTITUTION CANON CONFLICT-001)",
+        "INSTITUTION CANON CONFLICT-002 (Gap形式)",
+        "MODERN SYSTEM CONFLICT (AI伦理立场分歧，性质特殊)"
+      ],
+      "resolvedConflicts": [
+        "CHARACTER CANON CONFLICT-001 (v1.1修复)",
+        "CHARACTER CANON CONFLICT-002 (v1.1修复)"
+      ],
+      "newlyDiscoveredAndRepairedInV2": "本次审计新发现2项INSTITUTIONAL/TECHNOLOGY CHRONOLOGY CONFLICT（寂观学宫成立年份、凝迹诊断技术应用年份分别与其奠基人物出生年份重合），均已通过MINIMAL REPAIR修复，完整记录见CDD_CANON_CHANGELOG_v2.0_FINAL.md REPAIR-001与REPAIR-002。"
+    }
+  },
+
+  "canonicalMysteries": {
+    "_part": "PART XII",
+    "_sourceLines": "10335-10343",
+    "_principle": "本次v2.0整合工作正式将CDD世界观的四项核心悬案确立为永久性的CANONICAL MYSTERY——它们不是\"尚未解决的缺陷\"，是这个世界观刻意保留、经过Lead Worldbuilder审慎判断后确认应当永久存在的未知。完整版见独立文件CDD_V2_CONFLICT_REGISTRY.md。",
+    "canonicalRule": "No official resolution exists.",
+    "mysteries": [
+      {
+        "id": "OP-L13-001",
+        "title": "AI是否拥有真正的自我认知",
+        "description": "诺弧凝散哲学界与维罗技术界的联合攻关不会得出最终答案。Wave 1至Wave 4全部内容经审计确认，无一处暗示AI已被证明有意识或已被证明无意识（详见CDD_V2_MASTER_AUDIT.md AI Integrity章节）。在PART X中正式、永久地拒绝解决此问题，并将其与Φ数学框架正式挂钩：\"AI系统内部达成的高k值/低λ值Φ自维持结构，与[L5.004]生命起源意义上的自维持结构，在数学形式上是否存在同构关系\"——这一问题本身没有答案。",
+        "status": "PERMANENTLY UNRESOLVED",
+        "canonicalRule": "No official resolution exists."
+      },
+      {
+        "id": "BLACK_TIDE_PREHISTORIC_BLANK_28000Y",
+        "title": "黑潮约2.8万年历史空白",
+        "description": "S4黑潮群分化至被泛阿斯兰第二帝国征服之间。Wave 2/3/4的黑潮当代社会深化内容经审计确认，未触碰或暗示解决这一史前空白（详见CDD_V2_MASTER_AUDIT.md Mystery Integrity章节）。原为GAP-CIV-008，v2.0升级为Canonical Mystery，不再视为Gap。",
+        "status": "PERMANENTLY UNRESOLVED",
+        "canonicalRule": "No official resolution exists."
+      },
+      {
+        "id": "CANON CONFLICT-001",
+        "title": "S3诺弧群时序问题",
+        "description": "两种解释方向均合理（分化早于抵达 vs 两组数据存在误差），保留为学术界持续辩论，不裁决。冲突为：[L8.004]S3诺弧群分化时间（约4.5万年前）与[L8.001-b]波次4抵达诺弧高原时间（约3–4万年前）的时间冲突。",
+        "status": "PERMANENTLY UNRESOLVED",
+        "canonicalRule": "No official resolution exists."
+      },
+      {
+        "id": "CANON CONFLICT-003",
+        "title": "中央海海洋同盟调停时序问题 / Issue 006",
+        "description": "建议未来百科版本转译为\"中央海史学界的经典考据议题\"（IN-UNIVERSE HISTORIOGRAPHY），完整处理方式见CDD_WORLD_ENCYCLOPEDIA_SOURCE_v1.0.md。冲突为：[L11.002]凝晶资源战争约4000年前调停 vs [L11.001]中央海海洋同盟约3600年前形成——调停时间早于同盟正式成立时间约250–400年。亦登记为INSTITUTION CANON CONFLICT-001（机构层面表述）。",
+        "status": "PERMANENTLY UNRESOLVED",
+        "canonicalRule": "No official resolution exists."
+      }
+    ]
+  },
+
+  "canonRegistry": {
+    "_part": "PART XIII",
+    "_sourceLines": "10351-10443",
+    "_title": "GLOSSARY",
+    "_note": "PART XIII在原文中并非\"canon items/tiers的登记册\"，而是术语表（Glossary）。当前项目尚未建立独立的CDD_GLOSSARY.md文件。以下术语表根据现有9份文档整理而成，仅整理既有术语，不新增术语。下方按原文分类如实记录。",
+    "terminologyCategories": {
+      "corePhysics": [
+        {"term": "质（Zhì）", "definition": "CDD物理学三个基本物理量之一", "source": "PART I, Master Canon L0-L1"},
+        {"term": "凝度场（Φ）", "definition": "CDD物理学核心物理量，凝度辐射与凝迹效应的载体", "source": "PART I"},
+        {"term": "势差（∇Φ）", "definition": "CDD物理学三个基本物理量之一", "source": "PART I"},
+        {"term": "凝力（F_凝）/ 散力（F_散）", "definition": "两种基本力", "source": "PART I"},
+        {"term": "质守恒（L-1）", "definition": "定律一", "source": "PART I"},
+        {"term": "凝化方程（L-2）", "definition": "定律二，⭐最核心，∂Φ/∂t = k·Φ·|∇Φ| - λΦ + D·∇²Φ", "source": "PART I"},
+        {"term": "散化趋势（L-3）", "definition": "定律三，孤立系统的Φ自发趋向凝散平衡", "source": "PART I"},
+        {"term": "时间方向的内禀性（L-4）", "definition": "定律四", "source": "PART I"},
+        {"term": "凝度辐射（Φ波）", "definition": "急剧变化的凝度场向外传播的波", "source": "PART I"},
+        {"term": "凝迹效应（Φ印记）", "definition": "Φ相关的独有现象之一", "source": "PART I"}
+      ],
+      "worldGeography_resources": [
+        {"term": "P3", "definition": "本世界所在行星"},
+        {"term": "凝晶矿", "definition": "本世界最重要的战略资源，对Φ波有弱响应", "source": "[L2.003-a]"},
+        {"term": "凝辉矿", "definition": "AI硬件产业次级关键材料，黑潮弧群古火山岛基底主要产地", "source": "[L2.003-b]"},
+        {"term": "中央海 / 中央海峡 / 中央海洋中脊", "definition": "地理概念", "source": "[L4][L10]"},
+        {"term": "诺弧高原 / #5岩棚群圣地", "definition": "地理概念", "source": "[L8.003][L10]"},
+        {"term": "黑潮弧群", "definition": "火山岛链地理概念", "source": "[L10]"}
+      ],
+      "history_civilization": [
+        {"term": "双河文明 / 双河大一统王朝 / 双河联邦", "definition": "见PART VII CIV-001"},
+        {"term": "维罗文明 / 维罗矿业王权 / 维罗联合矿权 / 维罗合众国", "definition": "见PART VII CIV-002"},
+        {"term": "中央海文明 / 中央海贸易城邦群 / 中央海海洋同盟 / 中央海联合体", "definition": "见PART VII CIV-003"},
+        {"term": "诺弧文明 / 诺弧高原祭司国", "definition": "见PART VII CIV-004"},
+        {"term": "黑潮文明 / 黑潮共同体", "definition": "见PART VII CIV-005"},
+        {"term": "泛阿斯兰第二帝国 / 泛阿斯兰文明圈", "definition": "见PART VII CIV-006"},
+        {"term": "凝统正道", "definition": "双河国教化宗教", "source": "[L11.003]"},
+        {"term": "炉火正神信仰", "definition": "维罗宗教传统", "source": "[L9.003][L16.001]"},
+        {"term": "潮汐诸灵信仰", "definition": "中央海宗教传统", "source": "[L9.003][L16.004]"},
+        {"term": "凝散不二论 / 凝散哲学", "definition": "诺弧原生哲学/宗教传统", "source": "[L9.003][L16.004]"},
+        {"term": "人本凝化主义 / 散化保守主义", "definition": "近代跨文明哲学流派", "source": "[L16.002]"}
+      ],
+      "ai_modernInstitutions": [
+        {"term": "凝一号（NingOne）/ 凝三号（NingThree）/ 凝五号系列", "definition": "本世界AI系统代际命名", "source": "[L13.001-003]"},
+        {"term": "零日凝峰（Day Zero Peak）", "definition": "历史性Φ异常峰值事件", "source": "[L13.004]"},
+        {"term": "AI临界事件", "definition": "AI治理关键节点", "source": "[L13.001]"},
+        {"term": "凝界公约（Condensation Boundary Convention）", "definition": "本世界首个全球性技术治理框架，不是世界政府", "source": "[L13.002]"},
+        {"term": "凝散平衡审计", "definition": "诺弧主导的AI治理机制", "source": "[L13.003][L17.005]"},
+        {"term": "限量开采配额制", "definition": "维罗资源治理制度", "source": "[L15.001]"},
+        {"term": "凝度期货", "definition": "中央海首创金融产品", "source": "[L15.003]"},
+        {"term": "五区贸易理事会", "definition": "全球贸易协调机构", "source": "[L12.004][L15.004]"},
+        {"term": "诺弧仲裁院", "definition": "国际经济/技术争端司法机构", "source": "[L15.004][L17.002]"},
+        {"term": "凝晶矿多边监管机制", "definition": "资源治理机制", "source": "[L15.004]"}
+      ],
+      "numberingSystems": [
+        {"prefix": "HIS-EVT-###", "scope": "历史事件编号（PART IV）"},
+        {"prefix": "CHAR-###", "scope": "历史人物编号（PART V）"},
+        {"prefix": "INS-###", "scope": "机构编号（PART VI）"},
+        {"prefix": "PIN-###", "scope": "候选（未升级）机构编号（PART VI，如PIN-001玄枢会）"},
+        {"prefix": "CIV-###", "scope": "文明编号（PART VII）"},
+        {"prefix": "SOC-###", "scope": "社会档案编号（PART VIII）"},
+        {"prefix": "SYS-CIV-### / SYS-GLOBAL-###", "scope": "现代制度体系编号（PART IX）"},
+        {"prefix": "OP-###", "scope": "开放问题编号（各PART散布）"},
+        {"prefix": "GAP-###", "scope": "历史/机构/文明空洞编号（各PART散布）"},
+        {"prefix": "OSQ-###", "scope": "现代系统开放问题编号（PART IX）"}
+      ],
+      "annotationLabels": [
+        "DIRECT CANON", "MASTER CANON", "ESTABLISHED CANON", "NEW HISTORICAL CANON",
+        "HISTORICAL EXPANSION CANON", "RECONSTRUCTED", "RECONSTRUCTED CANON",
+        "RECONSTRUCTED SYSTEM", "INFERENCE", "UNRESOLVED", "GAP（含各类前缀）",
+        "CANON CONFLICT（含各类前缀）", "PROPOSED", "PROPOSED INSTITUTION",
+        "PROPOSED SYSTEM", "CANDIDATE", "STORY HOOK", "OPEN", "INSTITUTIONAL GAP",
+        "FICTIONAL HISTORICAL RECONSTRUCTION"
+      ]
+    },
+    "v2NewTerminology": {
+      "currency": ["契粮（双河）", "炉衡（维罗）", "潮结（中央海，事实国际结算货币）", "衡照（诺弧）", "汐熔（黑潮）"],
+      "politicalGovernance": [
+        "联邦执政+灌溉议事会（双河）",
+        "共议执政+炉席共议会（维罗）",
+        "港域议会轮值主席（中央海）",
+        "首席贤者+贤者议会+观声会（诺弧）",
+        "共议执事+岛屿议事联盟（黑潮）",
+        "凝界联络处（全球协调）"
+      ],
+      "institutions_INS018_to_INS023": ["熔观书院", "潮算学馆", "寂观学宫", "汐炼学院", "凝界联络处", "观声会"],
+      "festivals": ["丰契节（双河）", "淬火祭（维罗）", "潮讯日（中央海）", "观寂日（诺弧）", "汐熔祭（黑潮）"],
+      "scientificExpansion": [
+        "Φ量纲（无量纲标量场）", "Φ_crit", "k（凝生系数）", "λ（散逸系数）", "D（扩散系数）", "Φ-能量唯象关系"
+      ],
+      "sixthPoliticalEntity_andSuccessorStates": [
+        "凝脊共和国（独立存续，凝界公约观察员）",
+        "东阿斯兰王国（历史上，已并入双河联邦）"
+      ],
+      "characterIdentityLabel": "FOUNDING FIGURE（精简格式历史人物，如熔炼/潮明/观宁/汭诊/汐炼，区别于完整CHAR编号人物）"
+    }
+  },
+
+  "masterIndex_PART_XIV": {
+    "_part": "PART XIV",
+    "_sourceLines": "10443-10504",
+    "_note": "PART XIV为Master Index，非canon registry；此处仅作简要结构记录，供检索。",
+    "indices": {
+      "timelineIndex": "宇宙形成 → 母恒星/P3行星形成 → 熔融定型纪 → 克拉通成核纪 → 生命起源 → 板块分裂纪 → 矿化成熟纪 → 人群7波次扩散 → 农业革命 → 古文明立国（5支） → 帝国时代（4大帝国） → 维罗矿脉枯竭危机 → 近代国家体系形成/工业化 → CDD理论形成 → Φ探测技术成熟 → 第一代AI研发 → 零日凝峰 → AI临界事件 → 凝界公约签署 → 当代世界",
+      "eventIndex": "HIS-EVT-001至064；核心10个深度展开事件（PART IV）：HIS-EVT-038凝晶资源战争、040矿脉枯竭、042泛阿斯兰统一、043黑潮征服、045渐进解体、053未知场猜想、056CDD理论确立、057Φ波探测成熟、061凝一号/零日凝峰、063凝界公约签署",
+      "characterIndex": "21个Primary Character Slots + 2位Associated Historical Figures（潮析、寂观贤者）= 23个具名个体；其中20位NEW HISTORICAL CANON，3位CANDIDATE（漪商、渚衡、汭珂）",
+      "institutionIndex": "17个Established/Reconstructed Institutions；1个Proposed Institution（PIN-001玄枢会，未升级）",
+      "civilizationIndex": "CIV-001双河、CIV-002维罗、CIV-003中央海、CIV-004诺弧、CIV-005黑潮（五大现存文明）+ CIV-006泛阿斯兰文明圈（已解体的RECONSTRUCTED分析框架）",
+      "socialArchiveIndex": "SOC-001双河社会、SOC-002维罗社会、SOC-003中央海社会、SOC-004诺弧社会、SOC-005黑潮社会、SOC-006泛阿斯兰帝国时代社会",
+      "modernSystemsIndex": "五大文明现代制度体系 + 全球现代制度体系（凝界公约体系、五区贸易理事会、凝晶矿多边监管机制、诺弧仲裁院）"
+    },
+    "v2Additions": {
+      "institutions": "INS-018熔观书院、INS-019潮算学馆、INS-020寂观学宫、INS-021汐炼学院、INS-022凝界联络处、INS-023观声会——共23个正式编号机构；PIN-001玄枢会维持PROPOSED状态未变",
+      "politicalEntities_v2": "当代五大区域体系（双河/维罗/中央海/诺弧/黑潮）+ 1个观察员级第六实体（凝脊共和国）。东阿斯兰王国作为历史政治实体已并入双河联邦，不再是独立当代实体。",
+      "currencyIndex_v2": "契粮 / 炉衡 / 潮结（事实国际结算货币）/ 衡照 / 汐熔",
+      "festivalsIndex_v2": "丰契节 / 淬火祭 / 潮讯日 / 观寂日 / 汐熔祭"
+    }
+  },
+
+  "changeLog": {
+    "_part": "PART XV",
+    "_sourceLines": "10507-10608",
+    "_sourceDocument": "CDD_CANON_CHANGELOG_v2.0_FINAL.md",
+    "_canonicality": "变更记录本身不是Canon事实，是Canon事实的变更追溯档案",
+    "_note": "完整记录CHG-001至CHG-018全部变更，以及本次v2.0整合审计批准的2项MINIMAL REPAIR（REPAIR-001、REPAIR-002）。这是v2.0阶段唯一权威的变更清单。",
+    "mainChanges": [
+      {"changeId": "CHG-001", "wave": 1, "type": "New Canon", "description": "五大文明货币体系（契粮/炉衡/潮结/衡照/汐熔）及跨境结算框架", "canonStatus": "NEW HISTORICAL CANON / RECONSTRUCTED SYSTEM", "finalLocation": "PART IX §1"},
+      {"changeId": "CHG-002", "wave": 1, "type": "New Canon", "description": "五大文明政府治理结构", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART IX §2"},
+      {"changeId": "CHG-003", "wave": 1, "type": "New Canon", "description": "Φ量纲、凝化方程k/λ/D系数诠释、Φ-能量唯象关系", "canonStatus": "NEW SCIENTIFIC CANON", "finalLocation": "PART X"},
+      {"changeId": "CHG-004", "wave": 1, "type": "Preserve", "description": "Φ-信息、Φ-意识/AI关系正式确认为永久悬案", "canonStatus": "OPEN SCIENTIFIC PROBLEM", "finalLocation": "PART X + PART XI"},
+      {"changeId": "CHG-005", "wave": 1, "type": "New Canon", "description": "三所教育机构（熔观书院、潮算学馆、寂观学宫）", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART V（INS-018/019/020）"},
+      {"changeId": "CHG-006", "wave": 1, "type": "Reconstructed Elevation", "description": "\"联邦执政\"\"潮算\"称号提升为机构/制度层面", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART IX §2 / PART V"},
+      {"changeId": "CHG-007", "wave": 2, "type": "New Canon", "description": "五大文明医疗体系（凝迹诊断技术+各自制度路径）", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART IX §3"},
+      {"changeId": "CHG-008", "wave": 2, "type": "New Canon", "description": "五大文明家庭/婚姻制度框架", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART VII"},
+      {"changeId": "CHG-009", "wave": 2, "type": "Gap Resolution", "description": "东阿斯兰王国并入双河联邦", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART IV + PART VI"},
+      {"changeId": "CHG-010", "wave": 2, "type": "Gap Resolution", "description": "凝脊共和国独立存续，凝界公约观察员地位", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART VI"},
+      {"changeId": "CHG-011", "wave": 2, "type": "New Canon", "description": "汐炼学院（黑潮本土教育机构）", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART V（INS-021）"},
+      {"changeId": "CHG-012", "wave": 2, "type": "New Canon", "description": "汐语复兴计划", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART VI"},
+      {"changeId": "CHG-013", "wave": 3, "type": "Expand（完整论证，非Retcon）", "description": "凝界联络处——轻量级国际协调机制", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART V（INS-022）+ PART IX §2"},
+      {"changeId": "CHG-014", "wave": 3, "type": "New Canon", "description": "观声会——诺弧普通人政治参与渠道", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART V（INS-023）+ PART IX §2"},
+      {"changeId": "CHG-015", "wave": 3, "type": "New Canon", "description": "五位教育/医疗奠基人物（熔炼、潮明、观宁、汭诊、汐炼）", "canonStatus": "NEW HISTORICAL CANON / FOUNDING FIGURE", "finalLocation": "PART IV"},
+      {"changeId": "CHG-016", "wave": 3, "type": "New Canon", "description": "五大文明内部地方文化色彩", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART VI"},
+      {"changeId": "CHG-017", "wave": 4, "type": "New Canon", "description": "五大文明节日（丰契节/淬火祭/潮讯日/观寂日/汐熔祭）", "canonStatus": "NEW HISTORICAL CANON", "finalLocation": "PART VII"},
+      {"changeId": "CHG-018", "wave": 4, "type": "Preserve", "description": "具体娱乐/媒体产品克制处理，不予创造", "canonStatus": "Policy Confirmation", "finalLocation": "PART XI"}
+    ],
+    "minimalRepairs": [
+      {
+        "changeId": "REPAIR-001",
+        "type": "MINIMAL REPAIR",
+        "issue": "寂观学宫的成立年份（原表述\"约CDD理论确立后25年\"≈约155年前）与其奠基者观宁的出生年份（约155年前）完全重合，构成不可能的因果关系（奠基者不能在出生当年建立机构）",
+        "correction": "寂观学宫实际成立年份修正为约100年前",
+        "reason": "观宁生卒年约155–90年前，约100年前时其年龄约55岁，处于学术生涯中后期，是合理的机构奠基年龄；修正后仍晚于CDD理论确立（约180年前）约80年，未破坏\"CDD理论确立后诺弧哲学传统逐步机构化\"这一既定历史节奏的合理性",
+        "impact": "仅影响寂观学宫（INS-020）的成立年份数值本身，不影响其职能定位、与观宁的奠基关系、与CDD理论确立三方合作历史的关联性等任何其他既定内容",
+        "version": "v2.0整合审计发现并修复，来源CDD_V2_TIMELINE_AUDIT.md CONFLICT-A"
+      },
+      {
+        "changeId": "REPAIR-002",
+        "type": "MINIMAL REPAIR",
+        "issue": "凝迹诊断技术的应用起始年份（原表述\"Φ波探测技术成熟后约15年\"≈约105年前）与其奠基者汭诊的出生年份（约105年前）完全重合，构成同样的不可能因果关系",
+        "correction": "凝迹诊断技术实际应用起始年份修正为约75年前",
+        "reason": "汭诊生卒年约105–40年前，约75年前时其年龄约30岁，是合理的技术奠基/职业成熟年龄；修正后仍晚于Φ波探测技术成熟（约120年前）约45年，技术发展的先后顺序（先有探测技术成熟，后有医疗应用转化）保持不变且时间间隔更加合理（15年间隔过短，45年间隔更符合\"基础研究到应用转化\"通常所需的技术成熟期）",
+        "impact": "仅影响凝迹诊断技术（Wave2第I节）的应用起始年份数值本身，不影响其技术原理、五大文明各自医疗制度路径、与Φ波探测网络的技术关联性等任何其他既定内容",
+        "version": "v2.0整合审计发现并修复，来源CDD_V2_TIMELINE_AUDIT.md CONFLICT-B"
+      }
+    ],
+    "unapprovedRepairRequests": [
+      {
+        "subject": "CHAR-043笔误（CDD_Historical_Character_Archive_v1.1.md第2012行）",
+        "decision": "未升级为独立MINIMAL REPAIR",
+        "reason": "见CDD_V2_CONFLICT_REGISTRY.md D-1条目——判定为不涉及事实性错误的纯书写笔误，且属于v1.1既有正文，不在本次审计的修复范围内单独立项，仅在CDD_COMPLETE_WORLD_ARCHIVE_v2.0.md引用该段落时顺带以正确写法呈现"
+      }
+    ],
+    "institutionNumberAssignments": [
+      {"number": "INS-018", "name": "熔观书院", "civilization": "维罗合众国", "sourceWave": "Wave 1"},
+      {"number": "INS-019", "name": "潮算学馆", "civilization": "中央海联合体", "sourceWave": "Wave 1"},
+      {"number": "INS-020", "name": "寂观学宫", "civilization": "诺弧高原祭司国", "sourceWave": "Wave 1（成立年份经REPAIR-001修正）"},
+      {"number": "INS-021", "name": "汐炼学院", "civilization": "黑潮共同体", "sourceWave": "Wave 2"},
+      {"number": "INS-022", "name": "凝界联络处", "civilization": "全球（凝界公约框架）", "sourceWave": "Wave 3"},
+      {"number": "INS-023", "name": "观声会", "civilization": "诺弧高原祭司国", "sourceWave": "Wave 3"}
+    ],
+    "pin001_note": "PIN-001（玄枢会）未被本次整合升级——Wave 1–4全篇未提及玄枢会，其状态维持CDD_Institutional_Archive_v1.0.md原有的PROPOSED INSTITUTION，不做任何变动。",
+    "characterIdentityJudgments": [
+      {"name": "熔炼", "role": "熔观书院奠基者", "judgment": "维持FOUNDING FIGURE，不升级为CHAR编号", "reason": "见CDD_V2_MASTER_AUDIT.md Character Integrity章节"},
+      {"name": "潮明", "role": "潮算学馆奠基者", "judgment": "维持FOUNDING FIGURE", "reason": "同上"},
+      {"name": "观宁", "role": "寂观学宫奠基者", "judgment": "维持FOUNDING FIGURE", "reason": "同上"},
+      {"name": "汭诊", "role": "凝迹诊断技术奠基者", "judgment": "维持FOUNDING FIGURE", "reason": "同上"},
+      {"name": "汐炼", "role": "汐炼学院奠基者", "judgment": "维持FOUNDING FIGURE", "reason": "同上"}
+    ],
+    "statistics": {
+      "mainChanges_count": 18,
+      "mainChanges_range": "CHG-001 至 CHG-018",
+      "minimalRepairs_count": 2,
+      "minimalRepairs_ids": ["REPAIR-001", "REPAIR-002"],
+      "retconCount": 0,
+      "retconNote": "Retcon（CANON REVISION级别）：0项",
+      "newInstitutionNumbers_count": 6,
+      "newInstitutionNumbers_range": "INS-018 至 INS-023",
+      "foundingFigurePreservedNotUpgraded_count": 5,
+      "proposedNotUpgradedInstitutions_count": 1,
+      "proposedNotUpgradedInstitutions_ids": ["PIN-001 玄枢会"]
+    }
+  },
+
+  "storyInterface": {
+    "_part": "PART XVI",
+    "_sourceLines": "10608-10660",
+    "_canonStatus": "⚠️ NOT CANON",
+    "_note": "本部分汇总目前全部9份文档中出现的STORY HOOK标注内容。本部分不是历史事实，不是既定Canon，仅供未来小说/创作参考。任何STORY HOOK内容都不得被下游创作者或AI误引用为CDD世界观的既定事实。下方仅作来源与索引记录，不将任何故事钩子内容提取为事实。",
+    "sourceSummaries": [
+      {
+        "source": "PART IV（Historical Event Archive）",
+        "summary": "每个核心历史事件（HIS-EVT-038/040/042/043/045/053/056/057/061/063）均建立了9种视角的STORY HOOK（科学家/工程师/士兵/政治家/商人/工人/家庭/儿童/AI视角），详见PART IV各事件条目第19节\"STORY HOOKS\"。另有TOP 10 STORY EVENTS排行榜。"
+      },
+      {
+        "source": "PART V（Historical Character Archive）",
+        "summary": "每位人物档案末尾的\"FICTION INTERFACE\"章节均包含Potential Novel、Potential POV、Central Conflict、Personal Desire、Historical Constraint、Tragic Irony、Dramatic Potential（星级）等要素。特别提示：CHAR-012（维析）与OP-L13-001相关的AI视角故事钩子，是本世界观中必须最谨慎处理的方向——不得暗示凝一号/凝三号\"确实有意识\"或\"确实没有意识\"。"
+      },
+      {
+        "source": "PART VI（Institutional Archive）",
+        "summary": "重点机构（INS-006维罗联合矿权、INS-007中央海海洋同盟、INS-015维罗-中央海联合实验室、INS-016凝界公约体系、PIN-001玄枢会）均建立了STORY HOOK。特别提示：PIN-001玄枢会\"其自身的合法性焦虑\"本身即是极佳的科学史小说切入点，但不得反过来将虚构组织细节倒灌回PIN-001的Canon Status。"
+      },
+      {
+        "source": "PART VII（Civilization Archive）",
+        "summary": "按Historical Novel Potential / Contemporary Novel Potential / Ordinary People Stories / Elite Stories / Cross-Civilization Stories / Cultural Conflict / Internal Conflict / Philosophical Conflict八大类汇总。另有CIV-006泛阿斯兰文明圈专属的\"帝国黄昏\"叙事素材。"
+      },
+      {
+        "source": "PART VIII（Social Life Archive）",
+        "summary": "按Historical Novel / Contemporary Novel两大类，逐一列出五大文明的具体故事钩子（如双河的双语代际张力、维罗的技术乐观-保守代际辩论、中央海的传统复兴-世俗化对照、诺弧的AI伦理审计员职业焦虑、黑潮的算力新贵-传统家庭两代人叙事）。"
+      },
+      {
+        "source": "PART IX（Modern World Systems Archive）",
+        "summary": "按Student / Worker / Researcher / Entrepreneur / AI Engineer / Ordinary Elder六类\"Story-Ready System Interfaces\"，明确标注为SYSTEM INTERFACE而非小说角色本身。另有OSQ-007（全球AI供应链节点故障的连锁影响）被明确标注为RECONSTRUCTED SYSTEM/STORY HOOK混合性质，不构成确定的危机应对制度。"
+      }
+    ],
+    "usageRules": [
+      "STORY HOOK内容永远不能升级为CANON、RECONSTRUCTED或任何正式历史/制度事实。",
+      "任何虚构人物、具体对白、剧情安排，必须在小说创作阶段独立完成，不得写回任何Archive正文。",
+      "涉及OP-L13-001（AI自我认知）的一切故事钩子，必须保持该议题的不可知性，不得代替AI角色\"揭晓答案\"。",
+      "涉及OPEN状态Canon Conflict（Issue 006、CANON CONFLICT-001/002等）的故事钩子，可以将冲突本身作为叙事张力（如\"考据悬疑\"），但不得在小说中\"顺手\"给出唯一正确答案并让下游误以为这是官方裁决。"
+    ],
+    "v2NewStoryHookIndex_note": "原文同样明确标注 NOT CANON；v2.0新增了一系列故事钩子索引（货币史诗、凝界联络处驻地之争、观声会听证悬念、潮讯日论战、汐熔祭的两种庆典、凝脊共和国的小国生存智慧、东阿斯兰宗室后裔、观宁与汭诊的迟来贡献等），这些仅为创作素材，不构成Canon事实，本档案不将其内容提取为事实数据。"
+  }
+}

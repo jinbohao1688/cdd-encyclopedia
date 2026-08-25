@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   CDD World Encyclopedia — Global styles
+   Aesthetic: Academic / Archival / Editorial / Minimal / Institutional
+   Palette: warm ivory, ink, restrained slate-blue accent. No neon, no
+   gradients, no glassmorphism, no game UI.
+   ========================================================================== */
+
+:root {
+  --bg: #fbfaf6;          /* ivory-50 */
+  --bg-elev: #f6f3ea;     /* ivory-100 */
+  --bg-rule: #ede8d8;     /* ivory-200 */
+  --ink: #1a1a1a;         /* ink-900 */
+  --ink-2: #3a3a3a;       /* ink-700 */
+  --ink-3: #6b6b6b;       /* ink-500 */
+  --ink-4: #8a8a8a;       /* ink-400 */
+  --rule: #d4d4d4;        /* ink-200 */
+  --accent: #3d5570;      /* slateblue-700 */
+  --accent-2: #5b7a99;    /* slateblue-500 */
+  --accent-bg: #f3f5f7;   /* slateblue-50 */
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: theme("fontFamily.sans");
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: #e3e9ee;
+    color: var(--ink);
+  }
+  h1, h2, h3, h4 {
+    font-family: theme("fontFamily.serif");
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.25;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Layout shell */
+  .shell {
+    @apply min-h-screen;
+    background: var(--bg);
+  }
+  .header-bar {
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar {
+    background: var(--bg);
+    border-right: 1px solid var(--rule);
+  }
+
+  /* Article typography */
+  .article-prose {
+    max-width: theme("maxWidth.prose");
+    font-size: 15.5px;
+    line-height: 1.75;
+    color: var(--ink-2);
+  }
+  .article-prose p {
+    margin: 0 0 1em 0;
+  }
+  .article-prose h2 {
+    font-size: 1.5rem;
+    margin: 2em 0 0.6em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid var(--rule);
+  }
+  .article-prose h3 {
+    font-size: 1.2rem;
+    margin: 1.6em 0 0.5em;
+    color: var(--ink);
+  }
+  .article-prose ul {
+    margin: 0 0 1em 1.25em;
+    list-style: disc;
+  }
+  .article-prose li {
+    margin: 0.25em 0;
+  }
+
+  /* Wikipedia-style internal links */
+  .wiki-link {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .wiki-link:hover {
+    border-bottom-color: var(--accent-2);
+    text-decoration: none;
+  }
+
+  /* Infobox */
+  .infobox {
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    font-size: 13px;
+  }
+  .infobox th {
+    background: #efeadd;
+    font-weight: 600;
+    color: var(--ink-2);
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  .infobox td {
+    color: var(--ink-2);
+  }
+
+  /* Canon badges — label + icon + tooltip; color is auxiliary, not sole signal */
+  .canon-badge {
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 text-xs font-medium border;
+    letter-spacing: 0.04em;
+  }
+  .canon-tier-0 {
+    background: #1a1a1a; color: #f6f3ea; border-color: #1a1a1a;
+  }
+  .canon-tier-1 {
+    background: #f3f5f7; color: #2a3c50; border-color: #3d5570;
+  }
+  .canon-tier-2 {
+    background: #f3f5f7; color: #2a3c50; border-color: #5b7a99;
+  }
+  .canon-tier-3 {
+    background: #fbfaf6; color: #525252; border-color: #b0b0b0;
+  }
+  .canon-tier-4 {
+    background: #fbfaf6; color: #6b6b6b; border-color: #d4d4d4;
+  }
+  .canon-tier-5 {
+    background: #fff8e6; color: #7a5a00; border-color: #d4b842;
+  }
+  .canon-tier-6 {
+    background: #fbfaf6; color: #8a8a8a; border-color: #d4d4d4; border-style: dashed;
+  }
+  .canon-tier-7 {
+    background: transparent; color: #8a8a8a; border-color: #d4d4d4; border-style: dotted;
+  }
+
+  /* Mystery callout — distinct, archival notice */
+  .mystery-callout {
+    background: #fdf6e3;
+    border: 1px solid #d4b842;
+    border-left-width: 4px;
+  }
+
+  /* Cards */
+  .card {
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    transition: border-color 0.15s ease;
+  }
+  .card:hover {
+    border-color: var(--accent-2);
+  }
+
+  /* Sidebar nav */
+  .nav-section-title {
+    @apply text-[11px] font-semibold uppercase tracking-wider;
+    color: var(--ink-4);
+  }
+  .nav-link {
+    @apply block py-1 text-[13.5px];
+    color: var(--ink-2);
+  }
+  .nav-link:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    @apply text-xs;
+    color: var(--ink-4);
+  }
+  .breadcrumb a {
+    color: var(--ink-3);
+  }
+
+  /* Search box */
+  .search-input {
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    color: var(--ink);
+  }
+  .search-input:focus {
+    border-color: var(--accent-2);
+    outline: none;
+  }
+}
+
+/* Scrollbar — minimal */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--rule);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-4);
+}
