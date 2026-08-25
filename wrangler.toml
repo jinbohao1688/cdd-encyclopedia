@@ -1,19 +1,21 @@
 # ============================================================
 # Wrangler 配置文件 — CDD World Encyclopedia
-# 用于 GitHub Actions CI 部署到 Cloudflare Pages
-# 显式指定 account_id + project_name，避免 wrangler 启动时
-# 调用 GET /memberships 自检（否则 Token 需要 User:Read 权限）
+# ⚠️ Pages 项目：pages_build_output_dir 和 name 必须放在顶层
+#    否则 wrangler3 会提示 "missing pages_build_output_dir" 并忽略本文件
+#    参考：https://developers.cloudflare.com/workers/wrangler/configuration/
 # ============================================================
 
 # Cloudflare 账号 ID（15378707620@163.com's Account）
 account_id = "1d90f5e79f6a62bacc8ad6b04515debd"
 
-# Pages 项目配置
-[env.production]
-name = "ccdwd"            # Cloudflare Pages 项目名（绑定自定义域名 ccdworld.site）
+# Pages 项目名（绑定自定义域名 ccdworld.site）
+name = "ccdwd"
 
-# Pages 部署默认会读取 out/ 目录
+# ⚠️ 顶层字段（Pages 必需）：静态输出目录
 pages_build_output_dir = "out"
+
+# Pages 兼容性日期
 compatibility_date = "2025-08-25"
 
+# 关闭遥测
 send_metrics = false
