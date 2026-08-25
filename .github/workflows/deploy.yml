@@ -1,0 +1,73 @@
+# ============================================================
+# CDD World Encyclopedia — GitHub Actions 自动部署工作流
+# 触发条件：每次 push 到 main 分支时自动执行
+# 流程：安装依赖 → 构建静态产物 → 上传到 Cloudflare Pages
+# 依赖 GitHub Secrets：
+#   - CLOUDFLARE_API_TOKEN：Cloudflare Pages 部署 Token
+#   - CLOUDFLARE_ACCOUNT_ID：Cloudflare 账号 ID（可选，Token 含账号信息也可不设）
+# ============================================================
+
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]            # 只在 main 分支推送时触发
+  workflow_dispatch:            # 允许在 GitHub 网页手动触发
+
+# 取消同一分支的旧运行，避免排队
+concurrency:
+  group: "pages-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # Step 1：拉取代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2：配置 Node.js 22（与项目要求一致）
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm                  # 缓存 node_modules，加速后续运行
+
+      # Step 3：安装依赖（no-audit + no-fund 加速）
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      # Step 4：执行 Next.js 静态构建（产出 out/ 目录）
+      - name: Build static site (next export)
+        run: npm run build
+        env:
+          # 给 Next.js 足够的内存，避免 OOM
+          NODE_OPTIONS: --max-old-space-size=4096
+
+      # Step 5：确认产物存在（排错用）
+      - name: Verify build output
+        run: |
+          echo "=== out/ directory contents ==="
+          ls -la out/ | head -30
+          echo ""
+          echo "=== Total files ==="
+          find out/ -type f | wc -l
+          echo ""
+          echo "=== _headers present? ==="
+          test -f out/_headers && echo "YES" || echo "NO"
+          echo "=== _redirects present? ==="
+          test -f out/_redirects && echo "YES" || echo "NO"
+
+      # Step 6：部署到 Cloudflare Pages
+      - name: Deploy to Cloudflare Pages (project = ccdwd)
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ccdwd        # ⚠️ Cloudflare Pages 项目名：ccdwd（绑定 ccdworld.site）
+          directory: out            # 上传 next export 生成的静态目录
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
