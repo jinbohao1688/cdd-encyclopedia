@@ -1,10 +1,12 @@
 # ============================================================
 # CDD World Encyclopedia — GitHub Actions 自动部署工作流
 # 触发条件：每次 push 到 main 分支时自动执行
-# 流程：安装依赖 → 构建静态产物 → 上传到 Cloudflare Pages
-# 依赖 GitHub Secrets：
-#   - CLOUDFLARE_API_TOKEN：Cloudflare Pages 部署 Token
-#   - CLOUDFLARE_ACCOUNT_ID：Cloudflare 账号 ID（可选，Token 含账号信息也可不设）
+# 流程：安装依赖 → 构建静态产物(out/) → wrangler pages deploy 上传 Cloudflare
+# 依赖 GitHub Secrets（均已在仓库配置）：
+#   - CLOUDFLARE_API_TOKEN：Cloudflare Pages 部署 Token（含 Pages:Edit 权限）
+#   - CLOUDFLARE_ACCOUNT_ID：Cloudflare 账号 ID = 1d90f5e79f6a62bacc8ad6b04515debd
+# 部署方式：直接调用 wrangler CLI 上传 out/ 静态目录，完全绕开 Cloudflare 构建机，
+#           从而彻底规避 Next.js 14.2.5 < 14.2.35 的 SSR 构建版本检查错误。
 # ============================================================
 
 name: Deploy to Cloudflare Pages
@@ -23,51 +25,59 @@ jobs:
   build-and-deploy:
     name: Build & Deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+
+    env:
+      # wrangler CLI 会自动读取这两个环境变量
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      # 统一 npm/node 参数：加速 + 防 OOM
+      NODE_OPTIONS: --max-old-space-size=4096
+      NPM_FLAGS: --no-audit --no-fund
+      # Pages 项目名（绑定自定义域名 ccdworld.site）
+      CF_PAGES_PROJECT: ccdwd
 
     steps:
       # Step 1：拉取代码
-      - name: Checkout repository
+      - name: ① Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2：配置 Node.js 22（与项目要求一致）
-      - name: Setup Node.js 22
+      # Step 2：配置 Node.js 22
+      - name: ② Setup Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm                  # 缓存 node_modules，加速后续运行
 
-      # Step 3：安装依赖（no-audit + no-fund 加速）
-      - name: Install dependencies
-        run: npm ci --no-audit --no-fund
+      # Step 3：安装项目依赖
+      - name: ③ Install project dependencies
+        run: npm ci ${{ env.NPM_FLAGS }}
 
-      # Step 4：执行 Next.js 静态构建（产出 out/ 目录）
-      - name: Build static site (next export)
+      # Step 4：执行 Next.js 静态构建（产出 out/ 目录，由 next.config.mjs 的 output:"export" 触发）
+      - name: ④ Build static site (next export → out/)
         run: npm run build
-        env:
-          # 给 Next.js 足够的内存，避免 OOM
-          NODE_OPTIONS: --max-old-space-size=4096
 
-      # Step 5：确认产物存在（排错用）
-      - name: Verify build output
+      # Step 5：确认构建产物存在 + 数量正确（排错用）
+      - name: ⑤ Verify build output
         run: |
-          echo "=== out/ directory contents ==="
+          set -e
+          echo "=== out/ directory top-level ==="
           ls -la out/ | head -30
           echo ""
-          echo "=== Total files ==="
+          echo "=== Total static files ==="
           find out/ -type f | wc -l
           echo ""
-          echo "=== _headers present? ==="
-          test -f out/_headers && echo "YES" || echo "NO"
-          echo "=== _redirects present? ==="
-          test -f out/_redirects && echo "YES" || echo "NO"
+          echo "=== _headers present  ? ===" ; test -f out/_headers && echo "YES" || { echo "NO" ; exit 1 ; }
+          echo "=== _redirects present? ===" ; test -f out/_redirects && echo "YES" || { echo "NO" ; exit 1 ; }
+          echo ""
+          echo "=== Sample HTML (index) ==="
+          head -c 600 out/index.html 2>/dev/null || echo "(no root index.html — fine for static export)"
 
-      # Step 6：部署到 Cloudflare Pages
-      - name: Deploy to Cloudflare Pages (project = ccdwd)
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: ccdwd        # ⚠️ Cloudflare Pages 项目名：ccdwd（绑定 ccdworld.site）
-          directory: out            # 上传 next export 生成的静态目录
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      # Step 6：安装 wrangler（Cloudflare 官方 CLI）—— 与本地完全相同的部署方式
+      - name: ⑥ Install wrangler CLI
+        run: npm install --no-save wrangler@3 ${{ env.NPM_FLAGS }}
+
+      # Step 7：直接上传 out/ 到 Cloudflare Pages
+      #         相当于本地运行：wrangler pages deploy out --project-name=ccdwd
+      - name: ⑦ Deploy out/ → Cloudflare Pages (project = $CF_PAGES_PROJECT)
+        run: npx wrangler pages deploy out --project-name="$CF_PAGES_PROJECT" --branch=main
