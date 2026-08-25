@@ -1,0 +1,8 @@
+name = "cdd-comments"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "waline-db"
+database_id = "5a66c5bb-c386-4ff6-9770-956bd3378624"

@@ -3,6 +3,7 @@
 
 import { notFound } from "next/navigation";
 import { ArticleView } from "@/components/ArticleView";
+import { CommentSection } from "@/components/CommentSection";
 import { Footer } from "@/components/Footer";
 import { getAllArticles, getArticleBySlug } from "@/lib/data";
 
@@ -26,6 +27,9 @@ export default function WikiArticlePage({ params }: { params: { slug: string } }
     <div className="min-h-screen flex flex-col">
       <div className="flex-1">
         <ArticleView article={article} />
+        <div className="max-w-3xl mx-auto px-6">
+          <CommentSection path={`/wiki/${params.slug}`} />
+        </div>
       </div>
       <Footer />
     </div>
