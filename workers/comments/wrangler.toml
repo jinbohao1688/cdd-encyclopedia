@@ -2,6 +2,10 @@ name = "cdd-comments"
 main = "src/index.js"
 compatibility_date = "2024-09-01"
 
+routes = [
+  { pattern = "comments.ccdworld.site", custom_domain = true }
+]
+
 [[d1_databases]]
 binding = "DB"
 database_name = "waline-db"

@@ -6,7 +6,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 
-const API_BASE = "https://cdd-comments.15378707620.workers.dev";
+const API_BASE = "https://comments.ccdworld.site";
 
 interface Comment {
   id: number;
