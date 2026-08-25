@@ -1,17 +1,15 @@
 # ============================================================
-# Wrangler 配置文件 — CDD World Encyclopedia
-# ⚠️ Pages 项目：pages_build_output_dir 和 name 必须放在顶层
-#    否则 wrangler3 会提示 "missing pages_build_output_dir" 并忽略本文件
-#    参考：https://developers.cloudflare.com/workers/wrangler/configuration/
+# Wrangler 配置文件 — CDD World Encyclopedia（Cloudflare Pages 项目）
+# 参考：https://developers.cloudflare.com/workers/wrangler/configuration/
+# 注意：Pages 项目的 wrangler.toml **不能写 account_id**（会被校验拒绝）。
+#       Account ID 的选择通过 CLOUDFLARE_ACCOUNT_ID 环境变量完成。
+#       Token 需要的最小权限：User → User Details:Read + Account → Cloudflare Pages:Edit
 # ============================================================
-
-# Cloudflare 账号 ID（15378707620@163.com's Account）
-account_id = "1d90f5e79f6a62bacc8ad6b04515debd"
 
 # Pages 项目名（绑定自定义域名 ccdworld.site）
 name = "ccdwd"
 
-# ⚠️ 顶层字段（Pages 必需）：静态输出目录
+# ⚠️ 顶层必需字段：静态文件输出目录
 pages_build_output_dir = "out"
 
 # Pages 兼容性日期
