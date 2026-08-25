@@ -1,16 +1,23 @@
 # ============================================================
 # CDD World Encyclopedia — GitHub Actions 自动部署工作流
 # 触发条件：每次 push 到 main 分支时自动执行
-# 流程：安装依赖 → next build 生成 out/ 静态产物 → cloudflare/pages-action@v1 直传
+# 流程：安装依赖 → next build 生成 out/ 静态产物 → wrangler pages deploy 直传 Cloudflare
 #
-# ⚠️ GitHub Secrets（必须在仓库 Settings → Secrets and variables → Actions 中配置）：
-#   - CLOUDFLARE_API_TOKEN：Cloudflare API Token
-#     必需权限（缺任何一条会认证失败）：
-#       · User → User Details → Read
-#       · Account → Cloudflare Pages → Edit
-#       · Account → Account Settings → Read
-#   - CLOUDFLARE_ACCOUNT_ID：Cloudflare 账号 ID
-#     当前值（已复制粘贴即可）：1d90f5e79f6a62bacc8ad6b04515debd
+# ⚠️ 认证方式（与 Custom Token 方案相比更简单，不需要细分权限）：
+#    使用 Cloudflare "Global API Key（全局 API 密钥）" + 注册邮箱
+#    优势：不用手动配置 User → User Details:Read / Pages:Edit 等细分权限
+#
+# 必须在仓库 Settings → Secrets and variables → Actions 中配置以下 3 个 Repository secrets：
+#
+#   1) CLOUDFLARE_EMAIL
+#      → Cloudflare 注册邮箱（你的账号：15378707620@163.com）
+#
+#   2) CLOUDFLARE_GLOBAL_API_KEY
+#      → Cloudflare 全局 API 密钥（长度 37 位的纯十六进制小写字符串）
+#        获取方法见下方说明
+#
+#   3) CLOUDFLARE_ACCOUNT_ID
+#      → Cloudflare 账号 ID，当前值固定为：1d90f5e79f6a62bacc8ad6b04515debd
 #
 # Cloudflare Pages 项目名：ccdwd（绑定自定义域名 https://ccdworld.site）
 # ============================================================
@@ -22,7 +29,6 @@ on:
     branches: [main]            # 只在 main 分支推送时触发
   workflow_dispatch:            # 允许在 GitHub 网页手动触发
 
-# 取消同一分支的旧运行，避免排队
 concurrency:
   group: "pages-${{ github.ref }}"
   cancel-in-progress: true
@@ -34,30 +40,58 @@ jobs:
     timeout-minutes: 20
 
     env:
-      # 统一 npm/node 参数：加速 + 防 OOM
+      # ====== Wrangler 认证：Global API Key + Email ======
+      # wrangler3 会自动识别这对环境变量，不再调 /memberships 需要 User:Read
+      CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
+      CLOUDFLARE_API_KEY:   ${{ secrets.CLOUDFLARE_GLOBAL_API_KEY }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # 统一 npm/node 参数
       NODE_OPTIONS: --max-old-space-size=4096
       NPM_FLAGS: --no-audit --no-fund
 
+      # Pages 项目名（绑定自定义域名 ccdworld.site）
+      CF_PAGES_PROJECT: ccdwd
+
     steps:
-      # 0. 先确认 Secrets 是否设置（不显示值，只判断长度）
+      # Step 0：验证 Secrets 是否填写完整（只显示长度/存在性，不泄露值）
       - name: ⁰ Verify required GitHub Secrets are present
         run: |
           set -e
-          echo "Checking CLOUDFLARE_API_TOKEN..."
-          TOK="${{ secrets.CLOUDFLARE_API_TOKEN }}"
-          if [ -z "$TOK" ]; then
-            echo "❌ CLOUDFLARE_API_TOKEN is EMPTY — go to Settings → Secrets and add it."
-            exit 1
-          fi
-          echo "✅ CLOUDFLARE_API_TOKEN is set (length: ${#TOK})"
+          fail=0
 
-          echo "Checking CLOUDFLARE_ACCOUNT_ID..."
+          echo "[1/3] CLOUDFLARE_EMAIL"
+          EML="${{ secrets.CLOUDFLARE_EMAIL }}"
+          if [ -z "$EML" ]; then
+            echo "  ❌ EMPTY. 请在 Secrets 中设置为 Cloudflare 注册邮箱" ; fail=1
+          else
+            echo "  ✅ Set ($EML)"
+          fi
+
+          echo "[2/3] CLOUDFLARE_GLOBAL_API_KEY"
+          KEY="${{ secrets.CLOUDFLARE_GLOBAL_API_KEY }}"
+          LEN=${#KEY}
+          if [ -z "$KEY" ]; then
+            echo "  ❌ EMPTY. 请在 Secrets 中设置 Cloudflare Global API Key（37 位小写十六进制）" ; fail=1
+          else
+            echo "  ✅ Set (length=$LEN, expected=37)"
+          fi
+
+          echo "[3/3] CLOUDFLARE_ACCOUNT_ID"
           AID="${{ secrets.CLOUDFLARE_ACCOUNT_ID }}"
           if [ -z "$AID" ]; then
-            echo "❌ CLOUDFLARE_ACCOUNT_ID is EMPTY — go to Settings → Secrets and add it."
+            echo "  ❌ EMPTY. 请设置为 1d90f5e79f6a62bacc8ad6b04515debd" ; fail=1
+          else
+            echo "  ✅ Set ($AID, length=${#AID})"
+          fi
+
+          if [ "$fail" != "0" ]; then
+            echo ""
+            echo "❌ Secrets 配置不完整。请前往："
+            echo "   https://github.com/jinbohao1688/cdd-encyclopedia/settings/secrets/actions"
             exit 1
           fi
-          echo "✅ CLOUDFLARE_ACCOUNT_ID is set (length: ${#AID}, expected 32): $AID"
+          echo "✅ 所有 Secrets 配置完毕 ✓"
 
       # Step 1：拉取代码
       - name: ① Checkout repository
@@ -78,27 +112,23 @@ jobs:
       - name: ④ Build static site (next export → out/)
         run: npm run build
 
-      # Step 5：确认构建产物存在 + 数量正确（排错用）
+      # Step 5：确认构建产物
       - name: ⑤ Verify build output
         run: |
           set -e
-          echo "=== out/ directory top-level ==="
-          ls -la out/ | head -30
-          echo ""
           echo "=== Total static files ==="
           find out/ -type f | wc -l
-          echo ""
-          echo "=== _headers present  ? ===" ; test -f out/_headers && echo "YES" || { echo "NO" ; exit 1 ; }
-          echo "=== _redirects present? ===" ; test -f out/_redirects && echo "YES" || { echo "NO" ; exit 1 ; }
+          echo "=== _headers & _redirects check ==="
+          test -f out/_headers && echo "_headers: YES" || { echo "_headers MISSING ❌" ; exit 1 ; }
+          test -f out/_redirects && echo "_redirects: YES" || { echo "_redirects MISSING ❌" ; exit 1 ; }
 
-      # Step 6：使用 Cloudflare 官方 Pages Action（v1）直接上传 out/ 目录
-      #         文档：https://github.com/cloudflare/pages-action
-      - name: ⑥ Upload out/ → Cloudflare Pages (project = ccdwd)
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: ccdwd
-          directory: out
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+      # Step 6：安装 wrangler
+      - name: ⑥ Install wrangler CLI (v3)
+        run: npm install --no-save wrangler@3 ${{ env.NPM_FLAGS }}
+
+      # Step 7：部署 out/ → Cloudflare Pages
+      #         说明：有 wrangler.toml（name=ccdwd, pages_build_output_dir=out）
+      #         + CLOUDFLARE_EMAIL/CLOUDFLARE_API_KEY 全局密钥认证，
+      #         完全绕开 Custom Token 的 User Details:Read 细分权限问题
+      - name: ⑦ Deploy out/ → Cloudflare Pages (project = ccdwd)
+        run: npx wrangler pages deploy out --project-name="$CF_PAGES_PROJECT" --branch=main
