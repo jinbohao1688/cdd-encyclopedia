@@ -1133,6 +1133,42 @@
       "slug": "pat-g01",
       "title": "PAT-G01 宗教滑翔机",
       "canonTier": "TIER 3"
+    },
+    {
+      "id": "SOC-001",
+      "slug": "soc-001",
+      "title": "双河社会",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "SOC-002",
+      "slug": "soc-002",
+      "title": "维罗社会",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "SOC-003",
+      "slug": "soc-003",
+      "title": "中央海社会",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "SOC-004",
+      "slug": "soc-004",
+      "title": "诺弧社会",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "SOC-005",
+      "slug": "soc-005",
+      "title": "黑潮社会",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "SOC-006",
+      "slug": "soc-006",
+      "title": "泛阿斯兰帝国时代社会",
+      "canonTier": "TIER 3"
     }
   ],
   "modern-world": [
