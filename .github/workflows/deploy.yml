@@ -78,12 +78,6 @@ jobs:
         run: npm install --no-save wrangler@3 ${{ env.NPM_FLAGS }}
 
       # Step 7：直接上传 out/ 到 Cloudflare Pages
-      #         --account-id 显式传入账号 ID，避免 wrangler 调用 /memberships 自检
-      #         （否则 token 必须额外含 User->User Details:Read，会触发 auth 10000 错误）
-      - name: ⑦ Deploy out/ → Cloudflare Pages (project = $CF_PAGES_PROJECT)
-        run: |
-          set -e
-          npx wrangler pages deploy out \
-            --project-name="$CF_PAGES_PROJECT" \
-            --branch=main \
-            --account-id="$CLOUDFLARE_ACCOUNT_ID"
+      #         account_id / project_name 已在 wrangler.toml 声明，避免 wrangler 调 /memberships 自检
+      - name: ⑦ Deploy out/ → Cloudflare Pages (project = ccdwd)
+        run: npx wrangler pages deploy out --project-name="$CF_PAGES_PROJECT" --branch=main
