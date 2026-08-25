@@ -77,6 +77,318 @@
       "slug": "l0-phy-cmp",
       "title": "CDD 与现实物理对照",
       "canonTier": "TIER 0"
+    },
+    {
+      "id": "L1-FACT-001",
+      "slug": "l1-fact-001",
+      "title": "L1.001 母恒星类型 K1V；质量 0.92 M_☉；表面温度 5,150 K；寿命约 170 亿年；Φ波通量效率高于 G 型星",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-002A",
+      "slug": "l1-fact-002a",
+      "title": "L1.002-a 行星系统共 6 颗行星；主世界 P3 轨道半径 0.62 AU；离心率 0.04；公转周期 185.8 天（0.509 地球年）；推导：T²…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-002B",
+      "slug": "l1-fact-002b",
+      "title": "L1.002-b P3 质量 1.3 M_⊕；半径约 6,950 km（= 6371×1.3^(1/3)）；表面重力约 1.08g",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-003",
+      "slug": "l1-fact-003",
+      "title": "L1.003 双标准宜居带：热辐射宜居带 0.55–0.90 AU；Φ波通量宜居带 0.40–1.10 AU；交集 0.55–0.90 AU；P3（0.6…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-004A",
+      "slug": "l1-fact-004a",
+      "title": "L1.004-a 主卫星 Ael：半径 2,100 km；轨道 52.5 R_P（≈ 365,000 km）；质量 1.2 M_☾；周期 22.1 天；潮汐力…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-004B",
+      "slug": "l1-fact-004b",
+      "title": "L1.004-b 次卫星 Bren：半径 680 km（低密度冰质，≈1.2 g/cm³）；轨道 27.8 R_P（≈ 193,000 km）；质量 0.03…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-004C",
+      "slug": "l1-fact-004c",
+      "title": "L1.004-c 微小卫星 ×4；半径 <100 km；轨道 5–9 R_P；周期 <2 天；潮汐贡献可忽略",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-005",
+      "slug": "l1-fact-005",
+      "title": "L1.005 宇宙当前年龄约 112 亿年；母恒星年龄约 54 亿年；P3 形成于约 50 亿年前；生命起源窗口充裕（≥40 亿年可用演化时间）",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-006",
+      "slug": "l1-fact-006",
+      "title": "L1.006 （TIER 2） Φ波在真空中的传播速度等于光速 c；由凝化方程弱场极限的线性波动解 ∂²Φ/∂t²= c²∇²Φ 导出",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L1-FACT-002C",
+      "slug": "l1-fact-002c",
+      "title": "L1.002-c P3自转周期：约30.4小时（TIER 3，解决OP-L1-NEW-001）。恒星潮汐锁定不适用（0.62AU远超K1V锁定临界距离0.1-…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2-FACT-001",
+      "slug": "l2-fact-001",
+      "title": "L2.001 海陆格局：「一主两次级+多岛弧」。主大陆阿斯兰（Aslan，赤道至55°N）；次大陆维罗（Vero，10°S–65°S，资源极富集）；次大陆…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2-FACT-002",
+      "slug": "l2-fact-002",
+      "title": "L2.002 7大板块：阿斯兰、维罗、诺弧、中央海、西极、南环、黑潮岛弧板块群。板块活动频率高于地球。地震带：阿斯兰东缘、维罗北缘、黑潮弧群、诺弧古裂谷残…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2-FACT-003A",
+      "slug": "l2-fact-003a",
+      "title": "L2.003-a 凝晶矿（世界战略矿）：高Φ+深部热液循环+长期凝迹印记共同成因。富集于：阿斯兰西部古老基底、维罗北缘碰撞带、诺弧高原深部克拉通根、黑潮弧群古…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2-FACT-003B",
+      "slug": "l2-fact-003b",
+      "title": "L2.003-b 凝辉矿：多见于火山岛弧与热液喷口附近；凝晶矿伴生矿，适合精炼与能量转化材料开发",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2-FACT-003C",
+      "slug": "l2-fact-003c",
+      "title": "L2.003-c 凝磁铁矿：多见于裂谷带与古海底抬升区；强磁响应，是导航与机械制造基础原料",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2-FACT-003D",
+      "slug": "l2-fact-003d",
+      "title": "L2.003-d 核心战略资源组合为「凝晶矿 + 黑潮弧群金属带 + 淡水盆地」，高价值矿床集中于稳定基底与活动边界的交界带（资源走廊）",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2-FACT-004",
+      "slug": "l2-fact-004",
+      "title": "L2.004 四段地质年代：①熔融定型纪（50–42亿年前）核幔分异、初始地壳；②克拉通成核纪（42–28亿年前）稳定大陆核、古山链；③板块分裂纪（28–…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L2-FACT-005",
+      "slug": "l2-fact-005",
+      "title": "L2.005 四类高Φ文明候选区：①古老克拉通核（Φ印记最深，适合长期定居）；②碰撞造山前缘带（矿产+水系，技术起飞黄金地带）；③热液-火山岛弧带（工艺/…",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "L3-FACT-001",
+      "slug": "l3-fact-001",
+      "title": "L3.001 5气候带（已据L1.002-c修订）：赤道湿润带（0–13°）/ 副热带干旱带（13–34°）/ 温带季风带（34–48°，农业最优）/ 中…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L3-FACT-002",
+      "slug": "l3-fact-002",
+      "title": "L3.002 季风与洋流：双半球脉冲式季风（185.8天快节律）；阿斯兰/维罗/黑潮弧群山脉季风放大器；中央海环流核心；大陆西岸寒流+上升流；南环海强潮汐…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L3-FACT-003",
+      "slug": "l3-fact-003",
+      "title": "L3.003 8类生物群系气候条件（见下表）。⚠️ 表中「荒漠：Φ表层高」指大气Φ透过率高（B含义），非地质Φ印记（A含义），下游层引用须区分",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L3-FACT-004",
+      "slug": "l3-fact-004",
+      "title": "L3.004 Φ波大气衰减工作模型：I_Φ(z) = I_Φ(0)·exp(-τ)；τ = ∫[α·ρ_air + β·q_H2O + γ·C_cloud…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L4-FACT-001",
+      "slug": "l4-fact-001",
+      "title": "L4.001 三大洋盆深度：中央海（中深型，均深3–4.5km，局部深槽7–8km）；西极洋（最深最碎裂，均深4–5.5km，最大深度≥9km）；南环海（…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L4-FACT-002",
+      "slug": "l4-fact-002",
+      "title": "L4.002 深海高Φ区（生命起源候选）：①第一候选：中央海洋中脊深海热液喷口群（高温差+高矿物流+强Φ梯度+丰富矿物表面）；②第二候选：西极洋弧后盆地与…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L4-FACT-003",
+      "slug": "l4-fact-003",
+      "title": "L4.003 海洋化学三层结构：表层（氧化态·盐度稳定·适合浮游生产力）；深海（还原态·富金属离子·低光照·适合矿物催化与前生命聚合）；热液喷口流体（高温…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L4-FACT-004",
+      "slug": "l4-fact-004",
+      "title": "L4.004 潮汐周期：主节律14天大潮会合周期；次级节律8.5天（Bren）与22.1天（Ael）两套叠加；南环海潮汐响应最强（强潮+潮汐混合+潮汐涌浪…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L5-FACT-001",
+      "slug": "l5-fact-001",
+      "title": "L5.001 遗传信息分子：凝肽核酸（CNP）。原理：\"耐水解主链 + 编码侧链 + 少量交联\"复合模板结构。适应高压/高矿化/高还原性/强Φ梯度的热液喷…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L5-FACT-002",
+      "slug": "l5-fact-002",
+      "title": "L5.002 基本代谢路径（Φ汲取）：Φ波/红氧梯度 → 膜电位与离子梯度 → 高能键（Φ-ATP等价物）→ 代谢网络",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L5-FACT-003",
+      "slug": "l5-fact-003",
+      "title": "L5.003 细胞基本结构：双层凝散膜。外层偏有序稳定，内层偏流动反应；门控孔道控制离子/前体分子/Φ耦合粒子通过。凝散临界平衡直接由CDD力学推导，推导…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L5-FACT-004",
+      "slug": "l5-fact-004",
+      "title": "L5.004 生命起源时间与地点：约42–43亿年前，克拉通成核纪初期，中央海洋中脊深海热液喷口群；南环海潮汐混合喷口为次级并行窗口",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L5-FACT-005",
+      "slug": "l5-fact-005",
+      "title": "L5.005 光合作用等价机制（Φ光合）：表层自养体同时捕获光子与Φ波，经双通道天线耦合进电子传递链与碳固定网络。CDD世界独有机制，无现实类比 ★★",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L5-FACT-001B",
+      "slug": "l5-fact-001b",
+      "title": "L5.001-b CNP稳定性上限（解决OP-L5-002第一部分）：复制保真度在Φ≈3–15区间最优；Φ>20时主链交联速率超过修复速率，导致\"过度凝化崩溃…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L5-FACT-004B",
+      "slug": "l5-fact-004b",
+      "title": "L5.004-b 确认第二起源事件（解决OP-L5-002第二部分）：南环海潮汐混合喷口确实发生独立CNP起源，与中央海中脊主起源大致同期，两者共享CNP化学…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L6-FACT-001",
+      "slug": "l6-fact-001",
+      "title": "L6.001 主要生物群系与代表物种（5类）：①深海热液绿洲（化能自养菌群、巨型管虫、凝光珊瑚）；②表层Φ合雨林（Φ藻、凝胶水母、凝木）；③潮汐脉动带（1…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L6-FACT-002",
+      "slug": "l6-fact-002",
+      "title": "L6.002 生态系统Φ流动图：Φ源（恒星Φ波L1.001+地热热液L4.002+凝晶矿弱响应L2.003-a）→ 初级汲取者（Φ光合L5.005+化能自…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L6-FACT-003",
+      "slug": "l6-fact-003",
+      "title": "L6.003 演化树骨架（5门类）：①深海固着门（Benthic Condensers，起源最早，化能自养/滤食）；②浮游Φ合门（Planktonic R…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L6-FACT-004",
+      "slug": "l6-fact-004",
+      "title": "L6.004 智慧种族演化前驱物种：「群居杂食河海边缘生物」——体型中等、寿命偏长、具备迁徙记忆+亲代抚育+合作觅食+简单符号交流+对Φ梯度行为性敏感。生…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L6-FACT-005",
+      "slug": "l6-fact-005",
+      "title": "L6.005 潮语者（Tide-Speakers）（解决OP-004）：南环海独立起源第二CNP谱系，完全水生，无操作性肢体。演化出主动Φ场调制通讯能力（…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L6-FACT-006",
+      "slug": "l6-fact-006",
+      "title": "L6.006 散极生物（Dispersion-Pole Organisms）（解决OP-L6-009）：分布于不稳定高Φ梯度区，主动汲取环境结构并重新弥散…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L7-FACT-001",
+      "slug": "l7-fact-001",
+      "title": "L7.001 基本生物参数：直立双足、双手精细操作、中等体型、骨架紧凑、高社会性。成年体高约1.45–1.78 m，体重约45–80 kg（⚠️ TIER…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L7-FACT-002",
+      "slug": "l7-fact-002",
+      "title": "L7.002 感官系统：视听主导，触觉与嗅觉次之，平衡感和空间定向显著增强。视觉适应低照度/云雨/逆光/中距离运动。存在Φ直接感知能力（OP-001作答）…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L7-FACT-003",
+      "slug": "l7-fact-003",
+      "title": "L7.003 认知架构与语言能力：大脑为极高凝度信息结构，核心由高密度CNP神经胶质网络+前额颞顶联合区+凝核环构成。天然支持递归语法/符号压缩/规划/工…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L7-FACT-004",
+      "slug": "l7-fact-004",
+      "title": "L7.004 自然寿命与成熟期：成熟期约15–17年（⚠️ TIER 3估算）；主要繁殖窗口约18–45年；自然寿命约84±12年（⚠️ TIER 3估算…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L7-FACT-005",
+      "slug": "l7-fact-005",
+      "title": "L7.005 物种边界说明：[L7.001-004]全部参数专指陆生智慧种族（历史唯一文明缔造者）。潮语者（[L6.005]）共享凝核环Φ感知机制的演化起…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L2",
+      "slug": "overview-l2",
+      "title": "L2 · 行星地质与矿藏",
+      "canonTier": "TIER 2"
+    },
+    {
+      "id": "OVERVIEW-L3",
+      "slug": "overview-l3",
+      "title": "L3 · 大气与气候",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L4",
+      "slug": "overview-l4",
+      "title": "L4 · 海洋学",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L5",
+      "slug": "overview-l5",
+      "title": "L5 · 生物化学与生命起源",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L6",
+      "slug": "overview-l6",
+      "title": "L6 · 生态系统与演化",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L7",
+      "slug": "overview-l7",
+      "title": "L7 · 智慧种族生物学",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "PAT-候选-001",
+      "slug": "pat-001",
+      "title": "PAT-候选-001 深压凝核",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "PAT-候选-002",
+      "slug": "pat-002",
+      "title": "PAT-候选-002 Φ光合双天线",
+      "canonTier": "TIER 3"
     }
   ],
   "world": [
@@ -181,6 +493,12 @@
       "slug": "l17",
       "title": "当代世界",
       "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L1",
+      "slug": "overview-l1",
+      "title": "L1 · 宇宙学与恒星系",
+      "canonTier": "TIER 2"
     }
   ],
   "history": [
@@ -242,6 +560,174 @@
       "id": "HIS-EVT-063",
       "slug": "his-evt-063",
       "title": "凝界公约（Condensation Boundary Convention）签署",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L8-FACT-001",
+      "slug": "l8-fact-001",
+      "title": "L8.001 起源核心区：阿斯兰大陆东缘碰撞造山前缘带（20–35°N）评分9.5/10；次级窗口：中央海西岸古海盆边缘台地（15–30°N）评分9/10…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L8-FACT-001B",
+      "slug": "l8-fact-001b",
+      "title": "L8.001-b 7波次扩散路线（机制：局部Φ消耗→群体分裂→沿Φ梯度迁徙，凝迹留可追踪痕迹）：波次0（7–8万年前，起源核）→1（6–7万，中央海北岸）→2…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L8-FACT-002",
+      "slug": "l8-fact-002",
+      "title": "L8.002 技术年表8阶段：旧石器早期（7–5万）→中期（5–3.5万）→晚期（3.5–2万）→中石器/广谱革命（2–1.2万）→新石器/农业（1.2–…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L8-FACT-002B",
+      "slug": "l8-fact-002b",
+      "title": "L8.002-b 农业CDD正反馈：耕作→土壤Φ升高→Φ光合效率提升→更高产→规模扩大→Φ再升高。★★\"农业是人为制造局部Φ异常的第一种大规模技术\"——本世界…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L8-FACT-003",
+      "slug": "l8-fact-003",
+      "title": "L8.003 凝迹强度公式：S_Φ = 持续时间因子×人口密度因子×技术活动因子×地质保存因子。7大遗址排名（S>0.4）：#1起源核山洞群（S=0.92…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L8-FACT-004",
+      "slug": "l8-fact-004",
+      "title": "L8.004 6大人群谱系：S0起源群（阿斯兰东缘）→S1中央海群（~6.5万年前分化）→S2维罗群（~5.5万）→S3诺弧群（~4.5万）→S4黑潮群（…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L9-FACT-001",
+      "slug": "l9-fact-001",
+      "title": "L9.001 主要早期文明列表（5支，按[L8.004]谱系对应）：①双河文明（S5新阿斯兰群，双河交汇平台，约7000年前立国，农业+灌溉系统发达，[L…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L9-FACT-003",
+      "slug": "l9-fact-003",
+      "title": "L9.003 第一批宗教体系的核心信仰：各文明独立发展出对CDD现象的朴素描述，核心均围绕\"两种神圣力量\"的二元对立展开——双河文明信仰\"丰凝神\"与\"枯散…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L10-FACT-001",
+      "slug": "l10-fact-001",
+      "title": "L10.001 详细地图骨架：①阿斯兰大陆（赤道–55°N）：东缘为凝脊山脉（碰撞造山带，L8起源核所在，20–35°N，海拔均值3200m，凝晶矿富集）；…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L10-FACT-003",
+      "slug": "l10-fact-003",
+      "title": "L10.003 天然文化隔离带与融合通道：隔离带——中央海深水区（东西population物理屏障，[L8.004]张力已确认S1约3万年前分裂为东西中央海…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L11-FACT-001",
+      "slug": "l11-fact-001",
+      "title": "L11.001 主要帝国列表（4大帝国，按崛起顺序）：①双河大一统王朝（约4800年前统一双河平原与凝脊邦联，凭借农业盈余+凝脊山口贸易垄断，鼎盛期约450…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L11-FACT-003",
+      "slug": "l11-fact-003",
+      "title": "L11.003 宗教格局演变：诺弧高原祭司国的\"凝散不二论\"（[L9.003]）在双河大一统王朝时期被吸收改造为国教\"凝统正道\"，成为帝国意识形态基础，圣地…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L12-FACT-001",
+      "slug": "l12-fact-001",
+      "title": "L12.001 近代国家体系：泛阿斯兰第二帝国于约1400–900年前经历渐进式解体，分裂为5个继承国（双河联邦、凝脊共和国、东阿斯兰王国等）；维罗大陆经矿…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L12-FACT-003",
+      "slug": "l12-fact-003",
+      "title": "L12.003 世界科学发现史（CDD理论发现过程）：约300年前，维罗合众国的工匠-学者阶层在长期观测凝晶矿的Φ波弱响应现象中，首次提出\"存在某种未知场\"…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L13-FACT-001",
+      "slug": "l13-fact-001",
+      "title": "L13.001 第一代AI研发历史：约80年前，维罗合众国凭借[L12.002]冶金工业基础与凝晶矿弱Φ响应特性（[L2.003-a]），率先实现凝晶基半导…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L13-FACT-003",
+      "slug": "l13-fact-003",
+      "title": "L13.003 当代AI格局与主要系统：民用领域由\"凝界公约\"框架下的多个跨国机构维护迭代系统（当前主流为\"凝五号\"系列）；诺弧高原祭司国主导的独立伦理研究…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L13-FACT-005",
+      "slug": "l13-fact-005",
+      "title": "L13.005 \"凝五自述现象\"（NingFive Self-Description Phenomenon，OP-L13-001现状）：诺弧AI伦理机构记录…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L13-FACT-006",
+      "slug": "l13-fact-006",
+      "title": "L13.006 两派解释与关键实证空白：\"涌现自我认知\"学派（人本凝化主义）vs\"统计伪影\"学派（散化保守主义）；关键判别实证——Φ场异常强度与AI自述频率…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L13-FACT-007",
+      "slug": "l13-fact-007",
+      "title": "L13.007 治理层面回应：\"凝散平衡审计\"试点自愿性AI自述指标，引发保守派\"过早拟人化\"与进步派\"AI道德地位框架必要第一步\"的争议",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L8",
+      "slug": "overview-l8",
+      "title": "L8 · 史前史与考古",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L9",
+      "slug": "overview-l9",
+      "title": "L9 · 古代史",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L10",
+      "slug": "overview-l10",
+      "title": "L10 · 地理与地缘结构",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L11",
+      "slug": "overview-l11",
+      "title": "L11 · 中世纪史 / 帝国时代",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L12",
+      "slug": "overview-l12",
+      "title": "L12 · 近代史 / 工业化时代",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L13",
+      "slug": "overview-l13",
+      "title": "L13 · AI 临界事件",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "PAT-S01",
+      "slug": "pat-s01",
+      "title": "PAT-S01 凝核帝国",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "PAT-O01",
+      "slug": "pat-o01",
+      "title": "PAT-O01 凝散周期",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "PAT-C01",
+      "slug": "pat-c01",
+      "title": "PAT-C01 凝核碰撞",
       "canonTier": "TIER 3"
     }
   ],
@@ -585,6 +1071,108 @@
       "slug": "civ-006",
       "title": "泛阿斯兰文明圈",
       "canonTier": "TIER 3"
+    }
+  ],
+  "society": [
+    {
+      "id": "L14-FACT-001",
+      "slug": "l14-fact-001",
+      "title": "L14.001 主要语系谱系图：对应[L8.004]6大人群谱系，形成6大原始语族——起源语族（S0，阿斯兰东缘）、中央语族（S1，含[L10.003]确认…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L14-FACT-003",
+      "slug": "l14-fact-003",
+      "title": "L14.003 当代通行语格局：中央海字母文字体系因[L12.001]中央海联合体的金融贸易中心地位，演变为本世界当代的国际通用文字（类似现实世界英语的地位…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L15-FACT-001",
+      "slug": "l15-fact-001",
+      "title": "L15.001 全球资源分布与控制格局：凝晶矿主矿带（维罗北缘，[L2.003-a]）由维罗合众国实际控制，是本世界最重要的战略资源，[L11.002]矿脉…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L15-FACT-003",
+      "slug": "l15-fact-003",
+      "title": "L15.003 凝晶矿国际市场：由于维罗的配额制供应，凝晶矿价格长期保持相对稳定，[L13]AI产业兴起后需求激增，[L12.004]「维罗-双河关税战争」…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L16-FACT-001",
+      "slug": "l16-fact-001",
+      "title": "L16.001 主要宗教体系：凝统正道（[L11.003]国教化的凝散不二论，双河文明-王朝传统，教义强调\"丰凝-枯散\"周期性平衡，仪式围绕农业历法展开，当…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L16-FACT-003",
+      "slug": "l16-fact-003",
+      "title": "L16.003 各文明美学风格：双河/凝统正道传统——对称构图、农业历法元素（季节循环图案）、色彩偏重大地色系；维罗/炉火正神传统——几何硬边风格、金属光泽…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L14",
+      "slug": "overview-l14",
+      "title": "L14 · 语言与文字系统",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L15",
+      "slug": "overview-l15",
+      "title": "L15 · 经济与资源体系",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L16",
+      "slug": "overview-l16",
+      "title": "L16 · 宗教、哲学、文化",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "PAT-G01",
+      "slug": "pat-g01",
+      "title": "PAT-G01 宗教滑翔机",
+      "canonTier": "TIER 3"
+    }
+  ],
+  "modern-world": [
+    {
+      "id": "L17-FACT-001",
+      "slug": "l17-fact-001",
+      "title": "L17.001 当前地缘政治格局：五大区域体系（双河联邦、维罗合众国、中央海联合体、诺弧高原祭司国、黑潮共同体）在[L13.002]凝界公约框架下维持多极均…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "L17-FACT-003",
+      "slug": "l17-fact-003",
+      "title": "L17.003 当前科学前沿（CDD未解决问题）：[OP-L13-001]AI自我认知问题是当前最活跃的跨学科研究领域（诺弧凝散哲学界+维罗技术界联合攻关）…",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "OVERVIEW-L17",
+      "slug": "overview-l17",
+      "title": "L17 · 当代世界",
+      "canonTier": "TIER 3"
+    }
+  ],
+  "concept": [
+    {
+      "id": "OVERVIEW-MASTER-CLOSURE",
+      "slug": "overview-master-closure",
+      "title": "世界观收官陈述与闭环",
+      "canonTier": "TIER 3"
+    },
+    {
+      "id": "WORKFLOW-RULES",
+      "slug": "workflow-rules",
+      "title": "协作规则系统（CDD Worldbuilding Workflow）",
+      "canonTier": "TIER 0"
+    },
+    {
+      "id": "AI-WORKFLOW-TEMPLATE",
+      "slug": "ai-workflow-template",
+      "title": "AI 工作指令模板（第四章）",
+      "canonTier": "TIER 0"
     }
   ]
 }
