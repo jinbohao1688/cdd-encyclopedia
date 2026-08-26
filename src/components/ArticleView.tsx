@@ -5,6 +5,7 @@
 
 import Link from "next/link";
 import { CanonBadge } from "./CanonBadge";
+import { WORLD_MAPS } from "@/lib/world-maps";
 import { renderLinkedText } from "@/lib/wiki-links";
 import type { Article } from "@/lib/types";
 import { getBacklinks, getArticleById, getOpenQuestions, getCanonConflicts } from "@/lib/data";
@@ -47,6 +48,33 @@ export function ArticleView({ article }: { article: Article }) {
     ([, v]) => v && v !== "UNRESOLVED",
   );
 
+  // 选择相关的 Planet P3 地图在文章顶部展示
+  let relatedMaps = [] as typeof WORLD_MAPS;
+  {
+    const id = article.id;
+    const cat = article.category;
+    if (
+      cat === "civilizations" ||
+      id.startsWith("CIV-") ||
+      id.includes("CULTURAL") ||
+      id.includes("REGION")
+    ) {
+      relatedMaps = WORLD_MAPS.filter((m) => m.id === "civilizations-regions");
+    } else if (
+      cat === "science" &&
+      (id.startsWith("L2") ||
+        id.startsWith("L3") ||
+        id.startsWith("L4") ||
+        id.includes("CSM") ||
+        id.includes("GEO") ||
+        id.includes("ECO"))
+    ) {
+      relatedMaps = WORLD_MAPS.filter((m) => m.id !== "civilizations-regions");
+    } else if (cat === "world") {
+      relatedMaps = WORLD_MAPS;
+    }
+  }
+
   return (
     <article className="max-w-article mx-auto px-4 sm:px-6 py-6">
       {/* Breadcrumb */}
@@ -80,6 +108,28 @@ export function ArticleView({ article }: { article: Article }) {
         <span className="text-xs text-ink-400">{article.canonStatusRaw}</span>
         <span className="ml-auto text-xs text-ink-400">Last updated: v2.0</span>
       </div>
+
+      {/* Related atlas maps (for geography / climate / civilizations articles) */}
+      {relatedMaps.length > 0 && (
+        <div className="mb-6 border border-ink-200 rounded overflow-hidden bg-white">
+          <div className="grid gap-0 grid-cols-1">
+            {relatedMaps.map((m) => (
+              <figure key={m.id} className={relatedMaps.length > 1 ? "border-b border-ivory-200 last:border-b-0" : ""}>
+                <img
+                  src={m.src}
+                  alt={m.title}
+                  loading="lazy"
+                  className="w-full max-h-[380px] object-contain bg-ivory-50"
+                />
+                <figcaption className="px-4 py-2 border-t border-ivory-200 bg-ivory-50">
+                  <div className="text-[12px] font-semibold text-ink-800">{m.title}</div>
+                  <div className="text-[11px] text-ink-500 mt-0.5">{m.description}</div>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="flex flex-col lg:flex-row gap-6">
         {/* Main content */}

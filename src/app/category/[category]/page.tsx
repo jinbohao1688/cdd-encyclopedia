@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArticleList } from "@/components/ArticleList";
 import { PageShell } from "@/components/PageShell";
+import { MapGallery } from "@/components/MapGallery";
 import { getArticlesByCategory } from "@/lib/data";
 
 const CATEGORIES: Record<string, { label: string; description: string }> = {
@@ -41,7 +42,16 @@ export default function CategoryPage({ params }: { params: { category: string } 
         <span className="text-ink-500">{meta.label}</span>
       </nav>
       <h1 className="font-serif text-3xl font-semibold text-ink-900">{meta.label}</h1>
-      <p className="text-ink-500 mt-1 mb-6">{meta.description}</p>
+      <p className="text-ink-500 mt-1 mb-4">{meta.description}</p>
+      {/* World / Civilizations categories show the atlas */}
+      {["world", "civilizations", "science"].includes(params.category) && (
+        <div className="mb-8">
+          <div className="text-xs uppercase tracking-[0.2em] text-ink-400 mb-2">
+            Atlas · Planet P3
+          </div>
+          <MapGallery />
+        </div>
+      )}
       <div className="mb-4 text-xs text-ink-400">{articles.length} entries</div>
       <ArticleList articles={articles} />
     </PageShell>

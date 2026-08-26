@@ -6,6 +6,7 @@
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { CanonBadge } from "@/components/CanonBadge";
+import { MapHero } from "@/components/MapGallery";
 import {
   getArticleById,
   getArticlesByType,
@@ -41,6 +42,9 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       <div className="flex-1">
+        {/* Atlas — Three world maps hero */}
+        <MapHero />
+
         {/* Hero / intro */}
         <section className="border-b border-ink-200 bg-ivory-50">
           <div className="max-w-article mx-auto px-6 py-10">
@@ -117,6 +121,18 @@ export default function HomePage() {
           {/* Current World Overview — Five Civilizations */}
           <section>
             <SectionTitle eyebrow="Current World Overview" title="The Five Extant Civilizations" />
+            {/* Civilizations cultural region map inset */}
+            <div className="mb-6 border border-ink-200 rounded overflow-hidden bg-white">
+              <img
+                src="/photos/p3-civilizations-regions-map.png"
+                alt="五大文明分布与文化区域地图（MAP-003）"
+                className="w-full object-contain max-h-[380px]"
+                loading="lazy"
+              />
+              <div className="px-4 py-2 border-t border-ivory-200 bg-ivory-50 text-[11px] text-ink-500">
+                MAP-003 · 五大文明控制区域与文化圈划分 — 点击卡片查看对应文明条目
+              </div>
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {civilizations.map((c) => (
                 <Link key={c.id} href={`/wiki/${c.slug}`} className="card p-4 hover:no-underline">
